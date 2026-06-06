@@ -1,0 +1,200 @@
+# This file is distributed under the same license as the PACKAGE package.
+# Phireak <phireak@gmail.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: 2006-06-24 01:39+0700\n"
+"Last-Translator: Phireak <phireak@gmail.com>\n"
+"Language-Team: Khmer <phireak@gmail.com>\n"
+"Language: km_KH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Khmer\n"
+"X-Poedit-Country: CAMBODIA\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "&អំពី..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&គណនី:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&សកម្ម"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "&បន្ថែមឯកសារចូលជួរ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1087
+msgid "&Always trust this host, add this key to the cache"
+msgstr "&តែងតែជឿទុកចិត្តលើម៉ាស៊ីននេះ, បន្ថែមសោរនេះចូលឃ្លាំងសម្ងាត់"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&tតភ្ជាប់"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "&ចម្លងចូល clipboard"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&កែសម្រួល"
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&ឯកសារ"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&ជំនួយ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&ម៉ាស៊ីន:"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&ទាប"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&ពាក្រសំងាត់:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&ច្រក:"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&តភ្ជាប់រហ័ស"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:594
+msgid "&Read"
+msgstr "&អាន"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&ម៉ាស៊ីនបម្រើ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&ការកំណត់"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&រំលង"
+
+#: ../src/interface/netconfwizard.cpp:237
+msgid "&Test"
+msgstr "&សាកល្បង"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&ស្បែក:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&របៀបផ្ទេរ:"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&ផ្ទុកឡើង"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "អំពី FileZilla"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "គណនី"
+
+#: ../src/interface/settings/settingsdialog.cpp:98
+msgid "Active mode"
+msgstr "របៀបសកម្ម"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "កំពុងតភ្ជាប់"
+
+#: ../src/interface/netconfwizard.cpp:219
+#: ../src/interface/statuslinectrl.cpp:268
+#, c-format
+msgid "Connecting to %s"
+msgstr "កំពុងតភ្ជាប់ទៅ %s"
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "ការតភ្ជាប់"
+
+#: ../src/interface/netconfwizard.cpp:560
+msgid "Connection closed"
+msgstr "ការតភ្ជាប់បានបញ្ចប់"
+
+#: ../src/interface/netconfwizard.cpp:358
+msgid "Connection lost"
+msgstr "ការតភ្ជាប់ត្រូវបាត់បង់"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "អាទិភាព"
+
+#: ../src/interface/resources/xrc/settings.xrc:126
+#: ../src/interface/queue.cpp:350
+msgid "Timeout"
+msgstr "អស់ម៉ោង"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "របៀបផ្ទេរ"
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "កំពុងផ្ទេរ"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "ផ្ទេរ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "អ្នកប្រើ:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:62
+msgid "contains"
+msgstr "មាន"
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "ឯកសារ"
+
+#: ../src/interface/filter_conditions_dialog.cpp:72
+msgid "less than"
+msgstr "តូចជាង"

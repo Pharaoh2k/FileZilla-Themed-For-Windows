@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>filezilla</string>
+	<key>CFBundleGetInfoString</key>
+	<string>FileZilla Client @PACKAGE_VERSION@, Copyright (C) 2004-2026  Tim Kosse, Website: https://filezilla-project.org</string>
+	<key>CFBundleIconFile</key>
+	<string>FileZilla.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.filezilla-project.filezilla@CFBUNDLEIDSUFFIX@</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLongVersionString</key>
+	<string>FileZilla Client @PACKAGE_VERSION@</string>
+	<key>CFBundleName</key>
+	<string>FileZilla</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>@PACKAGE_VERSION@</string>
+	<key>CFBundleSignature</key>
+	<string>FzCl</string>
+	<key>CFBundleVersion</key>
+	<string>@PACKAGE_VERSION@</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (C) 2004-2024  Tim Kosse</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13.2</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>Listing available files and folders on local network volumes, allowing you to select these items for uploading to remote server and to download files from remote servers into these folders.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Listing available files and folders, allowing you to select these items for uploading to remote server and to download files from remote servers onto your Desktop.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Listing available files and folders, allowing you to select these items for uploading to remote server and to download files from remote servers into your Documents folder.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Listing available files and folders, allowing you to select these items for uploading to remote server and to download files from remote servers into your Downloads folder.</string>
+	<key>NSRemovableVolumsUsageDescription</key>
+	<string>Listing available files and folders, allowing you to select these items for uploading to remote server and to download files from remote servers to your removable volumes.</string>
+	<key>UIDesignRequiresCompatibility</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,157 @@
+/* config/config.h.in.  Generated from configure.ac by autoheader.  */
+
+
+#ifndef FILEZILLA_CONFIG_HEADER
+#define FILEZILLA_CONFIG_HEADER
+
+
+/* Buildtype, indicates official builds and nightly builds */
+#undef BUILDTYPE
+
+/* Define if building with FTP(S) support. */
+#undef ENABLE_FTP
+
+/* Define if building with SFTP support. */
+#undef ENABLE_SFTP
+
+/* Define if building with Storj support. */
+#undef ENABLE_STORJ
+
+/* Engine version number */
+#undef ENGINE_VERSION
+
+/* Shortened engine version number */
+#undef ENGINE_VERSION_SHORT
+
+/* Set to 1 to add support for automated update checks */
+#undef FZ_AUTOUPDATECHECK
+
+/* Set to 1 to enable user initiated update checks */
+#undef FZ_MANUALUPDATECHECK
+
+/* clock_gettime can be used */
+#undef HAVE_CLOCK_GETTIME
+
+/* define if the compiler supports basic C++17 syntax */
+#undef HAVE_CXX17
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the 'gmtime_r' function. */
+#undef HAVE_GMTIME_R
+
+/* gmtime_s can be used */
+#undef HAVE_GMTIME_S
+
+/* Headers delare ICopyHookW */
+#undef HAVE_ICOPYHOOKW
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if your system has the `pugixml' library (-lpugixml). */
+#undef HAVE_LIBPUGIXML
+
+/* Define to 1 if you have the 'localtime_r' function. */
+#undef HAVE_LOCALTIME_R
+
+/* localtime_s can be used */
+#undef HAVE_LOCALTIME_S
+
+/* Define to 1 if you have the 'posix_fadvise' function. */
+#undef HAVE_POSIX_FADVISE
+
+/* Define to 1 if putenv function is available. */
+#undef HAVE_PUTENV
+
+/* Define to 1 if setenv function is available. */
+#undef HAVE_SETENV
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the 'timegm' function. */
+#undef HAVE_TIMEGM
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Shortened package version number */
+#undef PACKAGE_VERSION_SHORT
+
+/* Define to 1 if all of the C89 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#undef STDC_HEADERS
+
+/* Build system under which the program was compiled on. */
+#undef USED_BUILD
+
+/* Define to name and version of used compiler */
+#undef USED_COMPILER
+
+/* Define to the used CXXFLAGS to compile this package. */
+#undef USED_CXXFLAGS
+
+/* Host system under which the program will run. */
+#undef USED_HOST
+
+/* GCC bug 86164 requires use of Boost Regex insteadd */
+#undef USE_BOOST_REGEX
+
+/* Define to 1 if the App Sandbox on OS X should be used. */
+#undef USE_MAC_SANDBOX
+
+/* Version number of package */
+#undef VERSION
+
+/* Set to 2 to if libdbus >= 1.2 is available, set to 1 if an older version is
+   available. */
+#undef WITH_LIBDBUS
+
+
+#endif
+

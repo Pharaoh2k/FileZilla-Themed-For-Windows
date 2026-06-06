@@ -1,0 +1,6018 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# hadiaj168 <http://barnamenevis.org/forum/member.php?u=74806>, 2010.
+# nice boy <http://barnamenevis.org/forum/member.php?u=48568>, 2010.
+# shask00l <http://barnamenevis.org/forum/member.php?u=3324>, 2010.
+# kassit	<http://barnamenevis.org/forum/member.php?u=56730>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FileZilla3\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: 2010-01-08 19:53+0330\n"
+"Last-Translator: hadi <hadiaj168@yahoo.com>\n"
+"Language-Team: Barnamenevis.org <http://barnamenevis.org/forum/showthread."
+"php?t=207094>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:59
+#: ../src/interface/statuslinectrl.cpp:220
+msgid "%H:%M:%S elapsed"
+msgstr "%H:%M:%S سپري شده"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:64
+#: ../src/interface/statuslinectrl.cpp:226
+msgid "%H:%M:%S left"
+msgstr "%H:%M:%S گذشته"
+
+#: ../src/interface/resources/xrc/settings.xrc:525
+#, c-format
+msgid ""
+"%a - Account (Lines containing this will be omitted if not using Account "
+"logontype)"
+msgstr ""
+"%a - حساب (اگر از حالت 'حساب' استفاده نکنید خطوط شامل آن حذف خواهند شد)"
+
+#: ../src/interface/filelist_statusbar.cpp:51
+#: ../src/interface/filelist_statusbar.cpp:63
+#: ../src/interface/filelist_statusbar.cpp:76
+#, c-format
+msgid "%d directory"
+msgid_plural "%d directories"
+msgstr[0] "%d پوشه"
+msgstr[1] "%d پوشه"
+
+#: ../src/interface/RemoteListView.cpp:1492 ../src/interface/search.cpp:876
+#: ../src/interface/search.cpp:1264
+#, c-format
+msgid "%d directory with its contents"
+msgid_plural "%d directories with their contents"
+msgstr[0] "%d پوشه به همراه محتویات آن"
+msgstr[1] "%d پوشه به همراه محتویاتشان"
+
+#: ../src/interface/filelist_statusbar.cpp:50
+#: ../src/interface/filelist_statusbar.cpp:75
+#: ../src/interface/RemoteListView.cpp:1491 ../src/interface/search.cpp:875
+#: ../src/interface/search.cpp:1263
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d فايل"
+msgstr[1] "%d فايل"
+
+#: ../src/interface/filelist_statusbar.cpp:71
+#, c-format
+msgid "%d file. Total size: %s"
+msgid_plural "%d files. Total size: %s"
+msgstr[0] "%d فايل. اندازه کل: %s"
+msgstr[1] "%d فايل. اندازه کل: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:68
+#, c-format
+msgid "%d file. Total size: At least %s"
+msgid_plural "%d files. Total size: At least %s"
+msgstr[0] "%d فايل. اندازه کل: کمتر از %s"
+msgstr[1] "%d فايل. اندازه کل: کمتر از %s"
+
+#: ../src/engine/ControlSocket.cpp:73
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d ثانيه"
+msgstr[1] "%d ثانيه"
+
+#: ../src/interface/resources/xrc/settings.xrc:502
+msgid "%h - Host"
+msgstr "%h -هاست"
+
+#: ../src/interface/resources/xrc/settings.xrc:518
+#, c-format
+msgid "%p - Password"
+msgstr "%p - گذرواژه"
+
+#: ../src/interface/verifycertdialog.cpp:384
+#, c-format
+msgid "%s - Certificate expired!"
+msgstr "%s - گواهي نامه باطل شده!"
+
+#: ../src/interface/verifycertdialog.cpp:368
+#, c-format
+msgid "%s - Not yet valid!"
+msgstr "%s - هنوز معتبر نيست!"
+
+#: ../src/interface/resources/xrc/settings.xrc:533
+#, c-format
+msgid "%s - Proxy user"
+msgstr "%s - پراکسي کاربر"
+
+#: ../src/interface/filelist_statusbar.cpp:82
+#, c-format
+msgid "%s and %s. Total size: %s"
+msgstr "%s و %s. اندازه کل: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:79
+#, c-format
+msgid "%s and %s. Total size: At least %s"
+msgstr "%s و %s. اندازه کل:کمترين %s"
+
+#: ../src/engine/sizeformatting_base.cpp:71
+#, c-format
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%s بايت"
+msgstr[1] "%s بايت"
+
+#: ../src/interface/verifycertdialog.cpp:405
+#, c-format
+msgid "%s with %d bits"
+msgstr "%s همراه %d بيت"
+
+#: ../src/interface/resources/xrc/settings.xrc:510
+#, c-format
+msgid "%u - Username"
+msgstr "%u - نام کاربري"
+
+#: ../src/interface/resources/xrc/settings.xrc:541
+msgid "%w - Proxy password"
+msgstr "%w - گذرواژهء پراکسي"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "&درباره..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&حساب:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&فعال"
+
+#: ../src/interface/menu_bar.cpp:154
+msgid "&Add bookmark..."
+msgstr "&اضافه کردن نشانه..."
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "&اضافه کردن فايل به صف"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "&Add to queue"
+msgstr "ا&ضافه کردن به صف"
+
+#: ../src/interface/resources/xrc/certificate.xrc:256
+msgid "&Always trust certificate in future sessions."
+msgstr "&در نشست هاي آتي همواره به گواهي نامه اعتماد کن."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1087
+msgid "&Always trust this host, add this key to the cache"
+msgstr "&همواره به اين ميزبان اعتماد کن، اين کليد را به کش اضافه کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1816
+msgid "&Always use default editor"
+msgstr "&هميشه از ويرايشگر پيش فرض استفاده کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:184
+msgid "&Always use this action"
+msgstr "&همواره از اين عمليات استفاده کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:342
+msgid "&Ask your operating system for the external IP address"
+msgstr "&براي آدرس آي پي خارجي از سيستم عامل خود سوال کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1055
+#: ../src/interface/menu_bar.cpp:118 ../src/interface/statusbar.cpp:563
+msgid "&Auto"
+msgstr "&خودکار"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:679
+msgid "&Autodetect"
+msgstr "&شناسايي خودکار"
+
+#: ../src/interface/resources/xrc/settings.xrc:1070
+#: ../src/interface/menu_bar.cpp:120 ../src/interface/statusbar.cpp:565
+msgid "&Binary"
+msgstr "&باینری"
+
+#: ../src/interface/resources/xrc/settings.xrc:1479
+msgid "&Binary prefixes using SI symbols. (e.g. 1 KB = 1024 bytes)"
+msgstr "&پيشوند باینری با استفاده از نمادهاي SI (مثال: 1KB = 1024 bytes)"
+
+#: ../src/interface/menu_bar.cpp:151
+msgid "&Bookmarks"
+msgstr "&نشانه گذاريها"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2507
+#: ../src/interface/resources/xrc/dialogs.xrc:2918
+#: ../src/interface/resources/xrc/dialogs.xrc:3005
+#: ../src/interface/resources/xrc/dialogs.xrc:3200
+#: ../src/interface/resources/xrc/dialogs.xrc:3413
+#: ../src/interface/resources/xrc/settings.xrc:1788
+#: ../src/interface/resources/xrc/settings.xrc:2003
+#: ../src/interface/resources/xrc/sitemanager.xrc:506
+msgid "&Browse..."
+msgstr "&پيمايش..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:386
+#: ../src/interface/resources/xrc/dialogs.xrc:494
+#: ../src/interface/resources/xrc/dialogs.xrc:1227
+#: ../src/interface/resources/xrc/dialogs.xrc:3809
+#: ../src/interface/resources/xrc/dialogs.xrc:3911
+#: ../src/interface/resources/xrc/inputdialog.xrc:40
+#: ../src/interface/resources/xrc/settings.xrc:35
+#: ../src/interface/verifycertdialog.cpp:757
+msgid "&Cancel"
+msgstr "&انصراف"
+
+#: ../src/interface/menu_bar.cpp:70
+msgid "&Clear private data..."
+msgstr "&داده هاي خصوصي حذف شود..."
+
+#: ../src/interface/QueueView.cpp:1835
+msgid "&Close FileZilla"
+msgstr "&بستن FileZilla"
+
+#: ../src/interface/statusbar.cpp:554
+msgid "&Configure speed limits..."
+msgstr "&پيکربندي محدوديت سرعت..."
+
+#: ../src/interface/menu_bar.cpp:129
+msgid "&Configure..."
+msgstr "&پيکربندي..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&اتصال"
+
+#: ../src/interface/menu_bar.cpp:50
+msgid "&Copy current connection to Site Manager..."
+msgstr "&کپي ارتباط جاري به مديريت سايت..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "&کپي به حافظه موقت"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "&Create directory"
+msgstr "&ايجاد پوشه"
+
+#: ../src/interface/context_control.cpp:468
+msgid "&Create new tab"
+msgstr "&ايجاد يک سربرگ جديد"
+
+#: ../src/interface/menu_bar.cpp:181
+msgid "&Debug"
+msgstr "&خطايابي"
+
+#: ../src/interface/resources/xrc/settings.xrc:1758
+msgid "&Default editor:"
+msgstr "&ويرايشگر پيش فرض:"
+
+#: ../src/interface/menu_bar.cpp:113 ../src/interface/QueueView.cpp:1820
+msgid "&Default file exists action..."
+msgstr "&عمليات پيشفرض در صورت وجود فايل..."
+
+#: ../src/interface/resources/xrc/settings.xrc:156
+msgid "&Delay between failed login attempts:"
+msgstr "&وقفه بين ورودهای ناموفق:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1271
+#: ../src/interface/resources/xrc/dialogs.xrc:1440
+#: ../src/interface/resources/xrc/dialogs.xrc:3085
+#: ../src/interface/resources/xrc/sitemanager.xrc:59
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/LocalTreeView.cpp:1109
+msgid "&Delete"
+msgstr "&حذف"
+
+#: ../src/interface/menu_bar.cpp:86
+msgid "&Directory comparison"
+msgstr "&تطبيق پوشه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2030
+msgid "&Discard local file then download and edit file anew"
+msgstr "&از بین بردن فایل محلی و دانلود دوباره آن"
+
+#: ../src/interface/menu_bar.cpp:143
+msgid "&Disconnect"
+msgstr "&قطع ارتباط"
+
+#: ../src/interface/resources/xrc/settings.xrc:1466
+msgid "&Display size in bytes"
+msgstr "&اندازه را به بايت نمايش بده"
+
+#: ../src/interface/conditionaldialog.cpp:28
+msgid "&Don't show this dialog again."
+msgstr "&اين پيغام را ديگر نمايش نده."
+
+#: ../src/interface/resources/xrc/settings.xrc:390
+msgid "&Don't use external IP address on local connections."
+msgstr "&در ارتباط هاي محلي از آدرس آي پي خارجي استفاده نکن."
+
+#: ../src/interface/resources/xrc/settings.xrc:1673
+msgid "&Double-click action on files:"
+msgstr "&عمليات دوبار کليک روي فايلها:"
+
+#: ../src/interface/RemoteListView.cpp:1122
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "&Download"
+msgstr "&دانلود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3399
+msgid "&Download to:"
+msgstr "&دانلود به:"
+
+#: ../src/interface/search.cpp:835
+msgid "&Download..."
+msgstr "&دانلود..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1607
+#: ../src/interface/resources/xrc/settings.xrc:1180
+msgid "&Downloads:"
+msgstr "&دانلودها:"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&ويرايش"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1367
+msgid "&Edit filter rules..."
+msgstr "&ويرايش قوانين فيلترکردن..."
+
+#: ../src/interface/Mainfrm.cpp:2408 ../src/interface/menu_bar.cpp:89
+#: ../src/interface/menu_bar.cpp:128 ../src/interface/statusbar.cpp:553
+msgid "&Enable"
+msgstr "&فعال"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3737
+#: ../src/interface/resources/xrc/settings.xrc:897
+msgid "&Enable speed limits"
+msgstr "فعال کردن &محدوديتهاي سرعت"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:704
+msgid "&Encoding:"
+msgstr "&رمزنگاري:"
+
+#: ../src/interface/StatusView.cpp:431
+msgid "&Enter custom command..."
+msgstr "&فرمان دلخواه را وارد نماييد..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:606
+msgid "&Execute"
+msgstr "&اجرا کردن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1781
+msgid "&Export Site Manager entries"
+msgstr "&صادر کردن وروديهاي مديريت سايت"
+
+#: ../src/interface/menu_bar.cpp:57
+#: ../src/interface/sitemanager_dialog.cpp:1772
+msgid "&Export..."
+msgstr "&صادر کردن..."
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&فايل"
+
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "&File Attributes..."
+msgstr "&صفات فايل..."
+
+#: ../src/interface/RemoteListView.cpp:1142
+msgid "&File permissions..."
+msgstr "&دسترسي هاي فايل..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2495
+msgid "&File:"
+msgstr "&فايل:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1492
+msgid "&Filter conditions:"
+msgstr "&شرطهاي فيلتر:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1248
+msgid "&Filter sets:"
+msgstr "&مجموعه فيلتر:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1418
+msgid "&Filters:"
+msgstr "&فيلترها:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1969
+msgid "&Finish editing and delete local file"
+msgstr "پا&يان ويرايش و حذف فايل محلي"
+
+#: ../src/interface/resources/xrc/settings.xrc:368
+msgid "&Get external IP address from the following URL:"
+msgstr "&بدست آوردن IP از URL زير:"
+
+#: ../src/interface/menu_bar.cpp:168
+msgid "&Getting help..."
+msgstr "&دريافت راهنما..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2847
+msgid "&Global bookmark"
+msgstr "&نشانه گذاری عمومي"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&راهنما"
+
+#: ../src/interface/Mainfrm.cpp:2415 ../src/interface/menu_bar.cpp:94
+msgid "&Hide identical files"
+msgstr "&مخفي کردن فايلهاي يکسان"
+
+#: ../src/interface/QueueView.cpp:1824
+msgid "&Highest"
+msgstr "&حداکثر"
+
+#: ../src/interface/resources/xrc/settings.xrc:306
+msgid "&Highest available port:"
+msgstr "&بالاترين پورت قابل‌ استفاده:"
+
+# ميزبان / هاست
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&ميزبان:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1474
+msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
+msgstr "پیشوند &باینری بر اساس IEC (مثال: 1KiB = 1024 bytes)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1360
+msgid "&ISO 8601 (example: 2007-09-15)"
+msgstr "ISO 8601 (م&ثال: 2007-09-15)"
+
+#: ../src/interface/menu_bar.cpp:58
+msgid "&Import..."
+msgstr "&وارد کردن..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1849
+msgid "&Inherit system's filetype associations"
+msgstr "&اجراي فايلها با برنامه هاي پيش فرض"
+
+#: ../src/interface/settings/optionspage_interface.cpp:126
+msgid "&Layout of file and directory panes:"
+msgstr "قالب &بندی پنجره های فایل و پوشه :"
+
+#: ../src/interface/resources/xrc/settings.xrc:269
+msgid "&Limit local ports used by FileZilla"
+msgstr "&محدود کردن پورت هاي محلي مورد استفاده به وسيله FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:633
+msgid "&Limit number of simultaneous connections"
+msgstr "&محدوديت تعداد اتصالهاي همزمان"
+
+#: ../src/interface/menu_bar.cpp:103
+msgid "&Local directory tree"
+msgstr "&نمودار درختی پوشه هاي محلي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2903
+#: ../src/interface/resources/xrc/dialogs.xrc:2993
+msgid "&Local directory:"
+msgstr "&پوشه هاي محلي:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1980
+msgid "&Log to file"
+msgstr "&ثبت در فايل"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2697
+msgid "&Logontype:"
+msgstr " &تعيين اعتبار:"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&کم"
+
+#: ../src/interface/menu_bar.cpp:156
+msgid "&Manage bookmarks..."
+msgstr "&مديريت نشانه گذاری ها..."
+
+#: ../src/interface/menu_bar.cpp:133
+msgid "&Manual transfer..."
+msgstr "انتقال &دستي..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:643
+msgid "&Maximum number of connections:"
+msgstr "ح&داکثر تعداد اتصال:"
+
+#: ../src/interface/resources/xrc/settings.xrc:138
+msgid "&Maximum number of retries:"
+msgstr "حداک&ثر تعداد تکرارها:"
+
+#: ../src/interface/menu_bar.cpp:102
+msgid "&Message log"
+msgstr "&کادر پيامها"
+
+#: ../src/interface/settings/optionspage_interface.cpp:148
+msgid "&Minimize to tray"
+msgstr "&قرار گرفتن در system try دز هنگام کوچک کردن برنامه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2874
+msgid "&Name:"
+msgstr "&نام:"
+
+# پيکر بندي جادويي شبکه
+# / پيکر بندي سزيع شبکه
+# تنظيمات جادويي شبکه...
+# تنظيمات سريع شبکه
+#: ../src/interface/menu_bar.cpp:69
+msgid "&Network configuration wizard..."
+msgstr "&پيکربندي جادویی شبکه..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1434
+msgid "&New"
+msgstr "&جديد"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:35
+msgid "&New Site"
+msgstr "&سايت جديد"
+
+#: ../src/interface/Mainfrm.cpp:1798
+msgid "&New version available!"
+msgstr "&نسخه جديد در دسترس مي باشد!"
+
+#: ../src/interface/netconfwizard.cpp:28
+msgid "&Next >"
+msgstr "&ادامه >"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1982
+#: ../src/interface/resources/xrc/dialogs.xrc:2105
+msgid "&No"
+msgstr "&خير"
+
+# هيچكدام / هيچيك/ نه
+#: ../src/interface/resources/xrc/settings.xrc:459
+#: ../src/interface/resources/xrc/settings.xrc:720
+#: ../src/interface/QueueView.cpp:1832
+msgid "&None"
+msgstr "&هيچكدام"
+
+#: ../src/interface/QueueView.cpp:1826
+msgid "&Normal"
+msgstr "&عادي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:692
+msgid "&Numeric value:"
+msgstr "&مقادير عددي:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:378
+#: ../src/interface/resources/xrc/dialogs.xrc:486
+#: ../src/interface/resources/xrc/dialogs.xrc:3134
+#: ../src/interface/resources/xrc/sitemanager.xrc:114
+#: ../src/interface/verifycertdialog.cpp:750
+msgid "&OK"
+msgstr "&تاييد"
+
+#: ../src/interface/resources/xrc/settings.xrc:474
+msgid "&OPEN"
+msgstr "&OPEN"
+
+#: ../src/interface/LocalListView.cpp:793
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "&Open"
+msgstr "&باز کردن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:128
+msgid "&Overwrite"
+msgstr "&باز نويسي"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:624
+msgid "&Passive"
+msgstr "&غيرفعال"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&گذرواژه:"
+
+#: ../src/interface/QueueView.cpp:1837
+msgid "&Play sound"
+msgstr "&پخش صدا"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&پورت:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1850
+msgid "&Queue"
+msgstr "&صف"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&اتصال سريع"
+
+#: ../src/interface/menu_bar.cpp:101
+msgid "&Quickconnect bar"
+msgstr "&نوار اتصال سريع"
+
+#: ../src/interface/menu_bar.cpp:141
+msgid "&Reconnect"
+msgstr "&اتصال دوباره"
+
+# تجديد / نوسازي / refresh
+#: ../src/interface/context_control.cpp:475 ../src/interface/menu_bar.cpp:80
+msgid "&Refresh"
+msgstr "&نوسازى"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2930
+#: ../src/interface/resources/xrc/dialogs.xrc:3017
+msgid "&Remote directory:"
+msgstr "&پوشه هاي سايت:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2531
+msgid "&Remote path:"
+msgstr "&مسير سايت:"
+
+# حذف / پاک کردن
+#: ../src/interface/resources/xrc/settings.xrc:1118
+msgid "&Remove"
+msgstr "&حذف"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:4025
+#: ../src/interface/QueueView.cpp:1819
+msgid "&Remove selected"
+msgstr "&حذف موارد انتخاب شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1446
+#: ../src/interface/resources/xrc/dialogs.xrc:3079
+#: ../src/interface/resources/xrc/sitemanager.xrc:53
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteListView.cpp:1139
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "&Rename"
+msgstr "&تغيير نام"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1266
+msgid "&Rename..."
+msgstr "&تغيير نام..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2023
+msgid "&Reopen local file"
+msgstr "&دوباره باز کردن فايل محلي"
+
+#: ../src/interface/resources/xrc/settings.xrc:1000
+msgid "&Replace invalid characters with:"
+msgstr "&جايگزيني کاراکترهاي نامعتبر با:"
+
+#: ../src/interface/menu_bar.cpp:169
+msgid "&Report a bug..."
+msgstr "&گزارش‌ دادن‌ يک خطا ..."
+
+# پيکر بندي مجدد / تنظيمات مجدد
+#: ../src/interface/resources/xrc/netconfwizard.xrc:428
+msgid "&Restart Wizard"
+msgstr "&پيکر بندي مجدد"
+
+# ادامه / ادامه دادن
+#: ../src/interface/resources/xrc/dialogs.xrc:158
+msgid "&Resume"
+msgstr "&ادامه"
+
+#: ../src/interface/QueueView.cpp:1836
+msgid "&Run command..."
+msgstr "&اجراي فرمان..."
+
+#: ../src/interface/resources/xrc/settings.xrc:77
+msgid "&Run configuration wizard now..."
+msgstr "&اجراي پيکربندي جادویی شبکه..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1942
+msgid "&Run update check now..."
+msgstr "&اجراي جستجو براي يافتن نسخه جديد ..."
+
+#: ../src/interface/resources/xrc/settings.xrc:469
+msgid "&SITE"
+msgstr "&SITE"
+
+#: ../src/interface/resources/xrc/settings.xrc:735
+msgid "&SOCKS 5"
+msgstr "&SOCKS 5"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1260
+msgid "&Save as..."
+msgstr "ذ&خيره با نام..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3274
+msgid "&Search"
+msgstr "&جستجو"
+
+#: ../src/interface/menu_bar.cpp:146
+msgid "&Search remote files..."
+msgstr "&جستجو در فايلهاي محلي..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:18
+msgid "&Select Entry:"
+msgstr "&انتخاب ورودي:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1725
+msgid "&Select language:"
+msgstr "انتخاب &زبان:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2383
+msgid "&Select the columns that should be displayed:"
+msgstr "انتخاب &ستون هايي که مي خواهيد نمايش داده شود:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&سرور"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&تنظيمات"
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "&Settings..."
+msgstr "&تنظيمات..."
+
+#: ../src/interface/resources/xrc/settings.xrc:2081
+msgid "&Show debug menu"
+msgstr "&نمايش منوي رفع اشکال‌ "
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "&Site Manager..."
+msgstr "&مديريت سايت..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2855
+msgid "&Site-specific bookmark"
+msgstr "ن&شانه گذاری ويژه سايت"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&صرف نظر کردن"
+
+#: ../src/interface/menu_bar.cpp:126
+msgid "&Speed limits"
+msgstr "&محدوديت هاي سرعت"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3446
+#: ../src/interface/resources/xrc/dialogs.xrc:3541
+msgid "&Start transfer immediately"
+msgstr "&شروع بي درنگ انتقال "
+
+#: ../src/interface/settings/optionspage_interface.cpp:139
+msgid "&Swap local and remote panes"
+msgstr "&تعویض مکان پنجره پوشه های محلی و سایت "
+
+# آزمايش / امتحان / امتحان‌كردن
+#: ../src/interface/netconfwizard.cpp:237
+msgid "&Test"
+msgstr "&آزمايش"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&پوسته:"
+
+#: ../src/interface/menu_bar.cpp:108
+msgid "&Transfer"
+msgstr "&انتقال"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&طريقه انتقال:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1733
+#: ../src/interface/menu_bar.cpp:105
+msgid "&Transfer queue"
+msgstr "&صف انتقال‌"
+
+#: ../src/interface/resources/xrc/settings.xrc:1142
+msgid "&Treat dotfiles as ASCII files"
+msgstr "با dotfiles همانن&د فايل هاي ASCII برخورد کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2145
+msgid "&Unedit"
+msgstr "&ويرايش نشده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1208
+msgid "&Update cached key for this host"
+msgstr "&کليدهاي ذخيره شده براي اين هاست را به روزرساني کن"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&بارگذاري"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1630
+#: ../src/interface/resources/xrc/settings.xrc:1201
+msgid "&Uploads:"
+msgstr "بار&گذاري ها :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3188
+msgid "&Use custom program"
+msgstr "&از برنامه دلخواه استفاده کن"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:527
+msgid "&Use synchronized browsing"
+msgstr "&از جستجوي همزمان استفاده کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1769
+msgid "&Use system's default editor for text files"
+msgstr "از وي&رايشگر پيش فرض جهت فايل هاي متني استفاده کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:348
+msgid "&Use the following IP address:"
+msgstr "&از اين آدرس هاي اينترنتي استفاده کن :"
+
+#: ../src/interface/resources/xrc/settings.xrc:421
+msgid "&Use the server's external IP address instead"
+msgstr "&در عوض از آدرس هاي خارجي سرويس دهنده استفاده کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1489
+msgid "&Use thousands separator"
+msgstr "&از جدا کننده صدگاني استفاده کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:323
+#: ../src/interface/resources/xrc/dialogs.xrc:2709
+#: ../src/interface/resources/xrc/sitemanager.xrc:260
+#: ../src/interface/sitemanager_site.cpp:273
+#: ../src/interface/sitemanager_site.cpp:356
+msgid "&User:"
+msgstr "&کاربر :"
+
+#: ../src/interface/quickconnectbar.cpp:46
+msgid "&Username:"
+msgstr "&نام کاربري :"
+
+#: ../src/interface/Mainfrm.cpp:1792
+#, c-format
+msgid "&Version %s"
+msgstr "&نسخه %s"
+
+#: ../src/interface/menu_bar.cpp:78
+msgid "&View"
+msgstr "&نمايش"
+
+#: ../src/interface/RemoteListView.cpp:1129 ../src/interface/search.cpp:836
+msgid "&View/Edit"
+msgstr "&نمايش/ويرايش"
+
+#: ../src/interface/resources/xrc/settings.xrc:1826
+msgid "&Watch locally edited files and prompt to upload modifications"
+msgstr ""
+"&فايل هاي ويراش شده محلی را تحت نظر بگير و بارگذاري اصلاحات را اعلان کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:600
+msgid "&Write"
+msgstr "&خواندن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1976
+#: ../src/interface/resources/xrc/dialogs.xrc:2099
+msgid "&Yes"
+msgstr "&بله"
+
+#: ../src/engine/local_path.cpp:459 ../src/engine/local_path.cpp:511
+#, c-format
+msgid "'%s' does not exist or cannot be accessed."
+msgstr "'%s' وجود ندارد و يا در دسترس نيست."
+
+#: ../src/engine/local_path.cpp:477 ../src/engine/local_path.cpp:498
+#: ../src/engine/local_path.cpp:505
+#, c-format
+msgid "'%s' is not a directory."
+msgstr "'%s' يک پوشه نيست."
+
+#: ../src/interface/manual_transfer.cpp:419
+#: ../src/interface/sitemanager_site.cpp:504
+msgid "'Account' logontype not supported by selected protocol"
+msgstr " تعيين اعتبار از نوع 'حساب' توسط پروتکل انتخاب شده پشتيباني نمي شود"
+
+#: ../src/interface/Mainfrm.cpp:643
+msgid ""
+"'quote' is usually a local command used by commandline clients to send the "
+"arguments following 'quote' to the server. You might want to enter the raw "
+"command without the leading 'quote'."
+msgstr ""
+"علامت نقل قول عموما براي استفاده از پارامتر ها براي ارسال فرمان به سرور "
+"کاربرد دارد. همچنين شما مي توانيد يک فرمان را بدون نقل قول به کار ببريد."
+
+#: ../src/interface/filelist_statusbar.cpp:87
+#: ../src/interface/filelist_statusbar.cpp:94
+#, c-format
+msgid "(%d object filtered)"
+msgid_plural "(%d objects filtered)"
+msgstr[0] "(%d آبجکت فيلتر شده)"
+msgstr[1] "(%d آبجکت فيلتر شده اند)"
+
+#: ../src/interface/resources/xrc/settings.xrc:859
+#: ../src/interface/resources/xrc/settings.xrc:880
+msgid "(0 for no limit)"
+msgstr "(0 جهت عدم محدوديت)"
+
+#: ../src/interface/resources/xrc/settings.xrc:150
+msgid "(0-99)"
+msgstr "(0-99)"
+
+#: ../src/interface/resources/xrc/settings.xrc:168
+msgid "(0-999 seconds)"
+msgstr "(0-999 ثانيه)"
+
+#: ../src/interface/resources/xrc/settings.xrc:838
+msgid "(1-10)"
+msgstr "(1-10)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1427
+msgid "(example: %H:%M)"
+msgstr "(نمونه : %H:%M)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1378
+msgid "(example: %Y-%m-%d)"
+msgstr "(نمونه : %Y-%m-%d)"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3756
+#: ../src/interface/resources/xrc/dialogs.xrc:3773
+#: ../src/interface/resources/xrc/settings.xrc:920
+#: ../src/interface/resources/xrc/settings.xrc:945
+#, c-format
+msgid "(in %s/s)"
+msgstr "(در %s/ثانيه)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:295
+msgid "-"
+msgstr "-"
+
+#: ../src/interface/statuslinectrl.cpp:229
+msgid "--:--:-- left"
+msgstr "--:--:-- مانده"
+
+#: ../src/interface/cmdline.cpp:93
+msgid "-c cannot be used together with an FTP URL."
+msgstr "-c نمي توانند در يک آدرس FTP با هم استفاده شوند."
+
+#: ../src/interface/cmdline.cpp:100
+msgid "-l can only be used together with an FTP URL."
+msgstr "-از من تنها مي توان با يک آدرس FTP استفاده کرد."
+
+#: ../src/interface/cmdline.cpp:83
+msgid "-s and -c cannot be present at the same time."
+msgstr "-s و -c را نمي توان با هم و در يک زمان استفاده کرد."
+
+#: ../src/interface/cmdline.cpp:88
+msgid "-s cannot be used together with an FTP URL."
+msgstr "-s نمي توانند در يک آدرس FTP با هم استفاده شوند."
+
+#: ../src/interface/resources/xrc/settings.xrc:2102
+msgid "0 - None"
+msgstr "0 - هيچ"
+
+#: ../src/interface/resources/xrc/settings.xrc:2103
+msgid "1 - Warning"
+msgstr "1 - هشدار"
+
+#: ../src/interface/resources/xrc/settings.xrc:2104
+msgid "2 - Info"
+msgstr "2 - اطلاعات"
+
+#: ../src/interface/resources/xrc/settings.xrc:2105
+msgid "3 - Verbose"
+msgstr "3 - پيام"
+
+#: ../src/interface/resources/xrc/settings.xrc:2106
+msgid "4 - Debug"
+msgstr "4 - اشکال زدايي"
+
+#: ../src/interface/netconfwizard.cpp:29
+msgid "< &Back"
+msgstr "< &به عقب"
+
+#: ../src/interface/bookmarks_dialog.cpp:111
+msgid ""
+"A bookmark with the entered name already exists. Please enter an unused name."
+msgstr "يک نشان با همين نام قبلا ايجاد شده. لطفا نام ديگري انخاب کنيد."
+
+#: ../src/interface/settings/optionspage_edit.cpp:95
+msgid "A default editor needs to be set."
+msgstr "لازم است که يک ويرايشگر پيشفرض تعيين شود."
+
+#: ../src/interface/RemoteListView.cpp:167
+#: ../src/interface/RemoteTreeView.cpp:122 ../src/interface/state.cpp:885
+msgid "A directory cannot be dragged into one of its subdirectories."
+msgstr "يک پوشه نمي تواند به يکي از زيرشاخه هاي خودش انتقال يابد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:60
+msgid ""
+"A few servers don't allow passive mode or are misconfigured. In such cases "
+"you would have to use active mode. In active mode, FileZilla opens a port "
+"and asks the server to connect to it."
+msgstr ""
+"برخي سرور ها اجازه ارتباط از نوع \"passive\" را نمي دهند و يا براي اينکار "
+"برنامه ريزي نشده اند. در بعضي موارد شما مجبور هستيد از حالت \"active\" "
+"استفاده کنيد. در حالت \"active\" نرم افزار \"FileZilla\" يک پورت را باز کرده "
+"و از سرور مي خواهد که به آن متصل شود ."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1895
+msgid "A file previously opened has been changed."
+msgstr "فايلي که پيش از اين باز بود تغيير کرده است."
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "A file with that name is already being transferred."
+msgstr "فايلي با همين نام قبلا منتقل شده است."
+
+#: ../src/interface/edithandler.cpp:1740
+msgid ""
+"A file with that name is still being edited. Please close it and try again."
+msgstr ""
+"فايلي با همين نام در حال ويرايش است. لطفا آن را بسته و مجددا سعي نماييد."
+
+#: ../src/interface/FileZilla.cpp:597
+msgid ""
+"A local filename could not be decoded.\n"
+"Please make sure the LC_CTYPE (or LC_ALL) environment variable is set "
+"correctly.\n"
+"Unless you fix this problem, files might be missing in the file listings.\n"
+"No further warning will be displayed this session."
+msgstr ""
+"امکان رمزگشايي فايل محلی وجود ندارد.\n"
+"لطفا اطمينان حاصل کنيد که مقدار LC_CTYPE (or LC_ALL) در متغيرهاي محيطي "
+"بدرستي تنظيم شده است.\n"
+"تا زماني که اين مشکل حل نشود، اين فايل در ليست فايل نمايش داده نخواهد شد.\n"
+"در اين بازه هشدار ديگري نمايش داده نخواهد شد."
+
+#: ../src/interface/Mainfrm.cpp:719
+msgid ""
+"A proper server always shows all files, but some broken servers hide files "
+"from the user. Use this option to force the server to show all files."
+msgstr ""
+"يک سرور مطلوب هميشه همه فايل ها را نمايش مي دهد، در حالي که برخي سرور هاي "
+"معيوب تعدادي فايل ها را از ديد کاربر مخفي مي کنند. اين گزينه سرور ها را "
+"مجبور به نمايش همه فايل ها مي کند."
+
+#: ../src/interface/resources/xrc/settings.xrc:246
+msgid ""
+"A proper server does not require this. Contact the server administrator if "
+"you need this."
+msgstr ""
+"يک سرور مطلوب اين گزينه را ارائه نمي دهد. اگر شما مايل به ارائه آن هستيد با "
+"مدير سرور تماس بگيريد."
+
+#: ../src/interface/state.cpp:291
+msgid ""
+"A remote operation is in progress and synchronized browsing is enabled.\n"
+"Disable synchronized browsing and continue changing the local directory?"
+msgstr ""
+"يک عمليات راه دور درحال انجام است و جستجوي همزمان فعال شده است.\n"
+"آیا جستجوي همزمان غیر فعال شده و تغییر پوشه محلی ادامه یابد؟"
+
+#: ../src/interface/resources/xrc/settings.xrc:1063
+#: ../src/interface/menu_bar.cpp:119 ../src/interface/statusbar.cpp:564
+msgid "A&SCII"
+msgstr "A&SCII"
+
+#: ../src/interface/resources/xrc/settings.xrc:1111
+msgid "A&dd"
+msgstr "&اضافه کردن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1248
+msgid "A&llow resume of ASCII files"
+msgstr "به فايل هاي ASCII ا&جازه از سر گيري بده"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to downloads"
+msgstr "&فقط براي دانلود ها اعمال شود"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to uploads"
+msgstr "ف&قط براي آپلود ها اعمال شود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:726
+msgid "A&pply to all files and directories"
+msgstr "&به تمام فايل ها و پوشه ها اعمال شود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2786
+msgid "ASCII"
+msgstr "ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "درباره FileZilla"
+
+#: ../src/interface/settings/optionspage_interface.cpp:135
+msgid "Above the file lists"
+msgstr "بالاتر از ليست فايل ها"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "حساب"
+
+#: ../src/interface/QueueView.cpp:1831
+msgid "Action after queue &completion"
+msgstr "&عمليات بعد از صفوف و اتمام"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2138
+msgid "Action on selected file:"
+msgstr "عمليات روي فايل انتخاب شده :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2018
+msgid "Action to perform:"
+msgstr "اقدام جهت :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:123
+msgid "Action:"
+msgstr "عمليات :"
+
+#: ../src/interface/settings/settingsdialog.cpp:98
+msgid "Active mode"
+msgstr "حالت Active"
+
+#: ../src/interface/netconfwizard.cpp:625
+msgid ""
+"Active mode FTP test failed. FileZilla does not know the correct external IP "
+"address."
+msgstr ""
+"آزمايش حالت \"Active\" موفقيت آميز نبود. آدرس IP خارجي براي FileZilla قابل "
+"تشخيص نيست."
+
+#: ../src/interface/netconfwizard.cpp:612
+msgid ""
+"Active mode FTP test failed. FileZilla does not know the correct external IP "
+"address. In addition to that, your router has modified the sent address."
+msgstr ""
+"آزمايش حالت \"Active\" موفقيت آميز نبود. آدرس IP خارجي براي FileZilla قابل "
+"تشخيص نيست. بعلاوه اينکه روتر شما آدرس ارسالي را اصلاح کرده است."
+
+#: ../src/interface/netconfwizard.cpp:600
+msgid ""
+"Active mode FTP test failed. FileZilla knows the correct external IP "
+"address, but your router or firewall has misleadingly modified the sent "
+"address."
+msgstr ""
+"آزمايش حالت \"Active\" موفقيت آميز نبود. آدرس IP خارجي توسط FileZilla "
+"شناسايي شد، اما روتر يا فايروال شما آدرس ارسالي را به طرز گمراه کننده اي "
+"اصلاح کرده است."
+
+#: ../src/interface/resources/xrc/settings.xrc:399
+msgid "Active mode IP"
+msgstr "IP در حالت Active"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3453
+#: ../src/interface/resources/xrc/dialogs.xrc:3548
+msgid "Add files to &queue only"
+msgstr "فاي&ل ها را فقط به صف اضافه کن"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "Add selected directory to the transfer queue"
+msgstr "پوشه هاي انتخاب شده را به صف انتقال اضافه کن"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "Add selected files and folders to the transfer queue"
+msgstr "فايل ها و پوشه هاي انتخاب شده را به صف انتقال اضافه کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1681
+#: ../src/interface/resources/xrc/settings.xrc:1701
+msgid "Add to queue"
+msgstr "به صف اضافه کن"
+
+#: ../src/engine/proxy.cpp:458
+msgid "Address type not supported"
+msgstr "نوع آدرس قابل پشتيباني نيست"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:452
+msgid "Advanced"
+msgstr "پيشرفته"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2217
+#: ../src/interface/resources/xrc/dialogs.xrc:2263
+msgid "Algorithm:"
+msgstr "الگوريتم :"
+
+#: ../src/interface/QueueView.cpp:2698
+msgid "All files have been successfully transferred"
+msgstr "تمامي فايل ها با موفقيت ارسال شدند"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:308
+msgid "All ports in the given range have to be between 1024 and 65535."
+msgstr "تمام پورتهاي داده شده بايد بين 1024 تا 65535 باشند."
+
+#: ../src/interface/QueueView.cpp:2694
+#, c-format
+msgid "All transfers have finished. %d file could not be transferred."
+msgid_plural "All transfers have finished. %d files could not be transferred."
+msgstr[0] "تمام انتقال ها به اتمام رسيدند. امکان انتقال %d فايل وجود ندارد."
+msgstr[1] "تمام انتقال ها به اتمام رسيدند. امکان انتقال %d فايل وجود ندارد."
+
+#: ../src/interface/resources/xrc/settings.xrc:214
+msgid "Allow &fall back to other transfer mode on failure"
+msgstr "&در صورت عدم موفقيت اجازه بده به حالت قبلي انتقال تغيير يابد"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:88
+msgid "Allow fallback to other transfer mode on failure"
+msgstr "در صورت عدم موفقيت اجازه بده به حالت قبلي انتقال تغيير يابد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3652
+msgid "Already connected"
+msgstr "ارتباط هنوز برقرار است"
+
+#: ../src/interface/resources/xrc/settings.xrc:661
+msgid ""
+"Alternatively you can use the Pageant tool from PuTTY to manage your keys, "
+"FileZilla does recognize Pageant."
+msgstr ""
+"شما مي توانيد به طور متناوب براي مديريت کليدهاي خود از ابزار Pageant در "
+"PuTTY استفاده کنيد، Pageant براي FileZilla شناخته شده است."
+
+#: ../src/interface/resources/xrc/settings.xrc:666
+msgid ""
+"Alternatively you can use your system's SSH agent. To do so, make sure the "
+"SSH_AUTH_SOCK environment variable is set."
+msgstr ""
+"متناوبا مي توانيد از SSH سيستم خود استفاده کنيد. براي اين منظور، اطمينان "
+"حاصل کنيد که متغير محيطي SSH_AUTH_SOCK بدرستي مقداردهي شده است."
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid ""
+"An item with the same name as the dragged item already exists at the target "
+"location."
+msgstr "نمونه اي با همين نامي که منتقل شد در حال حاضر در مقصد وجود دارد."
+
+#: ../src/interface/sitemanager_dialog.cpp:742
+msgid "Any changes made in the Site Manager could not be saved."
+msgstr "امکان ذخیره هیچ تغییری در مدیریت سایت وجود ندارد."
+
+#: ../src/interface/filter.cpp:965
+msgid "Any changes made to the filters could not be saved."
+msgstr "هر تغييراتي که روي فيلترها انجام شده نمي توانند ذخيره شوند."
+
+#: ../src/interface/filter.cpp:874
+msgid "Any changes made to the filters will not be saved."
+msgstr "هر تغييراتي که روي فيلترها انجام شده ذخيره نخواهد شد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:740
+msgid "App&ly to directories only"
+msgstr "&فقط روي پوشه ها اعمال شود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1393
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:207
+msgid "Apply to &current queue only"
+msgstr "&فقط روي صف جاري اعمال شود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:733
+msgid "Apply to &files only"
+msgstr "&فقط روي فايل ها اعمال شود"
+
+#: ../src/interface/filter_conditions_dialog.cpp:77
+msgid "Archive"
+msgstr "آرشيو"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1615
+#: ../src/interface/resources/xrc/dialogs.xrc:1638
+#: ../src/interface/resources/xrc/settings.xrc:1187
+#: ../src/interface/resources/xrc/settings.xrc:1208
+#: ../src/interface/settings/optionspage_interface.cpp:159
+msgid "Ask for action"
+msgstr "درخواست جهت انجام"
+
+#: ../src/engine/server.cpp:708 ../src/engine/server.cpp:734
+#: ../src/interface/manual_transfer.cpp:179
+msgid "Ask for password"
+msgstr "درخواست براي گذرواژه"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:271
+msgid "Ask operating system for a port."
+msgstr "درخواست از سيستم عامل براي يک پورت."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:173
+msgid "Ask your operating system for the external IP address"
+msgstr "درخواست از سيستم عامل براي يک آدرس آي پي خارجي"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:63
+msgid "Associated program not found:"
+msgstr "برنامه مورد نظر پيدا نشد:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:473
+msgid "At least one filter condition is incomplete"
+msgstr "در نهايت يک شرط فيلترشده انجام نشد"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:346
+msgid "At this point, all required information has been gathered."
+msgstr "در اين مرحله، تمام اطلاعات مورد نياز گردآوري شده است."
+
+#: ../src/interface/filter_conditions_dialog.cpp:109
+msgid "Attribute"
+msgstr "صفات"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:210
+msgid "Authentication failed."
+msgstr "اعتبار سنجي ناموفق بود."
+
+#: ../src/interface/resources/xrc/settings.xrc:1287
+msgid "Author:"
+msgstr "مولف:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2764
+msgid "Auto"
+msgstr "خودکار"
+
+#: ../src/interface/resources/xrc/settings.xrc:1081
+msgid "Automatic file type classification"
+msgstr "رده بندي نوع فايل ها بطور خودکار"
+
+#: ../src/interface/welcome_dialog.cpp:104
+msgid "Basic usage instructions"
+msgstr "دستورالعمل استفاده اصلي"
+
+#: ../src/interface/settings/optionspage_interface.cpp:141
+msgid "Behaviour"
+msgstr "رفتار"
+
+#: ../src/interface/edithandler.cpp:1176 ../src/interface/edithandler.cpp:1204
+msgid "Being edited"
+msgstr "شروع ويرايش"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2791
+msgid "Binary"
+msgstr "دودويي"
+
+#: ../src/interface/settings/optionspage_interface.cpp:131
+msgid "Blackboard"
+msgstr "تخته سياه"
+
+#: ../src/interface/bookmarks_dialog.cpp:271 ../src/interface/menu_bar.cpp:434
+#: ../src/interface/sitemanager_dialog.cpp:335
+msgid "Bookmark"
+msgstr "نشانه گذاري"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3056
+msgid "Bookmark:"
+msgstr "نشانه گذاري:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3045
+msgid "Bookmarks"
+msgstr "نشانه گذاري ها"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:851
+msgid "Build date:"
+msgstr "تاريخ توليد:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:828
+msgid "Build information"
+msgstr "اطلاعات توليد"
+
+#: ../src/interface/verifycertdialog.cpp:643
+msgid "Business category:"
+msgstr "طبقه بندي تجاري:"
+
+#: ../src/interface/menu_bar.cpp:138
+msgid "C&ancel current operation"
+msgstr "ل&غو فعاليت جاري"
+
+#: ../src/interface/StatusView.cpp:436
+msgid "C&lear all"
+msgstr "&پاک کردن همه"
+
+#: ../src/interface/RemoteListView.cpp:1140
+#: ../src/interface/RemoteTreeView.cpp:918 ../src/interface/search.cpp:843
+msgid "C&opy URL(s) to clipboard"
+msgstr "&آدرس (ها) را به حافظه کپي کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:1365
+msgid "C&ustom"
+msgstr "&سفارسي"
+
+#: ../src/interface/resources/xrc/settings.xrc:1854
+msgid "C&ustom filetype associations:"
+msgstr "&برنامه های سفارشی برای باز کردن فایلها:"
+
+#: ../src/engine/ftp/list.cpp:121
+msgid "Calculating timezone offset of server..."
+msgstr "محاسبه منطقه زماني معادل سرور..."
+
+#: ../src/engine/ftp/transfersocket.cpp:643
+msgid "Can't read from file"
+msgstr "نمي تواند از فايل بخواند"
+
+#: ../src/engine/ftp/transfersocket.cpp:620
+#: ../src/engine/ftp/transfersocket.cpp:691
+msgid "Can't write data to file."
+msgstr "نمي تواند داده ها را در فايل بنويسد."
+
+#: ../src/engine/ftp/transfersocket.cpp:623
+#: ../src/engine/ftp/transfersocket.cpp:694
+#, c-format
+msgid "Can't write data to file: %s"
+msgstr "نمي تواند داده ها را در فايل بنويسد: %s"
+
+#: ../src/interface/resources/xrc/certificate.xrc:288
+#: ../src/interface/resources/xrc/dialogs.xrc:239
+#: ../src/interface/resources/xrc/dialogs.xrc:565
+#: ../src/interface/resources/xrc/dialogs.xrc:757
+#: ../src/interface/resources/xrc/dialogs.xrc:1106
+#: ../src/interface/resources/xrc/dialogs.xrc:1387
+#: ../src/interface/resources/xrc/dialogs.xrc:1575
+#: ../src/interface/resources/xrc/dialogs.xrc:1682
+#: ../src/interface/resources/xrc/dialogs.xrc:1753
+#: ../src/interface/resources/xrc/dialogs.xrc:1811
+#: ../src/interface/resources/xrc/dialogs.xrc:1876
+#: ../src/interface/resources/xrc/dialogs.xrc:2050
+#: ../src/interface/resources/xrc/dialogs.xrc:2435
+#: ../src/interface/resources/xrc/dialogs.xrc:2817
+#: ../src/interface/resources/xrc/dialogs.xrc:2972
+#: ../src/interface/resources/xrc/dialogs.xrc:3140
+#: ../src/interface/resources/xrc/dialogs.xrc:3230
+#: ../src/interface/resources/xrc/dialogs.xrc:3470
+#: ../src/interface/resources/xrc/dialogs.xrc:3565
+#: ../src/interface/resources/xrc/dialogs.xrc:3635
+#: ../src/interface/resources/xrc/dialogs.xrc:3710
+#: ../src/interface/resources/xrc/dialogs.xrc:3973
+#: ../src/interface/resources/xrc/dialogs.xrc:4045
+#: ../src/interface/resources/xrc/sitemanager.xrc:121
+msgid "Cancel"
+msgstr "لغو کردن"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancel current operation"
+msgstr "لغو فعاليت جاري"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancels the current operation"
+msgstr "لغو فعاليت جاري"
+
+#: ../src/engine/local_path.cpp:471
+#, c-format
+msgid "Cannot access '%s', no media inserted or drive not ready."
+msgstr "ناتوان در دسترسي به '%s'،هيچ رسانه اي وارد نشده يا درايو آماده نيست."
+
+#: ../src/interface/context_control.cpp:398
+msgid ""
+"Cannot close tab while busy.\n"
+"Cancel current operation and close tab?"
+msgstr ""
+"تا زمانيکه اين سربرگ مشغول است نمي توان آن را بست.\n"
+"آيا فعاليت جاري لغو شده و سربرگ بسته شود؟"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid ""
+"Cannot compare directories, different filters for local and remote "
+"directories are enabled"
+msgstr ""
+"ناتوان در مقايسه پوشه ها،فيلترهاي متفاوتي براي پوشه هاي محلي و خارجي فعال است"
+
+#: ../src/interface/filteredit.cpp:150
+msgid "Cannot create new filter"
+msgstr "ناتوان در ايجاد يک فيلتر جديد"
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/edithandler.cpp:1712
+#: ../src/interface/LocalListView.cpp:1879 ../src/interface/search.cpp:1210
+#: ../src/interface/search.cpp:1529
+msgid "Cannot edit file"
+msgstr "ناتوان در ويرايش فايل"
+
+#: ../src/interface/LocalListView.cpp:1755
+msgid "Cannot edit file, not connected to any server."
+msgstr "ناتوان در ويرايش فايل،ارتباط با هيچ سروري برقرار نيست."
+
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Cannot edit file, remote path unknown."
+msgstr "ناتوان در ويرايش فايل، مسير خارجي ناشناخته است."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:131
+msgid ""
+"Cannot establish FTP connection to an SFTP server. Please select proper "
+"protocol."
+msgstr ""
+"ناتوان در برقراري ارتباط FTPبا سرور SFTP.لطفا پروتکل مناسبي را انتخاب نماييد."
+
+#: ../src/interface/Mainfrm.cpp:1094
+msgid "Cannot load toolbar from resource file"
+msgstr "ناتوان در بارگذاري نوار ابزار از فايل منبع"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Cannot rename entry"
+msgstr "ناتوان در تغيير نام ورودي"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Cannot rename file"
+msgstr "ناتوان در تغيير نام فايل"
+
+#: ../src/interface/filter.cpp:269 ../src/interface/filter.cpp:339
+msgid "Cannot save filterset"
+msgstr "ناتوان در ذخيره کردن فيلتر تنظيم شده"
+
+#: ../src/interface/filter.cpp:230
+msgid "Cannot select filter"
+msgstr "ناتوان در انتخاب فيلتر"
+
+#: ../src/interface/edithandler.cpp:1552 ../src/interface/edithandler.cpp:1556
+#: ../src/interface/edithandler.cpp:1597
+msgid "Cannot set file association"
+msgstr "ناتوان در تنظيم فايل وابسته"
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "Cannot view/edit selected file"
+msgstr "ناتوان در مشاهده/ويرايش فايل انتخاب شده"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Certificate and session data are not available yet."
+msgstr "گواهي نامه و نشست داده ها هنوز قابل استفاده نيست."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:575
+msgid "Change file attributes"
+msgstr "تغييردادن صفات فايل"
+
+#: ../src/interface/RemoteListView.cpp:1142
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "Change the file permissions."
+msgstr "تغيير دادن دسترسي هاي فايل."
+
+#: ../src/interface/resources/xrc/settings.xrc:2053
+msgid "Changing logfile settings requires restart of FileZilla."
+msgstr "تغيير تنظيمات فايل گزارش نيازمند راه اندازي مجدد فايل زيلا مي باشد."
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for &updates..."
+msgstr "بررسي براي &بروز رسانيها..."
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for newer versions of FileZilla"
+msgstr "بررسي براي جديدترين نسخه هاي فايل زيلا"
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Check for updates failed"
+msgstr "بررسي براي بروز رسانيهاي ناموفق"
+
+#: ../src/interface/netconfwizard.cpp:776
+msgid "Checking for correct external IP address"
+msgstr "در حال بررسي براي آدرس آي پي خارجي صحيح"
+
+#: ../src/interface/sitemanager_site.cpp:1040
+msgid "Choose the default local directory"
+msgstr "انتخاب پوشه محلي پيش فرض"
+
+#: ../src/interface/bookmarks_dialog.cpp:134
+#: ../src/interface/bookmarks_dialog.cpp:386
+#: ../src/interface/sitemanager_dialog.cpp:1824
+msgid "Choose the local directory"
+msgstr "انتخاب پوشه محلي"
+
+#: ../src/interface/context_control.cpp:471 ../src/interface/menu_bar.cpp:55
+msgid "Cl&ose tab"
+msgstr "&بستن سربرگ"
+
+#: ../src/interface/settings/optionspage_interface.cpp:128
+msgid "Classic"
+msgstr "کلاسيک"
+
+#: ../src/interface/menu_bar.cpp:178
+msgid "Clear &layout cache"
+msgstr "پاک کردن &لايه کش"
+
+#: ../src/interface/quickconnectbar.cpp:198
+msgid "Clear history"
+msgstr "پاک کردن تاريخچه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1695
+#: ../src/interface/clearprivatedata.cpp:38
+#: ../src/interface/clearprivatedata.cpp:44
+#: ../src/interface/clearprivatedata.cpp:50
+#: ../src/interface/clearprivatedata.cpp:74
+#: ../src/interface/clearprivatedata.cpp:100
+msgid "Clear private data"
+msgstr "پاک کردن اطلاعات خصوصی"
+
+#: ../src/interface/quickconnectbar.cpp:197
+msgid "Clear quickconnect bar"
+msgstr "پاک کردن نوار اتصال سريع"
+
+#: ../src/interface/netconfwizard.cpp:591
+msgid "Click on Finish to save your configuration."
+msgstr "براي ذخيره کردن تغييرات بر روي دکمه پايان کليک کنيد."
+
+#: ../src/interface/context_control.cpp:472
+msgid "Close &all other tabs"
+msgstr "&بستن ساير سربرگها"
+
+#: ../src/interface/Mainfrm.cpp:1250 ../src/interface/Mainfrm.cpp:1272
+#: ../src/interface/menu_bar.cpp:64
+msgid "Close FileZilla"
+msgstr "بستن FileZilla"
+
+#: ../src/interface/menu_bar.cpp:55
+msgid "Closes current tab"
+msgstr "بستن اين سربرگ"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:433
+msgid "Co&mments:"
+msgstr "&توضيحات:"
+
+#: ../src/interface/listctrlex.cpp:762
+msgid "Column properties"
+msgstr "مشخصات ستون"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2368
+msgid "Column setup"
+msgstr "تنظیم ستونها"
+
+#: ../src/interface/resources/xrc/settings.xrc:1798
+msgid "Command and its arguments should be properly quoted."
+msgstr "فرمان و قواعد آن بايد درست باشد."
+
+#: ../src/engine/proxy.cpp:455
+msgid "Command not supported"
+msgstr "فرمان قابل پشتيباني نيست"
+
+#: ../src/engine/engineprivate.cpp:236 ../src/engine/engineprivate.cpp:682
+msgid "Command not supported by this protocol"
+msgstr "فرمان توسط اين پروتوکل قابل پشتيباني نيست"
+
+#: ../src/engine/logging.cpp:131 ../src/interface/StatusView.cpp:294
+#: ../src/interface/StatusView.cpp:358
+msgid "Command:"
+msgstr "فرمان:"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:36
+msgid "Comment"
+msgstr "توضيح"
+
+#: ../src/interface/verifycertdialog.cpp:641
+msgid "Common name:"
+msgstr "نام مشترک:"
+
+#: ../src/interface/netconfwizard.cpp:447
+#: ../src/interface/netconfwizard.cpp:460
+msgid "Communication tainted by router or firewall"
+msgstr "ارتباط به وسيله فايروال يا روتر از بين رفت"
+
+# س&نجش و تبديل زمان
+# م&قايسه و تبديل زمان
+#: ../src/interface/Mainfrm.cpp:2412 ../src/interface/menu_bar.cpp:92
+msgid "Compare &modification time"
+msgstr "س&نجش و تبديل زمان"
+
+# &سنجش حجم فايل
+# &مقايسه حجم فايل
+#: ../src/interface/Mainfrm.cpp:2411 ../src/interface/menu_bar.cpp:91
+msgid "Compare file&size"
+msgstr "&سنجش حجم فايل"
+
+#: ../src/interface/filter_conditions_dialog.cpp:78
+msgid "Compressed"
+msgstr "فشرده"
+
+#: ../src/interface/resources/xrc/settings.xrc:814
+msgid "Concurrent transfers"
+msgstr "انتقالهاي همزمان"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1525
+#: ../src/interface/resources/xrc/dialogs.xrc:3340
+msgid "Conditions are c&ase sensitive"
+msgstr "&حساس نسبت به بزرگ يا کوچک بودن حرف"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:341
+msgid "Configuration test"
+msgstr "آزمايش کردن تغييرات"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:115
+msgid "Configure passive mode"
+msgstr "پيکربندي حالت غيرفعال"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:261
+msgid "Configure port range"
+msgstr "پيکربندى حالت غير فعال"
+
+#: ../src/interface/welcome_dialog.cpp:105
+msgid "Configuring FileZilla and your network"
+msgstr "پيکربندى FileZilla و شبکه شما"
+
+#: ../src/interface/search.cpp:1268
+msgid "Confirm deletion"
+msgstr "تاييد خذف"
+
+#: ../src/interface/edithandler.cpp:1675 ../src/interface/file_utils.h:47
+#: ../src/interface/LocalListView.cpp:1841
+#: ../src/interface/RemoteListView.cpp:1496
+#: ../src/interface/RemoteTreeView.cpp:1117 ../src/interface/search.cpp:1222
+#: ../src/interface/search.cpp:1489
+msgid "Confirmation needed"
+msgstr "احتياج به تاييد"
+
+#: ../src/interface/netconfwizard.cpp:587
+msgid "Congratulations, your configuration seems to be working."
+msgstr "تبريک!، بنظر ميرسد که پيکربندي شما کار مي کند."
+
+#: ../src/interface/cmdline.cpp:8
+msgid "Connect to specified Site Manager site"
+msgstr "اتصال به سايت مشخص شده در مديريت سايت"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "در حال برقراري اتصال"
+
+#: ../src/interface/netconfwizard.cpp:219
+#: ../src/interface/statuslinectrl.cpp:268
+#, c-format
+msgid "Connecting to %s"
+msgstr "در حال برقراري اتصال به %s"
+
+#: ../src/engine/ControlSocket.cpp:788
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:43
+#: ../src/engine/storj/storjcontrolsocket.cpp:42
+#, c-format
+msgid "Connecting to %s..."
+msgstr "در حال برقراري اتصال به %s ..."
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "اتصال"
+
+#: ../src/interface/queue.cpp:354
+msgid "Connection attempt failed"
+msgstr "تلاش براي برقراري اتصال شکست خورد"
+
+#: ../src/engine/ControlSocket.cpp:747
+#, c-format
+msgid "Connection attempt failed with \"%s\", trying next address."
+msgstr ""
+"تلاش براي برقراري اتصال با \"%s\" موفقيت آميز نبود،امتحان کردن آدرس بعدي."
+
+#: ../src/engine/ControlSocket.cpp:753
+#, c-format
+msgid "Connection attempt failed with \"%s\"."
+msgstr "تلاش براي برقراري اتصال با \"%s\" موفقيت آميز نبود."
+
+#: ../src/engine/ControlSocket.cpp:169 ../src/engine/engineprivate.cpp:727
+msgid "Connection attempt interrupted by user"
+msgstr "تلاش براي برقراري اتصال به وسيله کاربر قطع شد"
+
+#: ../src/interface/netconfwizard.cpp:560
+msgid "Connection closed"
+msgstr "اتصال قطع شد"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:66 ../src/engine/http/request.cpp:298
+#: ../src/engine/http/request.cpp:311 ../src/engine/http/request.cpp:322
+#: ../src/engine/http/request.cpp:333
+msgid "Connection closed by server"
+msgstr "اتصال به وسيله سرور قطع شد"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:176
+#: ../src/engine/http/httpcontrolsocket.cpp:197
+msgid "Connection established, initializing TLS..."
+msgstr "برقراري اتصال، مقداردهي TLS..."
+
+#: ../src/engine/http/httpcontrolsocket.cpp:212
+msgid "Connection established, sending HTTP request"
+msgstr "برقراري اتصال، ارسال درخواست HTTP"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:197
+msgid "Connection established, waiting for welcome message..."
+msgstr "برقراري اتصال، انتظار براي پيام خوش آمد گويي..."
+
+#: ../src/interface/netconfwizard.cpp:358
+msgid "Connection lost"
+msgstr "اتصال قطع شد"
+
+#: ../src/engine/proxy.cpp:449
+msgid "Connection refused"
+msgstr "اتصال پذيفته نشد"
+
+#: ../src/interface/netconfwizard.cpp:1070
+msgid "Connection timed out."
+msgstr "پايان زمان اتصال."
+
+#: ../src/interface/search.cpp:724
+msgid "Connection to server lost."
+msgstr "اتصال به سرور قطع شد."
+
+#: ../src/interface/netconfwizard.cpp:580
+msgid "Connection with server got closed prematurely."
+msgstr "اتصال به سرور به صورت ناگهاني قطع شد."
+
+#: ../src/interface/netconfwizard.cpp:571
+msgid "Connection with the test server failed."
+msgstr "اتصال به سرور آزمايشي موفقيت آميز نبود."
+
+#: ../src/interface/bookmarks_dialog.cpp:676
+#: ../src/interface/sitemanager_dialog.cpp:1384
+#, c-format
+msgid "Copy (%d) of %s"
+msgstr "کپي (%d) از %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:655
+#: ../src/interface/sitemanager_dialog.cpp:1363
+#, c-format
+msgid "Copy of %s"
+msgstr "کپي از %s"
+
+#: ../src/interface/RemoteListView.cpp:1140
+#: ../src/interface/RemoteTreeView.cpp:918
+msgid "Copy the URLs of the selected items to clipboard."
+msgstr "کپي URL هاي موارد انتخاب شده به کليپ بورد."
+
+#: ../src/engine/ftp/transfersocket.cpp:158
+#, c-format
+msgid "Could not accept connection: %s"
+msgstr "اتصال قابل پذيرش نيست: %s"
+
+# ذ
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:573
+msgid "Could not add connection to Site Manager"
+msgstr "افزودن اين اتصال به \"مديريت سايت\" امکان پذير نيست"
+
+#: ../src/engine/ControlSocket.cpp:172
+msgid "Could not connect to server"
+msgstr "اتصال به سرور امکان پذير نيست"
+
+#: ../src/engine/ControlSocket.cpp:878
+#, c-format
+msgid "Could not connect to server: %s"
+msgstr "امکان اتصال به سرور وجود ندارد: %s"
+
+#: ../src/engine/sftp/filetransfer.cpp:74
+#: ../src/engine/sftp/filetransfer.cpp:95
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:343
+#: ../src/engine/storj/storjcontrolsocket.cpp:260
+msgid "Could not convert command to server encoding"
+msgstr "امکان تبديل فرمان به رمز براي سايت وجود ندارد"
+
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not copy URLs"
+msgstr "امکان کپي URL ها وجود ندارد"
+
+#: ../src/interface/aboutdialog.cpp:220
+msgid "Could not copy data"
+msgstr " کپي داده ها امکان پذيز نيست"
+
+#: ../src/engine/ftp/rawtransfer.cpp:232
+msgid "Could not establish connection to server"
+msgstr "امکان برقراري اتصال به سرور وجود ندارد"
+
+#: ../src/interface/state.cpp:1118
+msgid "Could not get full remote path."
+msgstr "بدست آوردن تمامي مسيرهاي سايت امکان پذير نيست."
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/search.cpp:1210
+msgid "Could not get temporary directory to download file into."
+msgstr "دريافت پوشه موقت جهت دانلود فايل امکان پذير نمي باشد."
+
+#: ../src/interface/fzputtygen_interface.cpp:112
+msgid "Could not load private key"
+msgstr "بارگيري کليد اختصاصي امکان پذير نيست"
+
+#: ../src/interface/state.cpp:1141
+#, c-format
+msgid ""
+"Could not obtain corresponding local directory for the remote directory "
+"'%s'.\n"
+"Disable synchronized browsing and continue changing the remote directory?"
+msgstr ""
+"پوشه متناظر با پوشه '%s' در کامپیوتر محلی قابل دستیابی نیست.\n"
+"آیا جستجوي همزمان غیر فعال شده و تغییر پوشه سایت ادامه یابد؟"
+
+#: ../src/interface/state.cpp:408
+#, c-format
+msgid ""
+"Could not obtain corresponding local directory for the remote directory "
+"'%s'.\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"پوشه متناظر با پوشه '%s' در کامپیوتر محلی قابل دستیابی نیست.\n"
+"جستجوي همزمان غير فعال شد."
+
+#: ../src/interface/state.cpp:301
+#, c-format
+msgid ""
+"Could not obtain corresponding remote directory for the local directory "
+"'%s'.\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"پوشه متناظر با پوشه '%s' در سایت قابل دستیابی نیست.\n"
+"جستجوي همزمان غير فعال شد."
+
+#: ../src/interface/aboutdialog.cpp:220
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not open clipboard"
+msgstr "دسترسي به کليپ برد امکان پذير نيست"
+
+#: ../src/engine/logging.cpp:125 ../src/engine/logging.cpp:211
+#: ../src/engine/logging.cpp:255 ../src/engine/logging.cpp:293
+#: ../src/engine/logging.cpp:319
+#, c-format
+msgid "Could not open log file: %s"
+msgstr "باز کردن فايل امکان پذير نيست: %s"
+
+# مسير راه دور / مسير سايت
+#: ../src/interface/bookmarks_dialog.cpp:73
+msgid "Could not parse remote path."
+msgstr "مسير سايت قابل تجزيه نيست."
+
+#: ../src/interface/quickconnectbar.cpp:117
+msgid "Could not parse server address:"
+msgstr "آدرس سرور قابل تجزيه نيست :"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:55 ../src/engine/http/request.cpp:370
+#, c-format
+msgid "Could not read from socket: %s"
+msgstr "اين سوکت قابل خواندن نيست : %s"
+
+#: ../src/interface/sitemanager.cpp:501
+msgid "Could not read server item."
+msgstr "محتويات سرور قابل خواندن نيستند."
+
+#: ../src/engine/ftp/filetransfer.cpp:88
+#: ../src/engine/http/filetransfer.cpp:110
+msgid "Could not seek to the end of the file"
+msgstr "امکان پيمايش تا نقطه پاياني فايل وجود ندارد"
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+msgid "Could not send command to fzputtygen."
+msgstr "اماکن ارسال فرمان به fzputtygen وجود ندارد."
+
+#: ../src/engine/ftp/filetransfer.cpp:200
+msgid "Could not spawn IO thread"
+msgstr "امکان توليد IO (ورودي خروجي) وجود ندارد."
+
+#: ../src/interface/queue.cpp:359
+msgid "Could not start transfer"
+msgstr "شروع انتقال امکان پذير نيست"
+
+#: ../src/interface/sitemanager.cpp:578
+#: ../src/interface/sitemanager_dialog.cpp:765
+#, c-format
+msgid ""
+"Could not write \"%s\", any changes to the Site Manager could not be saved: "
+"%s"
+msgstr ""
+"امکان نوشتن \"%s\" وجود ندارد، تغييرات ايجاد شده در بخش مديريت سايتها قابل "
+"ذخيره سازي نيستند : %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:886
+#, c-format
+msgid "Could not write \"%s\", the bookmark could not be added: %s"
+msgstr "امکان نوشتن \"%s\" وجود ندارد، اين نشانه قابل اضافه شده نيست : %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:331
+#, c-format
+msgid "Could not write \"%s\", the global bookmarks could no be saved: %s"
+msgstr ""
+"امکان نوشتن \"%s\" وجود ندارد، نشانه هاي سراسري قايب ذخيره سازي نيستند : %s"
+
+#: ../src/interface/QueueView.cpp:1600
+#, c-format
+msgid ""
+"Could not write \"%s\", the queue could not be saved.\n"
+"%s"
+msgstr ""
+"امکان نوشتن \"%s\" وجود ندارد، صف ها قابل ذخيره سازي نيستند :\n"
+"%s"
+
+#: ../src/interface/sitemanager.cpp:703 ../src/interface/sitemanager.cpp:760
+#: ../src/interface/sitemanager_dialog.cpp:1802
+#, c-format
+msgid "Could not write \"%s\", the selected sites could not be exported: %s"
+msgstr ""
+"امکان نوشتن \"%s\" وجود ندارد، سايتهاي انتخاب شده را نمي توان اکسپورت کرد : "
+"%s"
+
+#: ../src/interface/queue.cpp:358
+msgid "Could not write to local file"
+msgstr "اماکن نوشتن در فايل محلی وجود ندارد"
+
+#: ../src/engine/logging.cpp:268 ../src/engine/logging.cpp:336
+#, c-format
+msgid "Could not write to log file: %s"
+msgstr "امکان نوشتن در فايل ثبت گزارش وجود ندارد : %s"
+
+#: ../src/engine/ControlSocket.cpp:708 ../src/engine/ControlSocket.cpp:806
+#: ../src/engine/http/request.cpp:236
+#, c-format
+msgid "Could not write to socket: %s"
+msgstr "امکان نوشتن در سوکت وجود ندارد : %s"
+
+#: ../src/interface/verifycertdialog.cpp:646
+msgid "Country:"
+msgstr "کشور :"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "Create a new subdirectory in the current directory"
+msgstr "يک زير شاخه جديد در اين پوشه بساز"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Create directory"
+msgstr "ايجاد پوشه"
+
+#: ../src/interface/queue.cpp:361
+msgid "Creating directory"
+msgstr "در حال ايجاد پوشه"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:591
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:559
+#: ../src/engine/storj/storjcontrolsocket.cpp:105
+#, c-format
+msgid "Creating directory '%s'..."
+msgstr "در حال ايجاد پوشه '%s' ..."
+
+#: ../src/engine/ControlSocket.cpp:164
+msgid "Critical error"
+msgstr "خطاي خطرناک"
+
+#: ../src/engine/ControlSocket.cpp:108
+msgid "Critical file transfer error"
+msgstr "خطاي خطرناک در انتقال فايل"
+
+#: ../src/engine/ControlSocket.cpp:88
+#, c-format
+msgid "Critical file transfer error after transferring %s in %s"
+msgstr "خطاي خطرناک بعد از انتقال %s به %s"
+
+#: ../src/interface/state.cpp:399
+#, c-format
+msgid ""
+"Current remote directory (%s) is not below the synchronization root (%s).\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"پوشه (%s) در شاخه اصلي (%s) قرار ندارد.\n"
+"جستجوي همزمان غير فعال شد."
+
+#: ../src/interface/statusbar.cpp:409
+msgid "Current transfer type is set to ASCII."
+msgstr "نوع انتقال جاري ASCII مي باشد."
+
+#: ../src/interface/statusbar.cpp:417
+msgid "Current transfer type is set to automatic detection."
+msgstr "نوع انتقال جاري جستجوي خودکار مي باشد."
+
+#: ../src/interface/statusbar.cpp:413
+msgid "Current transfer type is set to binary."
+msgstr "نوع انتقال جاري باينري مي باشد."
+
+#: ../src/interface/resources/xrc/settings.xrc:479
+#: ../src/interface/resources/xrc/settings.xrc:1414
+msgid "Cus&tom"
+msgstr "&سفارشي"
+
+#: ../src/interface/filter.cpp:135
+msgid "Custom filter set"
+msgstr "تنظيم فيلتر سفارشي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2621
+#: ../src/interface/resources/xrc/dialogs.xrc:2635
+msgid "Custom server"
+msgstr "سرور سفارشي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2755
+msgid "D&ata type"
+msgstr "&نوع داده"
+
+#: ../src/interface/resources/xrc/settings.xrc:1484
+msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
+msgstr "پيشوند &عددی با استفاده از نمادهای SI (مثال: 1KB = 1000 bytes)"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:610
+msgid "D&efault"
+msgstr "&پيشفرض"
+
+#: ../src/interface/RemoteListView.cpp:1138
+#: ../src/interface/RemoteTreeView.cpp:916 ../src/interface/search.cpp:830
+#: ../src/interface/search.cpp:837
+msgid "D&elete"
+msgstr "&حذف"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1302
+msgid "D&isable all"
+msgstr "&غيرفعال سازي همه"
+
+#: ../src/interface/resources/xrc/settings.xrc:1690
+msgid "D&ouble-click action on directories:"
+msgstr "واکنش به دليل دوبار کليک بر روي &پوشه ها :"
+
+#: ../src/engine/server.cpp:62
+msgid "DOS-like with virtual paths"
+msgstr "مسير هايي با استاندارد سيستم عامل DOS و مجازي"
+
+#: ../src/interface/edithandler.cpp:1716
+msgid "Dangerous filetype"
+msgstr "نوع فايل خطرناک"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:37
+msgid "Data"
+msgstr "داده"
+
+#: ../src/interface/netconfwizard.cpp:989
+#: ../src/interface/netconfwizard.cpp:1053
+msgid "Data socket closed too early."
+msgstr "سوکت داده خيلي زود بسته شد."
+
+#: ../src/interface/resources/xrc/settings.xrc:1348
+msgid "Date formatting"
+msgstr "قالب دهي تاريخ :"
+
+#: ../src/interface/settings/settingsdialog.cpp:109
+msgid "Date/time format"
+msgstr "قالب تاريخ/زمان"
+
+#: ../src/interface/fileexistsdlg.cpp:49
+msgid "Date/time unknown"
+msgstr "تاريخ/زمان ناشناخته"
+
+#: ../src/interface/settings/settingsdialog.cpp:121
+msgid "Debug"
+msgstr "اشکال زدايي"
+
+#: ../src/interface/resources/xrc/settings.xrc:2074
+msgid "Debugging settings"
+msgstr "تنظيمات اشکال زدايي"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:490
+msgid "Default &local directory:"
+msgstr "&پوشه پيشفرض محلي :"
+
+#: ../src/engine/server.cpp:54
+msgid "Default (Autodetect)"
+msgstr "پيشفرض (جستجوي خودکار)"
+
+#: ../src/interface/settings/optionspage_edit.cpp:81
+msgid "Default editor not properly quoted."
+msgstr "ويرايشگر پيشفرض بطور واضح اعلام نشده است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1587
+#: ../src/interface/resources/xrc/dialogs.xrc:1657
+#: ../src/interface/resources/xrc/settings.xrc:1227
+msgid "Default file exists action"
+msgstr "عمليات پيشفرض در صورت وجود فايل"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:515
+msgid "Default r&emote directory:"
+msgstr "&پوشه پيشفرض در سرور :"
+
+#: ../src/interface/settings/optionspage_language.cpp:53
+msgid "Default system language"
+msgstr "زبان پيشفرض سيستم"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:68
+msgid "Default transfer mode:"
+msgstr "حالت انتقال پيشفرض :"
+
+#: ../src/interface/resources/xrc/settings.xrc:1051
+msgid "Default transfer type:"
+msgstr "نوع انتقال پيشفرض :"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:233
+#: ../src/interface/resources/xrc/settings.xrc:381
+msgid "Default: http://ip.filezilla-project.org/ip.php"
+msgstr "پيشفرض : http://ip.filezilla-project.org/ip.php"
+
+#: ../src/interface/settings/optionspage_connection.cpp:41
+msgid ""
+"Delay between failed connection attempts has to be between 1 and 999 seconds."
+msgstr "تاخير در مبادرت بين اتصالات ناموفق بايد بين 1 تا 999 ثانيه باشد."
+
+#: ../src/engine/engineprivate.cpp:533
+#, c-format
+msgid ""
+"Delaying connection for %d second due to previously failed connection "
+"attempt..."
+msgid_plural ""
+"Delaying connection for %d seconds due to previously failed connection "
+"attempt..."
+msgstr[0] "%d ثانيه تاخير در اتصال به دليل مبادرت به اتصال ناموفق ..."
+msgstr[1] "%d ثانيه تاخير در اتصال به دليل مبادرت به اتصال ناموفق ..."
+
+#: ../src/interface/sitemanager_dialog.cpp:1030
+msgid "Delete Site Manager entry"
+msgstr "حذف محتويات بخش مديريت سايت"
+
+#: ../src/interface/LocalTreeView.cpp:1109
+#: ../src/interface/RemoteTreeView.cpp:916
+msgid "Delete selected directory"
+msgstr "حذف پوشه انتخاب شده"
+
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/RemoteListView.cpp:1138
+msgid "Delete selected files and directories"
+msgstr "حذف فايل ها و پوشه هاي انتخاب شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3583
+msgid "Deleting symbolic link"
+msgstr "درحال حذف پيوندهاي سمبليک"
+
+#: ../src/interface/LocalTreeView.cpp:1019
+msgid "Desktop"
+msgstr "دسکتاپ"
+
+#: ../src/interface/resources/xrc/certificate.xrc:42
+#: ../src/interface/resources/xrc/dialogs.xrc:1033
+msgid "Details"
+msgstr "جزييات"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1154
+msgid "Details for new key:"
+msgstr "جزييات کليد جديد :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1544
+msgid "Dire&ctories"
+msgstr "&پوشه ها"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Direction"
+msgstr "مسير"
+
+#: ../src/interface/filelistctrl.cpp:273
+msgid "Directory"
+msgstr "پوشه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3032
+#: ../src/interface/resources/xrc/settings.xrc:1628
+#: ../src/interface/resources/xrc/sitemanager.xrc:534
+#: ../src/interface/filelistctrl.cpp:477 ../src/interface/Mainfrm.cpp:2359
+#: ../src/interface/Mainfrm.cpp:2379 ../src/interface/toolbar.cpp:51
+#: ../src/interface/view.cpp:109
+msgid "Directory comparison"
+msgstr "مقايسه پوشه ها"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid "Directory comparison failed"
+msgstr "مقايسه پوشه ناموفق بود"
+
+#: ../src/interface/settings/optionspage_logging.cpp:71
+msgid "Directory containing the logfile does not exist or filename is invalid."
+msgstr ""
+"پوشه اي که حاوي فايل گزارش باشد وجود ندارد و يا اينکه نام فايل اشتباه است."
+
+#: ../src/engine/ControlSocket.cpp:177
+msgid "Directory listing aborted by user"
+msgstr "عمليات ليست کردن پوشه ها توسط کاربر لغو شد"
+
+#: ../src/interface/RemoteListView.cpp:2230
+msgid "Directory listing failed"
+msgstr "عمليات ليست کردن پوشه ها نا موفق بود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1237
+msgid "Directory listing filters"
+msgstr "فيلتر هاي ليست کردن پوشه ها"
+
+#: ../src/engine/ControlSocket.cpp:184
+msgid "Directory listing successful"
+msgstr "ليست کردن پوشه ها انجام شد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1337
+msgid "Disa&ble all"
+msgstr "غيرفعال سازي &همه"
+
+#: ../src/interface/state.cpp:1149
+msgid ""
+"Disable synchronized browsing and continue changing the remote directory?"
+msgstr "آیا جستجوي همزمان غیر فعال شده و تغییر پوشه سایت ادامه یابد؟"
+
+#: ../src/interface/Mainfrm.cpp:721
+msgid ""
+"Disable this option again if you will not be able to see the correct "
+"directory contents anymore."
+msgstr ""
+"چنانچه بيش از اين موفق به مشاهده محتويات پوشه ها نشديد اين گزينه را غير فعال "
+"کنيد."
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnect from server"
+msgstr "قطع ارتباط با سرور"
+
+#: ../src/engine/ControlSocket.cpp:48 ../src/engine/ControlSocket.cpp:709
+#: ../src/engine/ControlSocket.cpp:808
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:57 ../src/engine/http/request.cpp:237
+#: ../src/interface/queue.cpp:352
+msgid "Disconnected from server"
+msgstr "ارتباط با سرور قطع شد"
+
+#: ../src/engine/ControlSocket.cpp:833
+#: ../src/engine/http/httpcontrolsocket.cpp:295
+#, c-format
+msgid "Disconnected from server: %s"
+msgstr "ارتباط با سرور قطع شد: %s"
+
+#: ../src/interface/queue.cpp:351 ../src/interface/statuslinectrl.cpp:262
+msgid "Disconnecting from previous server"
+msgstr "قطع ارتباط با سرور قبلي"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnects from the currently visible server"
+msgstr "قطع ارتباط با سرور فعلي"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "Display about dialog"
+msgstr "نمايش پنجره معرفي"
+
+#: ../src/interface/resources/xrc/settings.xrc:1763
+msgid "Do &not use default editor"
+msgstr "از ويرايشگر پ&يشفرض استفاده نکن"
+
+#: ../src/interface/Mainfrm.cpp:1253 ../src/interface/Mainfrm.cpp:1276
+msgid "Do you really want to close FileZilla?"
+msgstr "آيا واقعا مايل به خروج از FileZilla هستيد؟"
+
+#: ../src/interface/clearprivatedata.cpp:38
+msgid ""
+"Do you really want to delete all Site Manager entries and the transfer queue?"
+msgstr ""
+"آيا واقعا مايل به حذف همه محتويات بخش مديريت سايت و همچنين لغو همه صفوف "
+"انتقال هستيد؟"
+
+#: ../src/interface/clearprivatedata.cpp:50
+msgid "Do you really want to delete all Site Manager entries?"
+msgstr "آيا واقعا مايل به حذف همه محتويات بخش مديريت سايت هستيد؟"
+
+#: ../src/interface/sitemanager_dialog.cpp:1032
+msgid "Do you really want to delete selected entry?"
+msgstr "آيا واقعا مايل به حذف اين گزينه هستيد؟"
+
+#: ../src/interface/clearprivatedata.cpp:44
+msgid "Do you really want to delete the transfer queue?"
+msgstr "آيا واقعا مايل به حذف اين صف انتقال هستيد؟"
+
+#: ../src/interface/Mainfrm.cpp:644
+#, c-format
+msgid "Do you really want to send '%s' to the server?"
+msgstr "آيا واقعا مايل به ارسال '%s' به سرور هستيد؟"
+
+#: ../src/interface/welcome_dialog.cpp:100
+msgid "Documentation"
+msgstr "مستندات"
+
+# محلی
+# محلي
+#: ../src/interface/resources/xrc/netconfwizard.xrc:250
+msgid "Don't use external IP address on &local connections."
+msgstr "&در ارتباطات محلی از IP خارجي استفاده نکن."
+
+#: ../src/interface/resources/xrc/settings.xrc:1148
+msgid "Dotfiles are filenames starting with a dot, e.g. .htaccess"
+msgstr ""
+"Dotfile ها، فايل هايي هستند که با يک نقطه شروع مي شوند. مانند : .htaccess"
+
+#: ../src/interface/resources/xrc/settings.xrc:1666
+msgid "Double-click action"
+msgstr "عمليات دوبار کليک"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2464
+msgid "Download"
+msgstr "دانلود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3745
+#: ../src/interface/resources/xrc/settings.xrc:906
+msgid "Download &limit:"
+msgstr "&محدوديت دانلود :"
+
+#: ../src/interface/statusbar.cpp:610
+#, c-format
+msgid "Download limit: %s/s"
+msgstr "محدوديت دانلود : %s بر ثانيه"
+
+#: ../src/interface/statusbar.cpp:613
+msgid "Download limit: none"
+msgstr "محدوديت دانلود : ندارد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3387
+#: ../src/interface/search.cpp:927 ../src/interface/search.cpp:932
+msgid "Download search results"
+msgstr "دانلود نتيجه جستجو"
+
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "Download selected directory"
+msgstr "دانلود پوشه انتخاب شده"
+
+#: ../src/interface/RemoteListView.cpp:1122
+msgid "Download selected files and directories"
+msgstr "دانلود فايل و پوشه هاي انتخاب شده"
+
+#: ../src/interface/edithandler.cpp:1161
+msgid "Downloading"
+msgstr "در حال دانلود"
+
+#: ../src/engine/http/httpcontrolsocket.cpp:224
+#, c-format
+msgid "Downloading %s"
+msgstr "در حال دانلود %s"
+
+#: ../src/interface/LocalListView.cpp:113
+#: ../src/interface/LocalTreeView.cpp:121 ../src/interface/QueueView.cpp:92
+#: ../src/interface/RemoteListView.cpp:116
+#: ../src/interface/RemoteTreeView.cpp:98
+msgid ""
+"Drag&drop between different instances of FileZilla has not been implemented "
+"yet."
+msgstr "&انتقال بين دو نمونه از FileZilla هنوز پياده سازي نشده است."
+
+#: ../src/interface/LocalListView.cpp:118
+#: ../src/interface/LocalTreeView.cpp:127 ../src/interface/QueueView.cpp:106
+#: ../src/interface/RemoteListView.cpp:121
+#: ../src/interface/RemoteTreeView.cpp:103
+msgid "Drag&drop between different servers has not been implemented yet."
+msgstr "&انتقال بين دو سرور هنوز پياده سازي نشده است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1295
+msgid "E&nable all"
+msgstr "ف&عال سازي همه"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "E&nter directory"
+msgstr "&ورود به پوشه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:640
+msgid "E&xecute"
+msgstr "&اجرا"
+
+#: ../src/interface/menu_bar.cpp:64
+msgid "E&xit"
+msgstr "&خروج"
+
+#: ../src/interface/verifycertdialog.cpp:651
+msgid "E-Mail:"
+msgstr "رايانامه :"
+
+#: ../src/interface/filter_conditions_dialog.cpp:451
+msgid "Each filter needs at least one condition."
+msgstr "هر فيلتر حداقل به يک شرط نياز دارد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1583
+msgid "Edit filters"
+msgstr "ويرايش فيلتر"
+
+#: ../src/interface/LocalListView.cpp:794
+msgid ""
+"Edit the file with the configured editor and upload changes to the server."
+msgstr "فايل را با ويرايش گر تنظيم شده ويرايش و سپس به سرور آپلود کن."
+
+#: ../src/interface/LocalListView.cpp:1755
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Editing failed"
+msgstr "ويرايش ناموفق بود"
+
+#: ../src/interface/resources/xrc/settings.xrc:1298
+msgid "Email:"
+msgstr "رايانامه : "
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "Empty command"
+msgstr "فرمان خالي"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:59
+msgid "Empty command."
+msgstr "فرمان خالي."
+
+#: ../src/interface/RemoteListView.cpp:2233
+msgid "Empty directory listing"
+msgstr "ليست کردن پوشه خالي"
+
+#: ../src/interface/filelist_statusbar.cpp:14
+msgid "Empty directory."
+msgstr "پوشه خالي."
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:52
+msgid "Empty file extension."
+msgstr "فايل بدون پسوند."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty filter names are not allowed."
+msgstr "نام فيلتر نمي تواند خالي باشد."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty name"
+msgstr "نام خالي است"
+
+#: ../src/interface/settings/optionspage_edit.cpp:84
+msgid "Empty quoted string."
+msgstr "رشته نقل قول شده خالي."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1330
+msgid "En&able all"
+msgstr "&فعال سازي همه"
+
+#: ../src/interface/resources/xrc/settings.xrc:987
+msgid "Enable invalid character &filtering"
+msgstr "&فيلتر سازي کارکتر هاي غير مجاز را فعال کن"
+
+#: ../src/interface/filter_conditions_dialog.cpp:79
+msgid "Encrypted"
+msgstr "کدگذاري شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2292
+msgid "Encryption"
+msgstr "کدگذاري"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2202
+msgid "Encryption details"
+msgstr "جزييات کدگذاري"
+
+#: ../src/interface/filelistctrl.cpp:479
+msgid "End comparison and change sorting order?"
+msgstr "مقايسه را پايان و نوع مرتب سازي را تغيير مي دهيد؟"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Enter &custom command..."
+msgstr "&يک فرمان دلخواه وارد کنيد ..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3786
+msgid "Enter 0 for unlimited speed."
+msgstr "براي عدم محدوديت سرعت 0 را وارد کنيد."
+
+#: ../src/interface/QueueView.cpp:1919
+msgid "Enter command"
+msgstr "فرمان را وارد کنيد"
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid "Enter custom command"
+msgstr "فرمان دلخواه را وارد کنيد"
+
+#: ../src/interface/resources/xrc/settings.xrc:1699
+msgid "Enter directory"
+msgstr "به پوشه وارد شويد"
+
+#: ../src/interface/filteredit.cpp:143 ../src/interface/filteredit.cpp:200
+#: ../src/interface/filteredit.cpp:249
+msgid "Enter filter name"
+msgstr "نام فيلتر را وارد کنيد"
+
+#: ../src/interface/filter.cpp:262
+msgid "Enter name for filterset"
+msgstr "يک نام براي دسته فيلتر ها وارد کنيد"
+
+#: ../src/interface/filter.cpp:326
+msgid "Enter new name for filterset"
+msgstr "نام جديد را براي دسته فيلتر ها وارد کنيد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:247
+msgid "Enter password"
+msgstr "گذرواژه را وارد کنيد"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "Enter selected directory"
+msgstr "به پوشه انتخاب شده وارد شويد"
+
+#: ../src/interface/loginmanager.cpp:178
+msgid "Enter username and password"
+msgstr "نام کاربري و گذرواژه را وارد کنيد"
+
+#: ../src/interface/export.cpp:30
+msgid "Error exporting settings"
+msgstr "خطا در اکسپورت تنظيمات"
+
+#: ../src/interface/import.cpp:31 ../src/interface/import.cpp:95
+msgid "Error importing"
+msgstr "خطا در ايمپورت"
+
+#: ../src/interface/bookmarks_dialog.cpp:174
+#: ../src/interface/bookmarks_dialog.cpp:296
+#: ../src/interface/bookmarks_dialog.cpp:752
+#: ../src/interface/bookmarks_dialog.cpp:792
+#: ../src/interface/bookmarks_dialog.cpp:845 ../src/interface/filter.cpp:875
+#: ../src/interface/filter.cpp:966 ../src/interface/Options.cpp:253
+#: ../src/interface/osx_sandbox_userdirs.cpp:65
+#: ../src/interface/osx_sandbox_userdirs.cpp:136
+#: ../src/interface/QueueView.cpp:1581 ../src/interface/search.cpp:1351
+#: ../src/interface/search.cpp:1371 ../src/interface/sitemanager.cpp:39
+#: ../src/interface/sitemanager.cpp:470 ../src/interface/sitemanager.cpp:530
+#: ../src/interface/sitemanager.cpp:639 ../src/interface/sitemanager.cpp:727
+#: ../src/interface/sitemanager.cpp:833 ../src/interface/sitemanager.cpp:924
+#: ../src/interface/sitemanager_dialog.cpp:678
+#: ../src/interface/sitemanager_dialog.cpp:743
+#: ../src/interface/wrapengine.cpp:943
+msgid "Error loading xml file"
+msgstr "خطا در بارگذاري فايل xml"
+
+#: ../src/interface/fzputtygen_interface.cpp:178
+#: ../src/interface/fzputtygen_interface.cpp:193
+#: ../src/interface/storj_key_interface.cpp:62
+#: ../src/interface/storj_key_interface.cpp:77
+msgid "Error starting program"
+msgstr "خطا در اجراي برنامه"
+
+#: ../src/interface/bookmarks_dialog.cpp:332
+#: ../src/interface/bookmarks_dialog.cpp:887
+#: ../src/interface/QueueView.cpp:1601 ../src/interface/sitemanager.cpp:579
+#: ../src/interface/sitemanager.cpp:704 ../src/interface/sitemanager.cpp:761
+#: ../src/interface/sitemanager_dialog.cpp:766
+#: ../src/interface/sitemanager_dialog.cpp:1803
+#: ../src/interface/xmlfunctions.cpp:153
+msgid "Error writing xml file"
+msgstr "خطا در نوشتن بر روي فايل xml"
+
+#: ../src/engine/logging.cpp:130 ../src/interface/StatusView.cpp:292
+#: ../src/interface/StatusView.cpp:354
+msgid "Error:"
+msgstr "خطا :"
+
+#: ../src/interface/resources/xrc/settings.xrc:1871
+msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
+msgstr "مثال : png \"c:\\program files\\viewer\\viewer.exe\" -open"
+
+#: ../src/interface/resources/xrc/settings.xrc:1521
+msgid "Examples"
+msgstr "مثال ها"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:674
+msgid "Exe&cute"
+msgstr "&اجرا"
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Executable contains no version info, cannot check for updates."
+msgstr ""
+"فايل اجرايي حاوي هيچ اطلاعاتي نيست، به همين دليل امکان به روزرساني وجود "
+"ندارد."
+
+#: ../src/interface/settings/optionspage_interface.cpp:129
+msgid "Explorer"
+msgstr "اکسپورت کننده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1768
+msgid "Export settings"
+msgstr "اکسپورت تنظيمات"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1471
+msgid "F&ilter name:"
+msgstr "&نام فيلتر:"
+
+#: ../src/interface/settings/settingsdialog.cpp:97
+msgid "FTP"
+msgstr "FTP"
+
+#: ../src/interface/quickconnectbar.cpp:102
+msgid "FTP Engine not initialized, can't connect"
+msgstr "موتور FTP مقدار دهي نشده، ارتباط ممکن نيست"
+
+#: ../src/interface/resources/xrc/settings.xrc:233
+msgid "FTP Keep-alive"
+msgstr "FTP Keep-alive"
+
+#: ../src/interface/resources/xrc/settings.xrc:446
+#: ../src/interface/settings/settingsdialog.cpp:100
+msgid "FTP Proxy"
+msgstr "پروکسي FTP"
+
+#: ../src/interface/cmdline.cpp:21
+msgid "FTP URL"
+msgstr "آدرس FTP"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:44
+msgid ""
+"FTP uses secondary connections for data transfers. These additional "
+"connections can be established in two ways."
+msgstr ""
+"FTP از يک ارتباط ثانويه جهت انتقال داده ها استفاده مي کند. اين ارتباط به دو "
+"روش مي تواند برقرار شود."
+
+#: ../src/interface/LocalListView.cpp:542
+#: ../src/interface/LocalListView.cpp:615
+#: ../src/interface/LocalListView.cpp:955
+#: ../src/interface/LocalListView.cpp:1962
+#: ../src/interface/LocalTreeView.cpp:895
+#: ../src/interface/LocalTreeView.cpp:1197 ../src/interface/viewheader.cpp:499
+msgid "Failed to change directory"
+msgstr "تغيير پوشه ناموفق بود"
+
+#: ../src/interface/FileZilla.cpp:170 ../src/interface/FileZilla.cpp:185
+#: ../src/interface/FileZilla.cpp:188
+msgid "Failed to change language"
+msgstr "تغيير زبان نا موفق بود"
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid "Failed to copy or move sites"
+msgstr "کپي يا انتقال سايت ها نا موفق بود"
+
+#: ../src/interface/xmlfunctions.cpp:239
+msgid "Failed to create backup copy of xml file"
+msgstr "تهيه نسخه پشتيبان از فايل xml ناموفق بود"
+
+#: ../src/engine/ftp/rawtransfer.cpp:213 ../src/engine/ftp/rawtransfer.cpp:216
+msgid "Failed to create listening socket for active mode transfer"
+msgstr "ايجاد سوکت جهت گوش دادن به پيام ها در حالت Active ناموفق بود"
+
+#: ../src/interface/LocalTreeView.cpp:655
+msgid "Failed to get 'My Documents' path"
+msgstr "اشکال در دريافت مسير 'My Documents'"
+
+#: ../src/interface/LocalTreeView.cpp:642
+msgid "Failed to get desktop path"
+msgstr "اشکال در دريافت مسير دسکتاپ"
+
+#: ../src/interface/netconfwizard.cpp:965
+msgid "Failed to get peer address of control connection, connection closed."
+msgstr "اشکال در گرفتن آدرس همتاي ارتباط، ارتباط قطع شد."
+
+#: ../src/interface/netconfwizard.cpp:971
+msgid "Failed to get peer address of data connection, connection closed."
+msgstr "اشکال در گرفتن آدرس همتاي ارتباط، ارتباط قطع شد."
+
+#: ../src/interface/context_control.cpp:114
+msgid "Failed to initialize FTP engine"
+msgstr "مقدار دهي موتور FTP نا موفق بود"
+
+#: ../src/interface/settings/settingsdialog.cpp:153
+msgid "Failed to load panels, invalid resource files?"
+msgstr "اشکال در بارگذاري پانل ها، فايل منبع اشتباه است؟"
+
+#: ../src/interface/fzputtygen_interface.cpp:111
+#, c-format
+msgid "Failed to load private key: %s"
+msgstr "اشکال در دريافت کليد اختصاصي: %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:79
+#, c-format
+msgid "Failed to open \"%s\" for appending/writing"
+msgstr "اشکال در باز کردن \"%s\" جهت نوشتن/الحاق"
+
+#: ../src/engine/ftp/filetransfer.cpp:139
+#, c-format
+msgid "Failed to open \"%s\" for reading"
+msgstr "اشکال در باز کردن \"%s\" جهت خواندن"
+
+#: ../src/engine/ftp/filetransfer.cpp:105
+#: ../src/engine/http/filetransfer.cpp:103
+#, c-format
+msgid "Failed to open \"%s\" for writing"
+msgstr "اشکال در باز کردن \"%s\" جهت نوشتن"
+
+#: ../src/interface/FileZilla.cpp:185
+#, c-format
+msgid "Failed to set language to %s (%s), using default system language"
+msgstr " خطا در تغییر زبان به %s (%s),از زبان پیشفرض سیستم استفاده می شود"
+
+#: ../src/interface/FileZilla.cpp:162
+#, c-format
+msgid ""
+"Failed to set language to %s (%s), using default system language (%s, %s)."
+msgstr ""
+" خطا در تغییر زبان به %s (%s),از زبان پیشفرض سیستم استفاده می شود (%s, %s)."
+
+#: ../src/interface/FileZilla.cpp:149
+#, c-format
+msgid "Failed to set language to %s (%s), using default system language."
+msgstr " خطا در تغییر زبان به %s (%s),از زبان پیشفرض سیستم استفاده می شود."
+
+#: ../src/interface/FileZilla.cpp:188
+#, c-format
+msgid "Failed to set language to %s, using default system language"
+msgstr " خطا در تغییر زبان به %s,از زبان پیشفرض سیستم استفاده می شود"
+
+#: ../src/interface/FileZilla.cpp:157
+#, c-format
+msgid "Failed to set language to %s, using default system language (%s, %s)."
+msgstr "خطا در تغییر زبان به %s,از زبان پیشفرض سیستم استفاده می شود (%s, %s)."
+
+#: ../src/interface/FileZilla.cpp:145
+#, c-format
+msgid "Failed to set language to %s, using default system language."
+msgstr "خطا در تغییر زبان به %s,از زبان پیشفرض سیستم استفاده می شود."
+
+#: ../src/interface/settings/optionspage.cpp:221
+msgid "Failed to validate settings"
+msgstr "خطا در تایید تنظیمات"
+
+#: ../src/engine/http/filetransfer.cpp:223
+#, c-format
+msgid "Failed to write to file %s"
+msgstr "%s خطا در نوشتن فایل"
+
+#: ../src/interface/xmlfunctions.cpp:282
+msgid "Failed to write xml file"
+msgstr "xml خطا در نوشتن فایل"
+
+#: ../src/interface/queueview_failed.cpp:16
+msgid "Failed transfers"
+msgstr "انتقال انجام نشد !"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:159
+msgid "Fall back to active mode"
+msgstr "برگشت به حالت فعال"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2543
+msgid "Fil&e:"
+msgstr "&فایل:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1539
+msgid "Fil&es"
+msgstr "&فایلها"
+
+#: ../src/interface/filelistctrl.cpp:272
+msgid "File"
+msgstr "فایل"
+
+#: ../src/interface/import.cpp:95
+msgid "File does not contain any importable data."
+msgstr "فایل هیچ اطلاعات قابل جمع آوری ندارد."
+
+#: ../src/interface/settings/settingsdialog.cpp:113
+msgid "File editing"
+msgstr "ویرایش فایل"
+
+#: ../src/interface/settings/settingsdialog.cpp:105
+msgid "File exists action"
+msgstr "عمل وجود فایل"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1890
+msgid "File has changed"
+msgstr "فایل تغییر کرده است"
+
+#: ../src/interface/settings/settingsdialog.cpp:111
+msgid "File lists"
+msgstr "لیست های فایل"
+
+#: ../src/engine/storj/resolve.cpp:111 ../src/engine/storj/resolve.cpp:174
+#: ../src/interface/edithandler.cpp:1638 ../src/interface/FileZilla.cpp:701
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "File not found"
+msgstr "فایل یافت نشد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3383
+#: ../src/interface/search.cpp:741 ../src/interface/toolbar.cpp:53
+msgid "File search"
+msgstr "جستجوی فایل"
+
+#: ../src/engine/ControlSocket.cpp:97
+msgid "File transfer aborted by user"
+msgstr "انتقال فایل بوسیله کاربر لغو گردید"
+
+#: ../src/engine/ControlSocket.cpp:85
+#, c-format
+msgid "File transfer aborted by user after transferring %s in %s"
+msgstr "توسط کاربر لغو گردید %s از %s انتقال فایل پس از انتقال "
+
+#: ../src/engine/ControlSocket.cpp:111
+msgid "File transfer failed"
+msgstr "انتقال فایل با خطا مواجه شد"
+
+#: ../src/engine/ControlSocket.cpp:91
+#, c-format
+msgid "File transfer failed after transferring %s in %s"
+msgstr "با مشکل مواجه شد %s - %s انتقال فایل پس از انتقال "
+
+#: ../src/engine/ControlSocket.cpp:101
+msgid "File transfer successful"
+msgstr "انتقال فایل با موفقیت انجام شد"
+
+#: ../src/engine/ControlSocket.cpp:82
+#, c-format
+msgid "File transfer successful, transferred %s in %s"
+msgstr "%s - %s انتقال فایل با موفقیت انجام شد"
+
+#: ../src/interface/Mainfrm.cpp:1252
+msgid "File transfers still in progress."
+msgstr "انتقال فایل در حال اجراست."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2774
+msgid "File would transfer with ASCII data type."
+msgstr "فایل با نوع داده ASCII انتقال می یابد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2779
+msgid "File would transfer with binary data type."
+msgstr "فایل با نوع داده باینری انتقال میابد."
+
+#: ../src/interface/FileZilla.cpp:471 ../src/interface/quickconnectbar.cpp:102
+msgid "FileZilla Error"
+msgstr "خطای FileZilla"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:353
+msgid ""
+"FileZilla can now test your configuration to ensure everything is configured "
+"properly."
+msgstr ""
+"FileZilla حالا میتواند جهت حصول اطمینان از خوب کار کردن سیستم , تنظیمات شما "
+"را بررسی کند."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3670
+msgid "FileZilla is already connected to a server."
+msgstr "FileZilla هم اکنون به سرویس دهنده وصل شده است."
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "FileZilla needs to be restarted for the language change to take effect."
+msgstr "برای تغییر زبان انتخاب شده FileZilla باید مجددا راه اندازی شود."
+
+#: ../src/interface/menu_bar.cpp:98
+msgid "Filelist status &bars"
+msgstr "نوار وضعیت لیست فایل ها&"
+
+#: ../src/interface/edithandler.cpp:1146
+#: ../src/interface/filter_conditions_dialog.cpp:101
+#: ../src/interface/LocalListView.cpp:283
+#: ../src/interface/RemoteListView.cpp:397 ../src/interface/search.cpp:160
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:35
+msgid "Filename"
+msgstr "نام فایل"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Filename invalid"
+msgstr "نام فایل نا معتبر"
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "Filename unchanged"
+msgstr "نام فایل تغییر نکرده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1907
+#: ../src/interface/resources/xrc/settings.xrc:1991
+msgid "Filename:"
+msgstr "نام فایل:"
+
+#: ../src/interface/file_utils.cpp:343
+msgid "Filenames may not contain any of the following characters: / * ? < > |"
+msgstr "باشد / * ? < > |نام فایل نباید شامل کاراکترهای"
+
+#: ../src/interface/file_utils.cpp:308
+msgid ""
+"Filenames may not contain any of the following characters: / \\ : * ? \" < > "
+"|"
+msgstr " باشد / \\ : * ? \" < > |نام فایل نباید شامل کاراکترهای "
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2198
+msgid "Files currently being edited"
+msgstr "فایل ها در حال حاضر در حال ویرایش می باشند"
+
+#: ../src/interface/filter_conditions_dialog.cpp:105
+#: ../src/interface/LocalListView.cpp:284
+#: ../src/interface/RemoteListView.cpp:398 ../src/interface/search.cpp:162
+msgid "Filesize"
+msgstr "حجم فایل"
+
+#: ../src/interface/settings/settingsdialog.cpp:110
+msgid "Filesize format"
+msgstr "قالب فایل"
+
+#: ../src/interface/LocalListView.cpp:285
+#: ../src/interface/RemoteListView.cpp:399 ../src/interface/search.cpp:163
+msgid "Filetype"
+msgstr "نوع فایل"
+
+#: ../src/interface/resources/xrc/settings.xrc:1883
+#: ../src/interface/settings/settingsdialog.cpp:114
+msgid "Filetype associations"
+msgstr "وابستگی فایل"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1532
+msgid "Filter applies to:"
+msgstr "فیلتر اشاره دارد به:"
+
+#: ../src/interface/resources/xrc/settings.xrc:981
+msgid "Filter invalid characters in filenames"
+msgstr "حروف غیر مجاز در نام فیلتر"
+
+#: ../src/interface/filteredit.cpp:155 ../src/interface/filteredit.cpp:220
+#: ../src/interface/filteredit.cpp:261 ../src/interface/filteredit.cpp:362
+msgid "Filter name already exists"
+msgstr "نام این فیلتر هم اکنون وجود دارد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1499
+msgid "Filter out items matching all of the following"
+msgstr "فیلتر کردن تمامی موارد مشابه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1500
+msgid "Filter out items matching any of the following"
+msgstr "فیلتر کردن هر موردی که شباهت دارد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1501
+msgid "Filter out items matching none of the following"
+msgstr "فیلتر کردن هیچکدام از موارد مشابه"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Filter set already exists"
+msgstr "مجموعه فیلتر وجود دارد"
+
+#: ../src/interface/toolbar.cpp:50
+msgid "Filter the directory listings"
+msgstr "فیلتر کردن فهرست"
+
+#: ../src/interface/filteredit.cpp:346 ../src/interface/filteredit.cpp:354
+#: ../src/interface/filteredit.cpp:362
+msgid "Filter validation failed"
+msgstr "تایید فیلتر با شکست مواجه شد"
+
+#: ../src/interface/resources/xrc/certificate.xrc:97
+msgid "Fingerprint (SHA-1):"
+msgstr ":(SHA-1)اثر انگشت"
+
+#: ../src/interface/netconfwizard.cpp:55
+msgid "Firewall and router configuration wizard"
+msgstr "جادوگر تنظیمات فایروال و مسیریاب"
+
+#: ../src/interface/resources/xrc/settings.xrc:71
+msgid ""
+"For more detailed information about what these options do, please run the "
+"network configuration wizard."
+msgstr ""
+"برای اطلاعات بیشتر در مورد نحوه کار این تنظیمات , جادوگر تنظیمات شبکه را "
+"اجرا کنید."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:313
+msgid "For reliability you should specify a range of at least 10 ports."
+msgstr "برای قابلیت اعتماد بیشتر ,شما باید حداقل محدوده 10 درگاه را مشخص کنید."
+
+#: ../src/interface/Options.cpp:252
+msgid ""
+"For this session the default settings will be used. Any changes to the "
+"settings will not be saved."
+msgstr ""
+"برای این نشست از تنظیمات پیشفرض استفاده می شود. هرگونه تغییر در تنظیمات "
+"ذخیره نخواهد شد."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:692
+msgid "Force &UTF-8"
+msgstr "&UTF-8 اعمال اجباری "
+
+#: ../src/interface/menu_bar.cpp:148
+msgid "Force showing &hidden files"
+msgstr "فایل های &مخفی حتما نمایش داده شود"
+
+#: ../src/interface/Mainfrm.cpp:716
+msgid "Force showing hidden files"
+msgstr "فایل های مخفی حتما نمایش داده شود"
+
+#: ../src/interface/resources/xrc/settings.xrc:494
+msgid "Format specifications:"
+msgstr "خصوصیات قالب:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1866
+msgid "Format: Extension followed by properly quoted command and arguments."
+msgstr "ساختار: پسوند فایل و برنامه وابسته آن را به صورت زیر وارد کنید."
+
+#: ../src/interface/welcome_dialog.cpp:106
+msgid "Further documentation"
+msgstr "مستندات بیشتر"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:134
+msgid "General"
+msgstr "عمومی"
+
+#: ../src/interface/resources/xrc/settings.xrc:707
+#: ../src/interface/settings/settingsdialog.cpp:102
+msgid "Generic proxy"
+msgstr "پروکسی عمومی"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:218
+msgid "Get external IP address from the following URL:"
+msgstr "آدرس IP خارجی را از URL مقابل دریافت کن:"
+
+#: ../src/interface/welcome_dialog.cpp:91
+msgid "Getting help"
+msgstr "دریافت کمک"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Given filterset name already exists, overwrite filter set?"
+msgstr "مجموعه فیلتر داده شده وجود دارد ، آیا میخواهید بازنویسی شود؟"
+
+#: ../src/interface/bookmarks_dialog.cpp:258
+msgid "Global bookmarks"
+msgstr "لیست علاقمندی های عمومی"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:621
+msgid "Group permissions"
+msgstr "مجوزهای گروه"
+
+#: ../src/interface/QueueView.cpp:1825
+msgid "H&igh"
+msgstr "با&لا"
+
+#: ../src/interface/filter_conditions_dialog.cpp:80
+msgid "Hidden"
+msgstr "مخفی"
+
+#: ../src/interface/resources/xrc/settings.xrc:964
+#: ../src/interface/queue.cpp:997 ../src/interface/queue.cpp:1059
+msgid "High"
+msgstr "بالا"
+
+#: ../src/interface/queue.cpp:999 ../src/interface/queue.cpp:1061
+msgid "Highest"
+msgstr "بالاترین"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:75
+msgid "Highest available port has to be a number between 1024 and 65535."
+msgstr "شماره بالاترین درگاه در دسترس باید عددی بین 1024 و 65535 باشد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1353
+msgid ""
+"Hold the shift key to toggle the filter state on both sides simultaneously."
+msgstr "برای نمایش فیلتر ها در هردوطرف بصورت همزمان کلید شیفت را نگه دارید."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:803
+msgid "Homepage:"
+msgstr "صفحه خانگی:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1116
+msgid "Host key mismatch"
+msgstr "کلید میزبان ناسازگار است"
+
+#: ../src/interface/serverdata.cpp:223
+msgid "Host starts with '[' but no closing bracket found."
+msgstr "میزبان اتصال را با ']' شروع کرده اما براکت پایانی یافت نشده است."
+
+#: ../src/engine/proxy.cpp:446
+msgid "Host unreachable"
+msgstr "میزبان در دسترس نیست"
+
+#: ../src/interface/resources/xrc/certificate.xrc:179
+#: ../src/interface/resources/xrc/dialogs.xrc:284
+#: ../src/interface/resources/xrc/dialogs.xrc:420
+#: ../src/interface/resources/xrc/dialogs.xrc:1040
+#: ../src/interface/resources/xrc/dialogs.xrc:1161
+#: ../src/interface/verifycertdialog.cpp:740
+msgid "Host:"
+msgstr "میزبان:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:568
+msgid "Hours,"
+msgstr ",ساعت"
+
+#: ../src/interface/resources/xrc/settings.xrc:1409
+msgid "I&SO 8601 (example: 15:47)"
+msgstr "I&SO 8601 (مثال: 15:47)"
+
+#: ../src/interface/resources/xrc/settings.xrc:118
+msgid ""
+"If no data is sent or received during an operation for longer than the "
+"specified time, the connection will be closed and FileZilla will try to "
+"reconnect."
+msgstr ""
+"اگر هیچ اطلاعاتی در زمان تعین شده دریافت یا ارسال نگردید , ارتباط قطع شده و "
+"FileZilla تلاش می کند تا آن را دوباره برقرار کند."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:139
+msgid ""
+"If the automatic test at the end of this wizard succeeds, but you cannot "
+"transfer files to a particular server, the server might be misconfigured and "
+"you should try active mode. You can set the transfer mode on a per-server "
+"basis in the Site Manager."
+msgstr ""
+"اگر در پایان مراحل تست خودکار همه چیز با موفقیت انجام شد ولی شما نمیتوانید "
+"به سرویس دهنده دسترسی داشته باشید, ممکن است سرویس دهنده دارای تنظیمات نادرست "
+"باشد و بهتر است از حالت فعال جهت اتصال استفاده کنید. شما می توانید در بخش "
+"مدیریت سایت ها حالت انتقال را به per-server قرار دهید."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:95
+msgid ""
+"If the fallback option is enabled, you will be able to connect to "
+"misconfigured servers which reject the selected transfer mode."
+msgstr ""
+"اگر امکان بازگشت به عقب فعال باشد ,شما قادر خواهید بود به سرویس دهنده ای که "
+"دارای تنظیمات بد میباشد و حالت انتقال را نمی پذیرد متصل شوید."
+
+#: ../src/interface/netconfwizard.cpp:573
+msgid ""
+"If the problem persists, some router and/or firewall keeps blocking "
+"FileZilla."
+msgstr ""
+"اگر مشکل همچنان ادامه داشت، ممکن است ﻣﺴﯿﺮیاب یا فایروال FileZila را مسدود "
+"کرده باشند."
+
+#: ../src/interface/netconfwizard.cpp:582
+msgid ""
+"If the problem persists, some router and/or firewall keeps interrupting the "
+"connection."
+msgstr ""
+"اگر مشکل همچنان ادامه داشت، ممکن است ﻣﺴﯿﺮیاب یا فایروال اتصال را قطع کرده "
+"باشند."
+
+#: ../src/interface/resources/xrc/settings.xrc:2046
+msgid ""
+"If the size of the logfile reaches the limit, it gets renamed by adding "
+"\".1\" to the end of the filename (possibly overwriting older logfiles) and "
+"a new file gets created."
+msgstr ""
+"چنانچه حجم فايل ثبت گزارش از حدود خود تجاوز کرد، يک \".1\" به انتهاي آن "
+"اضافه و فايل جديد ساخته مي شود."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3595
+msgid ""
+"If the symlink points to a directory, FileZilla can either delete the "
+"symbolic link or remove the contents of the linked directory."
+msgstr ""
+"چنانچه يک پيوند به يک پوشه اشاره دارد، FileZilla ميتواند يا پيوند را حذف کند "
+"و يا محتواي پوشه پيوند داده شده را."
+
+#: ../src/interface/netconfwizard.cpp:644
+msgid ""
+"If this problem persists, please contact your router or firewall "
+"manufacturer for a solution."
+msgstr ""
+"لطفا چنانچه با مشکلي برخورد کرديد، با پشتيباني روتر و يا فايروال خود تماس "
+"بگيريد."
+
+#: ../src/interface/netconfwizard.cpp:602
+msgid "If this problem stays, please contact your router manufacturer."
+msgstr "چنانچه مشکل همچنان پابرجاست، با پشتيباني روتر خود تماس بگيريد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:358
+msgid ""
+"If you click on test, FileZilla will connect to probe.filezilla-project.org "
+"and will perform some simple tests."
+msgstr ""
+"چنانچه برروي گزينه آزمايش کليک کنيد، FileZilla با اتصال به probe.filezilla-"
+"project.org برخي آزمايشات را انجام خواهد داد."
+
+#: ../src/interface/Mainfrm.cpp:1275
+msgid "If you close FileZilla, your changes will be lost."
+msgstr "چنانچه FileZilla را ببنديد، تغييرات شما ثبت نخواهند شد."
+
+#: ../src/interface/resources/xrc/settings.xrc:1128
+msgid ""
+"If you enter the wrong filetypes, those files may get corrupted when "
+"transferred."
+msgstr ""
+"چنانچه نوع فايل را اشتباه وارد کنيد، ممکن است فايل هايي از آن دست در هنگام "
+"انتقال دچار اشکال شوند."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:365
+msgid "If you get any errors, your configuration is not correct."
+msgstr ""
+"چنانچه هر نوع خطايي دريافت مي کنيد، بدين معني است که تنظيمات شما صحيح نيست."
+
+#: ../src/interface/resources/xrc/settings.xrc:219
+msgid ""
+"If you have problems to retrieve directory listings or to transfer files, "
+"try to change the default transfer mode."
+msgstr ""
+"چنانچه در بازيابي ليست پوشه ها و يا انتقال فايل ها مشکلي داريد، سعي کنيد حال "
+"پيشفرض انتقال را تغيير دهيد."
+
+#: ../src/interface/netconfwizard.cpp:589
+msgid ""
+"If you keep having problems with a specific server, the server itself or a "
+"remote router or firewall might be misconfigured. In this case try to toggle "
+"passive mode and contact the server administrator for help."
+msgstr ""
+"چنانچه مشکلات شما با سرور تعيين شده ادامه پيدا کرد، بايد که فايروال، روتر "
+"راه دور و يا خود سرور به اشتباه تنظيم شده باشند. در اين حالت سعي کنيد به "
+"حالت غیرفعال برويد و جهت کمک با مدير سرور تماس حاصل کنيد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:24
+msgid ""
+"If you successfully complete the wizard and the final test succeeds, any "
+"firewalls and routers you have should be configured properly."
+msgstr ""
+"چنانچه مراحل ويزارد را با موفقيت به پايان رسانديد و آزمايش نهايي هم موفقيت "
+"آميز بود، هر نوع فايروال و روتر شما نيز بايد دقيقا تنظيم شود."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:323
+msgid ""
+"If you use a firewall, make sure FileZilla is allowed to accept connection "
+"on all given ports."
+msgstr ""
+"اگر از فايروال استفاده مي کنيد، اطمينان حاصل کنيد که FileZilla براي برقراري "
+"ارتباط از همه پورت ها مجاز شناخته شده باشد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:318
+msgid ""
+"If you use a router, make sure all these ports are forwarded to the machine "
+"you're running FileZilla on."
+msgstr ""
+"چنانچه از يک روتر استفاده ميکنيد، اطمينان حاصل کنيد تمام اين پورتها به "
+"ماشيني که FileZilla بر روي آن اجرا شده است ارسال (Forward) شده باشند."
+
+#: ../src/interface/netconfwizard.cpp:615
+msgid ""
+"If your router keeps changing the IP address, please contact your router "
+"manufacturer."
+msgstr "اگر روتر شما IP را تغيير م يدهد، با پشتيباني روتر خود تماس بگيريد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1825
+msgid "Import settings"
+msgstr "ايمپورت تنظيمات"
+
+#: ../src/interface/import.cpp:83 ../src/interface/import.cpp:90
+msgid "Import successful"
+msgstr "ايمپورت موفقيت آميز بود"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:49
+#: ../src/interface/settings/optionspage_edit_associations.cpp:56
+msgid "Improperly quoted association."
+msgstr "نقل قول ناصحيح در رشته."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:266
+msgid ""
+"In active mode, FileZilla has to listen on a port for data transfers. You "
+"have to specify which ports FileZilla will use."
+msgstr ""
+"در حالت Active، FileZilla بايد جهت انتقال اطلاعات به يک پورت گوش دهد. شما "
+"بايد مشخص کنيد که آن پورت کدام است."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:276
+msgid ""
+"In case you have a router, you will have to forward all available ports, as "
+"FileZilla has no influence on the ports your system chooses."
+msgstr ""
+"در حالتي که شما از روتر استفاده مي کنيد، بايد تمام پورت هاي فعال را ارسال "
+"(Forward) کنيد، به مانند اينکه FileZilla هيچ تاثيري بر پورتهاي انتخاب شده "
+"سيستم شما ندارد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:168
+#: ../src/interface/resources/xrc/settings.xrc:337
+msgid ""
+"In order to use active mode, FileZilla needs to know your external IP "
+"address."
+msgstr ""
+"براي استفاده از حالت فعال ، FileZilla بايد آدرس IP خارجي شما را شناسايي کند."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:52
+msgid ""
+"In passive mode, which is recommended for most users, FileZilla asks the "
+"server for a port and connects to the given port. Not much configuration has "
+"to be done for this."
+msgstr ""
+"در حالت غیرفعال، که براي بيشتر کاربران پيشنهاد شده است، FileZilla از سرور "
+"درخواست يک پورت مي کند و به آن متصل مي شود. در اين حالت تنظيمات بيشتري نياز "
+"نيست."
+
+#: ../src/interface/queue.cpp:349
+msgid "Incorrect password"
+msgstr "گذرواژه ناصحيح است"
+
+#: ../src/engine/ftp/logon.cpp:261
+msgid "Initializing TLS..."
+msgstr "در حال مقدار دهي TLS..."
+
+#: ../src/engine/server.cpp:714 ../src/engine/server.cpp:738
+#: ../src/interface/manual_transfer.cpp:182
+msgid "Interactive"
+msgstr "تعاملي"
+
+#: ../src/interface/settings/settingsdialog.cpp:106
+msgid "Interface"
+msgstr "رابط"
+
+#: ../src/engine/ControlSocket.cpp:207 ../src/interface/queue.cpp:355
+msgid "Interrupted by user"
+msgstr "توسط کابر قطع شد"
+
+#: ../src/engine/http/request.cpp:159 ../src/engine/http/request.cpp:575
+msgid "Invalid Content-Length"
+msgstr "طول محتوا نا صحيح است"
+
+#: ../src/engine/http/request.cpp:481
+msgid "Invalid HTTP Response"
+msgstr "پاسخ HTTP نا صحيح است"
+
+#: ../src/engine/ControlSocket.cpp:454
+msgid ""
+"Invalid character sequence received, disabling UTF-8. Select UTF-8 option in "
+"site manager to force UTF-8."
+msgstr ""
+"دريافت رشته هاي ناصحيح به طور متوالي، استاندارد UTF-8 را غير فعال مي کند. به "
+"منظور الزام برنامه جهت استفاده از UTF-8 اين گزينه را در بخش مديريت سايت ها "
+"انتخاب کنيد."
+
+#: ../src/engine/http/request.cpp:698
+msgid "Invalid chunk size"
+msgstr "سايز قطعه صحيح نيست"
+
+#: ../src/interface/netconfwizard.cpp:371
+#: ../src/interface/netconfwizard.cpp:380
+#: ../src/interface/netconfwizard.cpp:388
+#: ../src/interface/netconfwizard.cpp:405
+msgid "Invalid data received"
+msgstr "اطلاعات دريافت شده ناصحيح است"
+
+#: ../src/interface/verifycertdialog.cpp:379
+#: ../src/interface/verifycertdialog.cpp:395
+msgid "Invalid date"
+msgstr "تاريخ صحيح نيست"
+
+#: ../src/interface/file_utils.cpp:308 ../src/interface/file_utils.cpp:343
+msgid "Invalid filename"
+msgstr "نام فايل صحيح نيست"
+
+#: ../src/interface/serverdata.cpp:228
+msgid "Invalid host, after closing bracket only colon and port may follow."
+msgstr ""
+"هاست ناصحيح است، بعد از بسته شدن پرانتز فقط مي توان از : و شماره پورت "
+"استفاده کرد."
+
+#: ../src/interface/asksavepassworddialog.cpp:41
+#: ../src/interface/asksavepassworddialog.cpp:46
+#: ../src/interface/loginmanager.cpp:111 ../src/interface/loginmanager.cpp:116
+#: ../src/interface/loginmanager.cpp:209 ../src/interface/loginmanager.cpp:311
+msgid "Invalid input"
+msgstr "ورودي ناصحيح است"
+
+#: ../src/interface/serverdata.cpp:138 ../src/interface/serverdata.cpp:256
+msgid "Invalid port given. The port has to be a value from 1 to 65535."
+msgstr "شماره پورت داده شده ناصحيح است. اين عدد بايد بين 1 تا 65535 باشد."
+
+#: ../src/engine/http/request.cpp:490
+msgid "Invalid response code"
+msgstr "کد ناصحيح"
+
+#: ../src/interface/search.cpp:741
+#, c-format
+msgid "Invalid search conditions: %s"
+msgstr "شرط جستجو نا صحيح است: %s"
+
+#: ../src/interface/sitemanager.cpp:651 ../src/interface/sitemanager.cpp:657
+#: ../src/interface/sitemanager.cpp:739 ../src/interface/sitemanager.cpp:745
+msgid "Invalid site path"
+msgstr "مسير سايت نا صحيح است"
+
+#: ../src/interface/filter_conditions_dialog.cpp:507
+msgid "Invalid size in condition"
+msgstr "شرط که براي سايز تعيين شده نا صحيح است"
+
+#: ../src/interface/serverdata.cpp:204
+msgid "Invalid username given."
+msgstr "نام کاربري داده شده صحيح نيست."
+
+#: ../src/interface/verifycertdialog.cpp:655
+msgid "Jurisdiction country:"
+msgstr "کشور محل محاکمه :"
+
+#: ../src/interface/verifycertdialog.cpp:657
+msgid "Jurisdiction locality:"
+msgstr "موقعيت قضايي :"
+
+#: ../src/interface/resources/xrc/settings.xrc:1592
+msgid "Keep directories on top"
+msgstr "پوشه ها را در بالا نگه دار"
+
+#: ../src/interface/Mainfrm.cpp:720
+msgid ""
+"Keep in mind that not all servers support this feature and may return "
+"incorrect listings if this option is enabled. Although FileZilla performs "
+"some tests to check if the server supports this feature, the test may fail."
+msgstr ""
+"به خاطر بسپاريد که همه سرور ها اين امکان را پشتيباني نمي کنند و در صورتي که "
+"اين گزينه فعال بايد ممکن است ليست نا صحيحي را نمايش دهند. هرچند FileZilla "
+"بررسي هايي را براي اين منظور انجام مي دهد، اما ممکن است نتايج اين بررسي ها "
+"موفق نباشد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2210
+msgid "Key exchange"
+msgstr "تبادل کليد"
+
+#: ../src/interface/QueueView.cpp:1828
+msgid "L&owest"
+msgstr "پ&ايين ترين"
+
+#: ../src/interface/resources/xrc/settings.xrc:1721
+#: ../src/interface/settings/settingsdialog.cpp:112
+msgid "Language"
+msgstr "زبان"
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "Language changed"
+msgstr "زبان تغيير يافت"
+
+#: ../src/interface/LocalListView.cpp:286
+#: ../src/interface/RemoteListView.cpp:400 ../src/interface/search.cpp:164
+msgid "Last modified"
+msgstr "آخرين ويرايش"
+
+#: ../src/interface/settings/optionspage_interface.cpp:118
+msgid "Layout"
+msgstr "طرح بندي"
+
+#: ../src/interface/resources/xrc/settings.xrc:844
+msgid "Limit for concurrent &downloads:"
+msgstr "محدوديت براي &دانلود هاي جاري"
+
+#: ../src/interface/resources/xrc/settings.xrc:865
+msgid "Limit for concurrent &uploads:"
+msgstr "محدوديت براي &آپلودهاي جاري"
+
+#: ../src/interface/resources/xrc/settings.xrc:265
+msgid "Limit local ports"
+msgstr "محدود کردن پورت هاي محلی"
+
+#: ../src/interface/resources/xrc/settings.xrc:2015
+msgid "Limit size of logfile"
+msgstr "محدود کردن اندازه فايل گزارش"
+
+#: ../src/interface/resources/xrc/settings.xrc:2023
+msgid "Limit:"
+msgstr "محدود کردن :"
+
+#: ../src/engine/http/request.cpp:652
+msgid "Line length exceeded"
+msgstr "طول خطوط بيش از حد مجاز است"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:918
+msgid "Linked against"
+msgstr "پيوند مخالف داده شده"
+
+#: ../src/interface/netconfwizard.cpp:276
+msgid "Listen socket closed"
+msgstr "سوکت شنونده بسته شده"
+
+#: ../src/engine/logging.cpp:137 ../src/interface/StatusView.cpp:303
+#: ../src/interface/StatusView.cpp:388
+msgid "Listing:"
+msgstr "در حال شنيدن :"
+
+#: ../src/interface/resources/xrc/settings.xrc:295
+msgid "Lo&west available port:"
+msgstr "پا&يين ترين پورت قابل استفاده :"
+
+#: ../src/interface/edithandler.cpp:1194 ../src/interface/edithandler.cpp:1438
+msgid "Local"
+msgstr "محلی"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2487
+msgid "Local file"
+msgstr "فايل محلی"
+
+#: ../src/interface/manual_transfer.cpp:304
+msgid "Local file does not exist."
+msgstr "فايل محلی وجود ندارد."
+
+#: ../src/interface/manual_transfer.cpp:300
+msgid "Local file is a directory instead of a regular file."
+msgstr "فايل محلي به جاي آنکه يک فايل متعارف باشد يک پوشه است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1281
+msgid "Local filters:"
+msgstr "فيلترهاي محلی :"
+
+#: ../src/interface/viewheader.cpp:337
+msgid "Local site:"
+msgstr "کامپیوتر محلی :"
+
+#: ../src/interface/verifycertdialog.cpp:648
+msgid "Locality:"
+msgstr "موقعيت :"
+
+#: ../src/interface/settings/optionspage_logging.cpp:97
+msgid "Log file"
+msgstr "فايل گزارش"
+
+#: ../src/interface/resources/xrc/settings.xrc:1969
+#: ../src/interface/settings/settingsdialog.cpp:120
+msgid "Logging"
+msgstr "ثبت گزارش"
+
+#: ../src/engine/ftp/logon.cpp:306
+msgid ""
+"Login data contains non-ASCII characters and server might not be UTF-8 "
+"aware. Cannot fall back to local charset since using proxy."
+msgstr ""
+"اطلاعات تعيين اعتبار شامل برخي کاراکتر هاي غير ASCII مي باشد و ممکن است سرور "
+"در مورد UTF-8 آگاه نباشد. تا زماني که از پروکسي استفاده مي شود امکان بازيابي "
+"کاراکتر ها به صورت محلی آنها وجود ندارد."
+
+#: ../src/engine/ftp/logon.cpp:313
+msgid ""
+"Login data contains non-ASCII characters and server might not be UTF-8 "
+"aware. Trying local charset."
+msgstr ""
+"اطلاعات تعيين اعتبار شامل برخي کاراکتر هاي غير ASCII مي باشد و ممکن است سرور "
+"در مورد UTF-8 آگاه نباشد. از کارکترهاي محلی استفاده مي شود."
+
+#: ../src/interface/cmdline.cpp:105
+msgid "Logontype has to be either 'ask' or 'interactive' (without the quotes)."
+msgstr ""
+"نوع تعيين اعتبار بايد يکي از دو گزينه 'ask' يا 'interactive' باشد. (بدون "
+"علامت نقل قول)"
+
+#: ../src/interface/cmdline.cpp:11
+#, c-format
+msgid ""
+"Logontype, can only be used together with FTP URL. Argument has to be either "
+"'%s' or '%s'"
+msgstr ""
+"نوع تعيين اعتبار، تنها مي تواند با آدرس هاي FTP استفاده شود. پارامتر بايد "
+"يکي از گيزينه هاي '%s' يا '%s' باشد."
+
+#: ../src/interface/queue.cpp:992 ../src/interface/queue.cpp:1054
+msgid "Low"
+msgstr "کم"
+
+#: ../src/interface/queue.cpp:990 ../src/interface/queue.cpp:1052
+msgid "Lowest"
+msgstr "کم ترين"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:69
+msgid "Lowest available port has to be a number between 1024 and 65535."
+msgstr "کمترين پورت قابل استفاده بايد عددي بين 1024 و 65535 باشد."
+
+#: ../src/interface/resources/xrc/certificate.xrc:232
+msgid "MAC:"
+msgstr "MAC:"
+
+#: ../src/interface/xmlfunctions.cpp:41
+msgid "Make sure the file can be accessed and is a well-formed XML document."
+msgstr ""
+"اطمينان حاصل کنيد که فايل قابل دسترسي است و بر اساس استانداردهاي XML باشد."
+
+#: ../src/engine/http/request.cpp:639 ../src/engine/http/request.cpp:645
+#: ../src/engine/http/request.cpp:652 ../src/engine/http/request.cpp:663
+#: ../src/engine/http/request.cpp:698
+#, c-format
+msgid "Malformed chunk data: %s"
+msgstr "حجم انبوهي از اطلاعات ناهنجار : %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2829
+#: ../src/interface/manual_transfer.cpp:288
+#: ../src/interface/manual_transfer.cpp:294
+#: ../src/interface/manual_transfer.cpp:300
+#: ../src/interface/manual_transfer.cpp:304
+#: ../src/interface/manual_transfer.cpp:311
+#: ../src/interface/manual_transfer.cpp:317
+#: ../src/interface/manual_transfer.cpp:323
+#: ../src/interface/manual_transfer.cpp:331
+msgid "Manual transfer"
+msgstr "انتقال دستي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3306
+msgid "Match all of the following"
+msgstr "تمامي نمونه ها اين چنيني را مطابقت بده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3307
+msgid "Match any of the following"
+msgstr "هيچ يک از نمونه هاي اينچنيني را مطابقت نده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3308
+msgid "Match none of the following"
+msgstr "هيچ يک از نمونه هاي اينچنيني را مطابقت نده"
+
+#: ../src/interface/resources/xrc/settings.xrc:823
+msgid "Maximum simultaneous &transfers:"
+msgstr "نهايت &همزماني در انتقال:"
+
+#: ../src/interface/Mainfrm.cpp:432 ../src/interface/Mainfrm.cpp:1893
+msgid "Message log"
+msgstr "وقايع مربوط به پبام ها"
+
+#: ../src/interface/resources/xrc/settings.xrc:2035
+msgid "MiB"
+msgstr "MiB"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:584
+msgid "Minutes"
+msgstr "دقيقه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2402
+msgid "Move &down"
+msgstr "حرکت به &پايين"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2396
+msgid "Move &up"
+msgstr "حرکت به &بالا"
+
+#: ../src/interface/LocalTreeView.cpp:1036
+msgid "My Computer"
+msgstr "My Computer"
+
+#: ../src/interface/LocalTreeView.cpp:1027
+msgid "My Documents"
+msgstr "My Documents"
+
+#: ../src/interface/sitemanager.cpp:287
+#: ../src/interface/sitemanager_dialog.cpp:664
+#: ../src/interface/sitemanager_dialog.cpp:667
+msgid "My Sites"
+msgstr "سايتهاي من"
+
+#: ../src/interface/settings/optionspage_themes.cpp:197
+#: ../src/interface/settings/optionspage_themes.cpp:200
+msgid "N/a"
+msgstr "N/a"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2867
+msgid "Name"
+msgstr "نام"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Name already exists"
+msgstr "اين نام وجود دارد"
+
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+msgid "Name of bookmark already exists."
+msgstr "یک نشانه گذاری با این نام موجود است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:276
+#: ../src/interface/resources/xrc/dialogs.xrc:412
+#: ../src/interface/verifycertdialog.cpp:654
+msgid "Name:"
+msgstr "نام :"
+
+#: ../src/interface/filteredit.cpp:354
+msgid "Need to enter filter name"
+msgstr "بايد که نام فيلتر را وارد کنيد"
+
+#: ../src/interface/search.cpp:731
+msgid "Need to enter valid remote path"
+msgstr "بايد که مسير راه دور را به شکل صحيح وارد کنيد"
+
+#: ../src/interface/sitemanager_site.cpp:555
+msgid "Need to specify a character encoding"
+msgstr "بايد که نوع کد گذاري کارکتر ها را تعيين کنيد"
+
+#: ../src/engine/proxy.cpp:443 ../src/engine/socket_errors.cpp:52
+msgid "Network unreachable"
+msgstr "شبکه قابل دسترس نيست"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:41
+msgid "New &Folder"
+msgstr "&پوشه جديد"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "New &tab"
+msgstr "&سربرگ جديد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3074
+#: ../src/interface/resources/xrc/sitemanager.xrc:47
+msgid "New Book&mark"
+msgstr "&نشانه گذاری جديد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2832
+#: ../src/interface/bookmarks_dialog.cpp:60
+#: ../src/interface/bookmarks_dialog.cpp:73
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:97
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:111
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/bookmarks_dialog.cpp:567
+#: ../src/interface/bookmarks_dialog.cpp:573
+#: ../src/interface/bookmarks_dialog.cpp:579
+#: ../src/interface/bookmarks_dialog.cpp:600
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+#: ../src/interface/sitemanager_dialog.cpp:1744
+msgid "New bookmark"
+msgstr "نشانه گذاری جديد"
+
+#: ../src/interface/LocalTreeView.cpp:1228
+#: ../src/interface/RemoteListView.cpp:1407
+#: ../src/interface/RemoteTreeView.cpp:1326
+msgid "New directory"
+msgstr "پوشه جديد"
+
+#: ../src/interface/welcome_dialog.cpp:86
+#, c-format
+msgid "New features and improvements in %s"
+msgstr "امکانات و بهينه سازي هايي در %s"
+
+#: ../src/interface/filteredit.cpp:137
+msgid "New filter"
+msgstr "فيلتر جديد"
+
+#: ../src/interface/sitemanager_dialog.cpp:850
+msgid "New folder"
+msgstr "پوشه جديد"
+
+#: ../src/interface/sitemanager.cpp:550 ../src/interface/sitemanager.cpp:564
+#: ../src/interface/sitemanager_dialog.cpp:1716
+msgid "New site"
+msgstr "سايت جديد"
+
+#: ../src/interface/settings/optionspage_interface.cpp:136
+msgid "Next to the transfer queue"
+msgstr "بعد از صف انتقال"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:395
+msgid "No"
+msgstr "خير"
+
+#: ../src/interface/export.cpp:30
+msgid "No category to export selected"
+msgstr "هيچ دسته ايي جهت اکسپورت انتخاب نشده است"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "No command given, aborting."
+msgstr "هيچ دشتوري داره نشده است، در حال لغو."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:635
+msgid "No external IP address set, trying default."
+msgstr "هيچ آدرس IP خارجي معين نشده است، در حال آزمايش آدرس پيشفرض."
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "No files are currently being edited."
+msgstr "اخيرا هيچ فايلي ويرايش نشده است."
+
+#: ../src/interface/filteredit.cpp:150
+msgid "No filter name given"
+msgstr "نام فيلتر مشخص نشده است"
+
+#: ../src/interface/serverdata.cpp:152 ../src/interface/serverdata.cpp:242
+#: ../src/interface/serverdata.cpp:263
+msgid "No host given, please enter a host."
+msgstr "هيچ هاستي مشخص نشده است، لطفا هاست را وارد کنيد."
+
+#: ../src/interface/settings/optionspage_themes.cpp:94
+msgid "No images available"
+msgstr "هيچ تصويري موجود نيست"
+
+#: ../src/interface/filter.cpp:269 ../src/interface/filter.cpp:339
+msgid "No name for the filterset given."
+msgstr "هيچ نامي براي دسته فيلتر ها تعيين داده نشده است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3241
+msgid "No program associated with filetype"
+msgstr "براي اين نوع فايل هيچ برنامه ايي در نظر گرفته نشده است"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3158
+#, c-format
+msgid "No program has been associated to edit files with the extension '%s'."
+msgstr "هيچ برنامه ايي براي ويرايش فايل هايي با پسوند '%s' تعيين نشده است."
+
+#: ../src/interface/search.cpp:445
+msgid "No search results"
+msgstr "جستجو نتيجه ايي نداشت"
+
+#: ../src/interface/sitemanager.cpp:297
+msgid "No sites available"
+msgstr "هيچ سايتي موجود نيست"
+
+#: ../src/engine/proxy.cpp:403
+msgid "No supported SOCKS5 auth method"
+msgstr "SOCKS5 پشتيباني نمي شود"
+
+#: ../src/interface/loginmanager.cpp:209
+msgid "No username given."
+msgstr "نام کاربري مشخص نشده است."
+
+#: ../src/interface/resources/xrc/settings.xrc:1683
+#: ../src/interface/resources/xrc/settings.xrc:1702
+#: ../src/interface/sitemanager.cpp:20
+#: ../src/interface/verifycertdialog.cpp:402
+msgid "None"
+msgstr "هيچ کدام"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2603
+msgid "None selected yet"
+msgstr "هنوز هيچ يک انتخاب نشده اند"
+
+#: ../src/interface/resources/xrc/settings.xrc:963 ../src/engine/server.cpp:705
+#: ../src/engine/server.cpp:732 ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:176
+#: ../src/interface/manual_transfer.cpp:535 ../src/interface/queue.cpp:995
+#: ../src/interface/queue.cpp:1057
+msgid "Normal"
+msgstr "عادي"
+
+#: ../src/interface/state.cpp:218 ../src/interface/state.cpp:1414
+msgid "Not connected"
+msgstr "اتصال برقرار نيست"
+
+#: ../src/interface/RemoteListView.cpp:2227
+msgid "Not connected to any server"
+msgstr "به هيچ سروري متصل نيست"
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Not connected to any server."
+msgstr "به هيچ سروري متصل نيست."
+
+#: ../src/interface/Mainfrm.cpp:718
+msgid "Note that this feature is only supported using the FTP protocol."
+msgstr "توجه کنيد که اين ويژگي تنها توسط پروتکل FTP پشتيباني مي شود."
+
+#: ../src/interface/resources/xrc/settings.xrc:596
+msgid "Note: This only works with plain, unencrypted FTP connections."
+msgstr ""
+"نکته : اين مورد تنها براي ارتباط هاي FTP که کدگذاري نشده باشند عمل مي کند."
+
+#: ../src/interface/resources/xrc/settings.xrc:795
+msgid "Note: Using a generic proxy forces passive mode on FTP connections."
+msgstr ""
+"نکته : استفاده از پروکسي ارتباط FTP را اجبارا به حالت غیرفعال خواهد برد."
+
+#: ../src/interface/resources/xrc/settings.xrc:1496
+msgid "Number of decimal places:"
+msgstr "تعداد رقم ها ده دهي :"
+
+#: ../src/interface/settings/optionspage_connection.cpp:35
+msgid "Number of retries has to be between 0 and 99."
+msgstr "تعداد سعي هاي مجدد بايد بين 0 و 99 باشد."
+
+#: ../src/interface/resources/xrc/certificate.xrc:282
+#: ../src/interface/resources/xrc/dialogs.xrc:233
+#: ../src/interface/resources/xrc/dialogs.xrc:559
+#: ../src/interface/resources/xrc/dialogs.xrc:751
+#: ../src/interface/resources/xrc/dialogs.xrc:994
+#: ../src/interface/resources/xrc/dialogs.xrc:1100
+#: ../src/interface/resources/xrc/dialogs.xrc:1221
+#: ../src/interface/resources/xrc/dialogs.xrc:1380
+#: ../src/interface/resources/xrc/dialogs.xrc:1569
+#: ../src/interface/resources/xrc/dialogs.xrc:1676
+#: ../src/interface/resources/xrc/dialogs.xrc:1747
+#: ../src/interface/resources/xrc/dialogs.xrc:1805
+#: ../src/interface/resources/xrc/dialogs.xrc:1870
+#: ../src/interface/resources/xrc/dialogs.xrc:2044
+#: ../src/interface/resources/xrc/dialogs.xrc:2181
+#: ../src/interface/resources/xrc/dialogs.xrc:2353
+#: ../src/interface/resources/xrc/dialogs.xrc:2428
+#: ../src/interface/resources/xrc/dialogs.xrc:2811
+#: ../src/interface/resources/xrc/dialogs.xrc:2966
+#: ../src/interface/resources/xrc/dialogs.xrc:3224
+#: ../src/interface/resources/xrc/dialogs.xrc:3464
+#: ../src/interface/resources/xrc/dialogs.xrc:3559
+#: ../src/interface/resources/xrc/dialogs.xrc:3628
+#: ../src/interface/resources/xrc/dialogs.xrc:3803
+#: ../src/interface/resources/xrc/dialogs.xrc:3905
+#: ../src/interface/resources/xrc/dialogs.xrc:4039
+#: ../src/interface/resources/xrc/inputdialog.xrc:34
+#: ../src/interface/resources/xrc/settings.xrc:28
+#: ../src/interface/resources/xrc/storj.xrc:37
+#: ../src/interface/welcome_dialog.cpp:114
+msgid "OK"
+msgstr "تاييد"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:103
+msgid ""
+"On the following pages, the selected transfer mode will be configured, as "
+"well as the fallback mode if enabled."
+msgstr ""
+"در صفحه بعد، چنانچه حالت انتقال انتخاب و فعال شده باشد ، حالت انتقال انتخاب "
+"شده قابل تنظیم خواهد بود."
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:405
+msgid "Once"
+msgstr "يک بار"
+
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "Open directory in system's file manager"
+msgstr "پوشه را در بخش مديريت فايل ها باز کن"
+
+#: ../src/interface/toolbar.cpp:31 ../src/interface/toolbar.cpp:33
+msgid "Open the Site Manager"
+msgstr "مديريت سايت"
+
+#: ../src/interface/LocalListView.cpp:793
+msgid "Open the file."
+msgstr "فايل را باز کن."
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "Open the settings dialog of FileZilla"
+msgstr "پنجره تنظيمات FileZilla را باز کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1917
+msgid "Opened as:"
+msgstr "باز کن مانند :"
+
+#: ../src/interface/edithandler.cpp:1706 ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1874
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1524
+#: ../src/interface/search.cpp:1537
+msgid "Opening failed"
+msgstr "عمليات باز کردن نا موفق بود"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "Opens a new tab"
+msgstr "يک سربرگ جديد باز کن"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "Opens the Site Manager"
+msgstr "بخش مديريت سايت را باز مي کند"
+
+#: ../src/interface/toolbar.cpp:50
+msgid ""
+"Opens the directory listing filter dialog. Right-click to toggle filters."
+msgstr ""
+"پنجره فيلتر پوشه ها را باز مي کند. جهت تغيير وضعيت فيلتر راست کليک کنيد."
+
+#: ../src/interface/verifycertdialog.cpp:642
+msgid "Organization:"
+msgstr "سازمان :"
+
+#: ../src/interface/verifycertdialog.cpp:670
+msgid "Other:"
+msgstr "ديگر :"
+
+#: ../src/interface/resources/xrc/settings.xrc:64
+msgid "Overview"
+msgstr "پيش نمايش"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:136
+msgid "Overwrite &if source newer"
+msgstr "در صورت جديدتر بودن فايل &منبع، بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1616
+#: ../src/interface/resources/xrc/dialogs.xrc:1639
+#: ../src/interface/resources/xrc/settings.xrc:1188
+#: ../src/interface/resources/xrc/settings.xrc:1209
+msgid "Overwrite file"
+msgstr "فايل را بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1618
+#: ../src/interface/resources/xrc/dialogs.xrc:1641
+#: ../src/interface/resources/xrc/settings.xrc:1190
+#: ../src/interface/resources/xrc/settings.xrc:1211
+msgid "Overwrite file if size differs"
+msgstr "درصورتي که سايز متفاوت است فايل را بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1619
+#: ../src/interface/resources/xrc/dialogs.xrc:1642
+#: ../src/interface/resources/xrc/settings.xrc:1191
+#: ../src/interface/resources/xrc/settings.xrc:1212
+msgid "Overwrite file if size differs or source file is newer"
+msgstr "درصورتي که فايل منبع جديدتر است يا سايز متفاوت است فايل را بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1617
+#: ../src/interface/resources/xrc/dialogs.xrc:1640
+#: ../src/interface/resources/xrc/settings.xrc:1189
+#: ../src/interface/resources/xrc/settings.xrc:1210
+msgid "Overwrite file if source file newer"
+msgstr "در صورت جديدتر بودن فايل منبع، بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:142
+msgid "Overwrite if &different size"
+msgstr "در صورتي که &سايز متفاوت است بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:149
+msgid "Overwrite if different si&ze or source newer"
+msgstr "درصورتي که سايز م&تفاوت است يا فايل منبع جديدتر است بازنويسي کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:587
+msgid "Owner permissions"
+msgstr "مجوز هاي مالک"
+
+#: ../src/interface/RemoteListView.cpp:402 ../src/interface/search.cpp:166
+msgid "Owner/Group"
+msgstr "مالک/گروه"
+
+#: ../src/interface/settings/optionspage_interface.cpp:150
+msgid ""
+"P&revent system from entering idle sleep during transfers and other "
+"operations"
+msgstr ""
+"از فرورفتن سيستم به حالت نيمه &هوشيار در زمان انتقال اطلاعات و ديگر عمليات "
+"ها جلوگيري کن"
+
+#: ../src/interface/resources/xrc/settings.xrc:556
+#: ../src/interface/resources/xrc/settings.xrc:743
+msgid "P&roxy host:"
+msgstr "&سرويس دهنده پروکسي :"
+
+#: ../src/interface/netconfwizard.cpp:505
+msgid "PORT command tainted by router or firewall."
+msgstr "پورت توسط روتر يا فايروال بسته شده است."
+
+#: ../src/interface/resources/xrc/settings.xrc:203
+msgid "Pa&ssive (recommended)"
+msgstr "&غير فعال(پيشنهاد شده)"
+
+#: ../src/interface/Mainfrm.cpp:2547
+msgid "Parameter not a valid URL"
+msgstr "پارامتر ارسال شده يک آدرس معتبر نيست"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2719
+#: ../src/interface/resources/xrc/sitemanager.xrc:286
+#: ../src/interface/quickconnectbar.cpp:50
+#: ../src/interface/sitemanager_site.cpp:274
+msgid "Pass&word:"
+msgstr "&گذرواژه :"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:73
+msgid "Passive (recommended)"
+msgstr "غیرفعال(پيشنهاد شده)"
+
+#: ../src/interface/resources/xrc/settings.xrc:410
+#: ../src/interface/settings/settingsdialog.cpp:99
+msgid "Passive mode"
+msgstr "حالت غیرفعال"
+
+#: ../src/interface/netconfwizard.cpp:608
+#: ../src/interface/netconfwizard.cpp:621
+#: ../src/interface/netconfwizard.cpp:632
+msgid "Passive mode has been set as default transfer mode."
+msgstr "حالت غیرفعال به عنوان پيشفرض در نظر گرفته شده است."
+
+#: ../src/interface/fzputtygen_interface.cpp:96
+msgid "Password required"
+msgstr "به گذرواژه نياز است"
+
+#: ../src/interface/filter_conditions_dialog.cpp:117
+#: ../src/interface/search.cpp:161
+msgid "Path"
+msgstr "مسير"
+
+#: ../src/engine/ftp/rmd.cpp:26 ../src/engine/ftp/rmd.cpp:42
+#: ../src/engine/sftp/rmd.cpp:14
+#, c-format
+msgid "Path cannot be constructed for directory %s and subdir %s"
+msgstr "مسير براي پوشه %s و زير پوشه %s قابل ايجاد نيست"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2896
+msgid "Paths"
+msgstr "مسيرها"
+
+#: ../src/interface/edithandler.cpp:1173 ../src/interface/edithandler.cpp:1310
+#: ../src/interface/edithandler.cpp:1407 ../src/interface/edithandler.cpp:1417
+msgid "Pending removal"
+msgstr "عمليات حذف در حالت معلق"
+
+#: ../src/interface/filter_conditions_dialog.cpp:113
+msgid "Permission"
+msgstr "مجوز"
+
+#: ../src/interface/RemoteListView.cpp:401 ../src/interface/search.cpp:165
+msgid "Permissions"
+msgstr "مجوز ها"
+
+#: ../src/interface/netconfwizard.cpp:572
+msgid ""
+"Please check on https://filezilla-project.org/probe.php that the server is "
+"running and carefully check your settings again."
+msgstr ""
+"لطفا از طريق آدرس https://filezilla-project.org/probe.php بررسي کنيد که سرور "
+"اجرا شده و به دقت تنظيمات را کنترل کنيد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:123
+msgid ""
+"Please configure any firewalls and routers so that FileZilla can establish "
+"outgoing connection to arbitrary ports."
+msgstr ""
+"لطفا روتر ها و فايروال هاي خود را به گونه ايي تظيم کنيد که FileZilla بتواند "
+"يک ارتباط خروجي با يک پورت دلخواه برقرار کند."
+
+#: ../src/interface/netconfwizard.cpp:643
+msgid "Please disable settings like 'DMZ mode' or 'Game mode' on your router."
+msgstr ""
+"لطفا تنظيماتي مانند 'DMZ mode' و 'Game mode' را در روتر خود غير فعال کنيد."
+
+#: ../src/interface/netconfwizard.cpp:581
+msgid ""
+"Please ensure you have a stable internet connection and carefully check your "
+"settings again."
+msgstr ""
+"لطفا بررسي کنيد که شما يک ارتباط اينترنتي پايدار داريد و بدقت تنظيمات خود را "
+"کنترل کنيد."
+
+#: ../src/interface/settings/optionspage_dateformatting.cpp:72
+msgid "Please enter a custom date format."
+msgstr "لطفا قالب تاريخ دلخواه خود را وارد کنيد."
+
+#: ../src/interface/settings/optionspage_dateformatting.cpp:82
+msgid "Please enter a custom time format."
+msgstr "لطفا قالب ساعت دلخواه خود را وارد کنيد."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:123
+#: ../src/interface/speedlimits_dialog.cpp:64
+#, c-format
+msgid "Please enter a download speed limit greater or equal to 0 %s/s."
+msgstr "لطفا محدوديت سرعت دانلود را بزرگتر يا مساوي0 %s/s وارد کنيد."
+
+#: ../src/interface/filteredit.cpp:143
+msgid "Please enter a name for the new filter."
+msgstr "لطفا يک نام براي فيلتر جديد انتخاب کنيد."
+
+#: ../src/interface/filteredit.cpp:249
+msgid "Please enter a new name for the copied filter."
+msgstr "لطفا يک نام برايفيلتر کپي شده انتخاب کنيد."
+
+#: ../src/interface/filter.cpp:324
+#, c-format
+msgid "Please enter a new name for the filter set \"%s\""
+msgstr "لطفا يک نام براي دسته فيلتر \"%s\" وارد کنيد"
+
+#: ../src/interface/filteredit.cpp:200
+msgid "Please enter a new name for the filter."
+msgstr "لطفا يک نام جديد براي فيلتر وارد کنيد."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:112
+msgid ""
+"Please enter a number between 0 and 10 for the number of concurrent "
+"downloads."
+msgstr "لطفا براي تعداد دانلود هاي هم زمان يک عدد بين 0 و 10 وارد کنيد."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:117
+msgid ""
+"Please enter a number between 0 and 10 for the number of concurrent uploads."
+msgstr "لطفا براي تعداد آپلود هاي هم زمان يک عدد بين 0 و 10 وارد کنيد."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:107
+msgid ""
+"Please enter a number between 1 and 10 for the number of concurrent "
+"transfers."
+msgstr "لطفا براي تعداد انتقال هاي هم زمان يک عدد بين 0 و 10 وارد کنيد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:252
+msgid "Please enter a password for this server:"
+msgstr "لطفا يک گذرواژه براي اين سرور وارد کنيد :"
+
+#: ../src/interface/filter.cpp:262
+msgid "Please enter a unique name for this filter set"
+msgstr "لطفا يک نام يکتا براي اين دسته فيلتر وارد کنيد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:259
+msgid "Please enter a username for this server:"
+msgstr "لطفا يک نام کاربري براي اين سرور وارد کنيد :"
+
+#: ../src/interface/netconfwizard.cpp:190
+msgid "Please enter a valid portrange."
+msgstr "لطفا محدوده پورت ها را صحيح وارد کنيد."
+
+#: ../src/interface/netconfwizard.cpp:171
+msgid "Please enter an URL where to get your external address from"
+msgstr "لطفا آدرسي که قرار است آدرس خارجي از آنجا گرفته شود را وارد کنيد"
+
+#: ../src/interface/settings/optionspage_transfer.cpp:130
+#: ../src/interface/speedlimits_dialog.cpp:72
+#, c-format
+msgid "Please enter an upload speed limit greater or equal to 0 %s/s."
+msgstr "لطفا محدوديت سرعت آپلود را بزرگتر يا مساوي 0%s/s وارد کنيد."
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid ""
+"Please enter raw FTP command.\n"
+"Using raw ftp commands will clear the directory cache."
+msgstr ""
+"لطفا يک فرمان FTP وارد کنيد.\n"
+"استفاده از اين فرمانات حافظه موقت را پاک ميکند."
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Please enter the name of the directory which should be created:"
+msgstr "لطفا يک نام جهت پوشه اي که قرار است ايجاد شود وارد کنيد :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:266
+msgid "Please enter username and password for this server:"
+msgstr "لطفا يک نام کاربري و گذرواژه براي اين سرور وارد کنيد :"
+
+#: ../src/interface/netconfwizard.cpp:155
+msgid "Please enter your external IP address"
+msgstr "لطفا آدرس IP خارجي خود را وارد کنيد"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:16
+msgid ""
+"Please follow the instructions carefully, as wrong configuration will "
+"prevent successful FTP connections."
+msgstr ""
+"لطفا دستورالعمل را بدقت دنبال کنيد، چنانچه تظيمات غلط مي تواند باعث جلوگيري "
+"از يک ارتباط موفق FTP شود."
+
+#: ../src/interface/FileZilla.cpp:169
+msgid "Please make sure the requested locale is installed on your system."
+msgstr ""
+"لطفا اطمينان حاصل کنيد که سرويس محلي درخواست شده بر روي سيستم شما نصب شده "
+"باشد."
+
+#: ../src/interface/netconfwizard.cpp:614
+msgid ""
+"Please make sure your router is using the latest available firmware. "
+"Furthermore, your router has to be configured properly. You will have to use "
+"manual port forwarding. Don't run your router in the so called 'DMZ mode' or "
+"'game mode'."
+msgstr ""
+"لطفا مطمئن شويد که روتر شما از آخرين نرم افزار هاي پايدار استفاده مي کند. "
+"بعلاوه روتر شما بايد بدرستي تنظيم شده باشد. شما مجبور خواهيد بود که از ارسال "
+"دستي پورت ها استفاده کنيد. روتر خود را در حالت هايي چون 'DMZ mode' و 'Game "
+"mode' اجرا نکنيد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:131
+msgid ""
+"Please note that FileZilla has no influence on the port the server chooses. "
+"So the server might choose a port which your firewall thinks is only used by "
+"trojans or other malware. This might raise a false alarm you can safely "
+"discard."
+msgstr ""
+"لطفا توجه کنيد که FileZilla بر روي پورتي که سرور انتخاب م يکند هيچ تاثيري "
+"ندارد. بنابر اين ممکن است سرور شما پورتي را انتخاب کند که فايروال شما فکر مي "
+"کند توسط تروجان ها و بدافزار ها استفاده مي شود. اين مي تواند يک هشدار ايجاد "
+"کند و شما هم مي توانيد آن را رد کنيد."
+
+#: ../src/interface/Mainfrm.cpp:759
+msgid ""
+"Please note that preserving timestamps on uploads on FTP, FTPS and FTPES "
+"servers only works if they support the MFMT command."
+msgstr ""
+"لطفا توجه کنيد که حفظ بازه زماني آپلود در FTP، FTPS و FTPES تنها زماني بر "
+"روي سرور پشتيباني مي شود که از دسور MFMT استفاده کرده باشيد."
+
+#: ../src/interface/resources/xrc/settings.xrc:180
+msgid ""
+"Please note that some servers might ban you if you try to reconnect too "
+"often or in too short intervals."
+msgstr ""
+"لطفا توجه کنيد که برخي سرور ها ممکن است در صورتي که بيش از حد پشت سر هم و يا "
+"در بازه هاي کوتاه با آنها ارتباط برقرار کنيد شما را مسدود کنند."
+
+#: ../src/interface/netconfwizard.cpp:590
+msgid ""
+"Please run this wizard again should you change your network environment or "
+"in case you suddenly encounter problems with servers that did work "
+"previously."
+msgstr ""
+"لطفا اين ويزارد را درحالتي دوباره اجرا کنيد که يا بايد پيکربنده شبکه خود را "
+"تغيير دهيد و يا ناگهان مشکلي ايجاد شده است که قبلا با همين تنظيمات وجود "
+"نداشته است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3600
+msgid "Please select an action:"
+msgstr "لطفا يک عمليات انتخاب کنيد :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1863
+msgid "Please select the categories you would like to import."
+msgstr "لطفا دسته اي را که مايل به ايمپورت هستيد انتخاب کنيد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:34
+msgid "Please select the default transfer mode you would like to use."
+msgstr "لطفا حالت انتقال پيشفرض که مايل به استفاده از آن هستيد را انتخاب کنيد."
+
+#: ../src/interface/chmoddialog.cpp:174
+#, c-format
+msgid "Please select the new attributes for the directory \"%s\"."
+msgstr "لطفا ويژگيهاي جديد را براي پوشه \"%s\" انتخاب کنيد."
+
+#: ../src/interface/chmoddialog.cpp:165
+#, c-format
+msgid "Please select the new attributes for the file \"%s\"."
+msgstr "لطفا ويژگيهاي جديد را براي فايل \"%s\" انتخاب کنيد."
+
+#: ../src/interface/chmoddialog.cpp:177
+msgid "Please select the new attributes for the selected directories."
+msgstr "لطفا ويژگيهاي جديد را براي پوشه هاي انتخاب شده انتخاب کنيد."
+
+#: ../src/interface/chmoddialog.cpp:181
+msgid ""
+"Please select the new attributes for the selected files and directories."
+msgstr "لطفا ويژگيهاي جديد را براي پوشه ها و فايل هاي انتخاب شده انتخاب کنيد."
+
+#: ../src/interface/chmoddialog.cpp:168
+msgid "Please select the new attributes for the selected files."
+msgstr "لطفا ويژگيهاي جديد را براي فايل هاي انتخاب شده انتخاب کنيد."
+
+#: ../src/interface/netconfwizard.cpp:601
+msgid ""
+"Please update your firewall and make sure your router is using the latest "
+"available firmware. Furthermore, your router has to be configured properly. "
+"You will have to use manual port forwarding. Don't run your router in the so "
+"called 'DMZ mode' or 'game mode'. Things like protocol inspection or "
+"protocol specific 'fixups' have to be disabled"
+msgstr ""
+"لطفا فايروال خود را بروزرساني کنيد و مطمئن شويد که روتر شما از آخرين نرم "
+"افزار هاي پايدار استفاده مي کند. بعلاوه روتر شما بايد بدرستي تنظيم شده باشد. "
+"شما مجبور خواهيد بود که از ارسال دستي پورت ها استفاده کنيد. روتر خود را در "
+"حالت هايي چون 'DMZ mode' و 'Game mode' اجرا نکنيد. چيزهايي مثل بازبيني "
+"پروتکل بايد غير فعال باشند."
+
+#: ../src/interface/verifycertdialog.cpp:649
+msgid "Postal code:"
+msgstr "کد پستي :"
+
+#: ../src/interface/sitemanager.cpp:286
+#: ../src/interface/sitemanager_dialog.cpp:1442
+msgid "Predefined Sites"
+msgstr "سايتهاي از پيش تعريف شده"
+
+#: ../src/interface/Mainfrm.cpp:758
+msgid "Preserving file timestamps"
+msgstr "ثبت زمان فايل ها"
+
+#: ../src/interface/cmdline.cpp:18
+msgid "Print version information to stdout and exit"
+msgstr "زمان خروج مشخصات نسخه را نمايش بده و خارج شو"
+
+#: ../src/interface/resources/xrc/settings.xrc:1591
+msgid "Prioritize directories (default)"
+msgstr "اولويت بنده پوشه ها (پيشفرض)"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "اولويت"
+
+#: ../src/interface/resources/xrc/settings.xrc:630
+msgid "Private &keys:"
+msgstr "&کليد هاي خصوصي :"
+
+#: ../src/interface/resources/xrc/settings.xrc:579
+#: ../src/interface/resources/xrc/settings.xrc:776
+msgid "Pro&xy password:"
+msgstr "گذرواژه پ&روکسي:"
+
+#: ../src/interface/menu_bar.cpp:111 ../src/interface/QueueView.cpp:1815
+msgid "Process &Queue"
+msgstr "پر&دازش صف"
+
+#: ../src/interface/resources/xrc/settings.xrc:753
+msgid "Proxy &port:"
+msgstr "پ&ورت پروکسي:"
+
+#: ../src/interface/resources/xrc/settings.xrc:569
+#: ../src/interface/resources/xrc/settings.xrc:766
+msgid "Proxy &user:"
+msgstr "&کاربر پروکسي :"
+
+#: ../src/engine/proxy.cpp:418
+msgid "Proxy authentication failed"
+msgstr "تعيين اعتبار پروکسي نا موفق بود"
+
+#: ../src/engine/ftp/transfersocket.cpp:109
+#, c-format
+msgid "Proxy handshake failed: %s"
+msgstr "پاسخ ار پروکسي دريافت نشده : %s"
+
+#: ../src/engine/proxy.cpp:294
+#, c-format
+msgid "Proxy reply: %s"
+msgstr "پاسخ پروکسي : %s"
+
+#: ../src/engine/proxy.cpp:335
+#, c-format
+msgid "Proxy request failed: %s"
+msgstr "درخواست پروکسي نا موفق بود : %s"
+
+#: ../src/engine/proxy.cpp:504
+msgid "Proxy request failed: Unknown address type in CONNECT reply"
+msgstr "درخواست پروکسي ناموفق بود. آدرس ارتباطي جهت پاسخ ناشناخته است"
+
+#: ../src/engine/ftp/logon.cpp:91
+msgid "Proxy set but proxy host or port invalid"
+msgstr "پروکسي تعيين شده است اما ميزبان يا پورت آن صحيح نيست"
+
+#: ../src/interface/resources/xrc/settings.xrc:617
+msgid "Public Key Authentication"
+msgstr "تعيين اعتبار کليد عمومي"
+
+#: ../src/interface/resources/xrc/certificate.xrc:73
+msgid "Public key algorithm:"
+msgstr "الگوريتم کليدعمومي :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:655
+msgid "Public permissions"
+msgstr "مجوز هاي عمومي"
+
+#: ../src/interface/QueueView.cpp:2820
+msgid "Queue has been fully processed"
+msgstr "صف بطور کامل به اتمام رسيده است"
+
+#: ../src/interface/statusbar.cpp:446
+#, c-format
+msgid "Queue: %s MiB"
+msgstr "صف : %s MiB"
+
+#: ../src/interface/statusbar.cpp:381
+#, c-format
+msgid "Queue: %s%s"
+msgstr "صف : %s%s"
+
+#: ../src/interface/statusbar.cpp:377 ../src/interface/statusbar.cpp:437
+msgid "Queue: empty"
+msgstr "صف : خالي است"
+
+#: ../src/interface/QueueView.cpp:207
+msgid "Queued files"
+msgstr "فايل هاي به صف شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3441
+#: ../src/interface/resources/xrc/dialogs.xrc:3536
+msgid "Queueing:"
+msgstr "در حال انتقال به صف :"
+
+#: ../src/interface/menu_bar.cpp:104
+msgid "R&emote directory tree"
+msgstr "نمودار درختی پوشه های &سایت"
+
+#: ../src/interface/Mainfrm.cpp:641
+msgid "Raw FTP command"
+msgstr "فرمان FTP :"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:628
+msgid "Re&ad"
+msgstr "&خواندن"
+
+#: ../src/interface/LocalListView.cpp:799
+#: ../src/interface/RemoteListView.cpp:1135
+msgid "Re&fresh"
+msgstr "&تجديد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:166
+msgid "Re&name"
+msgstr "ت&غيير نام"
+
+#: ../src/interface/netconfwizard.cpp:596
+msgid ""
+"Re-run the wizard and carefully check your settings and configure all "
+"routers and firewalls accordingly."
+msgstr ""
+"ويزارد را مجددا اجرا و بدقت تنظيمات خود را بررسي کنيد. همينطور روتر و "
+"فايروال هاي خود را بر همان اساس پيکربندي کنيد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:662
+msgid "Rea&d"
+msgstr "خ&واندن"
+
+#: ../src/interface/filter_conditions_dialog.cpp:81
+msgid "Read-only"
+msgstr "فقط خواندني"
+
+#: ../src/interface/Mainfrm.cpp:1134
+msgid "Really cancel current operation?"
+msgstr "واقعا تمام عمليات ها را لغو مي کنيد؟"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Reason"
+msgstr "علت"
+
+#: ../src/interface/QueueView.cpp:2813
+msgid "Reboot now"
+msgstr "اکنون راه اندازي مجدد شود"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:716
+msgid "Rec&urse into subdirectories"
+msgstr "به زيرپوشه ها مراج&عه شود"
+
+#: ../src/interface/netconfwizard.cpp:1007
+#: ../src/interface/netconfwizard.cpp:1015
+#: ../src/interface/netconfwizard.cpp:1036
+msgid "Received data tainted"
+msgstr "داده دريافت شده معيوب است"
+
+#: ../src/interface/clearprivatedata.cpp:74
+msgid ""
+"Reconnect information cannot be cleared while connected to a server.\n"
+"If you continue, your connection will be disconnected."
+msgstr ""
+"زماني که ارتباط با سرور برقرار است اطلاعات ارتباط مجدد نمي توانند پاک سازي "
+"شوند.\n"
+"اگر به اين فرايند ادامه دهيد، ارتباط شما قطع خواهد شد."
+
+#: ../src/interface/resources/xrc/settings.xrc:185
+msgid "Reconnection settings"
+msgstr "تنظيمات ارتباط مجدد"
+
+#: ../src/interface/toolbar.cpp:47
+msgid "Reconnects to the last used server"
+msgstr "به آخرين سرور استفاده شده متصل مي شود"
+
+#: ../src/interface/toolbar.cpp:43
+msgid "Refresh the file and folder lists"
+msgstr "ليست فايل ها و پوشه ها را بازآوري کن"
+
+#: ../src/interface/edithandler.cpp:1157
+msgid "Remote"
+msgstr "کنترل از راه دور"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2522
+#: ../src/interface/queue.cpp:1275
+msgid "Remote file"
+msgstr "فايل راه دور"
+
+# جستجو در فایلهای سایت
+# جستجو از راه دور در فايل ها
+#: ../src/interface/search.cpp:724 ../src/interface/search.cpp:731
+msgid "Remote file search"
+msgstr "جستجو در فایلهای سرور"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1316
+msgid "Remote filters:"
+msgstr "فيلتر هاي راه دور :"
+
+#: ../src/interface/edithandler.cpp:1148
+msgid "Remote path"
+msgstr "مسير راه دور"
+
+#: ../src/interface/bookmarks_dialog.cpp:442
+#, c-format
+msgid ""
+"Remote path cannot be parsed. Make sure it is a valid absolute path and is "
+"supported by the current site's servertype (%s)."
+msgstr ""
+"مسير درون سايت قابل تجزيه نيست. مطمئن شويد که اين مسير درست است و به وسيله "
+"نوع سرور (%s) پشتيباني مي شود ."
+
+#: ../src/interface/sitemanager_dialog.cpp:902
+#, c-format
+msgid ""
+"Remote path cannot be parsed. Make sure it is a valid absolute path and is "
+"supported by the servertype (%s) selected on the parent site."
+msgstr ""
+"مسير درون سايت قابل تجزيه نيست. مطمئن شويد که اين مسير درست است و به وسيله "
+"نوع سرور (%s) در سايت مادر پشتيباني مي شود."
+
+#: ../src/interface/bookmarks_dialog.cpp:445
+#: ../src/interface/bookmarks_dialog.cpp:450
+#: ../src/interface/sitemanager_dialog.cpp:905
+msgid "Remote path cannot be parsed. Make sure it is a valid absolute path."
+msgstr "مسير درون سايت قابل تجزيه نيست. مطمئن شويد که اين مسير درست است."
+
+#: ../src/interface/manual_transfer.cpp:323
+msgid "Remote path could not be parsed."
+msgstr "مسير سايت قابل تجزيه نيست."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1937
+msgid "Remote path:"
+msgstr "مسير سايت:"
+
+#: ../src/interface/viewheader.cpp:529
+msgid "Remote site:"
+msgstr "سايت:"
+
+#: ../src/interface/queueview_failed.cpp:30
+#: ../src/interface/queueview_successful.cpp:23
+msgid "Remove &all"
+msgstr "حذف &همه"
+
+#: ../src/interface/queueview_failed.cpp:34
+#: ../src/interface/queueview_successful.cpp:27
+msgid "Remove &selected"
+msgstr "حذف &موارد انتخاب شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1621
+#: ../src/interface/resources/xrc/dialogs.xrc:1644
+#: ../src/interface/resources/xrc/settings.xrc:1193
+#: ../src/interface/resources/xrc/settings.xrc:1214
+#: ../src/interface/asyncrequestqueue.cpp:350
+msgid "Rename file"
+msgstr "تغيير نام فايل"
+
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "Rename selected directory"
+msgstr "تغيير نام پوشه انتخاب شده"
+
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/RemoteListView.cpp:1139
+msgid "Rename selected files and directories"
+msgstr "تغيير نام پوشه ها و فايلهاي انتخاب شده"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:602
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:603
+#, c-format
+msgid "Renaming '%s' to '%s'"
+msgstr "تغيير نام %s به %s"
+
+#: ../src/interface/welcome_dialog.cpp:96
+msgid "Reporting bugs and feature requests"
+msgstr "گزارش خطاها و نوع درخواست ها "
+
+#: ../src/engine/ControlSocket.cpp:864 ../src/engine/ControlSocket.cpp:869
+#, c-format
+msgid "Resolving address of %s"
+msgstr "برطرف‌ سازي آدرس %s"
+
+#: ../src/engine/logging.cpp:132 ../src/interface/netconfwizard.cpp:419
+#: ../src/interface/StatusView.cpp:297 ../src/interface/StatusView.cpp:367
+msgid "Response:"
+msgstr "پاسخ:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3369
+msgid "Results:"
+msgstr "نتايج:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1620
+#: ../src/interface/resources/xrc/dialogs.xrc:1643
+#: ../src/interface/resources/xrc/settings.xrc:1192
+#: ../src/interface/resources/xrc/settings.xrc:1213
+msgid "Resume file transfer"
+msgstr "ادامه انتقال فايل"
+
+#: ../src/interface/resources/xrc/settings.xrc:1253
+msgid ""
+"Resuming ASCII files can cause problems if server uses a different line "
+"ending format than the client."
+msgstr ""
+"ادامه دادن انتقال فايلهاي ASCII مي تواند بامشکل مواجه شود در صورتي که سرور "
+"از علامت انتهاي خطي استفاده کند که با سيستم مقصد متفاوت باشد."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:319
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:452
+#: ../src/engine/storj/storjcontrolsocket.cpp:64
+msgid "Retrieving directory listing..."
+msgstr "بازيافت ليست پوشه..."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:650
+#: ../src/interface/netconfwizard.cpp:721
+#, c-format
+msgid "Retrieving external IP address from %s"
+msgstr "بازيافت IP خروجي از %s"
+
+#: ../src/interface/menu_bar.cpp:61
+msgid "S&how files currently being edited..."
+msgstr "نمايش &فايلهايي که درحال ويرايش مي باشند..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3293
+msgid "S&top"
+msgstr "&توقف"
+
+#: ../src/interface/settings/settingsdialog.cpp:101
+msgid "SFTP"
+msgstr "SFTP"
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "Save settings?"
+msgstr "آيا مي خواهيد تنظيمات ذخيره شوند؟"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3299
+msgid "Search &conditions:"
+msgstr "&نوع جستجو:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3281
+msgid "Search &directory:"
+msgstr "جستجوي &پوشه:"
+
+#: ../src/interface/toolbar.cpp:53
+msgid "Search for files recursively."
+msgstr "جستجو براي فايل هاي بازگشتي."
+
+#: ../src/interface/menu_bar.cpp:146
+msgid "Search server for files"
+msgstr "جستجوي سرور براي يافتن فايلها"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Security information"
+msgstr "اطلاعات امنيتي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2610
+msgid "Sele&ct server"
+msgstr "انتخاب &سرور"
+
+#: ../src/interface/resources/xrc/settings.xrc:13
+msgid "Select &page:"
+msgstr "انتخاب &صفحه:"
+
+# تم
+#: ../src/interface/resources/xrc/settings.xrc:1271
+msgid "Select Theme"
+msgstr "انتخاب پوسته"
+
+#: ../src/interface/resources/xrc/settings.xrc:1168
+msgid ""
+"Select default action to perform if target file of a transfer already exists."
+msgstr "انتخاب عمليات پيش فرض در صورتي که فايل انتقال داده شده وجود دارد."
+
+#: ../src/interface/edithandler.cpp:1617
+#: ../src/interface/settings/optionspage_edit.cpp:104
+msgid "Select default editor"
+msgstr "انتخاب ويرايشگر پيش فرض"
+
+#: ../src/interface/defaultfileexistsdlg.cpp:16
+msgid ""
+"Select default file exists action if the target file already exists. This "
+"selection is valid only for the current session."
+msgstr ""
+"انتخاب عمليات پيشفرض در صورتی که فایل مورد نظر وجود دارد. این تنظیمات تنها "
+"برای اتصال جاری معتبر می باشد."
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:81
+msgid "Select file containing private key"
+msgstr "فايل انتخاب شده حاوي کليد خصوصي مي باشد"
+
+#: ../src/interface/export.cpp:48
+msgid "Select file for exported data"
+msgstr "انتخاب فايل جهت صدور اطلاعات"
+
+#: ../src/interface/export.cpp:39 ../src/interface/queue.cpp:1561
+msgid "Select file for exported queue"
+msgstr "انتخاب فايل جهت صدور صف"
+
+#: ../src/interface/export.cpp:42
+msgid "Select file for exported settings"
+msgstr "انتخاب فايل جهت صدور تنظيمات"
+
+#: ../src/interface/export.cpp:36 ../src/interface/sitemanager_dialog.cpp:1786
+msgid "Select file for exported sites"
+msgstr "انتخاب فايل جهت صدور سايتها"
+
+#: ../src/interface/manual_transfer.cpp:239
+msgid "Select file to upload"
+msgstr "انتخاب فايل براي بارگذاري"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3163
+msgid "Select how these files should be opened."
+msgstr "انتخاب چگونگي باز شدن اين فايل ها."
+
+#: ../src/interface/search.cpp:915
+msgid "Select target download directory"
+msgstr "انتخاب پوشه دانلود"
+
+#: ../src/interface/manual_transfer.cpp:235
+msgid "Select target filename"
+msgstr "انتخاب نام فايل هدف"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1702
+msgid "Select the private data you would like to delete."
+msgstr "انتخاب اطلاعات خصوصي که مي خواهيد حذف کنيد."
+
+#: ../src/interface/edithandler.cpp:1556 ../src/interface/edithandler.cpp:1638
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "Selected editor does not exist."
+msgstr "ويرايشگر انتخاب شده وجود ندارد."
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:126
+msgid "Selected file is already loaded"
+msgstr "فايل مورد نظر قبلا بارگيري شده است"
+
+#: ../src/interface/filter.cpp:230
+msgid "Selected filter only works for local files."
+msgstr "فيلتر انتخاب شده تنها براي فايلهاي محلي عمل کند."
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Send custom command to the server otherwise not available"
+msgstr "ارسال فرمان سفارشی در صورتي که در دسترس نبود"
+
+#: ../src/interface/resources/xrc/certificate.xrc:65
+#: ../src/interface/verifycertdialog.cpp:652
+msgid "Serial number:"
+msgstr "شماره سريال:"
+
+#: ../src/engine/ftp/filetransfer.cpp:268
+#, c-format
+msgid "Server does not support resume of files > %d GB."
+msgstr "سرور از ادامه انتقال فايلهاي > %d GB پشتيباني نميکند."
+
+#: ../src/engine/ftp/filetransfer.cpp:265
+#, c-format
+msgid ""
+"Server does not support resume of files > %d GB. End transfer since file "
+"sizes match."
+msgstr ""
+"سرور از ادامه انتقال فايلهاي > %d GB پشتيباني نميکند.پايان دادن انتقال فايل "
+"زماني که فايل به صورت کامل انتقال داده شد."
+
+#: ../src/engine/ftp/filetransfer.cpp:523
+msgid "Server does not support resume of files > 2GB."
+msgstr "سرور از ادامه انتقال فايلهاي > 2 GB پشتيباني نميکند."
+
+#: ../src/engine/ftp/filetransfer.cpp:519
+msgid "Server does not support resume of files > 4GB."
+msgstr "سرور از ادامه انتقال فايلهاي > 4 GB پشتيباني نميکند."
+
+#: ../src/engine/ftp/filetransfer.cpp:276
+#, c-format
+msgid ""
+"Server may not support resume of files > %d GB. End transfer since file "
+"sizes match."
+msgstr ""
+"امکان دارد که سرور از ادامه انتقال فايلهاي > %d GB پشتيباني نکند.پايان دادن "
+"انتقال فايل زماني که فايل به صورت کامل انتقال داده شد."
+
+#: ../src/engine/ftp/logon.cpp:342
+msgid ""
+"Server might require an account. Try specifying an account using the Site "
+"Manager"
+msgstr "سرور به يک حساب نياز دارد.سعي کنيد يک حساب در مديريت سايت بسازيد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2673
+msgid "Server&type:"
+msgstr "&نوع سرور:"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Server/Local file"
+msgstr "سرور/فايل محلي"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1927
+#: ../src/interface/resources/xrc/dialogs.xrc:2596
+msgid "Server:"
+msgstr "سرور:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:171
+msgid "Session details"
+msgstr "جزئيات نشست"
+
+#: ../src/interface/QueueView.cpp:1823
+msgid "Set &Priority"
+msgstr "قرار دادن &حق تقدم"
+
+#: ../src/interface/resources/xrc/settings.xrc:4
+msgid "Settings"
+msgstr "تنظيمات"
+
+#: ../src/interface/menu_bar.cpp:167
+msgid "Show &welcome dialog..."
+msgstr "&نمايش پيام خوش آمد گويي..."
+
+#: ../src/interface/cmdline.cpp:6
+msgid "Shows this help dialog"
+msgstr "نمايش اين پنجره راهنما"
+
+#: ../src/interface/QueueView.cpp:2809
+msgid "Shutdown now"
+msgstr "همين حالا خاموش کن"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1838
+msgid "Site &Manager entries"
+msgstr "&ورودي هاي مديريت سايت"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:7
+msgid "Site Manager"
+msgstr "مديريت سايت"
+
+#: ../src/interface/sitemanager_dialog.cpp:907
+#: ../src/interface/sitemanager_dialog.cpp:916
+#: ../src/interface/sitemanager_dialog.cpp:923
+#: ../src/interface/sitemanager_site.cpp:491
+#: ../src/interface/sitemanager_site.cpp:504
+#: ../src/interface/sitemanager_site.cpp:538
+#: ../src/interface/sitemanager_site.cpp:555
+#: ../src/interface/sitemanager_site.cpp:568
+#: ../src/interface/sitemanager_site.cpp:583
+#: ../src/interface/sitemanager_site.cpp:593
+#: ../src/interface/sitemanager_site.cpp:601
+#: ../src/interface/sitemanager_site.cpp:626
+#: ../src/interface/sitemanager_site.cpp:635
+#: ../src/interface/sitemanager_site.cpp:651
+#: ../src/interface/sitemanager_site.cpp:660
+#: ../src/interface/sitemanager_site.cpp:676
+msgid "Site Manager - Invalid data"
+msgstr "مديريت سايت - اطلاعات نامعتبر"
+
+#: ../src/interface/sitemanager_dialog.cpp:281
+msgid "Site Manager already open"
+msgstr "مديريت سايت قبلا باز شده است"
+
+#: ../src/interface/sitemanager.cpp:434 ../src/interface/sitemanager.cpp:462
+#: ../src/interface/sitemanager.cpp:476 ../src/interface/sitemanager.cpp:488
+#: ../src/interface/sitemanager.cpp:657 ../src/interface/sitemanager.cpp:745
+msgid "Site does not exist."
+msgstr "سايت وجود ندارد."
+
+#: ../src/interface/sitemanager.cpp:445
+msgid "Site path has to begin with 0 or 1."
+msgstr "مسير سايت بايد با 0 يا 1 شروع شود. "
+
+#: ../src/interface/sitemanager.cpp:482 ../src/interface/sitemanager.cpp:651
+#: ../src/interface/sitemanager.cpp:739
+msgid "Site path is malformed."
+msgstr "مسير سايت ناقص مي باشد."
+
+#: ../src/interface/bookmarks_dialog.cpp:262
+msgid "Site-specific bookmarks"
+msgstr "نشانه گذاري هاي ويژه سايت"
+
+#: ../src/interface/bookmarks_dialog.cpp:97
+#: ../src/interface/bookmarks_dialog.cpp:567
+msgid ""
+"Site-specific bookmarks require the server to be stored in the Site "
+"Manager.\n"
+"Add current connection to the site manager?"
+msgstr ""
+"براي ايجاد يک نشانه گذاري مخصوص سايت بايد يک سرور در مديريت سايت ذخيره شده "
+"باشد.\n"
+"آيا مي خواهيد اتصال جاري را به مديريت سايت اضافه کنيد؟"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Size"
+msgstr "حجم"
+
+#: ../src/interface/resources/xrc/settings.xrc:1460
+msgid "Size formatting"
+msgstr "قالب‌ بندي‌ حجم"
+
+#: ../src/interface/fileexistsdlg.cpp:43
+msgid "Size unknown"
+msgstr "حجم مشخص نيست"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1622
+#: ../src/interface/resources/xrc/dialogs.xrc:1645
+#: ../src/interface/resources/xrc/settings.xrc:1194
+#: ../src/interface/resources/xrc/settings.xrc:1215
+msgid "Skip file"
+msgstr "صرف نظر از فايل"
+
+#: ../src/engine/ControlSocket.cpp:934 ../src/engine/ControlSocket.cpp:951
+#: ../src/engine/ControlSocket.cpp:977 ../src/engine/ControlSocket.cpp:1055
+#, c-format
+msgid "Skipping download of %s"
+msgstr "در حال صرف نظر کردن از بارگيري %s"
+
+#: ../src/engine/ControlSocket.cpp:937 ../src/engine/ControlSocket.cpp:954
+#: ../src/engine/ControlSocket.cpp:980 ../src/engine/ControlSocket.cpp:1058
+#, c-format
+msgid "Skipping upload of %s"
+msgstr "در حال صرف نظر کردن از بارگذاري %s"
+
+#: ../src/interface/Mainfrm.cpp:1274
+msgid "Some files are still being edited or need to be uploaded."
+msgstr ""
+"تعدادی از فایلها در حال ویرایش می باشند و یا لازم است که بارگذاری شوند."
+
+#: ../src/interface/resources/xrc/settings.xrc:1593
+msgid "Sort directories inline"
+msgstr "مرتب سازي پوشه ها درخط"
+
+#: ../src/interface/resources/xrc/settings.xrc:1577
+msgid "Sorting"
+msgstr "مرتب سازي"
+
+#: ../src/interface/resources/xrc/settings.xrc:1584
+msgid "Sorting &mode:"
+msgstr "&شيوه مرتب سازي:"
+
+#: ../src/interface/RemoteTreeView.cpp:109
+msgid "Source and path of the drop operation are identical"
+msgstr "مبدا و مسیر رها کردن مشابه می باشد"
+
+#: ../src/interface/RemoteListView.cpp:154
+msgid "Source and target of the drop operation are identical"
+msgstr "مبدا و مقصد رها کردن مشابه می باشد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:24
+msgid "Source file:"
+msgstr "فايل منبع:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3821
+#: ../src/interface/speedlimits_dialog.cpp:64
+#: ../src/interface/speedlimits_dialog.cpp:72
+msgid "Speed Limits"
+msgstr "محدوديت هاي سرعت"
+
+#: ../src/interface/resources/xrc/settings.xrc:893
+msgid "Speed limits"
+msgstr "محدوديت هاي سرعت"
+
+#: ../src/interface/statusbar.cpp:604
+msgid "Speed limits are disabled, click to change."
+msgstr "محدوديت سرعت غيرفعال است، براي تغيير آن کليک کنيد."
+
+#: ../src/interface/statusbar.cpp:607
+msgid "Speed limits are enabled, click to change."
+msgstr "محدوديت سرعت فعال است، براي تغيير آن کليک کنيد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2804
+msgid "Start transfer &immediately"
+msgstr "&شروع بي‌ درنگ‌ انتقال"
+
+#: ../src/engine/ftp/filetransfer.cpp:34 ../src/engine/sftp/filetransfer.cpp:33
+#: ../src/engine/storj/file_transfer.cpp:39
+#, c-format
+msgid "Starting download of %s"
+msgstr "در حال شروع بارگيري %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:37 ../src/engine/sftp/filetransfer.cpp:36
+#: ../src/engine/storj/file_transfer.cpp:42
+#, c-format
+msgid "Starting upload of %s"
+msgstr "شروع بارگذاري %s"
+
+#: ../src/interface/verifycertdialog.cpp:647
+msgid "State or province:"
+msgstr "استان يا ايالت:"
+
+#: ../src/interface/edithandler.cpp:1149 ../src/interface/queue.cpp:1275
+msgid "Status"
+msgstr "وضعيت"
+
+#: ../src/engine/logging.cpp:129 ../src/interface/StatusView.cpp:306
+#: ../src/interface/StatusView.cpp:397
+msgid "Status:"
+msgstr "وضعيت:"
+
+#: ../src/interface/QueueView.cpp:1816
+msgid "Stop and remove &all"
+msgstr "تو&قف و حذف همه"
+
+# گواهينامه
+#: ../src/interface/resources/xrc/certificate.xrc:116
+msgid "Subject of certificate"
+msgstr "موضوع مجوز"
+
+#: ../src/interface/queueview_successful.cpp:12
+msgid "Successful transfers"
+msgstr "انتقال ها با موفقت انجام شد"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:393
+msgid "Summary of test results:"
+msgstr "خلاصه نتايج آزمايش:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3928
+#: ../src/interface/state.cpp:270 ../src/interface/state.cpp:285
+#: ../src/interface/state.cpp:292 ../src/interface/state.cpp:303
+#: ../src/interface/state.cpp:402 ../src/interface/state.cpp:410
+#: ../src/interface/state.cpp:418 ../src/interface/state.cpp:1119
+#: ../src/interface/state.cpp:1127 ../src/interface/state.cpp:1134
+#: ../src/interface/state.cpp:1143 ../src/interface/state.cpp:1170
+#: ../src/interface/toolbar.cpp:52
+msgid "Synchronized browsing"
+msgstr "جستجوي همزمان"
+
+#: ../src/interface/state.cpp:417
+msgid "Synchronized browsing has been disabled."
+msgstr "جستجوي همزمان غيرفعال شد."
+
+#: ../src/interface/quickconnectbar.cpp:120
+#: ../src/interface/quickconnectbar.cpp:164
+msgid "Syntax error"
+msgstr "خطای گرامری"
+
+#: ../src/interface/cmdline.cpp:83 ../src/interface/cmdline.cpp:88
+#: ../src/interface/cmdline.cpp:93 ../src/interface/cmdline.cpp:100
+#: ../src/interface/cmdline.cpp:105 ../src/interface/Mainfrm.cpp:2507
+#: ../src/interface/Mainfrm.cpp:2549
+msgid "Syntax error in command line"
+msgstr "خطاي گرامري در خط فرمان"
+
+#: ../src/interface/filter_conditions_dialog.cpp:82
+msgid "System"
+msgstr "سيستم"
+
+#: ../src/engine/proxy.cpp:452
+msgid "TTL expired"
+msgstr "TTL به پايان رسيد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:6
+msgid "Target file already exists"
+msgstr "فايل مورد نظر وجود دارد"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:65
+msgid "Target file:"
+msgstr "فايل هدف:"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "Target filename already exists, really continue?"
+msgstr "فايل مورد نظر وجود دارد، مي خواهيد ادامه دهيد؟"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:370
+msgid "Test results"
+msgstr "آزمايش نتايج"
+
+#: ../src/engine/ftp/filetransfer.cpp:280
+msgid "Testing resume capabilities of server"
+msgstr "آزمايش قابليت از سرگيري سرور"
+
+#: ../src/interface/sitemanager_dialog.cpp:280
+msgid ""
+"The Site Manager is opened in another instance of FileZilla 3.\n"
+"Do you want to continue? Any changes made in the Site Manager won't be saved "
+"then."
+msgstr ""
+"مديريت سايت در يک نمونه ديگر از FileZilla 3 باز است.\n"
+"آيا مي خواهيد ادامه دهيد؟ هيچ تغييري در مديريت سايت ذخيره نخواهد شد."
+
+#: ../src/interface/clearprivatedata.cpp:100
+msgid ""
+"The Site Manager is opened in another instance of FileZilla 3.\n"
+"Please close it or the data cannot be deleted."
+msgstr ""
+"مديريت سايت در يک نمونه ديگر از FileZilla 3 باز است.\n"
+"لطفا آن را ببنديد وگرنه اطلاعات را نمي توانيد حذف کنيد."
+
+#: ../src/interface/netconfwizard.cpp:638
+#, c-format
+msgid "The address you entered was: %s"
+msgstr "آدرسي که وارد کرديد: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:844
+#: ../src/interface/sitemanager.cpp:638
+msgid "The bookmark could not be added."
+msgstr "نشانه گذاري قابل اضافه شدن نمي باشد."
+
+#: ../src/interface/sitemanager.cpp:726
+msgid "The bookmarks could not be cleared."
+msgstr "نشانه گذاري ها نمي توانند پاک شوند."
+
+#: ../src/interface/statusbar.cpp:485
+msgid "The connection is encrypted. Click icon for details."
+msgstr "اتصال کدگذاري شده مي باشد. براي دريافت جزئيات برروي آيکن کليک کنيد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3181
+#: ../src/interface/edithandler.cpp:1597
+msgid "The default editor for text files could not be found."
+msgstr "ويرايشگر پيشفرض براي فايلهاي متني يافت نشد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3174
+#, c-format
+msgid "The default editor for text files is '%s'."
+msgstr "ويرايشگر پيشفرض براي فايلهاي متني '%s' مي باشد."
+
+#: ../src/interface/settings/optionspage_filetype.cpp:153
+#, c-format
+msgid "The extension '%s' does already exist in the list"
+msgstr "پسوند '%s' در فهرست موجود نيست"
+
+#: ../src/interface/asyncrequestqueue.cpp:339
+#: ../src/interface/asyncrequestqueue.cpp:347
+#, c-format
+msgid ""
+"The file %s already exists.\n"
+"Please enter a new name:"
+msgstr ""
+"فايل %s وجود دارد.\n"
+"لطفا يک نام جديد وارد کنيد:"
+
+#: ../src/interface/edithandler.cpp:1711
+#: ../src/interface/LocalListView.cpp:1878 ../src/interface/search.cpp:1528
+#, c-format
+msgid ""
+"The file '%s' cannot be opened:\n"
+"The associated program (%s) could not be found.\n"
+"Please check your filetype associations."
+msgstr ""
+"فايل '%s' باز نمي شود:\n"
+"برنامه مورد نظر (%s) براي باز کردن فايل پيدا نشد.\n"
+"لطفا نوع فايل وابسته را بررسي کنيد."
+
+#: ../src/interface/xmlfunctions.cpp:39
+#, c-format
+msgid "The file '%s' could not be loaded."
+msgstr "فايل '%s' قابل بارگيري نيست."
+
+#: ../src/interface/edithandler.cpp:1706
+#: ../src/interface/LocalListView.cpp:1874 ../src/interface/search.cpp:1524
+#, c-format
+msgid ""
+"The file '%s' could not be opened:\n"
+"No program has been associated on your system with this file type."
+msgstr ""
+"فايل '%s' باز نشد:\n"
+"هيچ برنامه براي باز کردن اين نوع فايل بر روي سيستم شما تعيين نشده است."
+
+#: ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1537
+#, c-format
+msgid ""
+"The file '%s' could not be opened:\n"
+"The associated command failed"
+msgstr ""
+"فايل '%s' باز نمي شود:\n"
+"فرمان تعيين شده شکست خورد"
+
+#: ../src/interface/fzputtygen_interface.cpp:88
+#, c-format
+msgid ""
+"The file '%s' is not in a format supported by FileZilla.\n"
+"Would you like to convert it into a supported format?"
+msgstr ""
+"فايل '%s' به فرمتي مي باشد که به وسيله FileZilla قابل پشتيباني نيست.\n"
+"آيا مي خواهيد آن را به فرمتي تبديل کنيد که به وسيله FileZilla قابل پشتيباني "
+"باشد؟ "
+
+#: ../src/interface/settings/optionspage_edit.cpp:87
+msgid "The file selected as default editor does not exist."
+msgstr "فايل انتخاب شده بعنوان ويرايشگر پيش فرض وجود ندارد."
+
+#: ../src/interface/listctrlex.cpp:762
+msgid "The filename column can neither be hidden nor moved."
+msgstr "ستون نام فايل را نمي توانيد مخفي يا حذف کنيد."
+
+#: ../src/interface/listctrlex.cpp:812
+msgid "The filename column cannot be hidden."
+msgstr "ستون نام فايل قابل مخفي شدن نمي باشد."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:69
+#, c-format
+msgid "The following character will be replaced: %s"
+msgstr "کاراکترهاي زير جايگزين خواهند شد: %s"
+
+#: ../src/interface/settings/optionspage_transfer.cpp:66
+#, c-format
+msgid "The following characters will be replaced: %s"
+msgstr "کاراکترهاي زير جايگزين خواهند شد: %s"
+
+#: ../src/interface/welcome_dialog.cpp:69
+msgid "The free open source FTP solution"
+msgstr "نرم افزار رايگان و متن باز FTP"
+
+#: ../src/interface/bookmarks_dialog.cpp:295
+msgid "The global bookmarks could not be saved."
+msgstr "نشانه گذاري هاي عمومي نمي توانند ذخيره شوند."
+
+#: ../src/interface/state.cpp:282
+#, c-format
+msgid ""
+"The local directory '%s' is not below the synchronization root (%s).\n"
+"Disable synchronized browsing and continue changing the local directory?"
+msgstr ""
+"پوشه محلي '%s' در شاخه اصلي (%s) قرار ندارد.\n"
+"آيا جستجوی همزمان را غير فعال مي کنيد و پوشه محلي را تغيير مي دهيد؟"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:78
+msgid ""
+"The lowest available port has to be less or equal than the highest available "
+"port."
+msgstr "پايين ترين پورت بايد کمتر يا برابر بالاترين پورت باشد."
+
+#: ../src/interface/QueueView.cpp:1580
+msgid "The queue will not be saved."
+msgstr "صف ذخیره نخواهد شد."
+
+#: ../src/interface/state.cpp:1124
+#, c-format
+msgid ""
+"The remote directory '%s' is not below the synchronization root (%s).\n"
+"Disable synchronized browsing and continue changing the remote directory?"
+msgstr ""
+"پوشه '%s' درشاخه اصلی (%s) قرار ندارد.\n"
+"آیا جستجوي همزمان غیر فعال شده و تغییر پوشه سایت ادامه یابد؟"
+
+#: ../src/interface/import.cpp:90
+msgid "The selected categories have been imported."
+msgstr "عناوین انتخاب شده وارد شده اند."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2003
+#: ../src/interface/resources/xrc/dialogs.xrc:2070
+msgid "The selected file is already being edited:"
+msgstr "فایل انتخاب شده درحال ویرایش می باشد:"
+
+#: ../src/interface/edithandler.cpp:1812
+msgid ""
+"The selected file is still opened in some other program, please close it."
+msgstr ""
+"فایل انتخاب شده هنوز توسط برخی از برنامه ها باز است، لطفا آن را ببندید."
+
+#: ../src/interface/sitemanager.cpp:529
+msgid "The server could not be added."
+msgstr "سرور نمی تواند اضافه شود."
+
+#: ../src/interface/netconfwizard.cpp:594
+msgid "The server sent an unexpected or unrecognized reply."
+msgstr "سرور یک پاسخ ناشناخته یا غیرمطرقبه ارسال کرد."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:674
+msgid "The server uses following charset encoding for filenames:"
+msgstr "سرور از این روش رمزنگاری برای فایل ها استفاده می کند:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:21
+msgid ""
+"The server's certificate is unknown. Please carefully examine the "
+"certificate to make sure the server can be trusted."
+msgstr ""
+"گواهی نامه سرور ناشناخته است. لطفا با دقت گواهی نامه را بررسی نموده و مطمئن "
+"شوید که قابل اعتماد است."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1026
+msgid ""
+"The server's host key is unknown. You have no guarantee that the server is "
+"the computer you think it is."
+msgstr ""
+"کلید هاست سرور ناشناخته است.هیچ ضمانتی وجود ندارد که این سرور همان کامپیوتری "
+"است که شما فکر می کنید."
+
+#: ../src/interface/import.cpp:83
+msgid ""
+"The settings have been imported. You have to restart FileZilla for all "
+"settings to have effect."
+msgstr ""
+"تنظیمات وارد شد. برای اعمال همه تنظیمات شما باید FileZilla را مجددا راه "
+"اندازی نمایید."
+
+#: ../src/interface/QueueView.cpp:2812
+msgid "The system will soon reboot unless you click Cancel."
+msgstr "در صورتیکه کلید انصراف را نزنید سیستم بزودی راه اندازی مجدد می شود."
+
+#: ../src/interface/QueueView.cpp:2808
+msgid "The system will soon shut down unless you click Cancel."
+msgstr "در صورتیکه کلید انصراف را نزنید سیستم بزودی خاموش خواهد شد."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:19
+msgid ""
+"The target file already exists.\n"
+"Please choose an action."
+msgstr ""
+"فایل مقصد در حال حاضر موجود است.\n"
+"لطفا عملیات را انتخاب نمایید."
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "The test did not succeed. Do you really want to save the settings?"
+msgstr "آزمایش موفقیت آمیز نبود. آیا می خواهید تنظیمات ذخیره شوند؟"
+
+#: ../src/interface/settings/settingsdialog.cpp:108
+msgid "Themes"
+msgstr "قالبها"
+
+#: ../src/interface/filter.cpp:382
+msgid "This filter set cannot be removed."
+msgstr "فیلتر تنظیم شده قابل حذف نمی باشد."
+
+#: ../src/interface/filter.cpp:318
+msgid "This filter set cannot be renamed."
+msgstr "فیلتر تنظیم شده قابل تغییر نام نمی باشد."
+
+#: ../src/interface/netconfwizard.cpp:595
+msgid ""
+"This means that some router and/or firewall is still interfering with "
+"FileZilla."
+msgstr ""
+"این بدان معنی است که برخی از مسیریاب ویا فایروال هنوز با FileZilla در تداخل "
+"هستند."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:183
+msgid ""
+"This only works if you are not behind a router, else your system would just "
+"return your internal address."
+msgstr ""
+"این درصورتی کار می کند که شما پشت یک مسیریاب نباشید، در غیر اینصورت ممکن است "
+"سیستم شما فقط به آدرسهای داخلی پاسخ دهد."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:8
+msgid ""
+"This wizard will help you to properly configure any routers and firewalls "
+"you have and tests your configuration."
+msgstr ""
+"این قسمت به شما کمک می کند که مسیربابها و فایروالهایی را که می خواهید تنظیم "
+"یا آزمایش شوند بدرستی پیکربندی نمایید."
+
+#: ../src/interface/resources/xrc/settings.xrc:1397
+msgid "Time formatting"
+msgstr "قالب بندی زمان"
+
+#: ../src/interface/resources/xrc/settings.xrc:97
+msgid "Time&out in seconds:"
+msgstr "&وقفه بر حسب ثانیه:"
+
+#: ../src/interface/resources/xrc/settings.xrc:126
+#: ../src/interface/queue.cpp:350
+msgid "Timeout"
+msgstr "وقفه"
+
+#: ../src/interface/verifycertdialog.cpp:645
+msgid "Title:"
+msgstr "عنوان:"
+
+#: ../src/interface/Mainfrm.cpp:2380
+msgid "To compare directories, both file lists have to be aligned."
+msgstr "مقایسه کردن پوشه ها، لیست هر دو فایل باید همتراز باشند. "
+
+#: ../src/interface/Mainfrm.cpp:2381
+msgid "To do this, the directory trees need to be both shown or both hidden."
+msgstr "جهت اجام آن لازم است که هر دو نمودار درختی پوشه ها نمایش داده شود."
+
+#: ../src/interface/resources/xrc/settings.xrc:624
+msgid ""
+"To support public key authentication, FileZilla needs to know the private "
+"keys to use."
+msgstr ""
+"برای پشتیبانی از تعیین هویت به وسیله کلید عمومی، FileZilla نیاز به شناختن "
+"کلیدهای خصوصی استفاده شده دارد. "
+
+#: ../src/interface/toolbar.cpp:51
+msgid ""
+"Toggle directory comparison. Right-click to change comparison mode.\n"
+"\n"
+"Colors:\n"
+"Yellow: File only exists on one side\n"
+"Green: File is newer than the unmarked file on other side\n"
+"Red: File sizes different"
+msgstr ""
+"مقایسه دو پوشه.برای تغییر حالت مقایسه راست کلیک نمایید.\n"
+"\n"
+"رنگها:\n"
+"زرد: فایل فقط در یکطرف موجود است\n"
+"سبز: فایل جدیدتر از فایل نشانه دار در طرف مقابل است\n"
+"قرمز: اندازه فایل متفاوت است"
+
+#: ../src/interface/toolbar.cpp:44
+msgid "Toggles processing of the transfer queue"
+msgstr "کنترل عملیات صف انتقال"
+
+#: ../src/interface/toolbar.cpp:38
+msgid "Toggles the display of the local directory tree"
+msgstr "کنترل نمایش نمودار درختی پوشه محلی"
+
+#: ../src/interface/toolbar.cpp:37
+msgid "Toggles the display of the message log"
+msgstr "کنترل نمایش کادر پیام "
+
+#: ../src/interface/toolbar.cpp:39
+msgid "Toggles the display of the remote directory tree"
+msgstr "کنترل نمایش نمودار درختی پوشه خارجی"
+
+#: ../src/interface/toolbar.cpp:40
+msgid "Toggles the display of the transfer queue"
+msgstr "کنترل نمایش صف انتقال"
+
+#: ../src/engine/logging.cpp:133 ../src/interface/StatusView.cpp:300
+#: ../src/interface/StatusView.cpp:379
+msgid "Trace:"
+msgstr "ردیابی:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1680
+#: ../src/interface/resources/xrc/settings.xrc:1700
+msgid "Transfer"
+msgstr "انتقال"
+
+#: ../src/interface/menu_bar.cpp:116
+msgid "Transfer &type"
+msgstr "&نوع انتقال"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "حالت انتقال"
+
+#: ../src/interface/netconfwizard.cpp:641
+msgid "Transferred data got tainted."
+msgstr "انتقال داده های معیوب شد."
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "در حال انتقال"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "انتقال ها"
+
+#: ../src/interface/QueueView.cpp:2690
+msgid "Transfers finished"
+msgstr "انتقال ها پایان یافت"
+
+#: ../src/interface/resources/xrc/settings.xrc:1088
+msgid "Treat the &following filetypes as ASCII files:"
+msgstr "&تلقی این نوع فایل از نوع فایلهای اسکی:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1201
+msgid "Trust the new key and carry on connecting?"
+msgstr "به کلید جدید اعتماد کن و به ارتباط ادامه بده؟"
+
+#: ../src/interface/resources/xrc/certificate.xrc:251
+msgid "Trust this certificate and carry on connecting?"
+msgstr "به این گواهی نامه اعتماد کن و به ارتباط ادامه بده؟"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1080
+msgid "Trust this host and carry on connecting?"
+msgstr "به این هاست اعتماد کن و به ارتباط ادامه بده؟"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2840
+#: ../src/interface/edithandler.cpp:1147
+msgid "Type"
+msgstr "نوع"
+
+#: ../src/interface/resources/xrc/settings.xrc:454
+msgid "Type of FTP Proxy:"
+msgstr "نوع پراکسی FTP:"
+
+#: ../src/interface/resources/xrc/settings.xrc:715
+msgid "Type of generic proxy:"
+msgstr "نوع پراکسی عمومی:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2151
+msgid "U&pload"
+msgstr "&بارگذاری"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3762
+#: ../src/interface/resources/xrc/settings.xrc:931
+msgid "U&pload limit:"
+msgstr "&بارگذاری محدود:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1810
+msgid "U&se filetype associations if available"
+msgstr "&استفاده از برنامه وابسته اگر موجود است"
+
+#: ../src/interface/resources/xrc/settings.xrc:464
+msgid "USER@&HOST"
+msgstr "کاربر@&هاست"
+
+#: ../src/interface/verifycertdialog.cpp:644
+msgid "Unit:"
+msgstr "واحد:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1055
+#: ../src/interface/resources/xrc/dialogs.xrc:1065
+#: ../src/interface/resources/xrc/dialogs.xrc:1176
+#: ../src/interface/resources/xrc/dialogs.xrc:1186
+#: ../src/interface/resources/xrc/dialogs.xrc:2268
+#: ../src/interface/resources/xrc/dialogs.xrc:2278
+#: ../src/engine/sizeformatting_base.cpp:61
+#: ../src/interface/edithandler.cpp:1179 ../src/interface/edithandler.cpp:1207
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: ../src/engine/proxy.cpp:367
+#, c-format
+msgid "Unknown SOCKS protocol version: %d"
+msgstr "نسخه پروتکل SOCKS ناشناخته : %d"
+
+#: ../src/interface/resources/xrc/certificate.xrc:4
+msgid "Unknown certificate"
+msgstr "گواهی نامه ناشناخته"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1007
+msgid "Unknown host key"
+msgstr "کلید هاست ناشناخته"
+
+#: ../src/interface/xmlfunctions.cpp:192
+msgid ""
+"Unknown root element, the file does not appear to be generated by FileZilla."
+msgstr "اجزا ریشه ناشناخته ، این فایل توسط FileZilla ساخته نشده است."
+
+#: ../src/interface/netconfwizard.cpp:616
+#: ../src/interface/netconfwizard.cpp:627
+msgid ""
+"Unless these problems get fixed, active mode FTP will not work and passive "
+"mode has to be used."
+msgstr ""
+"تازمانیکه این مشکلات برطرف نشوند، حالت فعال FTP کار نخواهد کرد حالت غیرفعال "
+"باید استفاده شود."
+
+#: ../src/interface/netconfwizard.cpp:603
+msgid ""
+"Unless this problem gets fixed, active mode FTP will not work and passive "
+"mode has to be used."
+msgstr ""
+"تا زمانیکه این مشکل برطرف نشود، حالت فعال FTP کار نخواهد کرد حالت غیرفعال "
+"باید استفاده شود."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2474
+msgid "Upload"
+msgstr "بارگذاری"
+
+#: ../src/interface/edithandler.cpp:1170
+msgid "Upload failed"
+msgstr "بارگذاری خراب شد"
+
+#: ../src/interface/statusbar.cpp:617
+#, c-format
+msgid "Upload limit: %s/s"
+msgstr "محدودیت بارگذاری: %s/s"
+
+#: ../src/interface/statusbar.cpp:620
+msgid "Upload limit: none"
+msgstr "محدودیت بارگذاری: هیچ"
+
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "Upload selected directory"
+msgstr "بارگذاری پوشه انتخاب شده"
+
+#: ../src/interface/LocalListView.cpp:784
+msgid "Upload selected files and directories"
+msgstr "بارگذاری فایلها و پوشه های انتخاب شده"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1962
+msgid "Upload this file back to the server?"
+msgstr "آیا می خواهید فایل را در سرور بارگذار کنید؟"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1957
+msgid "Upload this file to the server?"
+msgstr "بارگذاری این فایل به سرور؟"
+
+#: ../src/interface/edithandler.cpp:1164 ../src/interface/edithandler.cpp:1198
+#: ../src/interface/edithandler.cpp:1357
+msgid "Uploading"
+msgstr "در حال بارگذاری"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:697
+msgid "Use &custom charset"
+msgstr "استفاده از کاراکتر &سفارشی"
+
+#: ../src/interface/resources/xrc/settings.xrc:1774
+msgid "Use &custom editor:"
+msgstr "استفاده از ویرایشگر &سفارشی:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3168
+msgid "Use &default editor for text files"
+msgstr "استفاده از ویرایشگر &پیش فرض برای فایل متنی"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2946
+#: ../src/interface/resources/xrc/dialogs.xrc:3027
+msgid "Use &synchronized browsing"
+msgstr "استفاده از &جستجوي همزمان"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:685
+msgid "Use UTF-8 if the server supports it, else use local charset."
+msgstr ""
+"استفاده از UTF-8 اگر سرور آن را پشتیبانی می کند, در غیر اینصورت استفاده از "
+"کاراکترهای محلی."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1614
+#: ../src/interface/resources/xrc/dialogs.xrc:1637
+msgid "Use default action"
+msgstr "استفاده از عملیات پیش فرض"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:194
+msgid "Use the following IP address:"
+msgstr "استفاده از IP زیر:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:283
+msgid "Use the following port range:"
+msgstr "استفاده از اینگونه محدوده پورت:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:152
+msgid "Use the server's external IP address instead"
+msgstr "استفاده از آدرس IP خارجی سرور"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:207
+#: ../src/interface/resources/xrc/settings.xrc:359
+msgid ""
+"Use this if you're behind a router and have a static external IP address."
+msgstr ""
+"اگر پشت یک مسیریاب هستید و یک آدرس آی پی خارجی ثابت دارید از این استفاده "
+"نمایید."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "کاربر:"
+
+#: ../src/interface/manual_transfer.cpp:491
+#: ../src/interface/sitemanager_site.cpp:583
+msgid "Username cannot be a series of spaces"
+msgstr "نام کاربری نمی تواند یکسری فضای خالی باشد"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:725
+msgid ""
+"Using the wrong charset can result in filenames not displaying properly."
+msgstr ""
+"استفاده از کاراکترهای نادرست می تواند منجر به عدم نمایش صحیح نام فایلها گردد."
+
+#: ../src/interface/resources/xrc/certificate.xrc:49
+msgid "Valid from:"
+msgstr "فرم معتبر:"
+
+#: ../src/interface/resources/xrc/settings.xrc:965
+msgid "Very high"
+msgstr "خیلی بلند"
+
+#: ../src/interface/resources/xrc/settings.xrc:1682
+msgid "View/Edit"
+msgstr "مشاهده/ویرایش"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2376
+msgid "Visible columns"
+msgstr "ستونهای مرئی"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:634
+msgid "W&rite"
+msgstr "&نوشتن"
+
+#: ../src/interface/queue.cpp:357
+msgid "Waiting for password"
+msgstr "در انتظار گذرواژه"
+
+#: ../src/interface/statuslinectrl.cpp:265
+msgid "Waiting for transfer to be cancelled"
+msgstr "در انتظار انتقال لغو شده"
+
+#: ../src/engine/engineprivate.cpp:254
+msgid "Waiting to retry..."
+msgstr "در انتظار تلاش مجدد..."
+
+#: ../src/interface/netconfwizard.cpp:977
+msgid "Warning, ignoring data connection from wrong IP."
+msgstr "اخطار، نادیده گرفتن اتصال داده از یک آی پی نادرست."
+
+#: ../src/interface/welcome_dialog.cpp:50
+msgid "Welcome to FileZilla"
+msgstr "به FileZilla خوش آمدید"
+
+#: ../src/interface/welcome_dialog.cpp:83
+msgid "What's new"
+msgstr "چه چیزی جدید است"
+
+#: ../src/interface/resources/xrc/update.xrc:23
+msgid "What's new:"
+msgstr "چه چیزی جدید است:"
+
+#: ../src/interface/resources/xrc/settings.xrc:992
+msgid ""
+"When enabled, characters that are not supported by the local operating "
+"system in filenames are replaced if downloading such a file."
+msgstr ""
+"هنگامی که فعال باشد، اگر یک فایل را دانلود نمایید کاراکترهایی که توسط سیستم "
+"عامل محلی پشتیبانی نمی شوند جایگزین خواهند شد."
+
+#: ../src/interface/settings/optionspage_interface.cpp:130
+msgid "Widescreen"
+msgstr "نمایش تمام صفحه"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:668
+msgid "Wr&ite"
+msgstr "&نوشتن"
+
+#: ../src/interface/netconfwizard.cpp:453
+#: ../src/interface/netconfwizard.cpp:459
+msgid "Wrong external IP address"
+msgstr "آدرس آی پی خارجی نادرست"
+
+#: ../src/engine/http/request.cpp:639
+msgid "Wrong line endings"
+msgstr "خطای پایان خط"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:402
+msgid "Yes"
+msgstr "بله"
+
+#: ../src/interface/welcome_dialog.cpp:108
+msgid "You can always open this dialog again through the help menu."
+msgstr "شما همواره می توانید این صفحه را از منوی راهنما مجددا باز نمایید."
+
+#: ../src/interface/serverdata.cpp:140
+msgid "You can leave the port field empty to use the default port."
+msgstr ""
+"شما می توانید به پورت خالی جهت استفاده به عنوان پورت پیش فرض اجازه دهید."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:149
+msgid ""
+"You cannot replace an invalid character with another invalid character. "
+"Please enter a character that is allowed in filenames."
+msgstr ""
+"شما می توانید کاراکترهای غیر مجاز را با کاراکترهای غیر مجاز دیگر جابه جا "
+"نمایید.لطفا کاراکتری را که در نام فایل ها مجاز است وارد نمایید."
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "You did not enter a new name for the file. Overwrite the file instead?"
+msgstr "شما یک نام جدید برای فایل وارد نکردید. فایل بازنویسی شود؟"
+
+#: ../src/interface/edithandler.cpp:1676 ../src/interface/search.cpp:1223
+msgid ""
+"You have selected more than 10 files for editing, do you really want to "
+"continue?"
+msgstr ""
+"شما بیش از 10 فایل را برای ویرایش انتخاب کرده اید، آیا می خواهید ادامه دهید؟"
+
+#: ../src/interface/LocalListView.cpp:1842 ../src/interface/search.cpp:1490
+msgid ""
+"You have selected more than 10 files or directories to open, do you really "
+"want to continue?"
+msgstr ""
+"شما بیش از 10 فایل یا پوشه را برای بازشدن انتخاب کرده اید ، آیا می خواهید "
+"ادامه دهید؟"
+
+#: ../src/interface/manual_transfer.cpp:407
+#: ../src/interface/sitemanager_site.cpp:491
+msgid "You have to enter a hostname."
+msgstr "شما باید یک نام هاست را وارد نمایید."
+
+#: ../src/interface/search.cpp:927
+msgid "You have to enter a local directory."
+msgstr "شما باید یک پوشه محلی را وارد نمایید."
+
+#: ../src/interface/search.cpp:932
+msgid "You have to enter a writable local directory."
+msgstr "شما باید یک پوشه محلی قابل نوشتن را وارد نمایید."
+
+#: ../src/interface/manual_transfer.cpp:502
+#: ../src/interface/sitemanager_site.cpp:593
+msgid "You have to enter an account name"
+msgstr "شما باید نام یک حساب را وارد نمایید"
+
+#: ../src/interface/manual_transfer.cpp:476
+#: ../src/interface/sitemanager_site.cpp:568
+msgid "You have to specify a user name"
+msgstr "شما باید یک نام کاربری تعیین نمایید"
+
+#: ../src/interface/netconfwizard.cpp:642
+msgid ""
+"You likely have a router or firewall which erroneously modified the "
+"transferred data."
+msgstr ""
+"شما احتمالا یک مسیریاب یا فایروال دارید که به اشتباه داده های منتقل شده را "
+"تغییر داده اند."
+
+#: ../src/interface/bookmarks_dialog.cpp:60
+msgid "You need to enter a name for the bookmark."
+msgstr "شما نیاز دارید که یک نام برای این نشانه گذاری وارد نمایید."
+
+#: ../src/interface/settings/optionspage_logging.cpp:67
+msgid "You need to enter a name for the log file."
+msgstr "شما نیاز دارید که یک نام برای فایل گزارش وارد نمایید."
+
+#: ../src/interface/settings/optionspage_ftpproxy.cpp:82
+#: ../src/interface/settings/optionspage_proxy.cpp:79
+msgid "You need to enter a proxy host."
+msgstr "شما نیاز دارید یک پراکسی میزبان را وارد نمایید."
+
+#: ../src/interface/settings/optionspage_proxy.cpp:88
+msgid "You need to enter a proxy port in the range from 1 to 65535"
+msgstr "شما نیاز دارید یک پورت پراکسی در محدوده 1 تا 65535 وارد نمایید"
+
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:460
+#: ../src/interface/sitemanager_dialog.cpp:916
+msgid "You need to enter at least one path, empty bookmarks are not supported."
+msgstr ""
+"شما نیاز دارید کوچکترین مسیر را وارد نمایید، نشانه گذاری خالی پشتیبانی نمی "
+"شود."
+
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/sitemanager_dialog.cpp:923
+msgid ""
+"You need to enter both a local and a remote path to enable synchronized "
+"browsing for this bookmark."
+msgstr ""
+"شما نیاز دارید دو مسیر یکی محلی و یکی در سایت برای فعال سازی جستجوي همزمان "
+"برای این نشانه وارد نمایید."
+
+#: ../src/interface/sitemanager_site.cpp:660
+msgid ""
+"You need to enter both a local and a remote path to enable synchronized "
+"browsing for this site."
+msgstr ""
+"شما نیاز دارید دو مسیر یکی محلی و یکی در سایت برای فعال سازی جستجوي همزمان "
+"در این سایت وارد نمایید."
+
+#: ../src/interface/manual_transfer.cpp:294
+msgid "You need to specify a local file."
+msgstr "شما نیاز به تعیین یک فایل محلی دارید."
+
+#: ../src/interface/manual_transfer.cpp:311
+msgid "You need to specify a remote file."
+msgstr "شما نیاز به تعیین یک فایل خارجی دارید."
+
+#: ../src/interface/manual_transfer.cpp:317
+msgid "You need to specify a remote path."
+msgstr "شما نیاز به تعیین یک مسیر خارجی دارید."
+
+#: ../src/interface/manual_transfer.cpp:288
+msgid "You need to specify a server."
+msgstr "شما نیاز به تعیین یک سرور دارید."
+
+#: ../src/interface/netconfwizard.cpp:588
+msgid ""
+"You should have no problems connecting to other servers, file transfers "
+"should work properly."
+msgstr ""
+"شما نباید هیچ مشکلی جهت اتصال به سرور های دیگر داشته باشید، انتقال فایل باید "
+"بدرستی کار کند."
+
+#: ../src/interface/filter_conditions_dialog.cpp:64
+msgid "begins with"
+msgstr "آغاز شود با"
+
+#: ../src/interface/filter_conditions_dialog.cpp:62
+msgid "contains"
+msgstr "شامل"
+
+#: ../src/interface/filter_conditions_dialog.cpp:65
+msgid "ends with"
+msgstr "پایان یابد با"
+
+#: ../src/interface/filter_conditions_dialog.cpp:70
+#: ../src/interface/filter_conditions_dialog.cpp:95
+msgid "equals"
+msgstr "مساوی"
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "فایل"
+
+#: ../src/engine/sftp/connect.cpp:140
+msgid "fzsftp could not be started"
+msgstr "fzsftp نمی تواند شروع به کار نماید"
+
+#: ../src/interface/filter_conditions_dialog.cpp:69
+msgid "greater than"
+msgstr "بزرگتر از"
+
+#: ../src/interface/filter_conditions_dialog.cpp:89
+msgid "group executable"
+msgstr "قابل اجرا گروهی"
+
+#: ../src/interface/filter_conditions_dialog.cpp:87
+msgid "group readable"
+msgstr "قابل خواندن گروهی"
+
+#: ../src/interface/filter_conditions_dialog.cpp:88
+msgid "group writeable"
+msgstr " قابل نوشتن گروهی"
+
+#: ../src/interface/filter_conditions_dialog.cpp:63
+msgid "is equal to"
+msgstr "مساوی است با"
+
+#: ../src/interface/filter_conditions_dialog.cpp:74
+msgid "is set"
+msgstr "تنظیم شده"
+
+#: ../src/interface/filter_conditions_dialog.cpp:75
+msgid "is unset"
+msgstr "تنظیم نشده"
+
+#: ../src/interface/filter_conditions_dialog.cpp:72
+msgid "less than"
+msgstr "کوچکتر از"
+
+#: ../src/interface/filter_conditions_dialog.cpp:86
+msgid "owner executable"
+msgstr "قابل اجرا توسط مالک"
+
+#: ../src/interface/filter_conditions_dialog.cpp:84
+msgid "owner readable"
+msgstr "قابل خواندن توسط مالک"
+
+#: ../src/interface/filter_conditions_dialog.cpp:85
+msgid "owner writeable"
+msgstr " قابل نوشتن توسط مالک"
+
+#: ../src/engine/proxy.cpp:51 ../src/interface/sftp_crypt_info_dlg.cpp:43
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: ../src/interface/filter_conditions_dialog.cpp:90
+msgid "world readable"
+msgstr " قابل خواندن جهانی"
+
+#: ../src/interface/filter_conditions_dialog.cpp:91
+msgid "world writeable"
+msgstr " قابل نوشتن جهانی"

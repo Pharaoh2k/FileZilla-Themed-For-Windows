@@ -1,0 +1,5519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Filezilla en occitan\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tòni Galhard <tony.gaillard@supinfo.com>\n"
+"Language-Team: Tòni Galhard <tony.gaillard@supinfo.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: occitan\n"
+"X-Poedit-Country: Occitània\n"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:59
+#: ../src/interface/statuslinectrl.cpp:220
+msgid "%H:%M:%S elapsed"
+msgstr "%H:%M:%S passada(s)"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:64
+#: ../src/interface/statuslinectrl.cpp:226
+msgid "%H:%M:%S left"
+msgstr "Demòra(n) %H:%M:%S"
+
+#: ../src/interface/resources/xrc/settings.xrc:525
+#, c-format
+msgid ""
+"%a - Account (Lines containing this will be omitted if not using Account "
+"logontype)"
+msgstr ""
+"%a - Compte (Las linhas contenent aqueste paramètre seràn ignoradas se lo "
+"metòde de connexion'Compte' es pas utilizat)"
+
+#: ../src/interface/filelist_statusbar.cpp:51
+#: ../src/interface/filelist_statusbar.cpp:63
+#: ../src/interface/filelist_statusbar.cpp:76
+#, c-format
+msgid "%d directory"
+msgid_plural "%d directories"
+msgstr[0] "%d repertòri"
+msgstr[1] "%d repertòris"
+
+#: ../src/interface/filelist_statusbar.cpp:50
+#: ../src/interface/filelist_statusbar.cpp:75
+#: ../src/interface/RemoteListView.cpp:1491 ../src/interface/search.cpp:875
+#: ../src/interface/search.cpp:1263
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d fichièr"
+msgstr[1] "%d fichièrs"
+
+#: ../src/interface/filelist_statusbar.cpp:71
+#, c-format
+msgid "%d file. Total size: %s"
+msgid_plural "%d files. Total size: %s"
+msgstr[0] "%d fichièr. Talha totala: %s"
+msgstr[1] "%d fichièrs. Talha totala: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:68
+#, c-format
+msgid "%d file. Total size: At least %s"
+msgid_plural "%d files. Total size: At least %s"
+msgstr[0] "%d fichièr. Talha totala: Almens %s"
+msgstr[1] "%d fichièrs. Talha totala: Almens %s"
+
+#: ../src/interface/resources/xrc/settings.xrc:502
+msgid "%h - Host"
+msgstr "%h - Òste"
+
+#: ../src/interface/resources/xrc/settings.xrc:518
+#, c-format
+msgid "%p - Password"
+msgstr "%p - Mot de gach"
+
+#: ../src/interface/verifycertdialog.cpp:384
+#, c-format
+msgid "%s - Certificate expired!"
+msgstr "%s - Certificat acabat!"
+
+#: ../src/interface/verifycertdialog.cpp:368
+#, c-format
+msgid "%s - Not yet valid!"
+msgstr "%s - Pas encara valid!"
+
+#: ../src/interface/resources/xrc/settings.xrc:533
+#, c-format
+msgid "%s - Proxy user"
+msgstr "%s - Utilizaire (proxy)"
+
+#: ../src/interface/filelist_statusbar.cpp:82
+#, c-format
+msgid "%s and %s. Total size: %s"
+msgstr "%s e %s. Talha totala: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:79
+#, c-format
+msgid "%s and %s. Total size: At least %s"
+msgstr "%s e %s. Talha totala: Almens %s"
+
+#: ../src/engine/sizeformatting_base.cpp:71
+#, c-format
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%s octet"
+msgstr[1] "%s octets"
+
+#: ../src/interface/verifycertdialog.cpp:405
+#, c-format
+msgid "%s with %d bits"
+msgstr "%s amb %d bits"
+
+#: ../src/interface/resources/xrc/settings.xrc:510
+#, c-format
+msgid "%u - Username"
+msgstr "%u - Nom d'utilizaire"
+
+#: ../src/interface/resources/xrc/settings.xrc:541
+msgid "%w - Proxy password"
+msgstr "%w - mot de gach (proxy)"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "&A prepaus..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&Compte:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&Actiu"
+
+#: ../src/interface/menu_bar.cpp:154
+msgid "&Add bookmark..."
+msgstr "&Apondre un marcapagina..."
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "&Apondre de fichièrs a la tièra"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "&Add to queue"
+msgstr "&Apondre a la tièra"
+
+#: ../src/interface/resources/xrc/certificate.xrc:256
+msgid "&Always trust certificate in future sessions."
+msgstr ""
+"&Totjorn aver fisança dins aqueste certificat dins las sessions futuras."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1087
+msgid "&Always trust this host, add this key to the cache"
+msgstr ""
+"&Totjorn far fisança a aqueste òste, apondre aquesta clau dins la memòria "
+"cache"
+
+#: ../src/interface/resources/xrc/settings.xrc:1816
+msgid "&Always use default editor"
+msgstr "&Totjorn utilizar l'editor per defaut"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3213
+msgid "&Always use selection for unassociated files"
+msgstr "&Totjorn utilizar la seleccion pels fichièrs que son pas associats"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:184
+msgid "&Always use this action"
+msgstr "&Totjorn utilizar aquesta accion"
+
+#: ../src/interface/resources/xrc/settings.xrc:342
+msgid "&Ask your operating system for the external IP address"
+msgstr "&Demandar al sistèma d'esplechas l'adreça IP extèrna"
+
+#: ../src/interface/resources/xrc/settings.xrc:1055
+#: ../src/interface/menu_bar.cpp:118 ../src/interface/statusbar.cpp:563
+msgid "&Auto"
+msgstr "&Automatic"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:679
+msgid "&Autodetect"
+msgstr "&DeteccionAuto"
+
+#: ../src/interface/resources/xrc/settings.xrc:1070
+#: ../src/interface/menu_bar.cpp:120 ../src/interface/statusbar.cpp:565
+msgid "&Binary"
+msgstr "&Binari"
+
+#: ../src/interface/resources/xrc/settings.xrc:1479
+msgid "&Binary prefixes using SI symbols. (e.g. 1 KB = 1024 bytes)"
+msgstr "Prefixes binaris utilizant los simbòls SI. (ex. 1 KB = 1024 octets)"
+
+#: ../src/interface/menu_bar.cpp:151
+msgid "&Bookmarks"
+msgstr "&Marcapaginas"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2507
+#: ../src/interface/resources/xrc/dialogs.xrc:2918
+#: ../src/interface/resources/xrc/dialogs.xrc:3005
+#: ../src/interface/resources/xrc/dialogs.xrc:3200
+#: ../src/interface/resources/xrc/dialogs.xrc:3413
+#: ../src/interface/resources/xrc/settings.xrc:1788
+#: ../src/interface/resources/xrc/settings.xrc:2003
+#: ../src/interface/resources/xrc/sitemanager.xrc:506
+msgid "&Browse..."
+msgstr "&Navigar"
+
+#: ../src/interface/resources/xrc/settings.xrc:956
+msgid "&Burst tolerance:"
+msgstr "Tolerància de despassament:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:386
+#: ../src/interface/resources/xrc/dialogs.xrc:494
+#: ../src/interface/resources/xrc/dialogs.xrc:1227
+#: ../src/interface/resources/xrc/dialogs.xrc:3809
+#: ../src/interface/resources/xrc/dialogs.xrc:3911
+#: ../src/interface/resources/xrc/inputdialog.xrc:40
+#: ../src/interface/resources/xrc/settings.xrc:35
+#: ../src/interface/verifycertdialog.cpp:757
+msgid "&Cancel"
+msgstr "&Anullar"
+
+#: ../src/interface/menu_bar.cpp:70
+msgid "&Clear private data..."
+msgstr "&Suprimir las donadas privadas..."
+
+#: ../src/interface/QueueView.cpp:1835
+msgid "&Close FileZilla"
+msgstr "&Tampar FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&Connectar"
+
+#: ../src/interface/menu_bar.cpp:50
+msgid "&Copy current connection to Site Manager..."
+msgstr "&Copiar la connexion actuala dins lo gestionari de sites..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "&Copiar cap al pòrtapapièr"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "&Create directory"
+msgstr "&Crear un repertòri"
+
+#: ../src/interface/menu_bar.cpp:181
+msgid "&Debug"
+msgstr "&Despesolhatge"
+
+#: ../src/interface/resources/xrc/settings.xrc:2092
+msgid "&Debug information in message log:"
+msgstr "&Informacion de despesolhatge dins los messatges:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1758
+msgid "&Default editor:"
+msgstr "&Editor per defaut:"
+
+#: ../src/interface/menu_bar.cpp:113 ../src/interface/QueueView.cpp:1820
+msgid "&Default file exists action..."
+msgstr "&Accion fichièr existís ja per defaut..."
+
+#: ../src/interface/resources/xrc/settings.xrc:156
+msgid "&Delay between failed login attempts:"
+msgstr "&Relambi entre cada ensag de connexion:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1271
+#: ../src/interface/resources/xrc/dialogs.xrc:1440
+#: ../src/interface/resources/xrc/dialogs.xrc:3085
+#: ../src/interface/resources/xrc/sitemanager.xrc:59
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/LocalTreeView.cpp:1109
+msgid "&Delete"
+msgstr "&Suprimir"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3605
+msgid "&Delete symlink"
+msgstr "&Suprimir lo ligam simbolic"
+
+#: ../src/interface/menu_bar.cpp:86
+msgid "&Directory comparison"
+msgstr "&Comparason de repertòris"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2030
+msgid "&Discard local file then download and edit file anew"
+msgstr "&Suprimir lo fichièr local puèi telecargar e modificar lo fichièr"
+
+#: ../src/interface/menu_bar.cpp:143
+msgid "&Disconnect"
+msgstr "&Desconnectar"
+
+#: ../src/interface/resources/xrc/settings.xrc:1466
+msgid "&Display size in bytes"
+msgstr "&Talha d'afichatge en octets"
+
+#: ../src/interface/conditionaldialog.cpp:28
+msgid "&Don't show this dialog again."
+msgstr "&Pas tornar mostrar aquela bóstia."
+
+#: ../src/interface/resources/xrc/settings.xrc:390
+msgid "&Don't use external IP address on local connections."
+msgstr "&Pas utilizar d'adreça IP extèrna dins las connexions localas."
+
+#: ../src/interface/resources/xrc/settings.xrc:1673
+msgid "&Double-click action on files:"
+msgstr "&Accion doble-clic suls fichièrs:"
+
+#: ../src/interface/RemoteListView.cpp:1122
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "&Download"
+msgstr "&Telecargar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3399
+msgid "&Download to:"
+msgstr "&Telecargar jos:"
+
+#: ../src/interface/search.cpp:835
+msgid "&Download..."
+msgstr "&Telecargar..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1607
+#: ../src/interface/resources/xrc/settings.xrc:1180
+msgid "&Downloads:"
+msgstr "&Telecargaments:"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&Edicion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1367
+msgid "&Edit filter rules..."
+msgstr "&Modificar las règlas dels filtres..."
+
+#: ../src/interface/Mainfrm.cpp:2408 ../src/interface/menu_bar.cpp:89
+#: ../src/interface/menu_bar.cpp:128 ../src/interface/statusbar.cpp:553
+msgid "&Enable"
+msgstr "&Activar"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:704
+msgid "&Encoding:"
+msgstr "&Encodatge:"
+
+#: ../src/interface/StatusView.cpp:431
+msgid "&Enter custom command..."
+msgstr "&Picar una comanda personalizada..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:606
+msgid "&Execute"
+msgstr "&Executar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1781
+msgid "&Export Site Manager entries"
+msgstr "&Exportar los elements del Gestionari de Sites"
+
+#: ../src/interface/menu_bar.cpp:57
+#: ../src/interface/sitemanager_dialog.cpp:1772
+msgid "&Export..."
+msgstr "&Exportar..."
+
+#: ../src/interface/resources/xrc/settings.xrc:427
+msgid "&Fall back to active mode"
+msgstr "&Tornar anar en mòde actiu"
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&Fichièr"
+
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "&File Attributes..."
+msgstr "Atributs del fichièr..."
+
+#: ../src/interface/RemoteListView.cpp:1142
+msgid "&File permissions..."
+msgstr "&Permissions del fichièr..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2495
+msgid "&File:"
+msgstr "&Fichièr:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1492
+msgid "&Filter conditions:"
+msgstr "&Condicions de recèrca:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1248
+msgid "&Filter sets:"
+msgstr "&Jòcs de filtres:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1418
+msgid "&Filters:"
+msgstr "&Filtres:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1969
+msgid "&Finish editing and delete local file"
+msgstr "&Acabar l'edicion e suprimir lo fichièr local"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3612
+msgid "&Follow symlink, delete target directory contents"
+msgstr "&Seguir lo ligam simbolic, suprimir lo contengut del repertòri cibla"
+
+#: ../src/interface/resources/xrc/settings.xrc:368
+msgid "&Get external IP address from the following URL:"
+msgstr "&Obténer l'adreça IP extèrna dempuèi l'adreça URL seguenta :"
+
+#: ../src/interface/menu_bar.cpp:168
+msgid "&Getting help..."
+msgstr "&Obténer d'ajuda..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2847
+msgid "&Global bookmark"
+msgstr "&Marcapagina global"
+
+#: ../src/interface/resources/xrc/settings.xrc:725
+msgid "&HTTP/1.1 using CONNECT method"
+msgstr "&HTTP/1.1 utilizant lo mètode CONNECT"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: ../src/interface/Mainfrm.cpp:2415 ../src/interface/menu_bar.cpp:94
+msgid "&Hide identical files"
+msgstr "&Amagar los fichièrs idendics"
+
+#: ../src/interface/QueueView.cpp:1824
+msgid "&Highest"
+msgstr "&Mai naut"
+
+#: ../src/interface/resources/xrc/settings.xrc:306
+msgid "&Highest available port:"
+msgstr "&Pòrt disponible mai naut:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&Òste:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1474
+msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
+msgstr "Prefixes binaris &IEC (ex. 1 KiB = 1024 octets)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1360
+msgid "&ISO 8601 (example: 2007-09-15)"
+msgstr "&ISO 8601 (exemple: 2007-09-15)"
+
+#: ../src/interface/menu_bar.cpp:58
+msgid "&Import..."
+msgstr "&Importar..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1849
+msgid "&Inherit system's filetype associations"
+msgstr "Eretar las associacions per tipes de fichièrs d'aquelas del sistèma"
+
+#: ../src/interface/settings/optionspage_interface.cpp:126
+msgid "&Layout of file and directory panes:"
+msgstr "&Disposicion de las arborescéncias de los fichièrs e dorsièrs:"
+
+#: ../src/interface/resources/xrc/settings.xrc:269
+msgid "&Limit local ports used by FileZilla"
+msgstr "&Limitar los pòrts locals utilizats per FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:633
+msgid "&Limit number of simultaneous connections"
+msgstr "&Limitar lo nombre de connexions simultanèas"
+
+#: ../src/interface/menu_bar.cpp:103
+msgid "&Local directory tree"
+msgstr "&Arborescéncia de repertòris locals"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2903
+#: ../src/interface/resources/xrc/dialogs.xrc:2993
+msgid "&Local directory:"
+msgstr "&Repertòri local:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1980
+msgid "&Log to file"
+msgstr "&Escriure dins lo fichièr d'istoric"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2697
+msgid "&Logontype:"
+msgstr "&Connexion"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&Bas"
+
+#: ../src/interface/menu_bar.cpp:156
+msgid "&Manage bookmarks..."
+msgstr "&Gerir los marcapaginas..."
+
+#: ../src/interface/menu_bar.cpp:133
+msgid "&Manual transfer..."
+msgstr "Transferiment &manual..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:643
+msgid "&Maximum number of connections:"
+msgstr "&Nombre maximal de connexions:"
+
+#: ../src/interface/resources/xrc/settings.xrc:138
+msgid "&Maximum number of retries:"
+msgstr "&Nombre maximal d'ensages:"
+
+#: ../src/interface/menu_bar.cpp:102
+msgid "&Message log"
+msgstr "&Messatge d'istoric"
+
+#: ../src/interface/settings/optionspage_interface.cpp:148
+msgid "&Minimize to tray"
+msgstr "Reduire dins la zòna de notificacion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2874
+msgid "&Name:"
+msgstr "&Nom:"
+
+#: ../src/interface/menu_bar.cpp:69
+msgid "&Network configuration wizard..."
+msgstr "&Configuracion del ret..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1434
+msgid "&New"
+msgstr "&Novèl"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:35
+msgid "&New Site"
+msgstr "&Novèl Site"
+
+#: ../src/interface/Mainfrm.cpp:1798
+msgid "&New version available!"
+msgstr "&Novèla version disponibla!"
+
+#: ../src/interface/netconfwizard.cpp:28
+msgid "&Next >"
+msgstr "&Seguent >"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1982
+#: ../src/interface/resources/xrc/dialogs.xrc:2105
+msgid "&No"
+msgstr "&Non"
+
+#: ../src/interface/resources/xrc/settings.xrc:459
+#: ../src/interface/resources/xrc/settings.xrc:720
+#: ../src/interface/QueueView.cpp:1832
+msgid "&None"
+msgstr "&Cap"
+
+#: ../src/interface/QueueView.cpp:1826
+msgid "&Normal"
+msgstr "&Normal"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:692
+msgid "&Numeric value:"
+msgstr "&Valor numerica"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:378
+#: ../src/interface/resources/xrc/dialogs.xrc:486
+#: ../src/interface/resources/xrc/dialogs.xrc:3134
+#: ../src/interface/resources/xrc/sitemanager.xrc:114
+#: ../src/interface/verifycertdialog.cpp:750
+msgid "&OK"
+msgstr "&D'acòrdi"
+
+#: ../src/interface/resources/xrc/settings.xrc:474
+msgid "&OPEN"
+msgstr "&DOBRIR"
+
+#: ../src/interface/LocalListView.cpp:793
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "&Open"
+msgstr "&Dobrir"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:128
+msgid "&Overwrite"
+msgstr "&Remplaçar"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:624
+msgid "&Passive"
+msgstr "&Passiu"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&Mot de gach"
+
+#: ../src/interface/QueueView.cpp:1837
+msgid "&Play sound"
+msgstr "&Jogar lo son"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&Pòrt:"
+
+#: ../src/interface/menu_bar.cpp:123
+msgid "&Preserve timestamps of transferred files"
+msgstr "&Preservar l'ora/lo temps dels fichièrs transferits"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1850
+msgid "&Queue"
+msgstr "&Tièra"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&Connexion"
+
+#: ../src/interface/menu_bar.cpp:101
+msgid "&Quickconnect bar"
+msgstr "&Barra Connexion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:594
+msgid "&Read"
+msgstr "&Legir"
+
+#: ../src/interface/menu_bar.cpp:141
+msgid "&Reconnect"
+msgstr "&Tornar connectar"
+
+#: ../src/interface/context_control.cpp:475 ../src/interface/menu_bar.cpp:80
+msgid "&Refresh"
+msgstr "&Refrescar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2930
+#: ../src/interface/resources/xrc/dialogs.xrc:3017
+msgid "&Remote directory:"
+msgstr "&Repertòri alunhat:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2531
+msgid "&Remote path:"
+msgstr "&Camin alunhat:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1118
+msgid "&Remove"
+msgstr "&Suprimir"
+
+#: ../src/interface/resources/xrc/settings.xrc:651
+msgid "&Remove key"
+msgstr "&Suprimir la clau"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:4025
+#: ../src/interface/QueueView.cpp:1819
+msgid "&Remove selected"
+msgstr "&Suprimir lo qu'es seleccionat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1446
+#: ../src/interface/resources/xrc/dialogs.xrc:3079
+#: ../src/interface/resources/xrc/sitemanager.xrc:53
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteListView.cpp:1139
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "&Rename"
+msgstr "&Tornar nomenar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1266
+msgid "&Rename..."
+msgstr "&Tornar nomenar..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2023
+msgid "&Reopen local file"
+msgstr "&Tornar dobrir lo fichièr local"
+
+#: ../src/interface/menu_bar.cpp:169
+msgid "&Report a bug..."
+msgstr "&Senhalar un bug..."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:428
+msgid "&Restart Wizard"
+msgstr "&Tornar lançar l'assistent"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:158
+msgid "&Resume"
+msgstr "&Recomençar"
+
+#: ../src/interface/QueueView.cpp:1836
+msgid "&Run command..."
+msgstr "&Executar una comanda..."
+
+#: ../src/interface/resources/xrc/settings.xrc:77
+msgid "&Run configuration wizard now..."
+msgstr "&Lançar l'assistent de configuracion ara..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1942
+msgid "&Run update check now..."
+msgstr "&Verificar las mesas a jorn ara..."
+
+#: ../src/interface/resources/xrc/settings.xrc:469
+msgid "&SITE"
+msgstr "&SITE"
+
+#: ../src/interface/resources/xrc/settings.xrc:735
+msgid "&SOCKS 5"
+msgstr "&SOCKS 5"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1260
+msgid "&Save as..."
+msgstr "&Salvar coma..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3274
+msgid "&Search"
+msgstr "&Cercar"
+
+#: ../src/interface/menu_bar.cpp:146
+msgid "&Search remote files..."
+msgstr "&Cercar de fichièrs alunhats..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:18
+msgid "&Select Entry:"
+msgstr "&Causir l'element:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1725
+msgid "&Select language:"
+msgstr "&Causir la lenga:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2383
+msgid "&Select the columns that should be displayed:"
+msgstr "&Causir las colomnas que devon èsser mostradas:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&Servidor"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&Paramètres"
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "&Settings..."
+msgstr "&Paramètres..."
+
+#: ../src/interface/resources/xrc/settings.xrc:2081
+msgid "&Show debug menu"
+msgstr "&Mostrar lo menut de despesolhatge"
+
+#: ../src/interface/resources/xrc/settings.xrc:1975
+msgid "&Show timestamps in message log"
+msgstr "&Mostrar l'ora/lo temps dins los messatges"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "&Site Manager..."
+msgstr "&Gestionari de Sites..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2855
+msgid "&Site-specific bookmark"
+msgstr "Marcapaginas especific al site"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&Passar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3446
+#: ../src/interface/resources/xrc/dialogs.xrc:3541
+msgid "&Start transfer immediately"
+msgstr "Començar lo transferiment sul &pic"
+
+#: ../src/interface/settings/optionspage_interface.cpp:139
+msgid "&Swap local and remote panes"
+msgstr "&Permutar las arborescéncias locala e alunhada"
+
+#: ../src/interface/netconfwizard.cpp:237
+msgid "&Test"
+msgstr "&Tèst"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&Tèma:"
+
+#: ../src/interface/menu_bar.cpp:108
+msgid "&Transfer"
+msgstr "&Transferir"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&Mòde de transferiment"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1733
+#: ../src/interface/menu_bar.cpp:105
+msgid "&Transfer queue"
+msgstr "&Tièra de transferiments"
+
+#: ../src/interface/resources/xrc/settings.xrc:1142
+msgid "&Treat dotfiles as ASCII files"
+msgstr "&Tractar los fichièrs que començan per un ponch coma de fichièrs ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2145
+msgid "&Unedit"
+msgstr "&Anullar l'edicion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1208
+msgid "&Update cached key for this host"
+msgstr "&Mesa a jorn de la clau en memòria cache per aqueste òste"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&Cargar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1630
+#: ../src/interface/resources/xrc/settings.xrc:1201
+msgid "&Uploads:"
+msgstr "&Cargaments:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3188
+msgid "&Use custom program"
+msgstr "&Utilizar un programa personalizat"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:527
+msgid "&Use synchronized browsing"
+msgstr "&Utilizar la navigacion sincronizada"
+
+#: ../src/interface/resources/xrc/settings.xrc:1769
+msgid "&Use system's default editor for text files"
+msgstr "&Utilizar l'editor per defaut pels fichièrs tèxt"
+
+#: ../src/interface/resources/xrc/settings.xrc:348
+msgid "&Use the following IP address:"
+msgstr "&Utilizar l'adreça IP seguenta:"
+
+#: ../src/interface/resources/xrc/settings.xrc:421
+msgid "&Use the server's external IP address instead"
+msgstr "&Utilizar l'adreça IP extèrna dels servidors"
+
+#: ../src/interface/resources/xrc/settings.xrc:1489
+msgid "&Use thousands separator"
+msgstr "&Utilizar un separador pels milièrs"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:323
+#: ../src/interface/resources/xrc/dialogs.xrc:2709
+#: ../src/interface/resources/xrc/sitemanager.xrc:260
+#: ../src/interface/sitemanager_site.cpp:273
+#: ../src/interface/sitemanager_site.cpp:356
+msgid "&User:"
+msgstr "&Utilizaire:"
+
+#: ../src/interface/quickconnectbar.cpp:46
+msgid "&Username:"
+msgstr "&Nom d'utilizaire:"
+
+#: ../src/interface/Mainfrm.cpp:1792
+#, c-format
+msgid "&Version %s"
+msgstr "&Version %s"
+
+#: ../src/interface/menu_bar.cpp:78
+msgid "&View"
+msgstr "&Veire"
+
+#: ../src/interface/RemoteListView.cpp:1129 ../src/interface/search.cpp:836
+msgid "&View/Edit"
+msgstr "&Veire/Edicion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:600
+msgid "&Write"
+msgstr "&Veire"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1976
+#: ../src/interface/resources/xrc/dialogs.xrc:2099
+msgid "&Yes"
+msgstr "&Òc"
+
+#: ../src/engine/local_path.cpp:459 ../src/engine/local_path.cpp:511
+#, c-format
+msgid "'%s' does not exist or cannot be accessed."
+msgstr "'%s' existís pas o pòt pas èsser accedit."
+
+#: ../src/engine/local_path.cpp:477 ../src/engine/local_path.cpp:498
+#: ../src/engine/local_path.cpp:505
+#, c-format
+msgid "'%s' is not a directory."
+msgstr "'%s' es pas un repertòri."
+
+#: ../src/interface/manual_transfer.cpp:419
+#: ../src/interface/sitemanager_site.cpp:504
+msgid "'Account' logontype not supported by selected protocol"
+msgstr "Lo metòde 'Compte' es pas suportat pel protocòl seleccionat"
+
+#: ../src/interface/filelist_statusbar.cpp:87
+#: ../src/interface/filelist_statusbar.cpp:94
+#, c-format
+msgid "(%d object filtered)"
+msgid_plural "(%d objects filtered)"
+msgstr[0] "(%d objècte filtrat)"
+msgstr[1] "(%d objèctes filtrats)"
+
+#: ../src/interface/resources/xrc/settings.xrc:859
+#: ../src/interface/resources/xrc/settings.xrc:880
+msgid "(0 for no limit)"
+msgstr "(0 per pas de limit)"
+
+#: ../src/interface/resources/xrc/settings.xrc:150
+msgid "(0-99)"
+msgstr "(0-99)"
+
+#: ../src/interface/resources/xrc/settings.xrc:168
+msgid "(0-999 seconds)"
+msgstr "(0-999 segondas)"
+
+#: ../src/interface/resources/xrc/settings.xrc:838
+msgid "(1-10)"
+msgstr "(1-10)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1427
+msgid "(example: %H:%M)"
+msgstr "(exemple: %H:%M)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1378
+msgid "(example: %Y-%m-%d)"
+msgstr "(exemple: %Y-%m-%d)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:295
+msgid "-"
+msgstr "-"
+
+#: ../src/interface/statuslinectrl.cpp:229
+msgid "--:--:-- left"
+msgstr "--:--:-- passada"
+
+#: ../src/interface/cmdline.cpp:93
+msgid "-c cannot be used together with an FTP URL."
+msgstr "-c pòt pas èsser utilizat amb una URL FTP."
+
+#: ../src/interface/cmdline.cpp:100
+msgid "-l can only be used together with an FTP URL."
+msgstr "-l pòt solament èsser utilizat amb una URL de tipe FTP."
+
+#: ../src/interface/cmdline.cpp:83
+msgid "-s and -c cannot be present at the same time."
+msgstr "-s e -c pòdon pas èsser presents al meteis moment."
+
+#: ../src/interface/cmdline.cpp:88
+msgid "-s cannot be used together with an FTP URL."
+msgstr "-s pòt pas èsser utilizat amb una URL FTP."
+
+#: ../src/interface/resources/xrc/settings.xrc:2102
+msgid "0 - None"
+msgstr "0 - Cap"
+
+#: ../src/interface/resources/xrc/settings.xrc:2103
+msgid "1 - Warning"
+msgstr "1 - Avertiment"
+
+#: ../src/interface/resources/xrc/settings.xrc:2104
+msgid "2 - Info"
+msgstr "2 - Info"
+
+#: ../src/interface/resources/xrc/settings.xrc:2105
+msgid "3 - Verbose"
+msgstr "3 - Verbós"
+
+#: ../src/interface/resources/xrc/settings.xrc:2106
+msgid "4 - Debug"
+msgstr "4 - Despesolhatge"
+
+#: ../src/interface/netconfwizard.cpp:29
+msgid "< &Back"
+msgstr "< &Precedent"
+
+#: ../src/interface/bookmarks_dialog.cpp:111
+msgid ""
+"A bookmark with the entered name already exists. Please enter an unused name."
+msgstr ""
+"Un marcapagina amb aqueste nom existís ja. Mercé de picar un nom pas "
+"utilizat."
+
+#: ../src/interface/settings/optionspage_edit.cpp:95
+msgid "A default editor needs to be set."
+msgstr "Un editor per defaut deu èsser causit."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:60
+msgid ""
+"A few servers don't allow passive mode or are misconfigured. In such cases "
+"you would have to use active mode. In active mode, FileZilla opens a port "
+"and asks the server to connect to it."
+msgstr ""
+"Qualques servidors autorizan pas lo mòde passiu o son mal configurats. "
+"Caldrà utilizar lo mòde actiu. En mòde actiu, FileZilla dobra un pòrt e "
+"demanda al servidor una connexion."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1895
+msgid "A file previously opened has been changed."
+msgstr "Un fichièr anteriorament dobèrt es estat modificat."
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "A file with that name is already being transferred."
+msgstr "Un fichièr amb aqueste nom es ja estat transferit."
+
+#: ../src/interface/edithandler.cpp:1740
+msgid ""
+"A file with that name is still being edited. Please close it and try again."
+msgstr ""
+"Un fichièr amb lo meteis nom es en cors d'edicion. Mercé de lo tampar e de "
+"tornar ensajar."
+
+#: ../src/interface/resources/xrc/settings.xrc:246
+msgid ""
+"A proper server does not require this. Contact the server administrator if "
+"you need this."
+msgstr ""
+"Un servidor corrèctament configurat a pas besonh d'aquò. Podètz tocar "
+"l'administrator del servidor se's necessari."
+
+#: ../src/interface/resources/xrc/settings.xrc:1063
+#: ../src/interface/menu_bar.cpp:119 ../src/interface/statusbar.cpp:564
+msgid "A&SCII"
+msgstr "A&SCII"
+
+#: ../src/interface/resources/xrc/settings.xrc:1111
+msgid "A&dd"
+msgstr "A&pondre"
+
+#: ../src/interface/resources/xrc/settings.xrc:1248
+msgid "A&llow resume of ASCII files"
+msgstr "Autorizar lo recomençament dels fichièrs ASCII"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to downloads"
+msgstr "A&plicar solament pels telecargaments"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to uploads"
+msgstr "A&plicar solament pels cargaments"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:726
+msgid "A&pply to all files and directories"
+msgstr "A&plicar a totes los fichièrs e repertòris"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2786
+msgid "ASCII"
+msgstr "ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "A prepaus de FileZilla"
+
+#: ../src/interface/settings/optionspage_interface.cpp:135
+msgid "Above the file lists"
+msgstr "Amont de la tièra dels fichièrs"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "Compte"
+
+#: ../src/interface/QueueView.cpp:1831
+msgid "Action after queue &completion"
+msgstr "Accion après lo tractament de la tièra"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2138
+msgid "Action on selected file:"
+msgstr "Accion sul fichièr seleccionat:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2018
+msgid "Action to perform:"
+msgstr "Accion de far:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:123
+msgid "Action:"
+msgstr "Accion:"
+
+#: ../src/interface/settings/settingsdialog.cpp:98
+msgid "Active mode"
+msgstr "Mòde actiu"
+
+#: ../src/interface/netconfwizard.cpp:625
+msgid ""
+"Active mode FTP test failed. FileZilla does not know the correct external IP "
+"address."
+msgstr ""
+"Lo tèst del mòde actiu s'es pas capitat. FileZilla sap pas l'adreça IP "
+"extèrna corrècta."
+
+#: ../src/interface/netconfwizard.cpp:612
+msgid ""
+"Active mode FTP test failed. FileZilla does not know the correct external IP "
+"address. In addition to that, your router has modified the sent address."
+msgstr ""
+"Lo tèst del mòde actiu s'es pas capitat. FileZilla sap pas l'adreça IP "
+"extèrna corrècta. De mai, vòstre adralhador a modificat l'adreça mandada."
+
+#: ../src/interface/netconfwizard.cpp:600
+msgid ""
+"Active mode FTP test failed. FileZilla knows the correct external IP "
+"address, but your router or firewall has misleadingly modified the sent "
+"address."
+msgstr ""
+"Lo tèst del mòde actiu s'es pas capitat. FileZilla sap l'adreça IP extèrna "
+"corrècta, mas vòstre adralhador o parafuòc a modificat l'adreça mandada."
+
+#: ../src/interface/resources/xrc/settings.xrc:399
+msgid "Active mode IP"
+msgstr "Activar lo mòde IP"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3453
+#: ../src/interface/resources/xrc/dialogs.xrc:3548
+msgid "Add files to &queue only"
+msgstr "&Apondre solament los fichièrs a la tièra"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "Add selected directory to the transfer queue"
+msgstr "Apondre lo repertòri seleccionat dins la tièra de transferiments"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "Add selected files and folders to the transfer queue"
+msgstr ""
+"Apondre los fichièrs e repertòris seleccionats dins la tièra de "
+"transferiments"
+
+#: ../src/interface/resources/xrc/settings.xrc:1681
+#: ../src/interface/resources/xrc/settings.xrc:1701
+msgid "Add to queue"
+msgstr "Apondre a la tièra"
+
+#: ../src/engine/proxy.cpp:458
+msgid "Address type not supported"
+msgstr "Mena d'adreça pas suportada"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:452
+msgid "Advanced"
+msgstr "Avançat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2217
+#: ../src/interface/resources/xrc/dialogs.xrc:2263
+msgid "Algorithm:"
+msgstr "Algoritme:"
+
+#: ../src/interface/QueueView.cpp:2698
+msgid "All files have been successfully transferred"
+msgstr "&Totes los fichièrs son estats transferits d'un biais corrèct"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:308
+msgid "All ports in the given range have to be between 1024 and 65535."
+msgstr "Totes los pòrts devon èsser dins l'interval 1024 - 65535."
+
+#: ../src/interface/resources/xrc/settings.xrc:214
+msgid "Allow &fall back to other transfer mode on failure"
+msgstr "Autorizar un autre mòde de transferiment se per cas i a una meuca"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:88
+msgid "Allow fallback to other transfer mode on failure"
+msgstr "Autorizar un autre mòde de transferiment se per cas i a una meuca"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3652
+msgid "Already connected"
+msgstr "Sètz ja connectat"
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid ""
+"An item with the same name as the dragged item already exists at the target "
+"location."
+msgstr "Un element amb lo meteis nom existís ja dins l'endrech cibla."
+
+#: ../src/engine/server.cpp:742 ../src/interface/manual_transfer.cpp:147
+#: ../src/interface/manual_transfer.cpp:188
+#: ../src/interface/manual_transfer.cpp:203
+#: ../src/interface/manual_transfer.cpp:534
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: ../src/interface/sitemanager_dialog.cpp:742
+msgid "Any changes made in the Site Manager could not be saved."
+msgstr ""
+"Totes los cambiaments faches dins lo Gestionari de Sites poiràn pas èsser "
+"salvats."
+
+#: ../src/interface/filter.cpp:965
+msgid "Any changes made to the filters could not be saved."
+msgstr "Totes los cambiaments faches suls filtres poiràn pas èsser salvats."
+
+#: ../src/interface/filter.cpp:874
+msgid "Any changes made to the filters will not be saved."
+msgstr "Totes los cambiaments faches suls filtres seràn pas salvats."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:740
+msgid "App&ly to directories only"
+msgstr "Apli&car solament als repertòris"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1393
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:207
+msgid "Apply to &current queue only"
+msgstr "Aplicar solament a la tièra actuala"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:733
+msgid "Apply to &files only"
+msgstr "Aplicar solament als fichièrs"
+
+#: ../src/interface/filter_conditions_dialog.cpp:77
+msgid "Archive"
+msgstr "Archius"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1615
+#: ../src/interface/resources/xrc/dialogs.xrc:1638
+#: ../src/interface/resources/xrc/settings.xrc:1187
+#: ../src/interface/resources/xrc/settings.xrc:1208
+#: ../src/interface/settings/optionspage_interface.cpp:159
+msgid "Ask for action"
+msgstr "&Demandar per una accion"
+
+#: ../src/engine/server.cpp:708 ../src/engine/server.cpp:734
+#: ../src/interface/manual_transfer.cpp:179
+msgid "Ask for password"
+msgstr "Demandar lo mot de gach"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:271
+msgid "Ask operating system for a port."
+msgstr "Demandar al sistèma d'esplecha per un pòrt."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:173
+msgid "Ask your operating system for the external IP address"
+msgstr "Demandar al sistèma d'esplecha per una adreça IP extèrna"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:63
+msgid "Associated program not found:"
+msgstr "Lo programa associat pòt pas èsser trobat:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:473
+msgid "At least one filter condition is incomplete"
+msgstr "Almens una condicion es incompleta"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:346
+msgid "At this point, all required information has been gathered."
+msgstr "Pel moment, totas las informacions son estadas reculhidas."
+
+#: ../src/interface/filter_conditions_dialog.cpp:109
+msgid "Attribute"
+msgstr "Atribut"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:210
+msgid "Authentication failed."
+msgstr "Error d'identificacion."
+
+#: ../src/interface/resources/xrc/settings.xrc:1287
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2764
+msgid "Auto"
+msgstr "Automatic"
+
+#: ../src/interface/resources/xrc/settings.xrc:1081
+msgid "Automatic file type classification"
+msgstr "Classament automatic per tipes de fichièrs"
+
+#: ../src/engine/sizeformatting_base.cpp:165
+#: ../src/engine/sizeformatting_base.cpp:232
+msgid "B <Unit symbol for bytes. Only translate first letter>"
+msgstr "O <Unit symbol for bytes. Only translate first letter>"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:478
+msgid "B&ypass proxy"
+msgstr "Ignorar lo proxy"
+
+#: ../src/interface/settings/optionspage_interface.cpp:141
+msgid "Behaviour"
+msgstr "Comportament"
+
+#: ../src/interface/edithandler.cpp:1176 ../src/interface/edithandler.cpp:1204
+msgid "Being edited"
+msgstr "En cors d'edicion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2791
+msgid "Binary"
+msgstr "Binari"
+
+#: ../src/interface/settings/optionspage_interface.cpp:131
+msgid "Blackboard"
+msgstr "Tablèu negre"
+
+#: ../src/interface/bookmarks_dialog.cpp:271 ../src/interface/menu_bar.cpp:434
+#: ../src/interface/sitemanager_dialog.cpp:335
+msgid "Bookmark"
+msgstr "Marcapagina"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3056
+msgid "Bookmark:"
+msgstr "Marcapagina:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3045
+msgid "Bookmarks"
+msgstr "Marcapaginas"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:851
+msgid "Build date:"
+msgstr "Data de creacion:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:828
+msgid "Build information"
+msgstr "Informacion sus la creacion"
+
+#: ../src/interface/menu_bar.cpp:138
+msgid "C&ancel current operation"
+msgstr "&Anullar l'operacion actuala"
+
+#: ../src/interface/StatusView.cpp:436
+msgid "C&lear all"
+msgstr "&Tot netejar"
+
+#: ../src/interface/RemoteListView.cpp:1140
+#: ../src/interface/RemoteTreeView.cpp:918 ../src/interface/search.cpp:843
+msgid "C&opy URL(s) to clipboard"
+msgstr "C&opiar las URL(S) dins lo pòrtapapièr"
+
+#: ../src/interface/resources/xrc/settings.xrc:1365
+msgid "C&ustom"
+msgstr "P&ersonalizar"
+
+#: ../src/interface/resources/xrc/settings.xrc:1854
+msgid "C&ustom filetype associations:"
+msgstr "Associacions per t&ipes de fichièrs personalizadas :"
+
+#: ../src/engine/ftp/list.cpp:121
+msgid "Calculating timezone offset of server..."
+msgstr "Calcul de la diferéncia d'ora del servidor..."
+
+#: ../src/engine/ftp/transfersocket.cpp:643
+msgid "Can't read from file"
+msgstr "Pòt pas legir dempuèi lo fichièr"
+
+#: ../src/engine/ftp/transfersocket.cpp:620
+#: ../src/engine/ftp/transfersocket.cpp:691
+msgid "Can't write data to file."
+msgstr "Pòt mpas escriure dins lo fichièr."
+
+#: ../src/engine/ftp/transfersocket.cpp:623
+#: ../src/engine/ftp/transfersocket.cpp:694
+#, c-format
+msgid "Can't write data to file: %s"
+msgstr "Pòt pas escriure dins lo fichièr: %s"
+
+#: ../src/interface/resources/xrc/certificate.xrc:288
+#: ../src/interface/resources/xrc/dialogs.xrc:239
+#: ../src/interface/resources/xrc/dialogs.xrc:565
+#: ../src/interface/resources/xrc/dialogs.xrc:757
+#: ../src/interface/resources/xrc/dialogs.xrc:1106
+#: ../src/interface/resources/xrc/dialogs.xrc:1387
+#: ../src/interface/resources/xrc/dialogs.xrc:1575
+#: ../src/interface/resources/xrc/dialogs.xrc:1682
+#: ../src/interface/resources/xrc/dialogs.xrc:1753
+#: ../src/interface/resources/xrc/dialogs.xrc:1811
+#: ../src/interface/resources/xrc/dialogs.xrc:1876
+#: ../src/interface/resources/xrc/dialogs.xrc:2050
+#: ../src/interface/resources/xrc/dialogs.xrc:2435
+#: ../src/interface/resources/xrc/dialogs.xrc:2817
+#: ../src/interface/resources/xrc/dialogs.xrc:2972
+#: ../src/interface/resources/xrc/dialogs.xrc:3140
+#: ../src/interface/resources/xrc/dialogs.xrc:3230
+#: ../src/interface/resources/xrc/dialogs.xrc:3470
+#: ../src/interface/resources/xrc/dialogs.xrc:3565
+#: ../src/interface/resources/xrc/dialogs.xrc:3635
+#: ../src/interface/resources/xrc/dialogs.xrc:3710
+#: ../src/interface/resources/xrc/dialogs.xrc:3973
+#: ../src/interface/resources/xrc/dialogs.xrc:4045
+#: ../src/interface/resources/xrc/sitemanager.xrc:121
+msgid "Cancel"
+msgstr "Anullar"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancel current operation"
+msgstr "Anullar l'operacion actuala"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancels the current operation"
+msgstr "Anullar las operacions actualas"
+
+#: ../src/engine/local_path.cpp:471
+#, c-format
+msgid "Cannot access '%s', no media inserted or drive not ready."
+msgstr "Pòt pas accedir a '%s', pas de mèdia inserit o lector es pas prèst."
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Cannot add server to Site Manager"
+msgstr "Pòt pas apondre lo servidor al Gestionari de Sites"
+
+#: ../src/interface/filteredit.cpp:150
+msgid "Cannot create new filter"
+msgstr "Pòt pas crear un filtre novèl"
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/edithandler.cpp:1712
+#: ../src/interface/LocalListView.cpp:1879 ../src/interface/search.cpp:1210
+#: ../src/interface/search.cpp:1529
+msgid "Cannot edit file"
+msgstr "Pòt pas editar lo fichièr"
+
+#: ../src/interface/LocalListView.cpp:1755
+msgid "Cannot edit file, not connected to any server."
+msgstr "Pòt pas modificar lo fichièr, pas connectat a un servidor."
+
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Cannot edit file, remote path unknown."
+msgstr "Pòt pas modificar lo fichièr, lo camin alunhat es desconegut."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:131
+msgid ""
+"Cannot establish FTP connection to an SFTP server. Please select proper "
+"protocol."
+msgstr ""
+"Pòt pas crear una connexion FTP sus un servidor SFTP. Mercé de causir lo bon "
+"protocòl."
+
+#: ../src/interface/Mainfrm.cpp:1094
+msgid "Cannot load toolbar from resource file"
+msgstr "Impossible de cargar la barra d'espleches"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Cannot rename entry"
+msgstr "Pòt pas tornar nomenar l'element"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Cannot rename file"
+msgstr "Pòt pas tornar nomenar lo fichièr"
+
+#: ../src/interface/filter.cpp:269 ../src/interface/filter.cpp:339
+msgid "Cannot save filterset"
+msgstr "Pòt pas salvar lo jòc de filtres"
+
+#: ../src/interface/filter.cpp:230
+msgid "Cannot select filter"
+msgstr "Pòt pas seleccionar lo filtre"
+
+#: ../src/interface/edithandler.cpp:1552 ../src/interface/edithandler.cpp:1556
+#: ../src/interface/edithandler.cpp:1597
+msgid "Cannot set file association"
+msgstr "Impossible de definir l'associacion dels fichièrs"
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "Cannot show dialog"
+msgstr "Pòt pas mostrar la bóstia"
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "Cannot view/edit selected file"
+msgstr "Pòt pas veire/modificar lo fichièr seleccionat"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Certificate and session data are not available yet."
+msgstr "Las donadas de certificat e de session son pas encara disponiblas."
+
+#: ../src/interface/resources/xrc/certificate.xrc:144
+msgid "Certificate issuer"
+msgstr "Mandaire del certificat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:306
+msgid "Challenge:"
+msgstr "Demanda:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:575
+msgid "Change file attributes"
+msgstr "Cambiar los atributs del fichièr."
+
+#: ../src/interface/RemoteListView.cpp:1142
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "Change the file permissions."
+msgstr "Cambiar las permissions del fichièr."
+
+#: ../src/interface/resources/xrc/settings.xrc:2053
+msgid "Changing logfile settings requires restart of FileZilla."
+msgstr ""
+"Cambiar los paramètres del fichièr d'istoric necessita de tornar lançar "
+"FileZilla."
+
+#: ../src/interface/FileZilla.cpp:597
+msgid "Character encoding issue"
+msgstr "Problèma d'encodatge dels caractèrs"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:666
+msgid "Charset"
+msgstr "Encodatge dels caractèrs"
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for &updates..."
+msgstr "Verificar se i a de mesas a jorn..."
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for newer versions of FileZilla"
+msgstr "Cercar de novèlas versions de FileZilla"
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Check for updates failed"
+msgstr "Verificacion de mesas a jorn pas capitada"
+
+#: ../src/interface/netconfwizard.cpp:776
+msgid "Checking for correct external IP address"
+msgstr "Verificacion de l'adreça IP extèrna corrècta"
+
+#: ../src/interface/sitemanager_site.cpp:1040
+msgid "Choose the default local directory"
+msgstr "Causir lo repertòri local per defaut"
+
+#: ../src/interface/bookmarks_dialog.cpp:134
+#: ../src/interface/bookmarks_dialog.cpp:386
+#: ../src/interface/sitemanager_dialog.cpp:1824
+msgid "Choose the local directory"
+msgstr "Causir lo repertòri local"
+
+#: ../src/engine/http/request.cpp:663
+msgid "Chunk data improperly terminated"
+msgstr "Paquet de donadas incorrèctament completat"
+
+#: ../src/interface/resources/xrc/certificate.xrc:220
+msgid "Cipher:"
+msgstr "Cipher:"
+
+#: ../src/interface/context_control.cpp:471 ../src/interface/menu_bar.cpp:55
+msgid "Cl&ose tab"
+msgstr "Tampar l'onglet"
+
+#: ../src/interface/settings/optionspage_interface.cpp:128
+msgid "Classic"
+msgstr "Classic"
+
+#: ../src/interface/menu_bar.cpp:178
+msgid "Clear &layout cache"
+msgstr "Netejar la cache de disposicion"
+
+#: ../src/interface/quickconnectbar.cpp:198
+msgid "Clear history"
+msgstr "Suprimir l'istoric"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1695
+#: ../src/interface/clearprivatedata.cpp:38
+#: ../src/interface/clearprivatedata.cpp:44
+#: ../src/interface/clearprivatedata.cpp:50
+#: ../src/interface/clearprivatedata.cpp:74
+#: ../src/interface/clearprivatedata.cpp:100
+msgid "Clear private data"
+msgstr "Suprimir las donadas privadas"
+
+#: ../src/interface/quickconnectbar.cpp:197
+msgid "Clear quickconnect bar"
+msgstr "Levar la barra de connexion"
+
+#: ../src/interface/netconfwizard.cpp:591
+msgid "Click on Finish to save your configuration."
+msgstr "Clicatz sus Acabar per salvar vòstra configuracion."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2309
+msgid "Client to server MAC:"
+msgstr "Client a servidor MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2299
+msgid "Client to server cipher:"
+msgstr "Client a servidor cipher:"
+
+#: ../src/interface/Mainfrm.cpp:1250 ../src/interface/Mainfrm.cpp:1272
+#: ../src/interface/menu_bar.cpp:64
+msgid "Close FileZilla"
+msgstr "Tampar FileZilla"
+
+#: ../src/interface/cmdline.cpp:15
+msgid "Close all running instances of FileZilla"
+msgstr "Tampar totas las instàncias de FileZilla"
+
+#: ../src/interface/menu_bar.cpp:55
+msgid "Closes current tab"
+msgstr "Tampar los onglets corrents"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:433
+msgid "Co&mments:"
+msgstr "Co&mentaris:"
+
+#: ../src/interface/listctrlex.cpp:762
+msgid "Column properties"
+msgstr "Proprietats de la colomna"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2368
+msgid "Column setup"
+msgstr "Configuracion de colomnas"
+
+#: ../src/interface/resources/xrc/settings.xrc:1798
+msgid "Command and its arguments should be properly quoted."
+msgstr "La comanda e sos agurments devon èsser picats d'un biais corrèct."
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+#: ../src/interface/fzputtygen_interface.cpp:233
+#: ../src/interface/storj_key_interface.cpp:95
+#: ../src/interface/storj_key_interface.cpp:117
+msgid "Command failed"
+msgstr "Comanda pas capitada"
+
+#: ../src/engine/proxy.cpp:455
+msgid "Command not supported"
+msgstr "Comanda pas suportada"
+
+#: ../src/engine/engineprivate.cpp:236 ../src/engine/engineprivate.cpp:682
+msgid "Command not supported by this protocol"
+msgstr "Comanda pas suportada per aqueste protocòl"
+
+#: ../src/engine/logging.cpp:131 ../src/interface/StatusView.cpp:294
+#: ../src/interface/StatusView.cpp:358
+msgid "Command:"
+msgstr "Comanda:"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:36
+msgid "Comment"
+msgstr "Comentari"
+
+#: ../src/interface/verifycertdialog.cpp:641
+msgid "Common name:"
+msgstr "Nom usual:"
+
+#: ../src/interface/netconfwizard.cpp:447
+#: ../src/interface/netconfwizard.cpp:460
+msgid "Communication tainted by router or firewall"
+msgstr "Comunicacion corrompuda per un adralhador o un parafuòc"
+
+#: ../src/interface/Mainfrm.cpp:2412 ../src/interface/menu_bar.cpp:92
+msgid "Compare &modification time"
+msgstr "Comparar l'ora de &modificacion"
+
+#: ../src/interface/Mainfrm.cpp:2411 ../src/interface/menu_bar.cpp:91
+msgid "Compare file&size"
+msgstr "Comparar fichièr&talha"
+
+#: ../src/interface/resources/xrc/settings.xrc:1642
+msgid "Comparison &threshold (in minutes):"
+msgstr "Interval de comparason (en minutas):"
+
+#: ../src/interface/settings/optionspage_filelists.cpp:40
+msgid "Comparison threshold needs to be between 0 and 1440 minutes."
+msgstr "L'interval de comparason deu èsser entre 1 e 1440 minutas."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:835
+msgid "Compiled for:"
+msgstr "Compilat per:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:843
+msgid "Compiled on:"
+msgstr "Compilat sus:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:859
+msgid "Compiled with:"
+msgstr "Compilat amb:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:867
+msgid "Compiler flags:"
+msgstr "Balisas del compilador:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:78
+msgid "Compressed"
+msgstr "Esquichat"
+
+#: ../src/interface/resources/xrc/settings.xrc:814
+msgid "Concurrent transfers"
+msgstr "Transferiments concurrents"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1525
+#: ../src/interface/resources/xrc/dialogs.xrc:3340
+msgid "Conditions are c&ase sensitive"
+msgstr "Las condicions son sensiblas a la cassa"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:341
+msgid "Configuration test"
+msgstr "Tèst de configuracion"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:115
+msgid "Configure passive mode"
+msgstr "Configurar lo mòde passiu"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:261
+msgid "Configure port range"
+msgstr "Configurar l'interval dels pòrts"
+
+#: ../src/interface/search.cpp:1268
+msgid "Confirm deletion"
+msgstr "Confirmar la supression"
+
+#: ../src/interface/edithandler.cpp:1675 ../src/interface/file_utils.h:47
+#: ../src/interface/LocalListView.cpp:1841
+#: ../src/interface/RemoteListView.cpp:1496
+#: ../src/interface/RemoteTreeView.cpp:1117 ../src/interface/search.cpp:1222
+#: ../src/interface/search.cpp:1489
+msgid "Confirmation needed"
+msgstr "Confirmacion requesida"
+
+#: ../src/interface/netconfwizard.cpp:587
+msgid "Congratulations, your configuration seems to be working."
+msgstr "Òsca, vòstra configuracion fonciona plan."
+
+#: ../src/interface/quickconnectbar.cpp:195
+msgid "Connect bypassing proxy settings"
+msgstr "Se connectar en ignorant los paramètres del proxy"
+
+#: ../src/interface/cmdline.cpp:8
+msgid "Connect to specified Site Manager site"
+msgstr "Se connectar al site especificat dins lo Gestionari de Sites"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "Se connècta"
+
+#: ../src/interface/netconfwizard.cpp:219
+#: ../src/interface/statuslinectrl.cpp:268
+#, c-format
+msgid "Connecting to %s"
+msgstr "Se connècta a %s"
+
+#: ../src/engine/ControlSocket.cpp:788
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:43
+#: ../src/engine/storj/storjcontrolsocket.cpp:42
+#, c-format
+msgid "Connecting to %s..."
+msgstr "Connectat a %s..."
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "Connexion"
+
+#: ../src/interface/queue.cpp:354
+msgid "Connection attempt failed"
+msgstr "Ensag de connexion pas capitat"
+
+#: ../src/engine/ControlSocket.cpp:747
+#, c-format
+msgid "Connection attempt failed with \"%s\", trying next address."
+msgstr ""
+"L'ensag de connexion pas capitat amb \"%s\", ensajatz l'adreça seguenta."
+
+#: ../src/engine/ControlSocket.cpp:753
+#, c-format
+msgid "Connection attempt failed with \"%s\"."
+msgstr "Ensag de connexion pas capitat amb \"%s\"."
+
+#: ../src/engine/ControlSocket.cpp:169 ../src/engine/engineprivate.cpp:727
+msgid "Connection attempt interrupted by user"
+msgstr "Ensag de connexion arrestat per l'utilizaire"
+
+#: ../src/interface/netconfwizard.cpp:560
+msgid "Connection closed"
+msgstr "Connexion acabada"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:66 ../src/engine/http/request.cpp:298
+#: ../src/engine/http/request.cpp:311 ../src/engine/http/request.cpp:322
+#: ../src/engine/http/request.cpp:333
+msgid "Connection closed by server"
+msgstr "Connexion acabada pel servidor"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:176
+#: ../src/engine/http/httpcontrolsocket.cpp:197
+msgid "Connection established, initializing TLS..."
+msgstr "Connexion establida, començament de TLS..."
+
+#: ../src/engine/http/httpcontrolsocket.cpp:212
+msgid "Connection established, sending HTTP request"
+msgstr "Connexion establida, mandadís de la requèsta HTTP"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:197
+msgid "Connection established, waiting for welcome message..."
+msgstr "Connexion establida, en espèra del messatge de benvenguda..."
+
+#: ../src/interface/netconfwizard.cpp:358
+msgid "Connection lost"
+msgstr "Connexion perduda"
+
+#: ../src/engine/proxy.cpp:440
+msgid "Connection not allowed by ruleset"
+msgstr "Connexion pas autorizada pel jòc de règlas"
+
+#: ../src/engine/proxy.cpp:449
+msgid "Connection refused"
+msgstr "Connexion refusada"
+
+#: ../src/interface/netconfwizard.cpp:1070
+msgid "Connection timed out."
+msgstr "Relambi d'espèra acabat."
+
+#: ../src/interface/search.cpp:724
+msgid "Connection to server lost."
+msgstr "Connexion al servidor perduda."
+
+#: ../src/engine/proxy.cpp:216
+msgid "Connection with proxy established, performing handshake..."
+msgstr "Connexion amb lo proxy establida, quichal de man en cors..."
+
+#: ../src/interface/netconfwizard.cpp:580
+msgid "Connection with server got closed prematurely."
+msgstr "La connexion amb lo servidor s'es tampada abans ora."
+
+#: ../src/interface/netconfwizard.cpp:571
+msgid "Connection with the test server failed."
+msgstr "Connexion amb lo servidor tèst pas capitada."
+
+#: ../src/interface/bookmarks_dialog.cpp:676
+#: ../src/interface/sitemanager_dialog.cpp:1384
+#, c-format
+msgid "Copy (%d) of %s"
+msgstr "Copiar (%d) de %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:655
+#: ../src/interface/sitemanager_dialog.cpp:1363
+#, c-format
+msgid "Copy of %s"
+msgstr "Copiar %s"
+
+#: ../src/interface/RemoteListView.cpp:1140
+#: ../src/interface/RemoteTreeView.cpp:918
+msgid "Copy the URLs of the selected items to clipboard."
+msgstr "Copiar las URLs de l'element dins lo pòrtapapièr."
+
+#: ../src/engine/ftp/transfersocket.cpp:158
+#, c-format
+msgid "Could not accept connection: %s"
+msgstr "Pòt pas acceptar la connexion: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:573
+msgid "Could not add connection to Site Manager"
+msgstr "Pòt pas apondre la connexion al Gestionari de Sites"
+
+#: ../src/engine/ControlSocket.cpp:172
+msgid "Could not connect to server"
+msgstr "Se pòt pas connectar al servidor"
+
+#: ../src/engine/ControlSocket.cpp:878
+#, c-format
+msgid "Could not connect to server: %s"
+msgstr "Se pòt pas connectar al servidor: %s"
+
+#: ../src/engine/sftp/filetransfer.cpp:74
+#: ../src/engine/sftp/filetransfer.cpp:95
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:343
+#: ../src/engine/storj/storjcontrolsocket.cpp:260
+msgid "Could not convert command to server encoding"
+msgstr "Pòt pas convertir la comanda dins l'encodatge del servidor"
+
+#: ../src/interface/fzputtygen_interface.cpp:128
+#: ../src/interface/fzputtygen_interface.cpp:138
+msgid "Could not convert private key"
+msgstr "Pòt pas convertir la clau privada"
+
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not copy URLs"
+msgstr "Pòt pas copiar las URLs"
+
+#: ../src/interface/aboutdialog.cpp:220
+msgid "Could not copy data"
+msgstr "Pòt pas copiar las donadas"
+
+#: ../src/engine/ftp/rawtransfer.cpp:232
+msgid "Could not establish connection to server"
+msgstr "Se pòt pas connectar al servidor"
+
+#: ../src/interface/state.cpp:1118
+msgid "Could not get full remote path."
+msgstr "Pòt pas aver lo camin alunhat en entièr."
+
+#: ../src/interface/fzputtygen_interface.cpp:233
+#: ../src/interface/storj_key_interface.cpp:117
+msgid "Could not get reply from fzputtygen."
+msgstr "Pòt pas aver de responsa de fzputtygen."
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/search.cpp:1210
+msgid "Could not get temporary directory to download file into."
+msgstr "Pòt pas aver lo repertòri temporari per i telecargar lo fichièr."
+
+#: ../src/interface/fzputtygen_interface.cpp:112
+msgid "Could not load private key"
+msgstr "Pòt pas cargar la clau privada"
+
+#: ../src/interface/state.cpp:1141
+#, c-format
+msgid ""
+"Could not obtain corresponding local directory for the remote directory "
+"'%s'.\n"
+"Disable synchronized browsing and continue changing the remote directory?"
+msgstr ""
+"Impossible d'obténer la correspondéncia del repertòri local pel repertòri "
+"alunhat '%s'.\n"
+"Desactivar la navigacion sincronizada e contunhar lo cambiament de repertòri "
+"alunhat ?"
+
+#: ../src/interface/state.cpp:408
+#, c-format
+msgid ""
+"Could not obtain corresponding local directory for the remote directory "
+"'%s'.\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"Impossible d'obténer la correspondéncia del repertòri local pel repertòri "
+"alunhat '%s'.\n"
+"La navigacion sincronizada es estada desactivada."
+
+#: ../src/interface/state.cpp:301
+#, c-format
+msgid ""
+"Could not obtain corresponding remote directory for the local directory "
+"'%s'.\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"Impossible d'obténer la correspondéncia del repertòri alunhat pel repertòri "
+"local '%s'.\n"
+"La navigacion sincronizada es estada desactivada."
+
+#: ../src/interface/aboutdialog.cpp:220
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not open clipboard"
+msgstr "Pòt pas dobrir lo pòrtapapièr"
+
+#: ../src/engine/logging.cpp:125 ../src/engine/logging.cpp:211
+#: ../src/engine/logging.cpp:255 ../src/engine/logging.cpp:293
+#: ../src/engine/logging.cpp:319
+#, c-format
+msgid "Could not open log file: %s"
+msgstr "Pòt pas dobrir lo fichièr d'istoric: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:73
+msgid "Could not parse remote path."
+msgstr "Pòt pas percórrer lo camin alunhat."
+
+#: ../src/interface/quickconnectbar.cpp:117
+msgid "Could not parse server address:"
+msgstr "Pòt pas percórrer l'adreça del servidor:"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:55 ../src/engine/http/request.cpp:370
+#, c-format
+msgid "Could not read from socket: %s"
+msgstr "Pòt pas legir dempuèi lo socket: %s"
+
+#: ../src/interface/sitemanager.cpp:501
+msgid "Could not read server item."
+msgstr "Pòt pas legir l'element del servidor."
+
+#: ../src/engine/ftp/filetransfer.cpp:88
+#: ../src/engine/http/filetransfer.cpp:110
+msgid "Could not seek to the end of the file"
+msgstr "Impossible d'obténer la fin del fichièr"
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+msgid "Could not send command to fzputtygen."
+msgstr "Impossible de mandar la comanda a fzputtygen."
+
+#: ../src/engine/ftp/filetransfer.cpp:200
+msgid "Could not spawn IO thread"
+msgstr "Impossible de generar un thread IO"
+
+#: ../src/interface/queue.cpp:359
+msgid "Could not start transfer"
+msgstr "Pòt pas aviar lo transferiment"
+
+#: ../src/interface/sitemanager.cpp:578
+#: ../src/interface/sitemanager_dialog.cpp:765
+#, c-format
+msgid ""
+"Could not write \"%s\", any changes to the Site Manager could not be saved: "
+"%s"
+msgstr ""
+"Pòt pas escriure \"%s\", totes los cambiaments del Gestionari de Sites pòdon "
+"pas èsser salvats: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:886
+#, c-format
+msgid "Could not write \"%s\", the bookmark could not be added: %s"
+msgstr ""
+"Pòt pas escriure dins \"%s\", lo marcapagina seguent pòt pas èsser apondut: "
+"%s"
+
+#: ../src/interface/bookmarks_dialog.cpp:331
+#, c-format
+msgid "Could not write \"%s\", the global bookmarks could no be saved: %s"
+msgstr ""
+"Pòt pas escriure \"%s\", los marcapaginas globals pòdon pas èsser salvats: %s"
+
+#: ../src/interface/QueueView.cpp:1600
+#, c-format
+msgid ""
+"Could not write \"%s\", the queue could not be saved.\n"
+"%s"
+msgstr ""
+"Pòt pas escriure dins \"%s\", la tièra pòt pas èsser salvada.\n"
+"%s"
+
+#: ../src/interface/sitemanager.cpp:703 ../src/interface/sitemanager.cpp:760
+#: ../src/interface/sitemanager_dialog.cpp:1802
+#, c-format
+msgid "Could not write \"%s\", the selected sites could not be exported: %s"
+msgstr ""
+"Pòt pas escriure dins \"%s\", los sites seleccionats pòdon pas èsser "
+"exportats: %s"
+
+#: ../src/interface/queue.cpp:358
+msgid "Could not write to local file"
+msgstr "Pòt pas escriure dins lo fichièr local"
+
+#: ../src/engine/logging.cpp:268 ../src/engine/logging.cpp:336
+#, c-format
+msgid "Could not write to log file: %s"
+msgstr "Pòt pas escriure dins lo fichièr d'istoric: %s"
+
+#: ../src/engine/ControlSocket.cpp:708 ../src/engine/ControlSocket.cpp:806
+#: ../src/engine/http/request.cpp:236
+#, c-format
+msgid "Could not write to socket: %s"
+msgstr "Pòt pas escriure dins lo socket: %s"
+
+#: ../src/interface/verifycertdialog.cpp:646
+msgid "Country:"
+msgstr "País:"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "Create a new subdirectory in the current directory"
+msgstr "Crear un novèl sosrepertòri dins lo repertòri actual"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Create directory"
+msgstr "Crear lo repertòri"
+
+#: ../src/interface/queue.cpp:361
+msgid "Creating directory"
+msgstr "Creacion del repertòri"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:591
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:559
+#: ../src/engine/storj/storjcontrolsocket.cpp:105
+#, c-format
+msgid "Creating directory '%s'..."
+msgstr "Creacion del repertòri '%s'..."
+
+#: ../src/engine/ControlSocket.cpp:164
+msgid "Critical error"
+msgstr "Error critica"
+
+#: ../src/interface/state.cpp:399
+#, c-format
+msgid ""
+"Current remote directory (%s) is not below the synchronization root (%s).\n"
+"Synchronized browsing has been disabled."
+msgstr ""
+"Lo repertòri alunhat (%s) en cors es pas sincronizat amb la raiç (%s).\n"
+"La navigacion sincronizada es desactivadae."
+
+#: ../src/interface/statusbar.cpp:409
+msgid "Current transfer type is set to ASCII."
+msgstr "Lo tipe de transferiment actual es en ASCII."
+
+#: ../src/interface/statusbar.cpp:417
+msgid "Current transfer type is set to automatic detection."
+msgstr "Lo tipe de transferiment actual es en deteccion automatica."
+
+#: ../src/interface/statusbar.cpp:413
+msgid "Current transfer type is set to binary."
+msgstr "Lo tipe de transferiment actual es en binari."
+
+#: ../src/interface/resources/xrc/settings.xrc:479
+#: ../src/interface/resources/xrc/settings.xrc:1414
+msgid "Cus&tom"
+msgstr "Per&sonalizar"
+
+#: ../src/interface/filter.cpp:135
+msgid "Custom filter set"
+msgstr "Personalizar lo jòc de filtres"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2621
+#: ../src/interface/resources/xrc/dialogs.xrc:2635
+msgid "Custom server"
+msgstr "Servidor personalizat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2755
+msgid "D&ata type"
+msgstr "Tipe de donada"
+
+#: ../src/interface/resources/xrc/settings.xrc:1484
+msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
+msgstr "Prefixes decimals utilizant los simbòls SI (ex. 1 KB = 1000 octets)"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:610
+msgid "D&efault"
+msgstr "D&efaut"
+
+#: ../src/interface/RemoteListView.cpp:1138
+#: ../src/interface/RemoteTreeView.cpp:916 ../src/interface/search.cpp:830
+#: ../src/interface/search.cpp:837
+msgid "D&elete"
+msgstr "S&uprimir"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1302
+msgid "D&isable all"
+msgstr "Tot desactivar"
+
+#: ../src/interface/resources/xrc/settings.xrc:1690
+msgid "D&ouble-click action on directories:"
+msgstr "Accion del doble-clic suls repertòris"
+
+#: ../src/engine/server.cpp:62
+msgid "DOS-like with virtual paths"
+msgstr "DOS-like amb de camins virtuals"
+
+#: ../src/interface/edithandler.cpp:1716
+msgid "Dangerous filetype"
+msgstr "Tipe de fichièr dangierós"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:37
+msgid "Data"
+msgstr "Donada"
+
+#: ../src/interface/netconfwizard.cpp:989
+#: ../src/interface/netconfwizard.cpp:1053
+msgid "Data socket closed too early."
+msgstr "Barradura prematura del socket de donadas."
+
+#: ../src/interface/resources/xrc/settings.xrc:1348
+msgid "Date formatting"
+msgstr "Format de datas"
+
+#: ../src/interface/settings/settingsdialog.cpp:109
+msgid "Date/time format"
+msgstr "Format Data/Ora"
+
+#: ../src/interface/fileexistsdlg.cpp:49
+msgid "Date/time unknown"
+msgstr "Data/Ora desconeguda"
+
+#: ../src/interface/settings/settingsdialog.cpp:121
+msgid "Debug"
+msgstr "Despesolhatge"
+
+#: ../src/interface/resources/xrc/settings.xrc:2074
+msgid "Debugging settings"
+msgstr "Paramètres de despesolhatge"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:490
+msgid "Default &local directory:"
+msgstr "Repertòri local per defaut:"
+
+#: ../src/engine/server.cpp:54
+msgid "Default (Autodetect)"
+msgstr "Defaut (Deteccion automatica)"
+
+#: ../src/interface/settings/optionspage_edit.cpp:81
+msgid "Default editor not properly quoted."
+msgstr "Editor per defaut pas picat corrèctament."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1587
+#: ../src/interface/resources/xrc/dialogs.xrc:1657
+#: ../src/interface/resources/xrc/settings.xrc:1227
+msgid "Default file exists action"
+msgstr "Accion per defaut se lo fichièr existís ja"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:515
+msgid "Default r&emote directory:"
+msgstr "Repertòri alunhat per defaut"
+
+#: ../src/interface/settings/optionspage_language.cpp:53
+msgid "Default system language"
+msgstr "Lenga del sistèma per defaut"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:68
+msgid "Default transfer mode:"
+msgstr "Mòde de transferiment per defaut:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1051
+msgid "Default transfer type:"
+msgstr "Tipe de transferiment per defaut:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:233
+#: ../src/interface/resources/xrc/settings.xrc:381
+msgid "Default: http://ip.filezilla-project.org/ip.php"
+msgstr "Defaut: http://ip.filezilla-project.org/ip.php"
+
+#: ../src/interface/settings/optionspage_connection.cpp:41
+msgid ""
+"Delay between failed connection attempts has to be between 1 and 999 seconds."
+msgstr ""
+"Lo relambi entre cada ensag de connexion deu èsser entre 1 e 999 segondas."
+
+#: ../src/engine/engineprivate.cpp:533
+#, c-format
+msgid ""
+"Delaying connection for %d second due to previously failed connection "
+"attempt..."
+msgid_plural ""
+"Delaying connection for %d seconds due to previously failed connection "
+"attempt..."
+msgstr[0] ""
+"Relambi d'espèra de %d segonda per amor del precedent ensag de connexion..."
+msgstr[1] ""
+"Relambi d'espèra de %d segondas per amor del precedent ensag de connexion..."
+
+#: ../src/interface/sitemanager_dialog.cpp:1030
+msgid "Delete Site Manager entry"
+msgstr "Suprimir l'element del Gestionari de Sites"
+
+#: ../src/interface/LocalTreeView.cpp:1109
+#: ../src/interface/RemoteTreeView.cpp:916
+msgid "Delete selected directory"
+msgstr "Suprimir lo repertòri seleccionat"
+
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/RemoteListView.cpp:1138
+msgid "Delete selected files and directories"
+msgstr "Suprimir los fichièrs e repertòris seleccionats"
+
+#: ../src/interface/LocalTreeView.cpp:1019
+msgid "Desktop"
+msgstr "Burèu"
+
+#: ../src/interface/resources/xrc/certificate.xrc:42
+#: ../src/interface/resources/xrc/dialogs.xrc:1033
+msgid "Details"
+msgstr "Detalhs"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1154
+msgid "Details for new key:"
+msgstr "Detalhs de la novèla clau:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1544
+msgid "Dire&ctories"
+msgstr "Repe&rtòris"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Direction"
+msgstr "Direccion"
+
+#: ../src/interface/filelistctrl.cpp:273
+msgid "Directory"
+msgstr "Repertòri"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3032
+#: ../src/interface/resources/xrc/settings.xrc:1628
+#: ../src/interface/resources/xrc/sitemanager.xrc:534
+#: ../src/interface/filelistctrl.cpp:477 ../src/interface/Mainfrm.cpp:2359
+#: ../src/interface/Mainfrm.cpp:2379 ../src/interface/toolbar.cpp:51
+#: ../src/interface/view.cpp:109
+msgid "Directory comparison"
+msgstr "Comparason de repertòris"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid "Directory comparison failed"
+msgstr "Comparason de repertòris pas capitada"
+
+#: ../src/interface/settings/optionspage_logging.cpp:71
+msgid "Directory containing the logfile does not exist or filename is invalid."
+msgstr ""
+"Lo repertòri contenent lo fichièr d'istoric existís pas o lo nom de fichièr "
+"es pas valid."
+
+#: ../src/engine/ControlSocket.cpp:177
+msgid "Directory listing aborted by user"
+msgstr "Lista del repertòri anullat per l'utilizaire"
+
+#: ../src/interface/RemoteListView.cpp:2230
+msgid "Directory listing failed"
+msgstr "Impossible de listar lo repertòri"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1237
+msgid "Directory listing filters"
+msgstr "Filtres per la lectura del repertòri"
+
+#: ../src/engine/ControlSocket.cpp:184
+msgid "Directory listing successful"
+msgstr "Repertòri listat amb succès"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1337
+msgid "Disa&ble all"
+msgstr "Tot desa&ctivar"
+
+#: ../src/interface/state.cpp:1149
+msgid ""
+"Disable synchronized browsing and continue changing the remote directory?"
+msgstr "Desactivar la navigacion sincronizada e cambiar de repertòri alunhat?"
+
+#: ../src/interface/Mainfrm.cpp:721
+msgid ""
+"Disable this option again if you will not be able to see the correct "
+"directory contents anymore."
+msgstr ""
+"Desactivar aquesta opcion se podètz pas veire lo contengut dels repertòris."
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnect from server"
+msgstr "Desconnexion del servidor"
+
+#: ../src/engine/ControlSocket.cpp:48 ../src/engine/ControlSocket.cpp:709
+#: ../src/engine/ControlSocket.cpp:808
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:57 ../src/engine/http/request.cpp:237
+#: ../src/interface/queue.cpp:352
+msgid "Disconnected from server"
+msgstr "Desconnectat del servidor"
+
+#: ../src/engine/ControlSocket.cpp:833
+#: ../src/engine/http/httpcontrolsocket.cpp:295
+#, c-format
+msgid "Disconnected from server: %s"
+msgstr "Desconnectat del servidor: %s"
+
+#: ../src/interface/queue.cpp:351 ../src/interface/statuslinectrl.cpp:262
+msgid "Disconnecting from previous server"
+msgstr "Desconnectat del servidor precedent"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnects from the currently visible server"
+msgstr "Se desconnectar del servidor actual"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "Display about dialog"
+msgstr "Mostrar la bóstia 'A prepaus'"
+
+#: ../src/interface/resources/xrc/settings.xrc:1763
+msgid "Do &not use default editor"
+msgstr "Pas utilizar l'editor per defaut"
+
+#: ../src/interface/Mainfrm.cpp:1253 ../src/interface/Mainfrm.cpp:1276
+msgid "Do you really want to close FileZilla?"
+msgstr "Volètz tampar FileZilla?"
+
+#: ../src/interface/clearprivatedata.cpp:38
+msgid ""
+"Do you really want to delete all Site Manager entries and the transfer queue?"
+msgstr ""
+"Volètz suprimir totes los elements del Gestionari de Sites e de la tièra de "
+"transferiments?"
+
+#: ../src/interface/clearprivatedata.cpp:50
+msgid "Do you really want to delete all Site Manager entries?"
+msgstr "Volètz suprimir tot lo Gestionari de Sites?"
+
+#: ../src/interface/sitemanager_dialog.cpp:1032
+msgid "Do you really want to delete selected entry?"
+msgstr "Volètz suprimir l'element seleccionat?"
+
+#: ../src/interface/clearprivatedata.cpp:44
+msgid "Do you really want to delete the transfer queue?"
+msgstr "Volètz suprimir la tièra de transferiments"
+
+#: ../src/interface/Mainfrm.cpp:644
+#, c-format
+msgid "Do you really want to send '%s' to the server?"
+msgstr "Volètz mandar '%s' al servidor?"
+
+#: ../src/interface/welcome_dialog.cpp:100
+msgid "Documentation"
+msgstr "Documentacion"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:250
+msgid "Don't use external IP address on &local connections."
+msgstr "Cal pas utilizar una adreça IP extèrna dins las connexions localas."
+
+#: ../src/interface/resources/xrc/settings.xrc:1148
+msgid "Dotfiles are filenames starting with a dot, e.g. .htaccess"
+msgstr ""
+"Los fichièrs ponches an de noms de fichièrs que començan per un ponch, "
+"ex. : .htaccess"
+
+#: ../src/interface/resources/xrc/settings.xrc:1666
+msgid "Double-click action"
+msgstr "Accion Doble-clic"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2464
+msgid "Download"
+msgstr "Telecargar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3745
+#: ../src/interface/resources/xrc/settings.xrc:906
+msgid "Download &limit:"
+msgstr "Limit de telecargament"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3387
+#: ../src/interface/search.cpp:927 ../src/interface/search.cpp:932
+msgid "Download search results"
+msgstr "Telecargar los resultats de recèrca"
+
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "Download selected directory"
+msgstr "Telecargar lo repertòri seleccionat"
+
+#: ../src/interface/RemoteListView.cpp:1122
+msgid "Download selected files and directories"
+msgstr "Telecargar los fichièrs e repertòtis seleccionats"
+
+#: ../src/interface/edithandler.cpp:1161
+msgid "Downloading"
+msgstr "Telecargament"
+
+#: ../src/engine/http/httpcontrolsocket.cpp:224
+#, c-format
+msgid "Downloading %s"
+msgstr "Telecargament %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1295
+msgid "E&nable all"
+msgstr "Tot Activar"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "E&nter directory"
+msgstr "Picar un repertòri"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:640
+msgid "E&xecute"
+msgstr "E&xecutar"
+
+#: ../src/interface/menu_bar.cpp:64
+msgid "E&xit"
+msgstr "Sortir"
+
+#: ../src/interface/verifycertdialog.cpp:651
+msgid "E-Mail:"
+msgstr "Corrièr electronic:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:451
+msgid "Each filter needs at least one condition."
+msgstr "Cada filtre a besonh almens d'una condicion."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1583
+msgid "Edit filters"
+msgstr "Editar los filtres"
+
+#: ../src/interface/LocalListView.cpp:794
+msgid ""
+"Edit the file with the configured editor and upload changes to the server."
+msgstr ""
+"Modificar lo fichièr amb l'editor de tèxtes predefinit e cargar los "
+"cambiaments sul servidor."
+
+#: ../src/interface/LocalListView.cpp:1755
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Editing failed"
+msgstr "Modificacion pas capitada"
+
+#: ../src/interface/resources/xrc/settings.xrc:1298
+msgid "Email:"
+msgstr "Corrièr electronic:"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "Empty command"
+msgstr "Comanda voida"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:59
+msgid "Empty command."
+msgstr "Comanda voida."
+
+#: ../src/interface/RemoteListView.cpp:2233
+msgid "Empty directory listing"
+msgstr "Repertòri void"
+
+#: ../src/interface/filelist_statusbar.cpp:14
+msgid "Empty directory."
+msgstr "Repertòri void."
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:52
+msgid "Empty file extension."
+msgstr "Extension del fichièr voida."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty filter names are not allowed."
+msgstr "Los noms de filtres voids son pas autorizats."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty name"
+msgstr "Nom void"
+
+#: ../src/interface/settings/optionspage_edit.cpp:84
+msgid "Empty quoted string."
+msgstr "Cadena voida."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1330
+msgid "En&able all"
+msgstr "Tot &activar"
+
+#: ../src/interface/filter_conditions_dialog.cpp:79
+msgid "Encrypted"
+msgstr "Criptat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2292
+msgid "Encryption"
+msgstr "Criptatge"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2202
+msgid "Encryption details"
+msgstr "Detalhs de criptatge"
+
+#: ../src/interface/filelistctrl.cpp:479
+msgid "End comparison and change sorting order?"
+msgstr "Fin de comparason e cambiament d'òrdre de tria?"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Enter &custom command..."
+msgstr "Picar una comanda personalizada"
+
+#: ../src/interface/QueueView.cpp:1919
+msgid "Enter command"
+msgstr "Picar una comanda"
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid "Enter custom command"
+msgstr "Picar una comanda personalizada"
+
+#: ../src/interface/resources/xrc/settings.xrc:1699
+msgid "Enter directory"
+msgstr "Picar un repertòri"
+
+#: ../src/interface/filteredit.cpp:143 ../src/interface/filteredit.cpp:200
+#: ../src/interface/filteredit.cpp:249
+msgid "Enter filter name"
+msgstr "Picar un nom de filtre"
+
+#: ../src/interface/filter.cpp:262
+msgid "Enter name for filterset"
+msgstr "Picar un nom pel jòc de filtres"
+
+#: ../src/interface/filter.cpp:326
+msgid "Enter new name for filterset"
+msgstr "Picar un novèl nom pel jòc de filtres"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:247
+msgid "Enter password"
+msgstr "Picar un mot de gach"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "Enter selected directory"
+msgstr "Anar dins lo repertòri seleccionat"
+
+#: ../src/interface/loginmanager.cpp:178
+msgid "Enter username and password"
+msgstr "Picar un nom d'utilizaire o un mot de gach"
+
+#: ../src/interface/export.cpp:30
+msgid "Error exporting settings"
+msgstr "Error al moment de l'exportacion dels paramètres"
+
+#: ../src/interface/import.cpp:31 ../src/interface/import.cpp:95
+msgid "Error importing"
+msgstr "Error al moment de l'importacion"
+
+#: ../src/interface/bookmarks_dialog.cpp:174
+#: ../src/interface/bookmarks_dialog.cpp:296
+#: ../src/interface/bookmarks_dialog.cpp:752
+#: ../src/interface/bookmarks_dialog.cpp:792
+#: ../src/interface/bookmarks_dialog.cpp:845 ../src/interface/filter.cpp:875
+#: ../src/interface/filter.cpp:966 ../src/interface/Options.cpp:253
+#: ../src/interface/osx_sandbox_userdirs.cpp:65
+#: ../src/interface/osx_sandbox_userdirs.cpp:136
+#: ../src/interface/QueueView.cpp:1581 ../src/interface/search.cpp:1351
+#: ../src/interface/search.cpp:1371 ../src/interface/sitemanager.cpp:39
+#: ../src/interface/sitemanager.cpp:470 ../src/interface/sitemanager.cpp:530
+#: ../src/interface/sitemanager.cpp:639 ../src/interface/sitemanager.cpp:727
+#: ../src/interface/sitemanager.cpp:833 ../src/interface/sitemanager.cpp:924
+#: ../src/interface/sitemanager_dialog.cpp:678
+#: ../src/interface/sitemanager_dialog.cpp:743
+#: ../src/interface/wrapengine.cpp:943
+msgid "Error loading xml file"
+msgstr "Error al moment del cargament del fichièr xml"
+
+#: ../src/interface/fzputtygen_interface.cpp:178
+#: ../src/interface/fzputtygen_interface.cpp:193
+#: ../src/interface/storj_key_interface.cpp:62
+#: ../src/interface/storj_key_interface.cpp:77
+msgid "Error starting program"
+msgstr "Error al moment del lançament"
+
+#: ../src/interface/bookmarks_dialog.cpp:332
+#: ../src/interface/bookmarks_dialog.cpp:887
+#: ../src/interface/QueueView.cpp:1601 ../src/interface/sitemanager.cpp:579
+#: ../src/interface/sitemanager.cpp:704 ../src/interface/sitemanager.cpp:761
+#: ../src/interface/sitemanager_dialog.cpp:766
+#: ../src/interface/sitemanager_dialog.cpp:1803
+#: ../src/interface/xmlfunctions.cpp:153
+msgid "Error writing xml file"
+msgstr "Error al moment de l'escritura dins lo fichièr xml"
+
+#: ../src/engine/logging.cpp:130 ../src/interface/StatusView.cpp:292
+#: ../src/interface/StatusView.cpp:354
+msgid "Error:"
+msgstr "Error:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1871
+msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
+msgstr "Exemple: png \"c:\\program files\\viewer\\viewer.exe\" -open"
+
+#: ../src/interface/resources/xrc/settings.xrc:1521
+msgid "Examples"
+msgstr "Exemples"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:674
+msgid "Exe&cute"
+msgstr "Exe&cutar"
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Executable contains no version info, cannot check for updates."
+msgstr ""
+"Lo programa possedís pas d'informacions de version, impossible de verificar "
+"las mesas a jorn."
+
+#: ../src/interface/settings/optionspage_interface.cpp:129
+msgid "Explorer"
+msgstr "Exploraire"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1792
+msgid "Export &Queue"
+msgstr "Exportar la &tièra"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1787
+msgid "Export &Settings"
+msgstr "Exportar los &Paramètres"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1768
+msgid "Export settings"
+msgstr "Exportar los paramètres"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1471
+msgid "F&ilter name:"
+msgstr "Nom del filtre:"
+
+#: ../src/interface/settings/settingsdialog.cpp:97
+msgid "FTP"
+msgstr "FTP"
+
+#: ../src/interface/quickconnectbar.cpp:102
+msgid "FTP Engine not initialized, can't connect"
+msgstr "Lo motor FTP pas inicializat, se pòt pas connectar"
+
+#: ../src/interface/resources/xrc/settings.xrc:233
+msgid "FTP Keep-alive"
+msgstr "FTP Demorar-Connectat"
+
+#: ../src/interface/resources/xrc/settings.xrc:446
+#: ../src/interface/settings/settingsdialog.cpp:100
+msgid "FTP Proxy"
+msgstr "Proxy FTP"
+
+#: ../src/interface/cmdline.cpp:21
+msgid "FTP URL"
+msgstr "URL FTP"
+
+#: ../src/interface/LocalListView.cpp:542
+#: ../src/interface/LocalListView.cpp:615
+#: ../src/interface/LocalListView.cpp:955
+#: ../src/interface/LocalListView.cpp:1962
+#: ../src/interface/LocalTreeView.cpp:895
+#: ../src/interface/LocalTreeView.cpp:1197 ../src/interface/viewheader.cpp:499
+msgid "Failed to change directory"
+msgstr "Error dins lo cambiament de repertòri"
+
+#: ../src/interface/FileZilla.cpp:170 ../src/interface/FileZilla.cpp:185
+#: ../src/interface/FileZilla.cpp:188
+msgid "Failed to change language"
+msgstr "Impossible de cambiar de lenga"
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid "Failed to copy or move sites"
+msgstr "Impossible de copiar o de desplaçar los sites"
+
+#: ../src/interface/xmlfunctions.cpp:239
+msgid "Failed to create backup copy of xml file"
+msgstr "Error dins la creacion d'una còpia del fichièr xml"
+
+#: ../src/engine/ftp/rawtransfer.cpp:213 ../src/engine/ftp/rawtransfer.cpp:216
+msgid "Failed to create listening socket for active mode transfer"
+msgstr "Impossible de crear lo socket d'escota pel mòde de transferiment actiu"
+
+#: ../src/interface/LocalTreeView.cpp:655
+msgid "Failed to get 'My Documents' path"
+msgstr "Impossible d'obténer lo camin de 'Mos documents'"
+
+#: ../src/interface/LocalTreeView.cpp:642
+msgid "Failed to get desktop path"
+msgstr "Impossible d'obténer lo camin del 'burèu'"
+
+#: ../src/interface/netconfwizard.cpp:965
+msgid "Failed to get peer address of control connection, connection closed."
+msgstr ""
+"Error al moment de l'aguda de l'adreça del client pel contraròtle de "
+"connexion, connexion copada."
+
+#: ../src/interface/netconfwizard.cpp:971
+msgid "Failed to get peer address of data connection, connection closed."
+msgstr ""
+"Error al moment de l'aguda de l'adreça del client per las donadas de "
+"connexion, connexion copada."
+
+#: ../src/interface/context_control.cpp:114
+msgid "Failed to initialize FTP engine"
+msgstr "Error dins l'inicializacion del motor FTP"
+
+#: ../src/interface/settings/settingsdialog.cpp:153
+msgid "Failed to load panels, invalid resource files?"
+msgstr ""
+"Impossible de cambiar d'interfàcia, los fichièrs de ressorças son valids ?"
+
+#: ../src/interface/fzputtygen_interface.cpp:111
+#, c-format
+msgid "Failed to load private key: %s"
+msgstr "Impossible de cargar la clau privada: %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:79
+#, c-format
+msgid "Failed to open \"%s\" for appending/writing"
+msgstr "Impossible de dobrir \"%s\" per apondre/escriure"
+
+#: ../src/engine/ftp/filetransfer.cpp:139
+#, c-format
+msgid "Failed to open \"%s\" for reading"
+msgstr "Impossible de dobrir \"%s\" per lo legir"
+
+#: ../src/engine/ftp/filetransfer.cpp:105
+#: ../src/engine/http/filetransfer.cpp:103
+#, c-format
+msgid "Failed to open \"%s\" for writing"
+msgstr "Impossible de dobrir \"%s\" per i escriure endedins"
+
+#: ../src/interface/netconfwizard.cpp:1021
+msgid "Failed to receive data"
+msgstr "Impossible de recebre las donadas"
+
+#: ../src/engine/ControlSocket.cpp:180
+msgid "Failed to retrieve directory listing"
+msgstr "Impossible de recobrar lo contengut del dorsièr"
+
+#: ../src/interface/netconfwizard.cpp:636
+msgid "Failed to retrieve the external IP address."
+msgstr "Impossible de recobrar l'adreça IP extèrna."
+
+#: ../src/interface/netconfwizard.cpp:320
+msgid "Failed to send command."
+msgstr "Impossible de mandar la comanda."
+
+#: ../src/interface/FileZilla.cpp:185
+#, c-format
+msgid "Failed to set language to %s (%s), using default system language"
+msgstr ""
+"Impossible de cambiar la lenga en %s (%s), lenga del sistèma utilizada per "
+"defaut"
+
+#: ../src/interface/FileZilla.cpp:162
+#, c-format
+msgid ""
+"Failed to set language to %s (%s), using default system language (%s, %s)."
+msgstr ""
+"Impossible de cambiar la lenga en %s (%s), lenga del sistèma utilizada per "
+"defaut (%s, %s)."
+
+#: ../src/interface/FileZilla.cpp:149
+#, c-format
+msgid "Failed to set language to %s (%s), using default system language."
+msgstr ""
+"Impossible de cambiar la lenga en %s (%s), lenga del sistèma utilizada per "
+"defaut."
+
+#: ../src/interface/FileZilla.cpp:188
+#, c-format
+msgid "Failed to set language to %s, using default system language"
+msgstr ""
+"Impossible de cambiar la lenga en %s, lenga del sistèma utilizada per defaut"
+
+#: ../src/interface/FileZilla.cpp:157
+#, c-format
+msgid "Failed to set language to %s, using default system language (%s, %s)."
+msgstr ""
+"Error dins lo cambiament de lenga : %s, la lenga utilizada serà aquela per "
+"defaut (%s, %s)."
+
+#: ../src/interface/FileZilla.cpp:145
+#, c-format
+msgid "Failed to set language to %s, using default system language."
+msgstr ""
+"Error dins lo cambiament de lenga : %s, la lenga utilizada serà aquela per "
+"defaut."
+
+#: ../src/interface/settings/optionspage.cpp:221
+msgid "Failed to validate settings"
+msgstr "Impossible de validar los paramètres"
+
+#: ../src/engine/http/filetransfer.cpp:223
+#, c-format
+msgid "Failed to write to file %s"
+msgstr "Impossible d'escriure dins lo fichièr %s"
+
+#: ../src/interface/xmlfunctions.cpp:282
+msgid "Failed to write xml file"
+msgstr "Impossible d'escriure dins lo fichièr xml"
+
+#: ../src/interface/queueview_failed.cpp:16
+msgid "Failed transfers"
+msgstr "Transferiments pas capitats"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:159
+msgid "Fall back to active mode"
+msgstr "Tornar anar dins lo mòde actiu"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2543
+msgid "Fil&e:"
+msgstr "Fic&hièr:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1539
+msgid "Fil&es"
+msgstr "Fic&hièrs"
+
+#: ../src/interface/filelistctrl.cpp:272
+msgid "File"
+msgstr "Fichièr"
+
+#: ../src/interface/import.cpp:95
+msgid "File does not contain any importable data."
+msgstr "Lo fichièr conten pas de donadas importablas"
+
+#: ../src/interface/settings/settingsdialog.cpp:113
+msgid "File editing"
+msgstr "Edicion de fichièrs"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "File exists"
+msgstr "Fichièr existís"
+
+#: ../src/interface/settings/settingsdialog.cpp:105
+msgid "File exists action"
+msgstr "Accion se lo fichièr existís"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1890
+msgid "File has changed"
+msgstr "Lo fichièr a cambiat"
+
+#: ../src/interface/settings/settingsdialog.cpp:111
+msgid "File lists"
+msgstr "Tièras de fichièrs"
+
+#: ../src/engine/storj/resolve.cpp:111 ../src/engine/storj/resolve.cpp:174
+#: ../src/interface/edithandler.cpp:1638 ../src/interface/FileZilla.cpp:701
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "File not found"
+msgstr "Fichièr pas trobat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3383
+#: ../src/interface/search.cpp:741 ../src/interface/toolbar.cpp:53
+msgid "File search"
+msgstr "Cercar de fichièrs"
+
+#: ../src/engine/ControlSocket.cpp:101
+msgid "File transfer successful"
+msgstr "Fichièr plan recebut"
+
+#: ../src/interface/Mainfrm.cpp:1252
+msgid "File transfers still in progress."
+msgstr "Lo transferiment de fichièrs es totjorn en cors."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2774
+msgid "File would transfer with ASCII data type."
+msgstr "Transferiment de fichièrs amb un tipe de donadas ASCII."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2779
+msgid "File would transfer with binary data type."
+msgstr "Transferiment de fichièrs amb un tipe de donadas binari."
+
+#: ../src/interface/FileZilla.cpp:471 ../src/interface/quickconnectbar.cpp:102
+msgid "FileZilla Error"
+msgstr "Error de FileZilla"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:353
+msgid ""
+"FileZilla can now test your configuration to ensure everything is configured "
+"properly."
+msgstr ""
+"Ara FileZilla pòt verificar vòstra configuracion per èsser segur que tot es "
+"configurat."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3670
+msgid "FileZilla is already connected to a server."
+msgstr "FileZilla es ja connectat al servidor."
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "FileZilla needs to be restarted for the language change to take effect."
+msgstr "FileZilla deu èsser tornat lançar per cambiar de lenga."
+
+#: ../src/interface/menu_bar.cpp:98
+msgid "Filelist status &bars"
+msgstr "Barra de lista dels fichièrs"
+
+#: ../src/interface/edithandler.cpp:1146
+#: ../src/interface/filter_conditions_dialog.cpp:101
+#: ../src/interface/LocalListView.cpp:283
+#: ../src/interface/RemoteListView.cpp:397 ../src/interface/search.cpp:160
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:35
+msgid "Filename"
+msgstr "Nom de fichièr"
+
+#: ../src/engine/ftp/delete.cpp:29 ../src/engine/sftp/delete.cpp:16
+#, c-format
+msgid "Filename cannot be constructed for directory %s and filename %s"
+msgstr ""
+"Lo nom de fichièr pòt pas èsser creat pel repertòri %s e lo nom de fichièr %s"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Filename invalid"
+msgstr "Nom de fichièr invalid"
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "Filename unchanged"
+msgstr "Nom de fichièr pas cambiat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1907
+#: ../src/interface/resources/xrc/settings.xrc:1991
+msgid "Filename:"
+msgstr "Nom de fichièr:"
+
+#: ../src/interface/file_utils.cpp:343
+msgid "Filenames may not contain any of the following characters: / * ? < > |"
+msgstr ""
+"Los noms de fichièrs pòdon pas conténer los caractèrs seguents: / * ? < > |"
+
+#: ../src/interface/file_utils.cpp:308
+msgid ""
+"Filenames may not contain any of the following characters: / \\ : * ? \" < > "
+"|"
+msgstr ""
+"Los noms de fichièrs pòdon pas conténer los caractèrs seguents: / \\ : * ? "
+"\" < > |"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2198
+msgid "Files currently being edited"
+msgstr "Fichièrs en cors d'edicion"
+
+#: ../src/interface/filter_conditions_dialog.cpp:105
+#: ../src/interface/LocalListView.cpp:284
+#: ../src/interface/RemoteListView.cpp:398 ../src/interface/search.cpp:162
+msgid "Filesize"
+msgstr "Talha de fichièr"
+
+#: ../src/interface/settings/settingsdialog.cpp:110
+msgid "Filesize format"
+msgstr "Format de fichièr"
+
+#: ../src/interface/LocalListView.cpp:285
+#: ../src/interface/RemoteListView.cpp:399 ../src/interface/search.cpp:163
+msgid "Filetype"
+msgstr "Tipe de fichièr"
+
+#: ../src/interface/resources/xrc/settings.xrc:1883
+#: ../src/interface/settings/settingsdialog.cpp:114
+msgid "Filetype associations"
+msgstr "Associacion per tipe de fichièrs"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1532
+msgid "Filter applies to:"
+msgstr "Aplicar lo filtre a:"
+
+#: ../src/interface/filteredit.cpp:155 ../src/interface/filteredit.cpp:220
+#: ../src/interface/filteredit.cpp:261 ../src/interface/filteredit.cpp:362
+msgid "Filter name already exists"
+msgstr "Lo nom de filtre existís ja"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Filter set already exists"
+msgstr "Lo jòc de filtre existís ja"
+
+#: ../src/interface/toolbar.cpp:50
+msgid "Filter the directory listings"
+msgstr "Filtrar lo contengut dels repertòris"
+
+#: ../src/interface/filteredit.cpp:346 ../src/interface/filteredit.cpp:354
+#: ../src/interface/filteredit.cpp:362
+msgid "Filter validation failed"
+msgstr "Error de caliditat del filtre"
+
+#: ../src/interface/resources/xrc/certificate.xrc:97
+msgid "Fingerprint (SHA-1):"
+msgstr "Reconeissença dels dets (SHA-1):"
+
+#: ../src/interface/netconfwizard.cpp:55
+msgid "Firewall and router configuration wizard"
+msgstr "Assitant de configuracion pel parafuòc e l'adralhador"
+
+#: ../src/interface/resources/xrc/settings.xrc:71
+msgid ""
+"For more detailed information about what these options do, please run the "
+"network configuration wizard."
+msgstr ""
+"Per mai d'informacions a prepaus d'aquestas opcions, mercé de lançar "
+"l'assitant de configuracion del ret."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:313
+msgid "For reliability you should specify a range of at least 10 ports."
+msgstr ""
+"Per mai de fisabilitat, devètz especificar un interval d'almens 10 pòrts."
+
+#: ../src/interface/Options.cpp:252
+msgid ""
+"For this session the default settings will be used. Any changes to the "
+"settings will not be saved."
+msgstr ""
+"Per aquesta session los paramètres per defaut son utilizat. Totes los "
+"cambiaments de paramètres seràn pas salvats."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:692
+msgid "Force &UTF-8"
+msgstr "Forçar &UTF-8"
+
+#: ../src/interface/menu_bar.cpp:148
+msgid "Force showing &hidden files"
+msgstr "Forçar a mostrar los &fichièrs amagats"
+
+#: ../src/interface/Mainfrm.cpp:716
+msgid "Force showing hidden files"
+msgstr "Forçar a mostrar los fichièrs amagats"
+
+#: ../src/interface/resources/xrc/settings.xrc:494
+msgid "Format specifications:"
+msgstr "Especificacions de format:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:134
+msgid "General"
+msgstr "General"
+
+#: ../src/engine/proxy.cpp:437
+msgid "General SOCKS server failure"
+msgstr "Error generala del servidor SOCKS"
+
+#: ../src/interface/resources/xrc/settings.xrc:707
+#: ../src/interface/settings/settingsdialog.cpp:102
+msgid "Generic proxy"
+msgstr "Proxy generic"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:218
+msgid "Get external IP address from the following URL:"
+msgstr "Obténer l'adreça IP extèrna dempuèi l'adreça URL seguenta:"
+
+#: ../src/interface/welcome_dialog.cpp:91
+msgid "Getting help"
+msgstr "Obténer d'ajuda"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Given filterset name already exists, overwrite filter set?"
+msgstr "Lo nom del jòc de filtres existís ja, remplaçar lo jòc de filtres ?"
+
+#: ../src/interface/bookmarks_dialog.cpp:258
+msgid "Global bookmarks"
+msgstr "Marcapaginas globals"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:898
+msgid "GnuTLS:"
+msgstr "GnuTLS:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:621
+msgid "Group permissions"
+msgstr "Permissions de grops"
+
+#: ../src/interface/QueueView.cpp:1825
+msgid "H&igh"
+msgstr "N&aut"
+
+#: ../src/engine/server.cpp:23
+msgid "HTTPS - HTTP over TLS"
+msgstr "HTTPS - HTTP over TLS"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2237
+msgid "Hash:"
+msgstr "Hash:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:80
+msgid "Hidden"
+msgstr "Amagat"
+
+#: ../src/interface/resources/xrc/settings.xrc:964
+#: ../src/interface/queue.cpp:997 ../src/interface/queue.cpp:1059
+msgid "High"
+msgstr "Naut"
+
+#: ../src/interface/queue.cpp:999 ../src/interface/queue.cpp:1061
+msgid "Highest"
+msgstr "Mai naut"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:75
+msgid "Highest available port has to be a number between 1024 and 65535."
+msgstr "Lo pòrt mai naut deu èsser un nombre entre 1024 e 65535."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:803
+msgid "Homepage:"
+msgstr "Pagina d'acuèlh:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1116
+msgid "Host key mismatch"
+msgstr "La clau de l'òste correspond pas"
+
+#: ../src/interface/serverdata.cpp:223
+msgid "Host starts with '[' but no closing bracket found."
+msgstr "L'òste comença amb '[', mas pas de ']' trobat."
+
+#: ../src/engine/proxy.cpp:446
+msgid "Host unreachable"
+msgstr "Òste inaccessible"
+
+#: ../src/interface/resources/xrc/certificate.xrc:179
+#: ../src/interface/resources/xrc/dialogs.xrc:284
+#: ../src/interface/resources/xrc/dialogs.xrc:420
+#: ../src/interface/resources/xrc/dialogs.xrc:1040
+#: ../src/interface/resources/xrc/dialogs.xrc:1161
+#: ../src/interface/verifycertdialog.cpp:740
+msgid "Host:"
+msgstr "Òste:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:568
+msgid "Hours,"
+msgstr "Oras,"
+
+#: ../src/interface/resources/xrc/settings.xrc:1409
+msgid "I&SO 8601 (example: 15:47)"
+msgstr "I&SO 8601 (exemple: 15:47)"
+
+#: ../src/interface/netconfwizard.cpp:644
+msgid ""
+"If this problem persists, please contact your router or firewall "
+"manufacturer for a solution."
+msgstr ""
+"Se lo problèma contunha, mercé de contactar lo fabricant de l'adralhador o "
+"del farafuòc."
+
+#: ../src/interface/netconfwizard.cpp:602
+msgid "If this problem stays, please contact your router manufacturer."
+msgstr ""
+"Se lo problèma contunha, mercé de contactar lo fabricant de l'adralhador."
+
+#: ../src/interface/Mainfrm.cpp:1275
+msgid "If you close FileZilla, your changes will be lost."
+msgstr "Se tampatz FileZilla, los cambiaments seràn pas salvats."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:365
+msgid "If you get any errors, your configuration is not correct."
+msgstr "Se avètz d'errors, vòstra configuracion es pas corrècta."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:323
+msgid ""
+"If you use a firewall, make sure FileZilla is allowed to accept connection "
+"on all given ports."
+msgstr ""
+"Se utilizatz un parafuòc, siatz segur qu'accepta una connexion sus totes los "
+"pòrts."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1825
+msgid "Import settings"
+msgstr "Importar los paramètres"
+
+#: ../src/interface/import.cpp:83 ../src/interface/import.cpp:90
+msgid "Import successful"
+msgstr "Importacion capitada"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:49
+#: ../src/interface/settings/optionspage_edit_associations.cpp:56
+msgid "Improperly quoted association."
+msgstr "Associacion picada incorrècta."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:168
+#: ../src/interface/resources/xrc/settings.xrc:337
+msgid ""
+"In order to use active mode, FileZilla needs to know your external IP "
+"address."
+msgstr ""
+"Per utilizar lo mòde actiu, FileZilla a besonh de saber vòstra adreça IP "
+"extèrna."
+
+#: ../src/interface/queue.cpp:349
+msgid "Incorrect password"
+msgstr "Mot de gach incorrècte"
+
+#: ../src/engine/ftp/logon.cpp:261
+msgid "Initializing TLS..."
+msgstr "Lançament de TLS..."
+
+#: ../src/engine/server.cpp:714 ../src/engine/server.cpp:738
+#: ../src/interface/manual_transfer.cpp:182
+msgid "Interactive"
+msgstr "Interactiu"
+
+#: ../src/interface/settings/settingsdialog.cpp:106
+msgid "Interface"
+msgstr "Interfàcia"
+
+#: ../src/engine/ControlSocket.cpp:207 ../src/interface/queue.cpp:355
+msgid "Interrupted by user"
+msgstr "Arrestat per l'utilizaire"
+
+#: ../src/engine/http/request.cpp:159 ../src/engine/http/request.cpp:575
+msgid "Invalid Content-Length"
+msgstr "Longor de contengut invalida"
+
+#: ../src/engine/http/request.cpp:481
+msgid "Invalid HTTP Response"
+msgstr "Responsa HTTP invalida"
+
+#: ../src/engine/http/request.cpp:698
+msgid "Invalid chunk size"
+msgstr "Talha del paquet invalid"
+
+#: ../src/interface/netconfwizard.cpp:371
+#: ../src/interface/netconfwizard.cpp:380
+#: ../src/interface/netconfwizard.cpp:388
+#: ../src/interface/netconfwizard.cpp:405
+msgid "Invalid data received"
+msgstr "Donadas recebudas invalidas"
+
+#: ../src/interface/verifycertdialog.cpp:379
+#: ../src/interface/verifycertdialog.cpp:395
+msgid "Invalid date"
+msgstr "Data invalida"
+
+#: ../src/interface/file_utils.cpp:308 ../src/interface/file_utils.cpp:343
+msgid "Invalid filename"
+msgstr "Nom de fichièr invalid"
+
+#: ../src/interface/asksavepassworddialog.cpp:41
+#: ../src/interface/asksavepassworddialog.cpp:46
+#: ../src/interface/loginmanager.cpp:111 ../src/interface/loginmanager.cpp:116
+#: ../src/interface/loginmanager.cpp:209 ../src/interface/loginmanager.cpp:311
+msgid "Invalid input"
+msgstr "Dintrada invalida"
+
+#: ../src/interface/serverdata.cpp:138 ../src/interface/serverdata.cpp:256
+msgid "Invalid port given. The port has to be a value from 1 to 65535."
+msgstr "Numèro de pòrt invalid. Lo pòrt deu èsser una valor entre 1 e 65535."
+
+#: ../src/engine/http/request.cpp:490
+msgid "Invalid response code"
+msgstr "Còde de responsa invalid"
+
+#: ../src/interface/search.cpp:741
+#, c-format
+msgid "Invalid search conditions: %s"
+msgstr "invalida condicions de recèrca: %s"
+
+#: ../src/interface/sitemanager.cpp:651 ../src/interface/sitemanager.cpp:657
+#: ../src/interface/sitemanager.cpp:739 ../src/interface/sitemanager.cpp:745
+msgid "Invalid site path"
+msgstr "Talha del camin invalid"
+
+#: ../src/interface/filter_conditions_dialog.cpp:507
+msgid "Invalid size in condition"
+msgstr "Talha invalida dins aquesta condicion"
+
+#: ../src/interface/serverdata.cpp:204
+msgid "Invalid username given."
+msgstr "Nom d'utilizaire invalid."
+
+#: ../src/interface/resources/xrc/settings.xrc:1592
+msgid "Keep directories on top"
+msgstr "Conservar los repertòris ennaut"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2210
+msgid "Key exchange"
+msgstr "Escambi de clau"
+
+#: ../src/interface/QueueView.cpp:1828
+msgid "L&owest"
+msgstr "Mai bas"
+
+#: ../src/interface/resources/xrc/settings.xrc:1721
+#: ../src/interface/settings/settingsdialog.cpp:112
+msgid "Language"
+msgstr "Lenga"
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "Language changed"
+msgstr "Lenga cambiada"
+
+#: ../src/interface/LocalListView.cpp:286
+#: ../src/interface/RemoteListView.cpp:400 ../src/interface/search.cpp:164
+msgid "Last modified"
+msgstr "Darrièra modificacion"
+
+#: ../src/interface/settings/optionspage_interface.cpp:118
+msgid "Layout"
+msgstr "Presentacion"
+
+#: ../src/interface/resources/xrc/settings.xrc:844
+msgid "Limit for concurrent &downloads:"
+msgstr "Limit de &telecargaments concurrents"
+
+#: ../src/interface/resources/xrc/settings.xrc:865
+msgid "Limit for concurrent &uploads:"
+msgstr "Limit de &cargaments concurrents"
+
+#: ../src/interface/resources/xrc/settings.xrc:265
+msgid "Limit local ports"
+msgstr "Limit de pòrts locals"
+
+#: ../src/interface/resources/xrc/settings.xrc:2015
+msgid "Limit size of logfile"
+msgstr "Limit de talha del fichièr d'istoric"
+
+#: ../src/interface/resources/xrc/settings.xrc:2023
+msgid "Limit:"
+msgstr "Limit:"
+
+#: ../src/engine/http/request.cpp:652
+msgid "Line length exceeded"
+msgstr "Longor de linha despassada"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:918
+msgid "Linked against"
+msgstr "Dependéncias"
+
+#: ../src/engine/logging.cpp:137 ../src/interface/StatusView.cpp:303
+#: ../src/interface/StatusView.cpp:388
+msgid "Listing:"
+msgstr "Lista:"
+
+#: ../src/interface/resources/xrc/settings.xrc:295
+msgid "Lo&west available port:"
+msgstr "Mai pichon pòrt disponible:"
+
+#: ../src/interface/edithandler.cpp:1194 ../src/interface/edithandler.cpp:1438
+msgid "Local"
+msgstr "Local"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2487
+msgid "Local file"
+msgstr "Fichièr local"
+
+#: ../src/interface/manual_transfer.cpp:304
+msgid "Local file does not exist."
+msgstr "Lo fichièr local existís pas."
+
+#: ../src/interface/manual_transfer.cpp:300
+msgid "Local file is a directory instead of a regular file."
+msgstr "Lo fichièr es un repertòri e non un fichièr normal."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1281
+msgid "Local filters:"
+msgstr "Filtres locals:"
+
+#: ../src/interface/viewheader.cpp:337
+msgid "Local site:"
+msgstr "Site local:"
+
+#: ../src/interface/verifycertdialog.cpp:648
+msgid "Locality:"
+msgstr "Luòc:"
+
+#: ../src/interface/settings/optionspage_logging.cpp:97
+msgid "Log file"
+msgstr "Fichièr d'istoric"
+
+#: ../src/interface/resources/xrc/settings.xrc:1969
+#: ../src/interface/settings/settingsdialog.cpp:120
+msgid "Logging"
+msgstr "Escritura dins lo fichièr d'istoric"
+
+#: ../src/interface/queue.cpp:992 ../src/interface/queue.cpp:1054
+msgid "Low"
+msgstr "Bas"
+
+#: ../src/interface/queue.cpp:990 ../src/interface/queue.cpp:1052
+msgid "Lowest"
+msgstr "Mai bas"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:69
+msgid "Lowest available port has to be a number between 1024 and 65535."
+msgstr "Lo mai pichon pòrt disponible deu èsser un nombre entre 1024 e 65535."
+
+#: ../src/interface/resources/xrc/certificate.xrc:232
+msgid "MAC:"
+msgstr "MAC:"
+
+#: ../src/engine/http/request.cpp:639 ../src/engine/http/request.cpp:645
+#: ../src/engine/http/request.cpp:652 ../src/engine/http/request.cpp:663
+#: ../src/engine/http/request.cpp:698
+#, c-format
+msgid "Malformed chunk data: %s"
+msgstr "Paquet de donadas erronèu: %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2829
+#: ../src/interface/manual_transfer.cpp:288
+#: ../src/interface/manual_transfer.cpp:294
+#: ../src/interface/manual_transfer.cpp:300
+#: ../src/interface/manual_transfer.cpp:304
+#: ../src/interface/manual_transfer.cpp:311
+#: ../src/interface/manual_transfer.cpp:317
+#: ../src/interface/manual_transfer.cpp:323
+#: ../src/interface/manual_transfer.cpp:331
+msgid "Manual transfer"
+msgstr "Transferiment manual"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3306
+msgid "Match all of the following"
+msgstr "Trobar totes los seguents"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3307
+msgid "Match any of the following"
+msgstr "Trobar l'un dels seguents"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3308
+msgid "Match none of the following"
+msgstr "Trobar pas cap dels seguents"
+
+#: ../src/interface/resources/xrc/settings.xrc:823
+msgid "Maximum simultaneous &transfers:"
+msgstr "Nombre de &transferiments simultanèus"
+
+#: ../src/interface/Mainfrm.cpp:432 ../src/interface/Mainfrm.cpp:1893
+msgid "Message log"
+msgstr "Messatges d'istoric"
+
+#: ../src/interface/resources/xrc/settings.xrc:2035
+msgid "MiB"
+msgstr "MiB"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:584
+msgid "Minutes"
+msgstr "Minutas"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2402
+msgid "Move &down"
+msgstr "Ennaut"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2396
+msgid "Move &up"
+msgstr "Enbàs"
+
+#: ../src/interface/LocalTreeView.cpp:1036
+msgid "My Computer"
+msgstr "Mon ordenador"
+
+#: ../src/interface/LocalTreeView.cpp:1027
+msgid "My Documents"
+msgstr "Mos documents"
+
+#: ../src/interface/sitemanager.cpp:287
+#: ../src/interface/sitemanager_dialog.cpp:664
+#: ../src/interface/sitemanager_dialog.cpp:667
+msgid "My Sites"
+msgstr "Mos Sites"
+
+#: ../src/interface/settings/optionspage_themes.cpp:197
+#: ../src/interface/settings/optionspage_themes.cpp:200
+msgid "N/a"
+msgstr "N/a"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2867
+msgid "Name"
+msgstr "Nom"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Name already exists"
+msgstr "Aqueste nom existís ja"
+
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+msgid "Name of bookmark already exists."
+msgstr "Lo nom de marcapagina existís ja."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:276
+#: ../src/interface/resources/xrc/dialogs.xrc:412
+#: ../src/interface/verifycertdialog.cpp:654
+msgid "Name:"
+msgstr "Nom:"
+
+#: ../src/interface/filteredit.cpp:354
+msgid "Need to enter filter name"
+msgstr "Devètz picar un nom de filtre"
+
+#: ../src/interface/search.cpp:731
+msgid "Need to enter valid remote path"
+msgstr "Devètz picar un camin alunhat valid"
+
+#: ../src/interface/sitemanager_site.cpp:555
+msgid "Need to specify a character encoding"
+msgstr "Devètz especificar un encodatge de caractèrs"
+
+#: ../src/engine/proxy.cpp:443 ../src/engine/socket_errors.cpp:52
+msgid "Network unreachable"
+msgstr "Ret inaccessible"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:41
+msgid "New &Folder"
+msgstr "Novèl &Repertòri"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "New &tab"
+msgstr "Novèl &onglet"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3074
+#: ../src/interface/resources/xrc/sitemanager.xrc:47
+msgid "New Book&mark"
+msgstr "Novèl &Marcapagina"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2832
+#: ../src/interface/bookmarks_dialog.cpp:60
+#: ../src/interface/bookmarks_dialog.cpp:73
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:97
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:111
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/bookmarks_dialog.cpp:567
+#: ../src/interface/bookmarks_dialog.cpp:573
+#: ../src/interface/bookmarks_dialog.cpp:579
+#: ../src/interface/bookmarks_dialog.cpp:600
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+#: ../src/interface/sitemanager_dialog.cpp:1744
+msgid "New bookmark"
+msgstr "Novèl marcapagina"
+
+#: ../src/interface/LocalTreeView.cpp:1228
+#: ../src/interface/RemoteListView.cpp:1407
+#: ../src/interface/RemoteTreeView.cpp:1326
+msgid "New directory"
+msgstr "Novèl repertòri"
+
+#: ../src/interface/filteredit.cpp:137
+msgid "New filter"
+msgstr "Novèl filtre"
+
+#: ../src/interface/sitemanager_dialog.cpp:850
+msgid "New folder"
+msgstr "Novèl repertòri"
+
+#: ../src/interface/sitemanager.cpp:550 ../src/interface/sitemanager.cpp:564
+#: ../src/interface/sitemanager_dialog.cpp:1716
+msgid "New site"
+msgstr "Novèl Site"
+
+#: ../src/interface/settings/optionspage_interface.cpp:136
+msgid "Next to the transfer queue"
+msgstr "A costat de la tièra de transferiment"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:395
+msgid "No"
+msgstr "Non"
+
+#: ../src/interface/export.cpp:30
+msgid "No category to export selected"
+msgstr "Pas de categoria d'exportar seleccionada"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "No command given, aborting."
+msgstr "Pas de comanda donada, anullacion."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:635
+msgid "No external IP address set, trying default."
+msgstr "Pas d'adreça IP extèrna causida, ensag amb aquela per defaut."
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "No files are currently being edited."
+msgstr "Pas de fichièr en cors d'edicion."
+
+#: ../src/interface/filteredit.cpp:150
+msgid "No filter name given"
+msgstr "Pas cap de nom de filtre es causit"
+
+#: ../src/interface/serverdata.cpp:152 ../src/interface/serverdata.cpp:242
+#: ../src/interface/serverdata.cpp:263
+msgid "No host given, please enter a host."
+msgstr "Pas d'òste, mercé de picar un òste."
+
+#: ../src/interface/settings/optionspage_themes.cpp:94
+msgid "No images available"
+msgstr "Pas d'imatge disponible"
+
+#: ../src/interface/filter.cpp:269 ../src/interface/filter.cpp:339
+msgid "No name for the filterset given."
+msgstr "Pas de nom donat pel jòc de filtres."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3241
+msgid "No program associated with filetype"
+msgstr "Pas de programa associat amb aqueste tipe de fichièr"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3158
+#, c-format
+msgid "No program has been associated to edit files with the extension '%s'."
+msgstr "Pas de programa associat per editar los fichièrs amb l'extension '%s'."
+
+#: ../src/interface/search.cpp:445
+msgid "No search results"
+msgstr "pas cap de resultats de recèrca"
+
+#: ../src/interface/sitemanager.cpp:297
+msgid "No sites available"
+msgstr "Pas de sites disponibles"
+
+#: ../src/interface/loginmanager.cpp:209
+msgid "No username given."
+msgstr "Pas de nom d'utilizaire causit."
+
+#: ../src/interface/resources/xrc/settings.xrc:1683
+#: ../src/interface/resources/xrc/settings.xrc:1702
+#: ../src/interface/sitemanager.cpp:20
+#: ../src/interface/verifycertdialog.cpp:402
+msgid "None"
+msgstr "Cap"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2603
+msgid "None selected yet"
+msgstr "Pas encara seleccionat"
+
+#: ../src/interface/resources/xrc/settings.xrc:963 ../src/engine/server.cpp:705
+#: ../src/engine/server.cpp:732 ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:176
+#: ../src/interface/manual_transfer.cpp:535 ../src/interface/queue.cpp:995
+#: ../src/interface/queue.cpp:1057
+msgid "Normal"
+msgstr "Normal"
+
+#: ../src/interface/state.cpp:218 ../src/interface/state.cpp:1414
+msgid "Not connected"
+msgstr "Sètz pas connectat"
+
+#: ../src/interface/RemoteListView.cpp:2227
+msgid "Not connected to any server"
+msgstr "Pas connectat a un servidor"
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Not connected to any server."
+msgstr "Pas connectat a un servidor."
+
+#: ../src/interface/Mainfrm.cpp:718
+msgid "Note that this feature is only supported using the FTP protocol."
+msgstr "Aquesta foncion es solament suportada pel protocòl FTP."
+
+#: ../src/interface/resources/xrc/settings.xrc:596
+msgid "Note: This only works with plain, unencrypted FTP connections."
+msgstr "Mèfi: Aquò fonciona solament amb una connexion FTP non criptada."
+
+#: ../src/interface/resources/xrc/settings.xrc:1496
+msgid "Number of decimal places:"
+msgstr "Nombre de decimalas:"
+
+#: ../src/interface/settings/optionspage_connection.cpp:35
+msgid "Number of retries has to be between 0 and 99."
+msgstr "Lo nombre d'ensages deu èsser entre 0 e 99."
+
+#: ../src/interface/resources/xrc/certificate.xrc:282
+#: ../src/interface/resources/xrc/dialogs.xrc:233
+#: ../src/interface/resources/xrc/dialogs.xrc:559
+#: ../src/interface/resources/xrc/dialogs.xrc:751
+#: ../src/interface/resources/xrc/dialogs.xrc:994
+#: ../src/interface/resources/xrc/dialogs.xrc:1100
+#: ../src/interface/resources/xrc/dialogs.xrc:1221
+#: ../src/interface/resources/xrc/dialogs.xrc:1380
+#: ../src/interface/resources/xrc/dialogs.xrc:1569
+#: ../src/interface/resources/xrc/dialogs.xrc:1676
+#: ../src/interface/resources/xrc/dialogs.xrc:1747
+#: ../src/interface/resources/xrc/dialogs.xrc:1805
+#: ../src/interface/resources/xrc/dialogs.xrc:1870
+#: ../src/interface/resources/xrc/dialogs.xrc:2044
+#: ../src/interface/resources/xrc/dialogs.xrc:2181
+#: ../src/interface/resources/xrc/dialogs.xrc:2353
+#: ../src/interface/resources/xrc/dialogs.xrc:2428
+#: ../src/interface/resources/xrc/dialogs.xrc:2811
+#: ../src/interface/resources/xrc/dialogs.xrc:2966
+#: ../src/interface/resources/xrc/dialogs.xrc:3224
+#: ../src/interface/resources/xrc/dialogs.xrc:3464
+#: ../src/interface/resources/xrc/dialogs.xrc:3559
+#: ../src/interface/resources/xrc/dialogs.xrc:3628
+#: ../src/interface/resources/xrc/dialogs.xrc:3803
+#: ../src/interface/resources/xrc/dialogs.xrc:3905
+#: ../src/interface/resources/xrc/dialogs.xrc:4039
+#: ../src/interface/resources/xrc/inputdialog.xrc:34
+#: ../src/interface/resources/xrc/settings.xrc:28
+#: ../src/interface/resources/xrc/storj.xrc:37
+#: ../src/interface/welcome_dialog.cpp:114
+msgid "OK"
+msgstr "D'acòrdi"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:405
+msgid "Once"
+msgstr "Un còp"
+
+#: ../src/interface/toolbar.cpp:31 ../src/interface/toolbar.cpp:33
+msgid "Open the Site Manager"
+msgstr "Dobrir lo Gestionari de Sites"
+
+#: ../src/interface/LocalListView.cpp:793
+msgid "Open the file."
+msgstr "Dobrir lo fichièr."
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "Open the settings dialog of FileZilla"
+msgstr "Dobrir la bóstia paramètres de FileZilla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1917
+msgid "Opened as:"
+msgstr "Dobrir coma:"
+
+#: ../src/interface/edithandler.cpp:1706 ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1874
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1524
+#: ../src/interface/search.cpp:1537
+msgid "Opening failed"
+msgstr "Error d'obertura"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "Opens a new tab"
+msgstr "Dobrir un novèl onglet"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "Opens the Site Manager"
+msgstr "Dobrir lo Gestionari de Sites"
+
+#: ../src/interface/verifycertdialog.cpp:642
+msgid "Organization:"
+msgstr "Organizacion:"
+
+#: ../src/interface/verifycertdialog.cpp:670
+msgid "Other:"
+msgstr "Autre:"
+
+#: ../src/interface/resources/xrc/settings.xrc:64
+msgid "Overview"
+msgstr "Remplaçar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:136
+msgid "Overwrite &if source newer"
+msgstr "Remplaçar se la font es novèla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1616
+#: ../src/interface/resources/xrc/dialogs.xrc:1639
+#: ../src/interface/resources/xrc/settings.xrc:1188
+#: ../src/interface/resources/xrc/settings.xrc:1209
+msgid "Overwrite file"
+msgstr "Remplaçar lo fichièr"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1618
+#: ../src/interface/resources/xrc/dialogs.xrc:1641
+#: ../src/interface/resources/xrc/settings.xrc:1190
+#: ../src/interface/resources/xrc/settings.xrc:1211
+msgid "Overwrite file if size differs"
+msgstr "Remplaçar se lo fichièr es de talha diferenta"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1619
+#: ../src/interface/resources/xrc/dialogs.xrc:1642
+#: ../src/interface/resources/xrc/settings.xrc:1191
+#: ../src/interface/resources/xrc/settings.xrc:1212
+msgid "Overwrite file if size differs or source file is newer"
+msgstr "Remplaçar se lo fichièr es de talha diferenta o se la font es novèla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1617
+#: ../src/interface/resources/xrc/dialogs.xrc:1640
+#: ../src/interface/resources/xrc/settings.xrc:1189
+#: ../src/interface/resources/xrc/settings.xrc:1210
+msgid "Overwrite file if source file newer"
+msgstr "Remplaçar se la font es novèla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:142
+msgid "Overwrite if &different size"
+msgstr "Remplaçar se's de talha diferenta"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:149
+msgid "Overwrite if different si&ze or source newer"
+msgstr "Remplaçar se's de talha diferenta o se la font es novèla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:587
+msgid "Owner permissions"
+msgstr "Permissions del proprietari"
+
+#: ../src/interface/RemoteListView.cpp:402 ../src/interface/search.cpp:166
+msgid "Owner/Group"
+msgstr "Proprietari/Grop"
+
+#: ../src/interface/resources/xrc/settings.xrc:556
+#: ../src/interface/resources/xrc/settings.xrc:743
+msgid "P&roxy host:"
+msgstr "Òste del proxy:"
+
+#: ../src/interface/netconfwizard.cpp:505
+msgid "PORT command tainted by router or firewall."
+msgstr "La comanda PORT es corrompuda per un adralhador o un parafuòc."
+
+#: ../src/interface/resources/xrc/settings.xrc:203
+msgid "Pa&ssive (recommended)"
+msgstr "Pa&ssiu (recomandat)"
+
+#: ../src/interface/Mainfrm.cpp:2547
+msgid "Parameter not a valid URL"
+msgstr "Lo paramètre es pas un URL valid"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2719
+#: ../src/interface/resources/xrc/sitemanager.xrc:286
+#: ../src/interface/quickconnectbar.cpp:50
+#: ../src/interface/sitemanager_site.cpp:274
+msgid "Pass&word:"
+msgstr "Mot de gach:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:73
+msgid "Passive (recommended)"
+msgstr "Passiu (recomandat)"
+
+#: ../src/interface/resources/xrc/settings.xrc:410
+#: ../src/interface/settings/settingsdialog.cpp:99
+msgid "Passive mode"
+msgstr "Mòde passiu"
+
+#: ../src/interface/netconfwizard.cpp:608
+#: ../src/interface/netconfwizard.cpp:621
+#: ../src/interface/netconfwizard.cpp:632
+msgid "Passive mode has been set as default transfer mode."
+msgstr "Lo mòde passiu es lo mòde de transferiment per defaut."
+
+#: ../src/interface/fzputtygen_interface.cpp:96
+msgid "Password required"
+msgstr "Mot de gach requesit"
+
+#: ../src/interface/filter_conditions_dialog.cpp:117
+#: ../src/interface/search.cpp:161
+msgid "Path"
+msgstr "Camin"
+
+#: ../src/engine/ftp/rmd.cpp:26 ../src/engine/ftp/rmd.cpp:42
+#: ../src/engine/sftp/rmd.cpp:14
+#, c-format
+msgid "Path cannot be constructed for directory %s and subdir %s"
+msgstr "Lo dorsièr pòt pas èsser creat pel repertòri %s e lo sosrepertòri %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2896
+msgid "Paths"
+msgstr "Camins"
+
+#: ../src/interface/edithandler.cpp:1173 ../src/interface/edithandler.cpp:1310
+#: ../src/interface/edithandler.cpp:1407 ../src/interface/edithandler.cpp:1417
+msgid "Pending removal"
+msgstr "En espèra de la retirada"
+
+#: ../src/interface/filter_conditions_dialog.cpp:113
+msgid "Permission"
+msgstr "Permission"
+
+#: ../src/interface/RemoteListView.cpp:401 ../src/interface/search.cpp:165
+msgid "Permissions"
+msgstr "Permissions"
+
+#: ../src/interface/netconfwizard.cpp:572
+msgid ""
+"Please check on https://filezilla-project.org/probe.php that the server is "
+"running and carefully check your settings again."
+msgstr ""
+"Mercé de verificar sus https://filezilla-project.org/probe.php se lo "
+"servidor fonciona e verificatz vòstres paramètres."
+
+#: ../src/interface/netconfwizard.cpp:643
+msgid "Please disable settings like 'DMZ mode' or 'Game mode' on your router."
+msgstr ""
+"Mercé de desactivar los paramètres coma 'DMZ mode' o 'Game mode' dins vòstre "
+"adralhador."
+
+#: ../src/interface/settings/optionspage_dateformatting.cpp:72
+msgid "Please enter a custom date format."
+msgstr "Mercé de picar un format de data personalizat."
+
+#: ../src/interface/settings/optionspage_dateformatting.cpp:82
+msgid "Please enter a custom time format."
+msgstr "Mercé de picar un format d'ora personalizat."
+
+#: ../src/interface/filteredit.cpp:143
+msgid "Please enter a name for the new filter."
+msgstr "Mercé de picar un nom pel novèl filtre."
+
+#: ../src/interface/filteredit.cpp:249
+msgid "Please enter a new name for the copied filter."
+msgstr "Mercé de picar un novèl nom pel filtre copiat."
+
+#: ../src/interface/filter.cpp:324
+#, c-format
+msgid "Please enter a new name for the filter set \"%s\""
+msgstr "Mercé de picar un novèl nom pel jòc de filtres \"%s\""
+
+#: ../src/interface/filteredit.cpp:200
+msgid "Please enter a new name for the filter."
+msgstr "Mercé de causir un nom novèl pel filtre."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:112
+msgid ""
+"Please enter a number between 0 and 10 for the number of concurrent "
+"downloads."
+msgstr ""
+"Mercé de picar un nombre entre 0 e 10 pel nombre de telecargaments "
+"concurrents."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:117
+msgid ""
+"Please enter a number between 0 and 10 for the number of concurrent uploads."
+msgstr ""
+"Mercé de picar un nombre entre 0 e 10 pel nombre de cargaments concurrents."
+
+#: ../src/interface/settings/optionspage_transfer.cpp:107
+msgid ""
+"Please enter a number between 1 and 10 for the number of concurrent "
+"transfers."
+msgstr ""
+"Mercé de picar un nombre entre 0 e 10 pel nombre de transferiments "
+"concurrents."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:252
+msgid "Please enter a password for this server:"
+msgstr "Mercé de picar un mot de gach per aquel servidor:"
+
+#: ../src/interface/filter.cpp:262
+msgid "Please enter a unique name for this filter set"
+msgstr "Mercé de picar un nom unic per aqueste jòc de filtre"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:259
+msgid "Please enter a username for this server:"
+msgstr "Mercé de picar un nom d'utilizaire per aqueste servidor:"
+
+#: ../src/interface/netconfwizard.cpp:190
+msgid "Please enter a valid portrange."
+msgstr "Mercé de picar un interval IP valid."
+
+#: ../src/interface/netconfwizard.cpp:171
+msgid "Please enter an URL where to get your external address from"
+msgstr "Mercé de picar una URL ont obténer l'adreça extèrna"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Please enter the name of the directory which should be created:"
+msgstr "Mercé de picar un nom pel repertòri que volètz crear:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:266
+msgid "Please enter username and password for this server:"
+msgstr ""
+"Mercé de picar un nom d'utilizaire e un mot de gach per aqueste servidor:"
+
+#: ../src/interface/netconfwizard.cpp:155
+msgid "Please enter your external IP address"
+msgstr "Mercé de picar vòstra adreça IP extèrna"
+
+#: ../src/interface/netconfwizard.cpp:613
+#: ../src/interface/netconfwizard.cpp:626
+msgid ""
+"Please enter your external IP address on the active mode page of this "
+"wizard. In case you have a dynamic address or don't know your external "
+"address, use the external resolver option."
+msgstr ""
+"Mercé de picar vòstra adreça IP extèrna sus la dins la pagina mòde actiu de "
+"l'assistent. Se avètz una adreça dinamica o se la sabètz pas, utilizatz "
+"l'opcion de resolucion extèrna."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:16
+msgid ""
+"Please follow the instructions carefully, as wrong configuration will "
+"prevent successful FTP connections."
+msgstr ""
+"Mercé d'èsser atentiu a las instruccions, una marrida configuracion "
+"empacharà las connexions FTP de capitar."
+
+#: ../src/interface/FileZilla.cpp:169
+msgid "Please make sure the requested locale is installed on your system."
+msgstr ""
+"Mercé de vos assegurar que la demanda locala siá plan installada sus vòstre "
+"sistèma."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1863
+msgid "Please select the categories you would like to import."
+msgstr "Mercé de causir las categorias que volètz importar."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:34
+msgid "Please select the default transfer mode you would like to use."
+msgstr "Mercé de causir lo mòde de transferiment que volètz utilizar."
+
+#: ../src/interface/chmoddialog.cpp:174
+#, c-format
+msgid "Please select the new attributes for the directory \"%s\"."
+msgstr "Mercé de causir lo novèl atribut pel repertòri \"%s\"."
+
+#: ../src/interface/chmoddialog.cpp:165
+#, c-format
+msgid "Please select the new attributes for the file \"%s\"."
+msgstr "Mercé de causir los novèls atributs pel fichièr \"%s\"."
+
+#: ../src/interface/chmoddialog.cpp:177
+msgid "Please select the new attributes for the selected directories."
+msgstr "Mercé de seleccionar los novèls atributs pels repertòris seleccionats."
+
+#: ../src/interface/chmoddialog.cpp:181
+msgid ""
+"Please select the new attributes for the selected files and directories."
+msgstr ""
+"Mercé de seleccionar los novèls atributs pels fichièrs e repertòris "
+"seleccionats."
+
+#: ../src/interface/chmoddialog.cpp:168
+msgid "Please select the new attributes for the selected files."
+msgstr "Mercé de seleccionar los novèls atributs pels fichièrs seleccionats."
+
+#: ../src/interface/verifycertdialog.cpp:649
+msgid "Postal code:"
+msgstr "Còde postal:"
+
+#: ../src/interface/sitemanager.cpp:286
+#: ../src/interface/sitemanager_dialog.cpp:1442
+msgid "Predefined Sites"
+msgstr "Sites predefinits"
+
+#: ../src/interface/Mainfrm.cpp:758
+msgid "Preserving file timestamps"
+msgstr "Conservar l'ora/la data dels fichièrs"
+
+#: ../src/interface/cmdline.cpp:18
+msgid "Print version information to stdout and exit"
+msgstr "Version 'Estampar' d'informacions sus la sortida estandarda e sortir"
+
+#: ../src/interface/resources/xrc/settings.xrc:1591
+msgid "Prioritize directories (default)"
+msgstr "Prioritat als repertòris (per defaut)"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "Prioritat"
+
+#: ../src/interface/resources/xrc/settings.xrc:630
+msgid "Private &keys:"
+msgstr "Claus privadas:"
+
+#: ../src/interface/resources/xrc/settings.xrc:579
+#: ../src/interface/resources/xrc/settings.xrc:776
+msgid "Pro&xy password:"
+msgstr "Mot de gach (Proxy)"
+
+#: ../src/interface/menu_bar.cpp:111 ../src/interface/QueueView.cpp:1815
+msgid "Process &Queue"
+msgstr "Tractar la &tièra"
+
+#: ../src/interface/resources/xrc/settings.xrc:753
+msgid "Proxy &port:"
+msgstr "&Pòrt (proxy)"
+
+#: ../src/interface/resources/xrc/settings.xrc:569
+#: ../src/interface/resources/xrc/settings.xrc:766
+msgid "Proxy &user:"
+msgstr "&Utilizaire (proxy)"
+
+#: ../src/engine/proxy.cpp:418
+msgid "Proxy authentication failed"
+msgstr "Error d'identificacion (proxy)"
+
+#: ../src/engine/proxy.cpp:294
+#, c-format
+msgid "Proxy reply: %s"
+msgstr "Responsa del proxy: %s"
+
+#: ../src/engine/proxy.cpp:335
+#, c-format
+msgid "Proxy request failed: %s"
+msgstr "Error de demanda del proxy: %s"
+
+#: ../src/engine/proxy.cpp:504
+msgid "Proxy request failed: Unknown address type in CONNECT reply"
+msgstr ""
+"La demanda del proxy s'es pas capitada: Tipe d'adreça desconegut dins la "
+"responsa CONNECT"
+
+#: ../src/interface/resources/xrc/settings.xrc:617
+msgid "Public Key Authentication"
+msgstr "Clau publica d'identificacion"
+
+#: ../src/interface/resources/xrc/certificate.xrc:73
+msgid "Public key algorithm:"
+msgstr "Algoritme de clau publica:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:655
+msgid "Public permissions"
+msgstr "Permissions publica"
+
+#: ../src/interface/QueueView.cpp:2820
+msgid "Queue has been fully processed"
+msgstr "La tièra es plan capitada"
+
+#: ../src/interface/statusbar.cpp:446
+#, c-format
+msgid "Queue: %s MiB"
+msgstr "Tièra: %s MiB"
+
+#: ../src/interface/statusbar.cpp:381
+#, c-format
+msgid "Queue: %s%s"
+msgstr "Tièra: %s%s"
+
+#: ../src/interface/statusbar.cpp:377 ../src/interface/statusbar.cpp:437
+msgid "Queue: empty"
+msgstr "Tièra: voida"
+
+#: ../src/interface/QueueView.cpp:207
+msgid "Queued files"
+msgstr "Fichièrs dins la tièra"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3441
+#: ../src/interface/resources/xrc/dialogs.xrc:3536
+msgid "Queueing:"
+msgstr "Tièra:"
+
+#: ../src/interface/menu_bar.cpp:104
+msgid "R&emote directory tree"
+msgstr "Arborescéncia dels repertòris alunhats"
+
+#: ../src/interface/Mainfrm.cpp:641
+msgid "Raw FTP command"
+msgstr "Comanda FTP bruta"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:628
+msgid "Re&ad"
+msgstr "L&egir"
+
+#: ../src/interface/LocalListView.cpp:799
+#: ../src/interface/RemoteListView.cpp:1135
+msgid "Re&fresh"
+msgstr "&Refrescar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:166
+msgid "Re&name"
+msgstr "Tornar &nomenar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:662
+msgid "Rea&d"
+msgstr "Lectu&ra"
+
+#: ../src/interface/filter_conditions_dialog.cpp:81
+msgid "Read-only"
+msgstr "Sonque de lectura"
+
+#: ../src/interface/Mainfrm.cpp:1134
+msgid "Really cancel current operation?"
+msgstr "Volètz anullar l'operacion actuala?"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Reason"
+msgstr "Motiu"
+
+#: ../src/interface/QueueView.cpp:2813
+msgid "Reboot now"
+msgstr "Tornar lançar ara"
+
+#: ../src/interface/netconfwizard.cpp:1007
+#: ../src/interface/netconfwizard.cpp:1015
+#: ../src/interface/netconfwizard.cpp:1036
+msgid "Received data tainted"
+msgstr "Donadas recebudas erronèas"
+
+#: ../src/interface/resources/xrc/settings.xrc:185
+msgid "Reconnection settings"
+msgstr "Paramètres de reconnexion"
+
+#: ../src/interface/toolbar.cpp:47
+msgid "Reconnects to the last used server"
+msgstr "Se tornar connectar al darrièr servidor utilizat"
+
+#: ../src/interface/toolbar.cpp:43
+msgid "Refresh the file and folder lists"
+msgstr "Actualizar la tièra de fichièrs e de repertòris"
+
+#: ../src/interface/edithandler.cpp:1157
+msgid "Remote"
+msgstr "Alunhat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2522
+#: ../src/interface/queue.cpp:1275
+msgid "Remote file"
+msgstr "Fichièr alunhat"
+
+#: ../src/interface/search.cpp:724 ../src/interface/search.cpp:731
+msgid "Remote file search"
+msgstr "Recèrca de fichièrs alunhats"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1316
+msgid "Remote filters:"
+msgstr "Filtres alunhat:"
+
+#: ../src/interface/edithandler.cpp:1148
+msgid "Remote path"
+msgstr "Camin alunhat"
+
+#: ../src/interface/bookmarks_dialog.cpp:442
+#, c-format
+msgid ""
+"Remote path cannot be parsed. Make sure it is a valid absolute path and is "
+"supported by the current site's servertype (%s)."
+msgstr ""
+"Lo camin alunhat pòt pas èsser explorat. Asseguratz-vos qu'es un camin "
+"absolut valid e qu'es suportat pel tipe de servidor actual (%s)."
+
+#: ../src/interface/sitemanager_dialog.cpp:902
+#, c-format
+msgid ""
+"Remote path cannot be parsed. Make sure it is a valid absolute path and is "
+"supported by the servertype (%s) selected on the parent site."
+msgstr ""
+"Lo camin alunhat pòt pas èsser explorat. Asseguratz-vos qu'es un camin "
+"absolut valid e qu'es suportat pel tipe de servidor actual (%s) seleccionat "
+"sul site parent."
+
+#: ../src/interface/bookmarks_dialog.cpp:445
+#: ../src/interface/bookmarks_dialog.cpp:450
+#: ../src/interface/sitemanager_dialog.cpp:905
+msgid "Remote path cannot be parsed. Make sure it is a valid absolute path."
+msgstr ""
+"Lo camin alunhat pòt pas èsser explorat. Asseguratz-vos qu'es un camin "
+"absolut valid."
+
+#: ../src/interface/manual_transfer.cpp:323
+msgid "Remote path could not be parsed."
+msgstr "Lo camin alunhat pòt pas èsser explorat."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3423
+msgid "Remote path handling:"
+msgstr "Tractament del camin alunhat:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1937
+msgid "Remote path:"
+msgstr "Camin alunhat:"
+
+#: ../src/interface/viewheader.cpp:529
+msgid "Remote site:"
+msgstr "Site alunhat:"
+
+#: ../src/interface/queueview_failed.cpp:30
+#: ../src/interface/queueview_successful.cpp:23
+msgid "Remove &all"
+msgstr "Tot &suprimir"
+
+#: ../src/interface/queueview_failed.cpp:34
+#: ../src/interface/queueview_successful.cpp:27
+msgid "Remove &selected"
+msgstr "Suprimir lo &seleccionat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1621
+#: ../src/interface/resources/xrc/dialogs.xrc:1644
+#: ../src/interface/resources/xrc/settings.xrc:1193
+#: ../src/interface/resources/xrc/settings.xrc:1214
+#: ../src/interface/asyncrequestqueue.cpp:350
+msgid "Rename file"
+msgstr "Tornar nomenar lo fichièr"
+
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "Rename selected directory"
+msgstr "Tornar nomenar lo repertòri seleccionat"
+
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/RemoteListView.cpp:1139
+msgid "Rename selected files and directories"
+msgstr "Tornar nomenar los fichièrs e repertòris seleccionats"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:602
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:603
+#, c-format
+msgid "Renaming '%s' to '%s'"
+msgstr "Cambiament de nom de '%s' en '%s'"
+
+#: ../src/engine/ControlSocket.cpp:864 ../src/engine/ControlSocket.cpp:869
+#, c-format
+msgid "Resolving address of %s"
+msgstr "Resolucion de l'adreça de %s"
+
+#: ../src/engine/logging.cpp:132 ../src/interface/netconfwizard.cpp:419
+#: ../src/interface/StatusView.cpp:297 ../src/interface/StatusView.cpp:367
+msgid "Response:"
+msgstr "Responsa:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3369
+msgid "Results:"
+msgstr "Resultats:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1620
+#: ../src/interface/resources/xrc/dialogs.xrc:1643
+#: ../src/interface/resources/xrc/settings.xrc:1192
+#: ../src/interface/resources/xrc/settings.xrc:1213
+msgid "Resume file transfer"
+msgstr "Tornar prene lo transferiment"
+
+#: ../src/interface/resources/xrc/settings.xrc:1253
+msgid ""
+"Resuming ASCII files can cause problems if server uses a different line "
+"ending format than the client."
+msgstr ""
+"La represa de transferiment dels fichièrs ASCII pòt provocar de problèmas se "
+"lo servidor utiliza de fins de linhas dins un autre format qu'aquel del "
+"client."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:319
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:452
+#: ../src/engine/storj/storjcontrolsocket.cpp:64
+msgid "Retrieving directory listing..."
+msgstr "Recuperacion del contengut del repertòri..."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:650
+#: ../src/interface/netconfwizard.cpp:721
+#, c-format
+msgid "Retrieving external IP address from %s"
+msgstr "Recuperacion de l'adreça IP extèrna dempuèi %s"
+
+#: ../src/interface/menu_bar.cpp:61
+msgid "S&how files currently being edited..."
+msgstr "Mostrar los fichièrs en cors d'edicion..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3293
+msgid "S&top"
+msgstr "Arrestar"
+
+#: ../src/interface/menu_bar.cpp:97
+msgid "S&ynchronized browsing"
+msgstr "N&avigacion sincronizada"
+
+#: ../src/interface/settings/settingsdialog.cpp:101
+msgid "SFTP"
+msgstr "SFTP"
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "Save settings?"
+msgstr "Salvar los paramètres?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3299
+msgid "Search &conditions:"
+msgstr "&Condicions de recèrca:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3281
+msgid "Search &directory:"
+msgstr "Repertòri de recèrca:"
+
+#: ../src/interface/toolbar.cpp:53
+msgid "Search for files recursively."
+msgstr "Cercar de fichièrs d'un biais recursiu."
+
+#: ../src/interface/menu_bar.cpp:146
+msgid "Search server for files"
+msgstr "Cercar de fichièrs sul servidor"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Security information"
+msgstr "Informacion de seguretat"
+
+#: ../src/interface/netconfwizard.cpp:583
+#: ../src/interface/netconfwizard.cpp:597
+msgid "See also: https://wiki.filezilla-project.org/Network_Configuration"
+msgstr ""
+"De veire tanben: https://wiki.filezilla-project.org/Network_Configuration"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2610
+msgid "Sele&ct server"
+msgstr "Causir lo servidor"
+
+#: ../src/interface/resources/xrc/settings.xrc:13
+msgid "Select &page:"
+msgstr "Causir la &pagina:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1271
+msgid "Select Theme"
+msgstr "Causir un tema"
+
+#: ../src/interface/resources/xrc/settings.xrc:1168
+msgid ""
+"Select default action to perform if target file of a transfer already exists."
+msgstr "Causir l'accion per defaut se lo fichièr de destinacion existís ja."
+
+#: ../src/interface/edithandler.cpp:1617
+#: ../src/interface/settings/optionspage_edit.cpp:104
+msgid "Select default editor"
+msgstr "Causir l'editor per defaut"
+
+#: ../src/interface/defaultfileexistsdlg.cpp:13
+msgid ""
+"Select default file exists action only for the currently selected files in "
+"the queue."
+msgstr ""
+"Seleccionatz una accion per defaut que cal far sonque pels fichièrs "
+"seleccionats dins la tièra."
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:81
+msgid "Select file containing private key"
+msgstr "Seleccion del fichièr que conten la clau privada"
+
+#: ../src/interface/export.cpp:48
+msgid "Select file for exported data"
+msgstr "Seleccion del fichièr per l'exportacion de las donadas"
+
+#: ../src/interface/export.cpp:39 ../src/interface/queue.cpp:1561
+msgid "Select file for exported queue"
+msgstr "Seleccion del fichièr per l'exportacion de la tièra"
+
+#: ../src/interface/export.cpp:42
+msgid "Select file for exported settings"
+msgstr "Seleccionar lo fichièr pels paramètres exportats"
+
+#: ../src/interface/export.cpp:36 ../src/interface/sitemanager_dialog.cpp:1786
+msgid "Select file for exported sites"
+msgstr "Seleccionar lo fichièr pels sites exportats"
+
+#: ../src/interface/import.cpp:18
+msgid "Select file to import settings from"
+msgstr "Seleccionar lo fichièr per importar los paramètres dempuèi"
+
+#: ../src/interface/manual_transfer.cpp:239
+msgid "Select file to upload"
+msgstr "Causir lo fichièr de cargar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3163
+msgid "Select how these files should be opened."
+msgstr "Causir cossí los fichièrs devon èsser dobèrt."
+
+#: ../src/interface/search.cpp:915
+msgid "Select target download directory"
+msgstr "Causir lo repertòri cibla del telecargament"
+
+#: ../src/interface/manual_transfer.cpp:235
+msgid "Select target filename"
+msgstr "Seleccion del nom de fichièr cibla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1776
+msgid "Select the categories to export:"
+msgstr "Seleccionar las categorias d'exportar:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1702
+msgid "Select the private data you would like to delete."
+msgstr "Seleccionar la donada privada que volètz suprimir."
+
+#: ../src/interface/filelist_statusbar.cpp:38
+#, c-format
+msgid "Selected %d directory."
+msgid_plural "Selected %d directories."
+msgstr[0] "Seleccion de %d repertòri."
+msgstr[1] "Seleccion de %d repertòris."
+
+#: ../src/interface/search.cpp:869
+#, c-format
+msgid "Selected %d file for transfer."
+msgid_plural "Selected %d files for transfer."
+msgstr[0] "Seleccion de %d fichièr pel transferiment."
+msgstr[1] "Seleccion de %d fichièrs pel transferiment."
+
+#: ../src/interface/filelist_statusbar.cpp:46
+#, c-format
+msgid "Selected %d file. Total size: %s"
+msgid_plural "Selected %d files. Total size: %s"
+msgstr[0] "Seleccion de %d fichièr. Talha totala: %s"
+msgstr[1] "Seleccion de %d fichièrs. Talha totala: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:43
+#, c-format
+msgid "Selected %d file. Total size: At least %s"
+msgid_plural "Selected %d files. Total size: At least %s"
+msgstr[0] "Seleccion de %d fichièr. Talha totala: Almens %s"
+msgstr[1] "Seleccion de %d fichièrs. Talha totala: Almens %s"
+
+#: ../src/interface/search.cpp:877
+#, c-format
+msgid "Selected %s and %s for transfer."
+msgstr "Seleccion de %s e %s pel transferiment."
+
+#: ../src/interface/filelist_statusbar.cpp:57
+#, c-format
+msgid "Selected %s and %s. Total size: %s"
+msgstr "Seleccion de %s e de %s. Talha totala: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:54
+#, c-format
+msgid "Selected %s and %s. Total size: At least %s"
+msgstr "Seleccion de %s e de %s. Talha totala: Almens %s"
+
+#: ../src/interface/edithandler.cpp:1556 ../src/interface/edithandler.cpp:1638
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "Selected editor does not exist."
+msgstr "L'editor causit existís pas."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1996
+#: ../src/interface/resources/xrc/dialogs.xrc:2063
+msgid "Selected file already being edited"
+msgstr "Lo fichièr causit es ja en cors d'edicion"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:126
+msgid "Selected file is already loaded"
+msgstr "Lo fichièr seleccionat es ja cargat"
+
+#: ../src/interface/filter.cpp:230
+msgid "Selected filter only works for local files."
+msgstr "Lo filtre seleccionat fonciona solament pels fichièrs locals."
+
+#: ../src/engine/engineprivate.cpp:319
+msgid "Selected port usually in use by a different protocol."
+msgstr "Lo pòrt causit es abitualament utilizat per un protocòl diferent."
+
+#: ../src/interface/resources/xrc/settings.xrc:241
+msgid "Send FTP &keep-alive commands"
+msgstr "Mandar de comandas FTP demorar-connectat"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Send custom command to the server otherwise not available"
+msgstr "Mandadís d'una comanda personalizada al servidor non disponible"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:772
+msgid "Sending keep-alive command"
+msgstr "Mandadís d'una comanda demorar-connectat"
+
+#: ../src/interface/resources/xrc/certificate.xrc:65
+#: ../src/interface/verifycertdialog.cpp:652
+msgid "Serial number:"
+msgstr "Numèro de seria:"
+
+#: ../src/engine/ftp/filetransfer.cpp:268
+#, c-format
+msgid "Server does not support resume of files > %d GB."
+msgstr "Lo servidor accepta pas de tornar mandar los fichièrs > %d GB."
+
+#: ../src/engine/ftp/filetransfer.cpp:265
+#, c-format
+msgid ""
+"Server does not support resume of files > %d GB. End transfer since file "
+"sizes match."
+msgstr ""
+"Lo servidor accepta pas de tornar mandar los fichièrs > %d GB. Fin del "
+"transferiment se los fichièrs fan la meteissa talha."
+
+#: ../src/engine/ftp/filetransfer.cpp:523
+msgid "Server does not support resume of files > 2GB."
+msgstr "Lo servidor accepta pas de tornar mandar los fichièrs > 2GB."
+
+#: ../src/engine/ftp/filetransfer.cpp:519
+msgid "Server does not support resume of files > 4GB."
+msgstr "Lo servidor accepta pas de tornar mandar los fichièrs > 4GB."
+
+#: ../src/interface/netconfwizard.cpp:426
+#: ../src/interface/netconfwizard.cpp:432
+#: ../src/interface/netconfwizard.cpp:467
+#: ../src/interface/netconfwizard.cpp:476
+#: ../src/interface/netconfwizard.cpp:488
+#: ../src/interface/netconfwizard.cpp:511
+#: ../src/interface/netconfwizard.cpp:518
+#: ../src/interface/netconfwizard.cpp:527
+#: ../src/interface/netconfwizard.cpp:538
+msgid "Server sent unexpected reply."
+msgstr "Lo servidor a mandat una responsa inesperada."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2329
+msgid "Server to client MAC:"
+msgstr "Servidor a client MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2319
+msgid "Server to client cipher:"
+msgstr "Servidor a client cipher:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2673
+msgid "Server&type:"
+msgstr "Servidor&tipe"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Server/Local file"
+msgstr "Fichièr Servidor/Local"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1927
+#: ../src/interface/resources/xrc/dialogs.xrc:2596
+msgid "Server:"
+msgstr "Servidor:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:171
+msgid "Session details"
+msgstr "Detalhs de la session"
+
+#: ../src/interface/QueueView.cpp:1823
+msgid "Set &Priority"
+msgstr "Definir la &prioritat"
+
+#: ../src/interface/resources/xrc/settings.xrc:4
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../src/interface/resources/xrc/settings.xrc:2131
+msgid "Show &raw directory listing"
+msgstr "Mostrar la lista bruta del repertòri"
+
+#: ../src/interface/menu_bar.cpp:167
+msgid "Show &welcome dialog..."
+msgstr "Mostrar la bóstia de &benvenguda..."
+
+#: ../src/interface/cmdline.cpp:6
+msgid "Shows this help dialog"
+msgstr "Mostrar aquesta ajuda"
+
+#: ../src/interface/QueueView.cpp:2809
+msgid "Shutdown now"
+msgstr "Arrestar ara"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1838
+msgid "Site &Manager entries"
+msgstr "Elements del Gestionari de Sites"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:7
+msgid "Site Manager"
+msgstr "Gestionari de Sites"
+
+#: ../src/interface/sitemanager_dialog.cpp:281
+msgid "Site Manager already open"
+msgstr "Gestionari de Sites ja dobèrt"
+
+#: ../src/interface/sitemanager.cpp:434 ../src/interface/sitemanager.cpp:462
+#: ../src/interface/sitemanager.cpp:476 ../src/interface/sitemanager.cpp:488
+#: ../src/interface/sitemanager.cpp:657 ../src/interface/sitemanager.cpp:745
+msgid "Site does not exist."
+msgstr "Lo site existís pas."
+
+#: ../src/interface/sitemanager.cpp:445
+msgid "Site path has to begin with 0 or 1."
+msgstr "Lo camin del site deu començar per 0 or 1."
+
+#: ../src/interface/sitemanager.cpp:482 ../src/interface/sitemanager.cpp:651
+#: ../src/interface/sitemanager.cpp:739
+msgid "Site path is malformed."
+msgstr "Lo camin del site es incorrècte."
+
+#: ../src/interface/bookmarks_dialog.cpp:262
+msgid "Site-specific bookmarks"
+msgstr "Marcapaginas especifics al site"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Size"
+msgstr "Talha"
+
+#: ../src/interface/resources/xrc/settings.xrc:1460
+msgid "Size formatting"
+msgstr "Format de talha"
+
+#: ../src/interface/fileexistsdlg.cpp:43
+msgid "Size unknown"
+msgstr "Talha desconeguda"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1622
+#: ../src/interface/resources/xrc/dialogs.xrc:1645
+#: ../src/interface/resources/xrc/settings.xrc:1194
+#: ../src/interface/resources/xrc/settings.xrc:1215
+msgid "Skip file"
+msgstr "Ignorar lo fichièr"
+
+#: ../src/engine/ControlSocket.cpp:934 ../src/engine/ControlSocket.cpp:951
+#: ../src/engine/ControlSocket.cpp:977 ../src/engine/ControlSocket.cpp:1055
+#, c-format
+msgid "Skipping download of %s"
+msgstr "Passar lo telecargament de %s"
+
+#: ../src/engine/ControlSocket.cpp:937 ../src/engine/ControlSocket.cpp:954
+#: ../src/engine/ControlSocket.cpp:980 ../src/engine/ControlSocket.cpp:1058
+#, c-format
+msgid "Skipping upload of %s"
+msgstr "Passar lo cargament de %s"
+
+#: ../src/interface/Mainfrm.cpp:1274
+msgid "Some files are still being edited or need to be uploaded."
+msgstr "De fichièrs son encara en cors d'edicion o an besonh d'èsser cargat."
+
+#: ../src/interface/resources/xrc/settings.xrc:1577
+msgid "Sorting"
+msgstr "Ordenar"
+
+#: ../src/interface/resources/xrc/settings.xrc:1584
+msgid "Sorting &mode:"
+msgstr "&Mòde d'ordenament:"
+
+#: ../src/interface/fzputtygen_interface.cpp:128
+msgid "Source and target file may not be the same"
+msgstr "Lo fichièr font e cibla deu pas èsser lo meteis"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:24
+msgid "Source file:"
+msgstr "Fichièr font:"
+
+#: ../src/interface/resources/xrc/settings.xrc:893
+msgid "Speed limits"
+msgstr "Limits de velocitat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2804
+msgid "Start transfer &immediately"
+msgstr "Començar lo transferiment sul &pic"
+
+#: ../src/interface/cmdline.cpp:7
+msgid "Start with opened Site Manager"
+msgstr "Començar amb l'obertura del Gestionari de Sites"
+
+#: ../src/engine/ftp/filetransfer.cpp:34 ../src/engine/sftp/filetransfer.cpp:33
+#: ../src/engine/storj/file_transfer.cpp:39
+#, c-format
+msgid "Starting download of %s"
+msgstr "Començament del telecargament de %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:37 ../src/engine/sftp/filetransfer.cpp:36
+#: ../src/engine/storj/file_transfer.cpp:42
+#, c-format
+msgid "Starting upload of %s"
+msgstr "Començament del cargament de %s"
+
+#: ../src/interface/verifycertdialog.cpp:647
+msgid "State or province:"
+msgstr "Estat o província:"
+
+#: ../src/interface/edithandler.cpp:1149 ../src/interface/queue.cpp:1275
+msgid "Status"
+msgstr "Estatut"
+
+#: ../src/engine/logging.cpp:129 ../src/interface/StatusView.cpp:306
+#: ../src/interface/StatusView.cpp:397
+msgid "Status:"
+msgstr "Estatut:"
+
+#: ../src/interface/QueueView.cpp:1816
+msgid "Stop and remove &all"
+msgstr "Arrestar e suprimir &tot"
+
+#: ../src/interface/verifycertdialog.cpp:650
+msgid "Street:"
+msgstr "Carrièra:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:116
+msgid "Subject of certificate"
+msgstr "Subjècte del certificat"
+
+#: ../src/interface/queueview_successful.cpp:12
+msgid "Successful transfers"
+msgstr "Transferiments capitats"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:393
+msgid "Summary of test results:"
+msgstr "Resumit de resultats de tèsts:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3928
+#: ../src/interface/state.cpp:270 ../src/interface/state.cpp:285
+#: ../src/interface/state.cpp:292 ../src/interface/state.cpp:303
+#: ../src/interface/state.cpp:402 ../src/interface/state.cpp:410
+#: ../src/interface/state.cpp:418 ../src/interface/state.cpp:1119
+#: ../src/interface/state.cpp:1127 ../src/interface/state.cpp:1134
+#: ../src/interface/state.cpp:1143 ../src/interface/state.cpp:1170
+#: ../src/interface/toolbar.cpp:52
+msgid "Synchronized browsing"
+msgstr "Navigacion sincronizada"
+
+#: ../src/interface/state.cpp:417
+msgid "Synchronized browsing has been disabled."
+msgstr "La navigacion sincronizada es estada desactivada."
+
+#: ../src/interface/quickconnectbar.cpp:120
+#: ../src/interface/quickconnectbar.cpp:164
+msgid "Syntax error"
+msgstr "Error de sintaxi"
+
+#: ../src/interface/cmdline.cpp:83 ../src/interface/cmdline.cpp:88
+#: ../src/interface/cmdline.cpp:93 ../src/interface/cmdline.cpp:100
+#: ../src/interface/cmdline.cpp:105 ../src/interface/Mainfrm.cpp:2507
+#: ../src/interface/Mainfrm.cpp:2549
+msgid "Syntax error in command line"
+msgstr "Error de sintaxi dins la linha de comanda"
+
+#: ../src/interface/filter_conditions_dialog.cpp:82
+msgid "System"
+msgstr "Sistèma"
+
+#: ../src/engine/proxy.cpp:452
+msgid "TTL expired"
+msgstr "TTP acabat"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:6
+msgid "Target file already exists"
+msgstr "Lo fichièr cibla existís ja"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:65
+msgid "Target file:"
+msgstr "Fichièr cibla:"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "Target filename already exists, really continue?"
+msgstr "Lo nom de fichièr cibla existís ja, volètz contunhar?"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:370
+msgid "Test results"
+msgstr "Resultats dels tèsts"
+
+#: ../src/interface/netconfwizard.cpp:638
+#, c-format
+msgid "The address you entered was: %s"
+msgstr "L'adreça qu'avètz picat èra: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:844
+#: ../src/interface/sitemanager.cpp:638
+msgid "The bookmark could not be added."
+msgstr "Lo marcapagina pòt pas èsser apondut."
+
+#: ../src/interface/sitemanager.cpp:726
+msgid "The bookmarks could not be cleared."
+msgstr "Los marcapaginas pòdon pas èsser netejats."
+
+#: ../src/interface/statusbar.cpp:485
+msgid "The connection is encrypted. Click icon for details."
+msgstr "La connexion es criptada. Clicatz sus l'icòna per mai de detalhs."
+
+#: ../src/interface/settings/optionspage_ftpproxy.cpp:89
+msgid "The custom login sequence cannot be empty."
+msgstr "La sequéncia de connexion personalizada pòt pas èsser voida."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3181
+#: ../src/interface/edithandler.cpp:1597
+msgid "The default editor for text files could not be found."
+msgstr "L'editor per defaut pels fichièrs tèxt pòt pas èsser trobat."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3174
+#, c-format
+msgid "The default editor for text files is '%s'."
+msgstr "L'editor per defaut pels fichièrs tèxt es '%s'."
+
+#: ../src/interface/settings/optionspage_filetype.cpp:153
+#, c-format
+msgid "The extension '%s' does already exist in the list"
+msgstr "L'extension '%s' deu ja existir dins la lista"
+
+#: ../src/interface/asyncrequestqueue.cpp:339
+#: ../src/interface/asyncrequestqueue.cpp:347
+#, c-format
+msgid ""
+"The file %s already exists.\n"
+"Please enter a new name:"
+msgstr ""
+"Lo fichièr %s existís ja.\n"
+"Mercé de causir un novèl nom:"
+
+#: ../src/interface/fzputtygen_interface.cpp:37
+#, c-format
+msgid "The file '%s' could not be loaded or does not contain a private key."
+msgstr "Lo fichièr '%s' pòt pas èsser cargat o conten pas de clau privada."
+
+#: ../src/interface/xmlfunctions.cpp:39
+#, c-format
+msgid "The file '%s' could not be loaded."
+msgstr "Lo fichièr '%s' pòt pas èsser cargat."
+
+#: ../src/interface/edithandler.cpp:1706
+#: ../src/interface/LocalListView.cpp:1874 ../src/interface/search.cpp:1524
+#, c-format
+msgid ""
+"The file '%s' could not be opened:\n"
+"No program has been associated on your system with this file type."
+msgstr ""
+"Lo fichièr '%s' pòt pas èsser obèrt:\n"
+"Pas cap de programa es associat amb aqueste tipe de fichièrs."
+
+#: ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1537
+#, c-format
+msgid ""
+"The file '%s' could not be opened:\n"
+"The associated command failed"
+msgstr ""
+"Lo fichièr '%s' pòt pas èsser dobèrt:\n"
+"La comanda associada s'es pas capitada"
+
+#: ../src/interface/fzputtygen_interface.cpp:88
+#, c-format
+msgid ""
+"The file '%s' is not in a format supported by FileZilla.\n"
+"Would you like to convert it into a supported format?"
+msgstr ""
+"Lo fichièr '%s' es pas dins un format suportat per FileZilla.\n"
+"Lo volètz convertir dins un format suportat?"
+
+#: ../src/interface/settings/optionspage_edit.cpp:87
+msgid "The file selected as default editor does not exist."
+msgstr "Lo fichièr seleccionat coma un editor per defaut existís pas."
+
+#: ../src/interface/listctrlex.cpp:762
+msgid "The filename column can neither be hidden nor moved."
+msgstr "La colomna 'nom de fichièr' pòt pas èsser amagada o bolegada."
+
+#: ../src/interface/listctrlex.cpp:812
+msgid "The filename column cannot be hidden."
+msgstr "La colomna nom de fichièr pòt pas èsser amagada."
+
+#: ../src/interface/bookmarks_dialog.cpp:295
+msgid "The global bookmarks could not be saved."
+msgstr "Los marcapaginas globals pòdon pas èsser salvats."
+
+#: ../src/interface/settings/optionspage_logging.cpp:78
+msgid "The limit needs to be between 1 and 2000 MiB"
+msgstr "Lo limit deu èsser entre 1 e 2000 MiB"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:78
+msgid ""
+"The lowest available port has to be less or equal than the highest available "
+"port."
+msgstr "Lo mai pichon pòrt deu èsser inferior o egal al mai grand pòrt."
+
+#: ../src/interface/QueueView.cpp:1580
+msgid "The queue will not be saved."
+msgstr "La tièra serà pas salvada."
+
+#: ../src/interface/import.cpp:90
+msgid "The selected categories have been imported."
+msgstr "La categoria seleccionada es estada importada."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1833
+msgid ""
+"The selected file contains importable data for the following categories:"
+msgstr ""
+"Lo fichièr seleccionat conten de donadas importablas per las categorias "
+"seguentas:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2003
+#: ../src/interface/resources/xrc/dialogs.xrc:2070
+msgid "The selected file is already being edited:"
+msgstr "Lo fichièr seleccionat es ja en cors d'edicion:"
+
+#: ../src/interface/edithandler.cpp:1812
+msgid ""
+"The selected file is still opened in some other program, please close it."
+msgstr ""
+"Lo fichièr seleccionat es ja dobèrt dins un autre programa, lo devètz tampar."
+
+#: ../src/interface/sitemanager.cpp:529
+msgid "The server could not be added."
+msgstr "Lo servidor pòt pas èsser apondut."
+
+#: ../src/interface/resources/xrc/certificate.xrc:21
+msgid ""
+"The server's certificate is unknown. Please carefully examine the "
+"certificate to make sure the server can be trusted."
+msgstr ""
+"Lo certificat del servidor es pas conegut. Mercé de verificar e d'èsser "
+"segur que podètz aver fisança en lo servidor."
+
+#: ../src/interface/import.cpp:83
+msgid ""
+"The settings have been imported. You have to restart FileZilla for all "
+"settings to have effect."
+msgstr "Los paramètres son estats importats. Devètz tornar lançar FileZilla."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:19
+msgid ""
+"The target file already exists.\n"
+"Please choose an action."
+msgstr ""
+"Lo fichièr cibla existís ja.\n"
+"Mercé de causir una accion."
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "The test did not succeed. Do you really want to save the settings?"
+msgstr "Lo tèst s'es pas capitat. Volètz salvar los paramètres?"
+
+#: ../src/interface/settings/settingsdialog.cpp:108
+msgid "Themes"
+msgstr "Tèmas"
+
+#: ../src/interface/filter.cpp:382
+msgid "This filter set cannot be removed."
+msgstr "Aqueste filtre pòt pas èsser suprimit."
+
+#: ../src/interface/filter.cpp:318
+msgid "This filter set cannot be renamed."
+msgstr "Aqueste filtre pòt pas èsser tornat nomenar."
+
+#: ../src/interface/netconfwizard.cpp:595
+msgid ""
+"This means that some router and/or firewall is still interfering with "
+"FileZilla."
+msgstr ""
+"Aquò vòl dire qu'un adralhador e/o un parafuòc interferís encara amb "
+"FileZilla."
+
+#: ../src/interface/resources/xrc/settings.xrc:1397
+msgid "Time formatting"
+msgstr "Format d'ora"
+
+#: ../src/interface/resources/xrc/settings.xrc:97
+msgid "Time&out in seconds:"
+msgstr "Temps en segondas:"
+
+#: ../src/interface/resources/xrc/settings.xrc:126
+#: ../src/interface/queue.cpp:350
+msgid "Timeout"
+msgstr "Temps de connexion abans arrèst"
+
+#: ../src/interface/verifycertdialog.cpp:645
+msgid "Title:"
+msgstr "Títol:"
+
+#: ../src/interface/toolbar.cpp:44
+msgid "Toggles processing of the transfer queue"
+msgstr "Començar/Arrestar lo tractament de la tièra"
+
+#: ../src/interface/toolbar.cpp:38
+msgid "Toggles the display of the local directory tree"
+msgstr "Mostrar/Amagar l'arborescéncia dels repertòris locals"
+
+#: ../src/interface/toolbar.cpp:37
+msgid "Toggles the display of the message log"
+msgstr "Mostrar/Amagar los messatges"
+
+#: ../src/interface/toolbar.cpp:39
+msgid "Toggles the display of the remote directory tree"
+msgstr "Mostrar/Amagar l'arborescéncia dels repertòris alunhats"
+
+#: ../src/interface/toolbar.cpp:40
+msgid "Toggles the display of the transfer queue"
+msgstr "Mostrar/Amagar la tièra de transferiment"
+
+#: ../src/engine/http/request.cpp:463
+msgid "Too long header line"
+msgstr "Linha d'entèsta tròp longa"
+
+#: ../src/engine/http/filetransfer.cpp:144
+msgid "Too many redirects"
+msgstr "Tròp de redireccions"
+
+#: ../src/engine/logging.cpp:133 ../src/interface/StatusView.cpp:300
+#: ../src/interface/StatusView.cpp:379
+msgid "Trace:"
+msgstr "Traçament:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1680
+#: ../src/interface/resources/xrc/settings.xrc:1700
+msgid "Transfer"
+msgstr "Transferir"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2460
+msgid "Transfer &direction"
+msgstr "&Direccion de transferiment"
+
+#: ../src/interface/menu_bar.cpp:116
+msgid "Transfer &type"
+msgstr "Tipe de &transferiment"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "Mòde de transferiment"
+
+#: ../src/engine/ftp/transfersocket.cpp:419
+#, c-format
+msgid "Transfer connection interrupted: %s"
+msgstr "Arrèst de la connexion: %s"
+
+#: ../src/interface/netconfwizard.cpp:641
+msgid "Transferred data got tainted."
+msgstr "Las donadas transferidas son corrompudas."
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "Transferiment"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "Transferiments"
+
+#: ../src/interface/QueueView.cpp:2690
+msgid "Transfers finished"
+msgstr "Transferiments acabats"
+
+#: ../src/interface/resources/xrc/settings.xrc:1136
+msgid "Treat files &without extension as ASCII file"
+msgstr "Tractar los fichièrs sens extension coma de fichièrs ASCII"
+
+#: ../src/interface/resources/xrc/settings.xrc:1088
+msgid "Treat the &following filetypes as ASCII files:"
+msgstr "Tractar los tipes de &fichièrs seguents coma de fichièrs ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1201
+msgid "Trust the new key and carry on connecting?"
+msgstr "Far fisança en la novèla clau de l'òste e l'associar a la connexion?"
+
+#: ../src/interface/resources/xrc/certificate.xrc:251
+msgid "Trust this certificate and carry on connecting?"
+msgstr "Far fisança en lo certificat e associar la connexion?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1080
+msgid "Trust this host and carry on connecting?"
+msgstr "Far fisança en l'òste e l'associar a la connexion?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2840
+#: ../src/interface/edithandler.cpp:1147
+msgid "Type"
+msgstr "Tipe"
+
+#: ../src/interface/resources/xrc/settings.xrc:454
+msgid "Type of FTP Proxy:"
+msgstr "Tipe de proxy FTP:"
+
+#: ../src/interface/resources/xrc/settings.xrc:715
+msgid "Type of generic proxy:"
+msgstr "Tipe de proxy generic:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2151
+msgid "U&pload"
+msgstr "C&argar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3762
+#: ../src/interface/resources/xrc/settings.xrc:931
+msgid "U&pload limit:"
+msgstr "L&imit de cargament:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1810
+msgid "U&se filetype associations if available"
+msgstr "Utili&zar l'associacion per tipes de fichièrs se's disponibla"
+
+#: ../src/interface/resources/xrc/settings.xrc:464
+msgid "USER@&HOST"
+msgstr "UTILIZAIRE@&ÒSTE"
+
+#: ../src/engine/proxy.cpp:332 ../src/engine/proxy.cpp:461
+#, c-format
+msgid "Unassigned error code %d"
+msgstr "Còde d'error non atribuit %d"
+
+#: ../src/interface/verifycertdialog.cpp:644
+msgid "Unit:"
+msgstr "Unitat:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1055
+#: ../src/interface/resources/xrc/dialogs.xrc:1065
+#: ../src/interface/resources/xrc/dialogs.xrc:1176
+#: ../src/interface/resources/xrc/dialogs.xrc:1186
+#: ../src/interface/resources/xrc/dialogs.xrc:2268
+#: ../src/interface/resources/xrc/dialogs.xrc:2278
+#: ../src/engine/sizeformatting_base.cpp:61
+#: ../src/interface/edithandler.cpp:1179 ../src/interface/edithandler.cpp:1207
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../src/engine/proxy.cpp:367
+#, c-format
+msgid "Unknown SOCKS protocol version: %d"
+msgstr "Version del protocòl SOCKS desconeguda: %d"
+
+#: ../src/interface/resources/xrc/certificate.xrc:4
+msgid "Unknown certificate"
+msgstr "Certificat desconegut"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1007
+msgid "Unknown host key"
+msgstr "Clau ostessa desconeguda"
+
+#: ../src/engine/http/filetransfer.cpp:149
+msgid "Unsupported redirect"
+msgstr "Redireccion pas suportada"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2157
+msgid "Up&load and unedit"
+msgstr "Cargar e anullar l'edicion"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2474
+msgid "Upload"
+msgstr "Cargar"
+
+#: ../src/interface/edithandler.cpp:1170
+msgid "Upload failed"
+msgstr "Cargament pas capitat"
+
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "Upload selected directory"
+msgstr "Cargar lo fichièr seleccionat"
+
+#: ../src/interface/LocalListView.cpp:784
+msgid "Upload selected files and directories"
+msgstr "Cargar los fichièrs e repertòris seleccionats"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1962
+msgid "Upload this file back to the server?"
+msgstr "Tornar cargar aqueste fichièr sul servidor?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1957
+msgid "Upload this file to the server?"
+msgstr "Cargar lo fichièr sul servidor?"
+
+#: ../src/interface/edithandler.cpp:1164 ../src/interface/edithandler.cpp:1198
+#: ../src/interface/edithandler.cpp:1357
+msgid "Uploading"
+msgstr "Cargament"
+
+#: ../src/interface/edithandler.cpp:1167 ../src/interface/edithandler.cpp:1360
+msgid "Uploading and pending removal"
+msgstr "Cargament e en espèra de retirada"
+
+#: ../src/interface/edithandler.cpp:1201 ../src/interface/edithandler.cpp:1363
+msgid "Uploading and unediting"
+msgstr "Cargament e fin de l'edicion"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:697
+msgid "Use &custom charset"
+msgstr "Utilizar un encodatge dels caractèrs &personalizat"
+
+#: ../src/interface/resources/xrc/settings.xrc:1774
+msgid "Use &custom editor:"
+msgstr "Utilizar un &editor personalizat:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3168
+msgid "Use &default editor for text files"
+msgstr "Utilizar l'editor per defaut pels fichièrs tèxt"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2946
+#: ../src/interface/resources/xrc/dialogs.xrc:3027
+msgid "Use &synchronized browsing"
+msgstr "Utilizar la navigacion sincronizada"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:685
+msgid "Use UTF-8 if the server supports it, else use local charset."
+msgstr ""
+"Utilizar UTF-8 se lo servidor lo supòrta, senon utilizar lo jòc de caractèr "
+"local."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1614
+#: ../src/interface/resources/xrc/dialogs.xrc:1637
+msgid "Use default action"
+msgstr "Utilizar l'accion per defaut"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2579
+msgid "Use server currently connected to"
+msgstr "Servidor actual"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2585
+msgid "Use server from site manager"
+msgstr "Servidor del Gestionari de Sites"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:194
+msgid "Use the following IP address:"
+msgstr "Utilizar aquesta adreça IP:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:283
+msgid "Use the following port range:"
+msgstr "Utilizar aquel interval de pòrt:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:152
+msgid "Use the server's external IP address instead"
+msgstr "Utilizar puslèu l'adreça IP extèrna del servidor"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "Utilizaire:"
+
+#: ../src/interface/manual_transfer.cpp:491
+#: ../src/interface/sitemanager_site.cpp:583
+msgid "Username cannot be a series of spaces"
+msgstr "Lo nom d'utilizaire pòt pas èsser una seria d'espacis"
+
+#: ../src/interface/resources/xrc/certificate.xrc:49
+msgid "Valid from:"
+msgstr "Valid de:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:57
+msgid "Valid to:"
+msgstr "Valid fins a:"
+
+#: ../src/interface/resources/xrc/settings.xrc:965
+msgid "Very high"
+msgstr "Fòrça naut"
+
+#: ../src/interface/resources/xrc/settings.xrc:1682
+msgid "View/Edit"
+msgstr "Veire/Editar"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2376
+msgid "Visible columns"
+msgstr "Colomnas visiblas"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:634
+msgid "W&rite"
+msgstr "Esc&riure"
+
+#: ../src/interface/queue.cpp:357
+msgid "Waiting for password"
+msgstr "Espèra lo mot de gach"
+
+#: ../src/interface/statuslinectrl.cpp:265
+msgid "Waiting for transfer to be cancelled"
+msgstr "En espèra de l'anullacion del transferiment"
+
+#: ../src/engine/engineprivate.cpp:254
+msgid "Waiting to retry..."
+msgstr "En espèra d'un autre ensag..."
+
+#: ../src/interface/welcome_dialog.cpp:50
+msgid "Welcome to FileZilla"
+msgstr "Benvenguda dins FileZilla"
+
+#: ../src/interface/welcome_dialog.cpp:83
+msgid "What's new"
+msgstr "Qué de nòu:"
+
+#: ../src/interface/resources/xrc/update.xrc:23
+msgid "What's new:"
+msgstr "Qué de nòu:"
+
+#: ../src/interface/settings/optionspage_interface.cpp:130
+msgid "Widescreen"
+msgstr "Ecran 16/9"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:668
+msgid "Wr&ite"
+msgstr "&Escriure"
+
+#: ../src/interface/netconfwizard.cpp:453
+#: ../src/interface/netconfwizard.cpp:459
+msgid "Wrong external IP address"
+msgstr "Marrida adreça IP extèrna"
+
+#: ../src/engine/http/request.cpp:639
+msgid "Wrong line endings"
+msgstr "Marrida fin de linha"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:402
+msgid "Yes"
+msgstr "Òc"
+
+#: ../src/interface/welcome_dialog.cpp:108
+msgid "You can always open this dialog again through the help menu."
+msgstr "Podètz totjorn tornar dobrir aquesta bóstia dins lo menut d'ajuda."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3590
+msgid "You have selected at least one symbolic link."
+msgstr "Avètz seleccionat almens un ligam simbolic."
+
+#: ../src/interface/edithandler.cpp:1676 ../src/interface/search.cpp:1223
+msgid ""
+"You have selected more than 10 files for editing, do you really want to "
+"continue?"
+msgstr "Avètz seleccionat mai de 10 fichièrs, volètz contunhar?"
+
+#: ../src/interface/LocalListView.cpp:1842 ../src/interface/search.cpp:1490
+msgid ""
+"You have selected more than 10 files or directories to open, do you really "
+"want to continue?"
+msgstr "Avètz seleccionat mai de 10 fichièrs o repertòris, los volètz dobrir?"
+
+#: ../src/interface/manual_transfer.cpp:407
+#: ../src/interface/sitemanager_site.cpp:491
+msgid "You have to enter a hostname."
+msgstr "Devètz picar un nom d'òste"
+
+#: ../src/interface/search.cpp:927
+msgid "You have to enter a local directory."
+msgstr "Devètz picar un repertòri local."
+
+#: ../src/interface/search.cpp:932
+msgid "You have to enter a writable local directory."
+msgstr "Devètz causir un repertòri local ont se pòt escriure dedins."
+
+#: ../src/interface/manual_transfer.cpp:502
+#: ../src/interface/sitemanager_site.cpp:593
+msgid "You have to enter an account name"
+msgstr "Devètz picar un nom de compte valid"
+
+#: ../src/interface/manual_transfer.cpp:476
+#: ../src/interface/sitemanager_site.cpp:568
+msgid "You have to specify a user name"
+msgstr "Devètz causir un nom d'utilizaire"
+
+#: ../src/interface/bookmarks_dialog.cpp:60
+msgid "You need to enter a name for the bookmark."
+msgstr "Devètz causir un nom pel marcapagina."
+
+#: ../src/interface/settings/optionspage_logging.cpp:67
+msgid "You need to enter a name for the log file."
+msgstr "Devètz picar un nom pel fichièr d'istoric."
+
+#: ../src/interface/edithandler.cpp:1552
+msgid "You need to enter a properly quoted command."
+msgstr "Mercé de picar una comanda corrècta."
+
+#: ../src/interface/settings/optionspage_ftpproxy.cpp:82
+#: ../src/interface/settings/optionspage_proxy.cpp:79
+msgid "You need to enter a proxy host."
+msgstr "Devètz causir un òste de proxy."
+
+#: ../src/interface/settings/optionspage_proxy.cpp:88
+msgid "You need to enter a proxy port in the range from 1 to 65535"
+msgstr "Devètz causir un pòrt de proxy dins l'interval 1 a 65535"
+
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:460
+#: ../src/interface/sitemanager_dialog.cpp:916
+msgid "You need to enter at least one path, empty bookmarks are not supported."
+msgstr "Devèz picar almens un camin, los marcapaginas voids son pas acceptats."
+
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/sitemanager_dialog.cpp:923
+msgid ""
+"You need to enter both a local and a remote path to enable synchronized "
+"browsing for this bookmark."
+msgstr ""
+"Devètz picar lo camin local e lo camin alunhat per activar la navigacion "
+"sincronizada per aqueste marcapagina."
+
+#: ../src/interface/sitemanager_site.cpp:660
+msgid ""
+"You need to enter both a local and a remote path to enable synchronized "
+"browsing for this site."
+msgstr ""
+"Devètz picar lo camin local e lo camin alunhat per activar la navigacion "
+"sincronizada per aqueste site."
+
+#: ../src/interface/manual_transfer.cpp:294
+msgid "You need to specify a local file."
+msgstr "Devètz causir un fichièr local."
+
+#: ../src/interface/manual_transfer.cpp:311
+msgid "You need to specify a remote file."
+msgstr "Devètz causir un fichièr alunhat."
+
+#: ../src/interface/manual_transfer.cpp:317
+msgid "You need to specify a remote path."
+msgstr "Devètz causir un camin alunhat."
+
+#: ../src/interface/manual_transfer.cpp:288
+msgid "You need to specify a server."
+msgstr "Devètz espicifar un servidor."
+
+#: ../src/interface/netconfwizard.cpp:588
+msgid ""
+"You should have no problems connecting to other servers, file transfers "
+"should work properly."
+msgstr ""
+"Deuriatz pas aver de problèmas per se connectar cap als autres servidors, lo "
+"transferiment de fichièrs deuriá foncionar corrèctament."
+
+#: ../src/interface/filter_conditions_dialog.cpp:64
+msgid "begins with"
+msgstr "comença amb"
+
+#: ../src/interface/filter_conditions_dialog.cpp:62
+msgid "contains"
+msgstr "conten"
+
+#: ../src/interface/filter_conditions_dialog.cpp:65
+msgid "ends with"
+msgstr "s'acabat amb"
+
+#: ../src/interface/filter_conditions_dialog.cpp:70
+#: ../src/interface/filter_conditions_dialog.cpp:95
+msgid "equals"
+msgstr "egal"
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "fichièr"
+
+#: ../src/engine/sftp/connect.cpp:140
+msgid "fzsftp could not be started"
+msgstr "fzsftp pòt se lançar"
+
+#: ../src/interface/filter_conditions_dialog.cpp:69
+msgid "greater than"
+msgstr "melhor que"
+
+#: ../src/interface/filter_conditions_dialog.cpp:89
+msgid "group executable"
+msgstr "grop pòt executar"
+
+#: ../src/interface/filter_conditions_dialog.cpp:87
+msgid "group readable"
+msgstr "grop pòt legir"
+
+#: ../src/interface/filter_conditions_dialog.cpp:88
+msgid "group writeable"
+msgstr "grop pòt escriure"
+
+#: ../src/interface/filter_conditions_dialog.cpp:63
+msgid "is equal to"
+msgstr "es egal a"
+
+#: ../src/interface/filter_conditions_dialog.cpp:74
+msgid "is set"
+msgstr "es causit"
+
+#: ../src/interface/filter_conditions_dialog.cpp:75
+msgid "is unset"
+msgstr "es pas causit"
+
+#: ../src/interface/filter_conditions_dialog.cpp:72
+msgid "less than"
+msgstr "mens que"
+
+#: ../src/interface/filter_conditions_dialog.cpp:66
+msgid "matches regex"
+msgstr "expressions regularas"
+
+#: ../src/interface/filter_conditions_dialog.cpp:86
+msgid "owner executable"
+msgstr "proprietari pòt executar"
+
+#: ../src/interface/filter_conditions_dialog.cpp:84
+msgid "owner readable"
+msgstr "proprietari pòt legir"
+
+#: ../src/interface/filter_conditions_dialog.cpp:85
+msgid "owner writeable"
+msgstr "proprietari pòt escriure"
+
+#: ../src/engine/proxy.cpp:51 ../src/interface/sftp_crypt_info_dlg.cpp:43
+msgid "unknown"
+msgstr "desconegut"
+
+#: ../src/interface/filter_conditions_dialog.cpp:92
+msgid "world executable"
+msgstr "autres pòdon executar"
+
+#: ../src/interface/filter_conditions_dialog.cpp:90
+msgid "world readable"
+msgstr "autres pòdon legir"
+
+#: ../src/interface/filter_conditions_dialog.cpp:91
+msgid "world writeable"
+msgstr "autres pòdon escriure"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:890
+msgid "wxWidgets:"
+msgstr "wxWidgets:"

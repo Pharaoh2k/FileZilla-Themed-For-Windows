@@ -1,0 +1,43 @@
+# Out-of-tree build directory (scratch; not part of the fork)
+/compile/
+
+# External build scratch (deps, wx prefix, backups) lives outside the tree,
+# but ignore it defensively if anything lands here.
+/fzbuild/
+
+# Compiled objects / libraries / binaries
+*.o
+*.lo
+*.la
+*.a
+*.lai
+*.so
+*.so.*
+*.dll
+*.exe
+*.dylib
+*.obj
+*.res
+*.gch
+*.pch
+
+# Autotools / build leftovers
+.deps/
+.libs/
+*.log
+*.status
+config.status
+config.cache
+config.h
+stamp-h1
+libtool
+
+# Translation build outputs (generated from .po/.pot)
+*.mo
+*.gmo
+
+# Editor / OS cruft
+*~
+*.swp
+.DS_Store
+Thumbs.db

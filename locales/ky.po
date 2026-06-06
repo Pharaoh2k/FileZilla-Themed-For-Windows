@@ -1,0 +1,2722 @@
+# Kyrgyz translation of Filezilla.
+# Copyright (C) 2012 THE Filezilla'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Filezilla package.
+# Chynggyz Jumaliev <translatorky@lavabit.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Filezilla pot\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: 2012-11-14 23:21+0600\n"
+"Last-Translator: Chynggyz Jumaliev <translatorky@lavabit.com>\n"
+"Language-Team: Kirghiz <ky@li.org>\n"
+"Language: ky\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.5\n"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:59
+#: ../src/interface/statuslinectrl.cpp:220
+msgid "%H:%M:%S elapsed"
+msgstr "%H:%M:%S өттү"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:64
+#: ../src/interface/statuslinectrl.cpp:226
+msgid "%H:%M:%S left"
+msgstr "%H:%M:%S калды"
+
+#: ../src/interface/filelist_statusbar.cpp:51
+#: ../src/interface/filelist_statusbar.cpp:63
+#: ../src/interface/filelist_statusbar.cpp:76
+#, c-format
+msgid "%d directory"
+msgid_plural "%d directories"
+msgstr[0] "%d каталог"
+
+#: ../src/interface/RemoteListView.cpp:1492 ../src/interface/search.cpp:876
+#: ../src/interface/search.cpp:1264
+#, c-format
+msgid "%d directory with its contents"
+msgid_plural "%d directories with their contents"
+msgstr[0] "%d каталог мазмуну менен кошо"
+
+#: ../src/interface/filelist_statusbar.cpp:50
+#: ../src/interface/filelist_statusbar.cpp:75
+#: ../src/interface/RemoteListView.cpp:1491 ../src/interface/search.cpp:875
+#: ../src/interface/search.cpp:1263
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d файл"
+
+#: ../src/interface/filelist_statusbar.cpp:71
+#, c-format
+msgid "%d file. Total size: %s"
+msgid_plural "%d files. Total size: %s"
+msgstr[0] "%d файл. Жалпы өлчөмү: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:68
+#, c-format
+msgid "%d file. Total size: At least %s"
+msgid_plural "%d files. Total size: At least %s"
+msgstr[0] "%d файл. Жалпы өлчөмү: эң азы %s"
+
+#: ../src/engine/ControlSocket.cpp:73
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунда"
+
+#: ../src/interface/resources/xrc/settings.xrc:502
+msgid "%h - Host"
+msgstr "%h - Хост"
+
+#: ../src/interface/resources/xrc/settings.xrc:518
+#, c-format
+msgid "%p - Password"
+msgstr "%p - Сырсөз"
+
+#: ../src/interface/statuslinectrl.cpp:180
+#, c-format
+msgid "%s (? B/s)"
+msgstr "%s (? Б/сек)"
+
+#: ../src/interface/verifycertdialog.cpp:384
+#, c-format
+msgid "%s - Certificate expired!"
+msgstr "%s - Сертификаттын мөөнөтү өттү!"
+
+#: ../src/interface/resources/xrc/settings.xrc:533
+#, c-format
+msgid "%s - Proxy user"
+msgstr "%s - Прокси колдонуучусу"
+
+#: ../src/interface/filelist_statusbar.cpp:82
+#, c-format
+msgid "%s and %s. Total size: %s"
+msgstr "%s жана %s. Жалпы өлчөмү: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:79
+#, c-format
+msgid "%s and %s. Total size: At least %s"
+msgstr "%s жана %s. Жалпы өлчөмү: эң азы %s"
+
+#: ../src/engine/sizeformatting_base.cpp:71
+#, c-format
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%s байт"
+
+#: ../src/interface/resources/xrc/settings.xrc:510
+#, c-format
+msgid "%u - Username"
+msgstr "%u - Колдонуучу аты"
+
+#: ../src/interface/resources/xrc/settings.xrc:541
+msgid "%w - Proxy password"
+msgstr "%w - Прокси сырсөзү"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "Программа &жөнүндө..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&Эсеп жазуусу:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&Активдүү"
+
+#: ../src/interface/menu_bar.cpp:154
+msgid "&Add bookmark..."
+msgstr "&Чөп кат кошуу..."
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "Файлдарды кезекке &кошуу"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "&Add to queue"
+msgstr "Кезекке &кошуу"
+
+#: ../src/interface/resources/xrc/certificate.xrc:256
+msgid "&Always trust certificate in future sessions."
+msgstr "Эмдиги сессиялардан &дайыма сертификаттарга ишенүү."
+
+#: ../src/interface/resources/xrc/settings.xrc:1816
+msgid "&Always use default editor"
+msgstr "Жарыяланбас редакторун &дайыма колдонуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:184
+msgid "&Always use this action"
+msgstr "&Дайыма ушул аракетти колдонуу"
+
+#: ../src/interface/resources/xrc/settings.xrc:1055
+#: ../src/interface/menu_bar.cpp:118 ../src/interface/statusbar.cpp:563
+msgid "&Auto"
+msgstr "&Авто"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:679
+msgid "&Autodetect"
+msgstr "&Автоаныктоо"
+
+#: ../src/interface/resources/xrc/settings.xrc:1070
+#: ../src/interface/menu_bar.cpp:120 ../src/interface/statusbar.cpp:565
+msgid "&Binary"
+msgstr "&Экилик"
+
+#: ../src/interface/menu_bar.cpp:151
+msgid "&Bookmarks"
+msgstr "&Чөп каттар"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2507
+#: ../src/interface/resources/xrc/dialogs.xrc:2918
+#: ../src/interface/resources/xrc/dialogs.xrc:3005
+#: ../src/interface/resources/xrc/dialogs.xrc:3200
+#: ../src/interface/resources/xrc/dialogs.xrc:3413
+#: ../src/interface/resources/xrc/settings.xrc:1788
+#: ../src/interface/resources/xrc/settings.xrc:2003
+#: ../src/interface/resources/xrc/sitemanager.xrc:506
+msgid "&Browse..."
+msgstr "&Сереп..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:386
+#: ../src/interface/resources/xrc/dialogs.xrc:494
+#: ../src/interface/resources/xrc/dialogs.xrc:1227
+#: ../src/interface/resources/xrc/dialogs.xrc:3809
+#: ../src/interface/resources/xrc/dialogs.xrc:3911
+#: ../src/interface/resources/xrc/inputdialog.xrc:40
+#: ../src/interface/resources/xrc/settings.xrc:35
+#: ../src/interface/verifycertdialog.cpp:757
+msgid "&Cancel"
+msgstr "&Айнуу"
+
+#: ../src/interface/menu_bar.cpp:70
+msgid "&Clear private data..."
+msgstr "Өздүк маалыматтарды &өчүрүү..."
+
+#: ../src/interface/QueueView.cpp:1835
+msgid "&Close FileZilla"
+msgstr "FileZilla'ны &жабуу"
+
+#: ../src/interface/statusbar.cpp:554
+msgid "&Configure speed limits..."
+msgstr "Ылдамдыктын чектөөсүн &ырастоо..."
+
+#: ../src/interface/menu_bar.cpp:129
+msgid "&Configure..."
+msgstr "&Ырастоо..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&Туташуу"
+
+#: ../src/interface/menu_bar.cpp:50
+msgid "&Copy current connection to Site Manager..."
+msgstr "Кезектеги туташууну сайт менеджерине &копиялоо..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "Алмашуу буферине &копиялоо"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "&Create directory"
+msgstr "Каталог &жаратуу"
+
+#: ../src/interface/context_control.cpp:468
+msgid "&Create new tab"
+msgstr "Жаңы салманы &жаратуу"
+
+#: ../src/interface/menu_bar.cpp:181
+msgid "&Debug"
+msgstr "&Оңдоо"
+
+#: ../src/interface/resources/xrc/settings.xrc:1758
+msgid "&Default editor:"
+msgstr "&Жарыяланбас редактору:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1271
+#: ../src/interface/resources/xrc/dialogs.xrc:1440
+#: ../src/interface/resources/xrc/dialogs.xrc:3085
+#: ../src/interface/resources/xrc/sitemanager.xrc:59
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/LocalTreeView.cpp:1109
+msgid "&Delete"
+msgstr "&Өчүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3605
+msgid "&Delete symlink"
+msgstr "Символдук шилтемени &өчүрүү"
+
+#: ../src/interface/menu_bar.cpp:86
+msgid "&Directory comparison"
+msgstr "&Каталогдорду салыштыруу"
+
+#: ../src/interface/menu_bar.cpp:143
+msgid "&Disconnect"
+msgstr "&Үзүү"
+
+#: ../src/interface/resources/xrc/settings.xrc:1466
+msgid "&Display size in bytes"
+msgstr "Өлчөмдү байт менен &көрсөтүү"
+
+#: ../src/interface/conditionaldialog.cpp:28
+msgid "&Don't show this dialog again."
+msgstr "Бул терезени кайтадан &көрсөтпөө."
+
+#: ../src/interface/RemoteListView.cpp:1122
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "&Download"
+msgstr "&Жүктөп алуу"
+
+#: ../src/interface/search.cpp:835
+msgid "&Download..."
+msgstr "&Жүктөп алуу..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1607
+#: ../src/interface/resources/xrc/settings.xrc:1180
+msgid "&Downloads:"
+msgstr "&Жүктөөлөр:"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&Оңдоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1367
+msgid "&Edit filter rules..."
+msgstr "Фильтрдөө эрежелерин &оңдоо..."
+
+#: ../src/interface/Mainfrm.cpp:2408 ../src/interface/menu_bar.cpp:89
+#: ../src/interface/menu_bar.cpp:128 ../src/interface/statusbar.cpp:553
+msgid "&Enable"
+msgstr "&Күйгүзүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3737
+#: ../src/interface/resources/xrc/settings.xrc:897
+msgid "&Enable speed limits"
+msgstr "Ылдамдыктын чектөөсүн &күйгүзүү"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:704
+msgid "&Encoding:"
+msgstr "&Кодировка:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:189
+msgid "&Encryption:"
+msgstr "&Шифрдөө:"
+
+#: ../src/interface/StatusView.cpp:431
+msgid "&Enter custom command..."
+msgstr "Тапшырылма команданы &киргүзүү..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:606
+msgid "&Execute"
+msgstr "&Аткаруу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1781
+msgid "&Export Site Manager entries"
+msgstr "Сайт менеджеринин жазууларын &экспорттоо"
+
+#: ../src/interface/menu_bar.cpp:57
+#: ../src/interface/sitemanager_dialog.cpp:1772
+msgid "&Export..."
+msgstr "&Экспорт..."
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&Файл"
+
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "&File Attributes..."
+msgstr "&Файл атрибуттары..."
+
+#: ../src/interface/RemoteListView.cpp:1142
+msgid "&File permissions..."
+msgstr "&Файл укутары..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2495
+msgid "&File:"
+msgstr "&Файл:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1418
+msgid "&Filters:"
+msgstr "&Фильтрлер:"
+
+#: ../src/interface/menu_bar.cpp:168
+msgid "&Getting help..."
+msgstr "Жардам &алуу..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2847
+msgid "&Global bookmark"
+msgstr "&Жалпы чөп кат"
+
+#: ../src/interface/resources/xrc/settings.xrc:725
+msgid "&HTTP/1.1 using CONNECT method"
+msgstr "&HTTP/1.1 CONNECT методун колдонуп"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&Жардам"
+
+#: ../src/interface/Mainfrm.cpp:2415 ../src/interface/menu_bar.cpp:94
+msgid "&Hide identical files"
+msgstr "Окшош файлдарды &жашыруу"
+
+#: ../src/interface/QueueView.cpp:1824
+msgid "&Highest"
+msgstr "&Эң чоң"
+
+#: ../src/interface/resources/xrc/settings.xrc:306
+msgid "&Highest available port:"
+msgstr "&Эң чоң колго жетердик порт:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&Хост:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1474
+msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
+msgstr "&IEC экилик префикстери (мисалы, 1 KiB = 1024 байт)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1360
+msgid "&ISO 8601 (example: 2007-09-15)"
+msgstr "&ISO 8601 (мисалы: 2007-09-15)"
+
+#: ../src/interface/menu_bar.cpp:58
+msgid "&Import..."
+msgstr "&Импорт..."
+
+#: ../src/interface/resources/xrc/settings.xrc:269
+msgid "&Limit local ports used by FileZilla"
+msgstr "FileZilla колдонгон жердик портторду &чектөө"
+
+#: ../src/interface/menu_bar.cpp:103
+msgid "&Local directory tree"
+msgstr "&Жердик каталог багы"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2903
+#: ../src/interface/resources/xrc/dialogs.xrc:2993
+msgid "&Local directory:"
+msgstr "&Жердик каталог:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1980
+msgid "&Log to file"
+msgstr "Лог-файлга &жаздыруу"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:246
+msgid "&Logon Type:"
+msgstr "&Кирүү түрү:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2697
+msgid "&Logontype:"
+msgstr "&Кирүү түрү:"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&Аз"
+
+#: ../src/interface/menu_bar.cpp:156
+msgid "&Manage bookmarks..."
+msgstr "&Чөп каттарды оңдоо..."
+
+#: ../src/interface/menu_bar.cpp:133
+msgid "&Manual transfer..."
+msgstr "&Кол менен берүү..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:643
+msgid "&Maximum number of connections:"
+msgstr "Туташтыруулардын &жогорчек саны:"
+
+#: ../src/interface/resources/xrc/settings.xrc:138
+msgid "&Maximum number of retries:"
+msgstr "Аракеттердин &жогорчек саны:"
+
+#: ../src/interface/menu_bar.cpp:102
+msgid "&Message log"
+msgstr "&Билдирме журналы"
+
+#: ../src/interface/settings/optionspage_interface.cpp:148
+msgid "&Minimize to tray"
+msgstr "&Трейге түрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2874
+msgid "&Name:"
+msgstr "&Ат:"
+
+#: ../src/interface/menu_bar.cpp:69
+msgid "&Network configuration wizard..."
+msgstr "&Тармакты ырастоочу мастер..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1434
+msgid "&New"
+msgstr "&Жаңы"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:35
+msgid "&New Site"
+msgstr "&Жаңы сайт"
+
+#: ../src/interface/Mainfrm.cpp:1798
+msgid "&New version available!"
+msgstr "&Жаңы версия колго жетердик!"
+
+#: ../src/interface/netconfwizard.cpp:28
+msgid "&Next >"
+msgstr "&Алга >"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1982
+#: ../src/interface/resources/xrc/dialogs.xrc:2105
+msgid "&No"
+msgstr "&Жок"
+
+#: ../src/interface/resources/xrc/settings.xrc:459
+#: ../src/interface/resources/xrc/settings.xrc:720
+#: ../src/interface/QueueView.cpp:1832
+msgid "&None"
+msgstr "&Эчтеке"
+
+#: ../src/interface/QueueView.cpp:1826
+msgid "&Normal"
+msgstr "&Нормалдуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:692
+msgid "&Numeric value:"
+msgstr "&Сан чоңдугу:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:378
+#: ../src/interface/resources/xrc/dialogs.xrc:486
+#: ../src/interface/resources/xrc/dialogs.xrc:3134
+#: ../src/interface/resources/xrc/sitemanager.xrc:114
+#: ../src/interface/verifycertdialog.cpp:750
+msgid "&OK"
+msgstr "&OK"
+
+#: ../src/interface/resources/xrc/settings.xrc:474
+msgid "&OPEN"
+msgstr "&АЧУУ"
+
+#: ../src/interface/LocalListView.cpp:793
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "&Open"
+msgstr "&Ачуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:128
+msgid "&Overwrite"
+msgstr "&Кайтадан жаздыруу"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:624
+msgid "&Passive"
+msgstr "&Пассивдүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&Сырсөз:"
+
+#: ../src/interface/QueueView.cpp:1837
+msgid "&Play sound"
+msgstr "Үн &ойнотуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&Порт:"
+
+#: ../src/interface/menu_bar.cpp:123
+msgid "&Preserve timestamps of transferred files"
+msgstr "Файлдардын убактылуу белгилерин &сактоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1850
+msgid "&Queue"
+msgstr "&Кезек"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&Тез туташтыруу"
+
+#: ../src/interface/menu_bar.cpp:101
+msgid "&Quickconnect bar"
+msgstr "&Тез туташтыруу панели"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:594
+msgid "&Read"
+msgstr "&Окуу"
+
+#: ../src/interface/menu_bar.cpp:141
+msgid "&Reconnect"
+msgstr "&Кайта туташуу"
+
+#: ../src/interface/context_control.cpp:475 ../src/interface/menu_bar.cpp:80
+msgid "&Refresh"
+msgstr "&Жаңыртуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2930
+#: ../src/interface/resources/xrc/dialogs.xrc:3017
+msgid "&Remote directory:"
+msgstr "&Алыскы каталог:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2531
+msgid "&Remote path:"
+msgstr "&Алыскы жол:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1118
+msgid "&Remove"
+msgstr "&Өчүрүү"
+
+#: ../src/interface/resources/xrc/settings.xrc:651
+msgid "&Remove key"
+msgstr "Ачкычты &өчүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:4025
+#: ../src/interface/QueueView.cpp:1819
+msgid "&Remove selected"
+msgstr "Тандалганды &өчүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1446
+#: ../src/interface/resources/xrc/dialogs.xrc:3079
+#: ../src/interface/resources/xrc/sitemanager.xrc:53
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteListView.cpp:1139
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "&Rename"
+msgstr "Атын &өзгөртүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1266
+msgid "&Rename..."
+msgstr "Атын &өзгөртүү..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2023
+msgid "&Reopen local file"
+msgstr "Жердик файлды &кайта ачуу"
+
+#: ../src/interface/menu_bar.cpp:169
+msgid "&Report a bug..."
+msgstr "Ката жөнүндө &маалымдоо..."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:428
+msgid "&Restart Wizard"
+msgstr "Мастерди &кайтадан жүргүзүү"
+
+#: ../src/interface/QueueView.cpp:1836
+msgid "&Run command..."
+msgstr "Команданы &жүргүзүү..."
+
+#: ../src/interface/resources/xrc/settings.xrc:77
+msgid "&Run configuration wizard now..."
+msgstr "Ырастоо мастерин азыр &жүргүзүү..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1942
+msgid "&Run update check now..."
+msgstr "Жаңыртууга &текшерүү..."
+
+#: ../src/interface/resources/xrc/settings.xrc:469
+msgid "&SITE"
+msgstr "&САЙТ"
+
+#: ../src/interface/resources/xrc/settings.xrc:735
+msgid "&SOCKS 5"
+msgstr "&SOCKS 5"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3274
+msgid "&Search"
+msgstr "&Издөө"
+
+#: ../src/interface/menu_bar.cpp:146
+msgid "&Search remote files..."
+msgstr "Сервердеги файлдарды &издөө..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:18
+msgid "&Select Entry:"
+msgstr "Жазууну &тандаңыз:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1725
+msgid "&Select language:"
+msgstr "Тилди &тандоо:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&Сервер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&Ырастоолор"
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "&Settings..."
+msgstr "&Ырастоолор..."
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "&Site Manager..."
+msgstr "&Сайт менеджери..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2855
+msgid "&Site-specific bookmark"
+msgstr "&Өзүнчө чөп кат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&Өткөрүү"
+
+#: ../src/interface/menu_bar.cpp:126
+msgid "&Speed limits"
+msgstr "&Ылдамдыкты чектөө"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&Тема:"
+
+#: ../src/interface/menu_bar.cpp:108
+msgid "&Transfer"
+msgstr "&Берүү"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&Берүү режими"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1733
+#: ../src/interface/menu_bar.cpp:105
+msgid "&Transfer queue"
+msgstr "&Берүү кезеги"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&Жүктөө"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1630
+#: ../src/interface/resources/xrc/settings.xrc:1201
+msgid "&Uploads:"
+msgstr "&Жүктөөлөр:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:323
+#: ../src/interface/resources/xrc/dialogs.xrc:2709
+#: ../src/interface/resources/xrc/sitemanager.xrc:260
+#: ../src/interface/sitemanager_site.cpp:273
+#: ../src/interface/sitemanager_site.cpp:356
+msgid "&User:"
+msgstr "&Колдонуучу:"
+
+#: ../src/interface/quickconnectbar.cpp:46
+msgid "&Username:"
+msgstr "&Колдонуучу аты:"
+
+#: ../src/interface/Mainfrm.cpp:1792
+#, c-format
+msgid "&Version %s"
+msgstr "&Версия %s"
+
+#: ../src/interface/menu_bar.cpp:78
+msgid "&View"
+msgstr "&Көрүнүш"
+
+#: ../src/interface/RemoteListView.cpp:1129 ../src/interface/search.cpp:836
+msgid "&View/Edit"
+msgstr "&Көрүү/Оңдоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:600
+msgid "&Write"
+msgstr "&Жазуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1976
+#: ../src/interface/resources/xrc/dialogs.xrc:2099
+msgid "&Yes"
+msgstr "&Ооба"
+
+#: ../src/engine/local_path.cpp:477 ../src/engine/local_path.cpp:498
+#: ../src/engine/local_path.cpp:505
+#, c-format
+msgid "'%s' is not a directory."
+msgstr "'%s' каталог эмес."
+
+#: ../src/interface/resources/xrc/settings.xrc:150
+msgid "(0-99)"
+msgstr "(0-99)"
+
+#: ../src/interface/resources/xrc/settings.xrc:168
+msgid "(0-999 seconds)"
+msgstr "(0-999 сек.)"
+
+#: ../src/interface/resources/xrc/settings.xrc:838
+msgid "(1-10)"
+msgstr "(1-10)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1427
+msgid "(example: %H:%M)"
+msgstr "(мисалы: %H:%M)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1378
+msgid "(example: %Y-%m-%d)"
+msgstr "(мисалы: %Y-%m-%d)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:295
+msgid "-"
+msgstr "-"
+
+#: ../src/interface/statuslinectrl.cpp:229
+msgid "--:--:-- left"
+msgstr "--:--:-- калды"
+
+#: ../src/interface/resources/xrc/settings.xrc:2102
+msgid "0 - None"
+msgstr "0 - Эчтеке"
+
+#: ../src/interface/netconfwizard.cpp:29
+msgid "< &Back"
+msgstr "< &Артка"
+
+#: ../src/interface/resources/xrc/settings.xrc:1063
+#: ../src/interface/menu_bar.cpp:119 ../src/interface/statusbar.cpp:564
+msgid "A&SCII"
+msgstr "A&SCII"
+
+#: ../src/interface/resources/xrc/settings.xrc:1111
+msgid "A&dd"
+msgstr "&Кошуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2786
+msgid "ASCII"
+msgstr "ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "FileZilla жөнүндө"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "Эсеп жазуусу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:123
+msgid "Action:"
+msgstr "Аракет:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:452
+msgid "Advanced"
+msgstr "Кошумча"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2217
+#: ../src/interface/resources/xrc/dialogs.xrc:2263
+msgid "Algorithm:"
+msgstr "Алгоритм:"
+
+#: ../src/engine/server.cpp:742 ../src/interface/manual_transfer.cpp:147
+#: ../src/interface/manual_transfer.cpp:188
+#: ../src/interface/manual_transfer.cpp:203
+#: ../src/interface/manual_transfer.cpp:534
+msgid "Anonymous"
+msgstr "Анонимдик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1393
+msgid "Apply"
+msgstr "Колдонуу"
+
+#: ../src/interface/filter_conditions_dialog.cpp:77
+msgid "Archive"
+msgstr "Архив"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1615
+#: ../src/interface/resources/xrc/dialogs.xrc:1638
+#: ../src/interface/resources/xrc/settings.xrc:1187
+#: ../src/interface/resources/xrc/settings.xrc:1208
+#: ../src/interface/settings/optionspage_interface.cpp:159
+msgid "Ask for action"
+msgstr "Аракет жөнүндө суроо"
+
+#: ../src/engine/server.cpp:708 ../src/engine/server.cpp:734
+#: ../src/interface/manual_transfer.cpp:179
+msgid "Ask for password"
+msgstr "Сырсөздү суроо"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:271
+msgid "Ask operating system for a port."
+msgstr "Операциялык системадан порт суроо."
+
+#: ../src/interface/filter_conditions_dialog.cpp:109
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:210
+msgid "Authentication failed."
+msgstr "Аутентификация оңунан чыккан жок."
+
+#: ../src/interface/resources/xrc/settings.xrc:1287
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2764
+msgid "Auto"
+msgstr "Авто"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2791
+msgid "Binary"
+msgstr "Экилик"
+
+#: ../src/interface/bookmarks_dialog.cpp:271 ../src/interface/menu_bar.cpp:434
+#: ../src/interface/sitemanager_dialog.cpp:335
+msgid "Bookmark"
+msgstr "Чөп кат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3056
+msgid "Bookmark:"
+msgstr "Чөп кат:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3045
+msgid "Bookmarks"
+msgstr "Чөп каттар:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:851
+msgid "Build date:"
+msgstr "Чогултуу датасы:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:828
+msgid "Build information"
+msgstr "Чогултуу жөнүндө маалымат"
+
+#: ../src/interface/menu_bar.cpp:138
+msgid "C&ancel current operation"
+msgstr "Кезектеги операцияны ж&окко чыгаруу"
+
+#: ../src/interface/StatusView.cpp:436
+msgid "C&lear all"
+msgstr "Баарын ө&чүрүү"
+
+#: ../src/interface/RemoteListView.cpp:1140
+#: ../src/interface/RemoteTreeView.cpp:918 ../src/interface/search.cpp:843
+msgid "C&opy URL(s) to clipboard"
+msgstr "Дарект(ерд)и алмашуу буферине к&опиялоо"
+
+#: ../src/engine/ftp/transfersocket.cpp:643
+msgid "Can't read from file"
+msgstr "Файлдан окууга мүмкүн эмес"
+
+#: ../src/engine/ftp/transfersocket.cpp:620
+#: ../src/engine/ftp/transfersocket.cpp:691
+msgid "Can't write data to file."
+msgstr "Маалыматты файлга жазууга мүмкүн эмес."
+
+#: ../src/engine/ftp/transfersocket.cpp:623
+#: ../src/engine/ftp/transfersocket.cpp:694
+#, c-format
+msgid "Can't write data to file: %s"
+msgstr "Маалыматты файлга жазууга мүмкүн эмес: %s"
+
+#: ../src/interface/resources/xrc/certificate.xrc:288
+#: ../src/interface/resources/xrc/dialogs.xrc:239
+#: ../src/interface/resources/xrc/dialogs.xrc:565
+#: ../src/interface/resources/xrc/dialogs.xrc:757
+#: ../src/interface/resources/xrc/dialogs.xrc:1106
+#: ../src/interface/resources/xrc/dialogs.xrc:1387
+#: ../src/interface/resources/xrc/dialogs.xrc:1575
+#: ../src/interface/resources/xrc/dialogs.xrc:1682
+#: ../src/interface/resources/xrc/dialogs.xrc:1753
+#: ../src/interface/resources/xrc/dialogs.xrc:1811
+#: ../src/interface/resources/xrc/dialogs.xrc:1876
+#: ../src/interface/resources/xrc/dialogs.xrc:2050
+#: ../src/interface/resources/xrc/dialogs.xrc:2435
+#: ../src/interface/resources/xrc/dialogs.xrc:2817
+#: ../src/interface/resources/xrc/dialogs.xrc:2972
+#: ../src/interface/resources/xrc/dialogs.xrc:3140
+#: ../src/interface/resources/xrc/dialogs.xrc:3230
+#: ../src/interface/resources/xrc/dialogs.xrc:3470
+#: ../src/interface/resources/xrc/dialogs.xrc:3565
+#: ../src/interface/resources/xrc/dialogs.xrc:3635
+#: ../src/interface/resources/xrc/dialogs.xrc:3710
+#: ../src/interface/resources/xrc/dialogs.xrc:3973
+#: ../src/interface/resources/xrc/dialogs.xrc:4045
+#: ../src/interface/resources/xrc/sitemanager.xrc:121
+msgid "Cancel"
+msgstr "Айнуу"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancel current operation"
+msgstr "Кезектеги операцияны жокко чыгаруу"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancels the current operation"
+msgstr "Кезектеги операцияны жокко чыгарат"
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Cannot add server to Site Manager"
+msgstr "Сайт менеджерине серверди кошууга мүмкүн эмес"
+
+#: ../src/interface/filteredit.cpp:150
+msgid "Cannot create new filter"
+msgstr "Жаңы фильтрди жаратууга мүмкүн эмес"
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/edithandler.cpp:1712
+#: ../src/interface/LocalListView.cpp:1879 ../src/interface/search.cpp:1210
+#: ../src/interface/search.cpp:1529
+msgid "Cannot edit file"
+msgstr "Файлды оңдоого мүмкүн эмес"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Cannot rename entry"
+msgstr "Жазуунун атын өзгөртүүгө мүмкүн эмес"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Cannot rename file"
+msgstr "Файлдын атын өзгөртүүгө мүмкүн эмес"
+
+#: ../src/interface/filter.cpp:230
+msgid "Cannot select filter"
+msgstr "Фильтрди тандоого мүмкүн эмес"
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "Cannot show dialog"
+msgstr "Диалог терезесин көрсөтүүгө мүмкүн эмес"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:666
+msgid "Charset"
+msgstr "Кодировка"
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for &updates..."
+msgstr "&Жаңыртууларга текшерүү..."
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Check for updates failed"
+msgstr "Жаңыртууларга текшерүү оңунан чыккан жок"
+
+#: ../src/interface/netconfwizard.cpp:776
+msgid "Checking for correct external IP address"
+msgstr "Тышкы IP даректи тууралыгына текшерүү"
+
+#: ../src/interface/bookmarks_dialog.cpp:134
+#: ../src/interface/bookmarks_dialog.cpp:386
+#: ../src/interface/sitemanager_dialog.cpp:1824
+msgid "Choose the local directory"
+msgstr "Жердик каталогду тандоо"
+
+#: ../src/interface/resources/xrc/certificate.xrc:220
+msgid "Cipher:"
+msgstr "Шифр:"
+
+#: ../src/interface/context_control.cpp:471 ../src/interface/menu_bar.cpp:55
+msgid "Cl&ose tab"
+msgstr "Салманы &жабуу"
+
+#: ../src/interface/settings/optionspage_interface.cpp:128
+msgid "Classic"
+msgstr "Классикалык"
+
+#: ../src/interface/menu_bar.cpp:178
+msgid "Clear &layout cache"
+msgstr "&Жайылматүр кэшин тазалоо"
+
+#: ../src/interface/quickconnectbar.cpp:198
+msgid "Clear history"
+msgstr "Тарыхты тазалоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1695
+#: ../src/interface/clearprivatedata.cpp:38
+#: ../src/interface/clearprivatedata.cpp:44
+#: ../src/interface/clearprivatedata.cpp:50
+#: ../src/interface/clearprivatedata.cpp:74
+#: ../src/interface/clearprivatedata.cpp:100
+msgid "Clear private data"
+msgstr "Өздүк маалыматты өчүрүү"
+
+#: ../src/interface/quickconnectbar.cpp:197
+msgid "Clear quickconnect bar"
+msgstr "Тез туташтыруу панелин тазалоо"
+
+#: ../src/interface/Mainfrm.cpp:1250 ../src/interface/Mainfrm.cpp:1272
+#: ../src/interface/menu_bar.cpp:64
+msgid "Close FileZilla"
+msgstr "FileZilla'ны жабуу"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:433
+msgid "Co&mments:"
+msgstr "Ко&мментарийлер:"
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+#: ../src/interface/fzputtygen_interface.cpp:233
+#: ../src/interface/storj_key_interface.cpp:95
+#: ../src/interface/storj_key_interface.cpp:117
+msgid "Command failed"
+msgstr "Команда оңунан чыккан жок"
+
+#: ../src/engine/proxy.cpp:455
+msgid "Command not supported"
+msgstr "Команда колдолбойт"
+
+#: ../src/engine/engineprivate.cpp:236 ../src/engine/engineprivate.cpp:682
+msgid "Command not supported by this protocol"
+msgstr "Бул протокол менен команда колдолбойт"
+
+#: ../src/engine/logging.cpp:131 ../src/interface/StatusView.cpp:294
+#: ../src/interface/StatusView.cpp:358
+msgid "Command:"
+msgstr "Команда:"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:36
+msgid "Comment"
+msgstr "Комментарий"
+
+#: ../src/interface/Mainfrm.cpp:2412 ../src/interface/menu_bar.cpp:92
+msgid "Compare &modification time"
+msgstr "&Модификация убагын салыштыруу"
+
+#: ../src/interface/Mainfrm.cpp:2411 ../src/interface/menu_bar.cpp:91
+msgid "Compare file&size"
+msgstr "Файл &өлчөмүн салыштыруу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:835
+msgid "Compiled for:"
+msgstr "Максат:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:843
+msgid "Compiled on:"
+msgstr "Система:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:859
+msgid "Compiled with:"
+msgstr "Компилятор:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:867
+msgid "Compiler flags:"
+msgstr "Желектер:"
+
+#: ../src/interface/search.cpp:1268
+msgid "Confirm deletion"
+msgstr "Өчүрүүнү аныктаңыз"
+
+#: ../src/interface/edithandler.cpp:1675 ../src/interface/file_utils.h:47
+#: ../src/interface/LocalListView.cpp:1841
+#: ../src/interface/RemoteListView.cpp:1496
+#: ../src/interface/RemoteTreeView.cpp:1117 ../src/interface/search.cpp:1222
+#: ../src/interface/search.cpp:1489
+msgid "Confirmation needed"
+msgstr "Аныктоо керек"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "Туташтыруу"
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "Туташтыруу"
+
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not copy URLs"
+msgstr "Даректерди копиялоого мүмкүн эмес"
+
+#: ../src/interface/aboutdialog.cpp:220
+msgid "Could not copy data"
+msgstr "Маалыматтарды копиялоого мүмкүн эмес"
+
+#: ../src/interface/aboutdialog.cpp:220
+#: ../src/interface/RemoteListView.cpp:2762
+#: ../src/interface/RemoteTreeView.cpp:1473 ../src/interface/search.cpp:1420
+msgid "Could not open clipboard"
+msgstr "Алмашуу буферин ачууга мүмкүн эмес"
+
+#: ../src/interface/queue.cpp:359
+msgid "Could not start transfer"
+msgstr "Берүүнү баштоого мүмкүн эмес"
+
+#: ../src/interface/verifycertdialog.cpp:646
+msgid "Country:"
+msgstr "Өлкө:"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Create directory"
+msgstr "Каталогду жаратуу"
+
+#: ../src/interface/RemoteListView.cpp:2851
+msgid "Create empty file"
+msgstr "Бош файл жаратуу"
+
+#: ../src/interface/queue.cpp:361
+msgid "Creating directory"
+msgstr "Каталог жаратуу"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:591
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:559
+#: ../src/engine/storj/storjcontrolsocket.cpp:105
+#, c-format
+msgid "Creating directory '%s'..."
+msgstr "'%s' каталогун жаратуу..."
+
+#: ../src/engine/ControlSocket.cpp:164
+msgid "Critical error"
+msgstr "Сын ката"
+
+#: ../src/interface/resources/xrc/settings.xrc:479
+#: ../src/interface/resources/xrc/settings.xrc:1414
+msgid "Cus&tom"
+msgstr "&Тапшырылма"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2621
+#: ../src/interface/resources/xrc/dialogs.xrc:2635
+msgid "Custom server"
+msgstr "Тапшырылма сервер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2755
+msgid "D&ata type"
+msgstr "М&аалымат түрү"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:610
+msgid "D&efault"
+msgstr "Жа&рыяланбасча"
+
+#: ../src/interface/RemoteListView.cpp:1138
+#: ../src/interface/RemoteTreeView.cpp:916 ../src/interface/search.cpp:830
+#: ../src/interface/search.cpp:837
+msgid "D&elete"
+msgstr "Ө&чүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3848
+#: ../src/interface/settings/optionspage_passwords.cpp:177
+msgid "D&o not save passwords"
+msgstr "Сырсөздөрдү &сактабоо"
+
+#: ../src/interface/edithandler.cpp:1716
+msgid "Dangerous filetype"
+msgstr "Кооптуу файл түрлөрү"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:37
+msgid "Data"
+msgstr "Маалымат"
+
+#: ../src/interface/filter_conditions_dialog.cpp:121
+msgid "Date"
+msgstr "Дата"
+
+#: ../src/interface/resources/xrc/settings.xrc:1348
+msgid "Date formatting"
+msgstr "Дата форматы"
+
+#: ../src/interface/settings/settingsdialog.cpp:109
+msgid "Date/time format"
+msgstr "Дата/убакыт форматы"
+
+#: ../src/interface/fileexistsdlg.cpp:49
+msgid "Date/time unknown"
+msgstr "Дата/убакыт белгисиз"
+
+#: ../src/interface/settings/settingsdialog.cpp:121
+msgid "Debug"
+msgstr "Оңдоо"
+
+#: ../src/interface/resources/xrc/settings.xrc:2074
+msgid "Debugging settings"
+msgstr "Оңдоо ырастоолору"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:490
+msgid "Default &local directory:"
+msgstr "Жарыяланбас &жердик каталогу:"
+
+#: ../src/engine/server.cpp:54
+msgid "Default (Autodetect)"
+msgstr "Жарыяланбасча (Автоаныктоо)"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:515
+msgid "Default r&emote directory:"
+msgstr "Жарыяланбас а&лыскы каталогу:"
+
+#: ../src/interface/settings/optionspage_language.cpp:53
+msgid "Default system language"
+msgstr "Жарыяланбас системалык тили"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:68
+msgid "Default transfer mode:"
+msgstr "Жарыяланбас берүү режими:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1051
+msgid "Default transfer type:"
+msgstr "Жарыяланбас берүү түрү:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:233
+#: ../src/interface/resources/xrc/settings.xrc:381
+msgid "Default: http://ip.filezilla-project.org/ip.php"
+msgstr "Жарыяланбасча: http://ip.filezilla-project.org/ip.php"
+
+#: ../src/interface/sitemanager_dialog.cpp:1030
+msgid "Delete Site Manager entry"
+msgstr "Сайт менеджеринин жазуусун өчүрүү"
+
+#: ../src/interface/LocalTreeView.cpp:1109
+#: ../src/interface/RemoteTreeView.cpp:916
+msgid "Delete selected directory"
+msgstr "Тандалган каталогду өчүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3583
+msgid "Deleting symbolic link"
+msgstr "Символдук шилтемени өчүрүү"
+
+#: ../src/interface/LocalTreeView.cpp:1019
+msgid "Desktop"
+msgstr "Иш столу"
+
+#: ../src/interface/resources/xrc/certificate.xrc:42
+#: ../src/interface/resources/xrc/dialogs.xrc:1033
+msgid "Details"
+msgstr "Деталдар"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1154
+msgid "Details for new key:"
+msgstr "Жаңы ачкычтын деталдары:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1544
+msgid "Dire&ctories"
+msgstr "&Каталогдор"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Direction"
+msgstr "Багыт"
+
+#: ../src/interface/filelistctrl.cpp:273
+msgid "Directory"
+msgstr "Каталог"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3032
+#: ../src/interface/resources/xrc/settings.xrc:1628
+#: ../src/interface/resources/xrc/sitemanager.xrc:534
+#: ../src/interface/filelistctrl.cpp:477 ../src/interface/Mainfrm.cpp:2359
+#: ../src/interface/Mainfrm.cpp:2379 ../src/interface/toolbar.cpp:51
+#: ../src/interface/view.cpp:109
+msgid "Directory comparison"
+msgstr "Каталогдорду салыштыруу"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid "Directory comparison failed"
+msgstr "Каталогдорду салыштыруу оңунан чыккан жок"
+
+#: ../src/interface/RemoteListView.cpp:2230
+msgid "Directory listing failed"
+msgstr "Каталог тизмесин көрсөтүү оңунан чыккан жок"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1237
+msgid "Directory listing filters"
+msgstr "Каталог тизмесинин фильтрлери"
+
+#: ../src/engine/ControlSocket.cpp:184
+msgid "Directory listing successful"
+msgstr "Каталог тизмесин көрсөтүү ийгиликтүү"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnect from server"
+msgstr "Серверден өчүрүлүү"
+
+#: ../src/engine/ControlSocket.cpp:48 ../src/engine/ControlSocket.cpp:709
+#: ../src/engine/ControlSocket.cpp:808
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:57 ../src/engine/http/request.cpp:237
+#: ../src/interface/queue.cpp:352
+msgid "Disconnected from server"
+msgstr "Серверден өчүрүлдү"
+
+#: ../src/engine/ControlSocket.cpp:833
+#: ../src/engine/http/httpcontrolsocket.cpp:295
+#, c-format
+msgid "Disconnected from server: %s"
+msgstr "Серверден өчүрүлдү: %s"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "Display about dialog"
+msgstr "'Программа жөнүндө' терезесин көрсөтүү"
+
+#: ../src/interface/resources/xrc/settings.xrc:1763
+msgid "Do &not use default editor"
+msgstr "Жарыяланбас редакторун &колдонбоо"
+
+#: ../src/interface/Mainfrm.cpp:1253 ../src/interface/Mainfrm.cpp:1276
+msgid "Do you really want to close FileZilla?"
+msgstr "Сиз чын эле FileZilla'ны жапкыңыз келеби?"
+
+#: ../src/interface/clearprivatedata.cpp:50
+msgid "Do you really want to delete all Site Manager entries?"
+msgstr "Сиз чын эле сайт менеджеринин жазууларын өчүргүңүз келеби?"
+
+#: ../src/interface/sitemanager_dialog.cpp:1032
+msgid "Do you really want to delete selected entry?"
+msgstr "Сиз чын эле тандалган жазууну өчүргүңүз келеби?"
+
+#: ../src/interface/clearprivatedata.cpp:44
+msgid "Do you really want to delete the transfer queue?"
+msgstr "Сиз чын эле берүү кезегин өчүргүңүз келеби?"
+
+#: ../src/interface/welcome_dialog.cpp:100
+msgid "Documentation"
+msgstr "Документация"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2464
+msgid "Download"
+msgstr "Жүктөп алуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3745
+#: ../src/interface/resources/xrc/settings.xrc:906
+msgid "Download &limit:"
+msgstr "Жүктөп алуу &лимити:"
+
+#: ../src/interface/statusbar.cpp:610
+#, c-format
+msgid "Download limit: %s/s"
+msgstr "Жүктөп алуу лимити: %s/s"
+
+#: ../src/interface/statusbar.cpp:613
+msgid "Download limit: none"
+msgstr "Жүктөп алуу лимити: жок"
+
+#: ../src/interface/edithandler.cpp:1161
+msgid "Downloading"
+msgstr "Жүктөө"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "E&nter directory"
+msgstr "Каталогго &кирүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:640
+msgid "E&xecute"
+msgstr "А&ткаруу"
+
+#: ../src/interface/menu_bar.cpp:64
+msgid "E&xit"
+msgstr "&Чыгуу"
+
+#: ../src/interface/verifycertdialog.cpp:651
+msgid "E-Mail:"
+msgstr "E-Mail:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1583
+msgid "Edit filters"
+msgstr "Фильтрлерди оңдоо"
+
+#: ../src/interface/LocalListView.cpp:1755
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Editing failed"
+msgstr "Оңдоо оңунан чыккан жок"
+
+#: ../src/interface/resources/xrc/settings.xrc:1298
+msgid "Email:"
+msgstr "Email:"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "Empty command"
+msgstr "Бош команда"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:59
+msgid "Empty command."
+msgstr "Бош команда."
+
+#: ../src/interface/RemoteListView.cpp:2233
+msgid "Empty directory listing"
+msgstr "Бош каталог тизмеси"
+
+#: ../src/interface/filelist_statusbar.cpp:14
+msgid "Empty directory."
+msgstr "Бош каталог."
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:52
+msgid "Empty file extension."
+msgstr "Бош файл кеңейтүүсү."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty name"
+msgstr "Бош ат"
+
+#: ../src/interface/filter_conditions_dialog.cpp:79
+msgid "Encrypted"
+msgstr "Шифрделген"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2292
+msgid "Encryption"
+msgstr "Шифрдөө"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2202
+msgid "Encryption details"
+msgstr "Шифрдөө деталдары"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Enter &custom command..."
+msgstr "&Тапшырылма команданы киргизиңиз..."
+
+#: ../src/interface/QueueView.cpp:1919
+msgid "Enter command"
+msgstr "Команданы киргизиңиз"
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid "Enter custom command"
+msgstr "Тапшырылма команданы киргизиңиз"
+
+#: ../src/interface/resources/xrc/settings.xrc:1699
+msgid "Enter directory"
+msgstr "Каталогго кирүү"
+
+#: ../src/interface/filteredit.cpp:143 ../src/interface/filteredit.cpp:200
+#: ../src/interface/filteredit.cpp:249
+msgid "Enter filter name"
+msgstr "Фильтр атын киргизиңиз"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:247
+msgid "Enter password"
+msgstr "Сырсөздү киргизиңиз"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "Enter selected directory"
+msgstr "Тандалган каталогго кирүү"
+
+#: ../src/interface/loginmanager.cpp:178
+msgid "Enter username and password"
+msgstr "Колдонуучу атын жана сырсөздү киргизиңиз"
+
+#: ../src/interface/export.cpp:30
+msgid "Error exporting settings"
+msgstr "Ырастоолорду экспорттоо катасы"
+
+#: ../src/interface/import.cpp:31 ../src/interface/import.cpp:95
+msgid "Error importing"
+msgstr "Импорт катасы"
+
+#: ../src/interface/QueueView.cpp:1678
+msgid "Error loading queue"
+msgstr "Кезекти жүктөө катасы"
+
+#: ../src/interface/bookmarks_dialog.cpp:174
+#: ../src/interface/bookmarks_dialog.cpp:296
+#: ../src/interface/bookmarks_dialog.cpp:752
+#: ../src/interface/bookmarks_dialog.cpp:792
+#: ../src/interface/bookmarks_dialog.cpp:845 ../src/interface/filter.cpp:875
+#: ../src/interface/filter.cpp:966 ../src/interface/Options.cpp:253
+#: ../src/interface/osx_sandbox_userdirs.cpp:65
+#: ../src/interface/osx_sandbox_userdirs.cpp:136
+#: ../src/interface/QueueView.cpp:1581 ../src/interface/search.cpp:1351
+#: ../src/interface/search.cpp:1371 ../src/interface/sitemanager.cpp:39
+#: ../src/interface/sitemanager.cpp:470 ../src/interface/sitemanager.cpp:530
+#: ../src/interface/sitemanager.cpp:639 ../src/interface/sitemanager.cpp:727
+#: ../src/interface/sitemanager.cpp:833 ../src/interface/sitemanager.cpp:924
+#: ../src/interface/sitemanager_dialog.cpp:678
+#: ../src/interface/sitemanager_dialog.cpp:743
+#: ../src/interface/wrapengine.cpp:943
+msgid "Error loading xml file"
+msgstr "xml файлын жүктөө катасы"
+
+#: ../src/interface/QueueView.cpp:1570
+msgid "Error saving queue"
+msgstr "Кезекти сактоо катасы"
+
+#: ../src/interface/fzputtygen_interface.cpp:178
+#: ../src/interface/fzputtygen_interface.cpp:193
+#: ../src/interface/storj_key_interface.cpp:62
+#: ../src/interface/storj_key_interface.cpp:77
+msgid "Error starting program"
+msgstr "Программаны жүргүзүү катасы"
+
+#: ../src/interface/bookmarks_dialog.cpp:332
+#: ../src/interface/bookmarks_dialog.cpp:887
+#: ../src/interface/QueueView.cpp:1601 ../src/interface/sitemanager.cpp:579
+#: ../src/interface/sitemanager.cpp:704 ../src/interface/sitemanager.cpp:761
+#: ../src/interface/sitemanager_dialog.cpp:766
+#: ../src/interface/sitemanager_dialog.cpp:1803
+#: ../src/interface/xmlfunctions.cpp:153
+msgid "Error writing xml file"
+msgstr "xml файлын жаздыруу катасы"
+
+#: ../src/engine/logging.cpp:130 ../src/interface/StatusView.cpp:292
+#: ../src/interface/StatusView.cpp:354
+msgid "Error:"
+msgstr "Ката:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1521
+msgid "Examples"
+msgstr "Мисалдар"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:674
+msgid "Exe&cute"
+msgstr "&Аткаруу"
+
+#: ../src/interface/settings/optionspage_interface.cpp:129
+msgid "Explorer"
+msgstr "Узаткыч"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1792
+msgid "Export &Queue"
+msgstr "&Кезекти экспорттоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1787
+msgid "Export &Settings"
+msgstr "&Ырастоолорду экспорттоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1768
+msgid "Export settings"
+msgstr "Ырастоолорду экспорттоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1471
+msgid "F&ilter name:"
+msgstr "Ф&ильтр аты:"
+
+#: ../src/interface/settings/settingsdialog.cpp:97
+msgid "FTP"
+msgstr "FTP"
+
+#: ../src/interface/sitemanager_site.cpp:130
+msgid "FTP - File Transfer Protocol"
+msgstr "FTP - Файл берүү протоколу"
+
+#: ../src/engine/server.cpp:20
+msgid "FTP - File Transfer Protocol with optional encryption"
+msgstr "FTP - Файл берүү протоколу кошумча шифрдөөсү менен"
+
+#: ../src/engine/server.cpp:26
+msgid "FTP - Insecure File Transfer Protocol"
+msgstr "FTP - Коопсуз эмес файл берүү протоколу"
+
+#: ../src/interface/resources/xrc/settings.xrc:446
+#: ../src/interface/settings/settingsdialog.cpp:100
+msgid "FTP Proxy"
+msgstr "FTP прокси"
+
+#: ../src/interface/LocalListView.cpp:542
+#: ../src/interface/LocalListView.cpp:615
+#: ../src/interface/LocalListView.cpp:955
+#: ../src/interface/LocalListView.cpp:1962
+#: ../src/interface/LocalTreeView.cpp:895
+#: ../src/interface/LocalTreeView.cpp:1197 ../src/interface/viewheader.cpp:499
+msgid "Failed to change directory"
+msgstr "Каталогду өзгөртүү оңунан чыккан жок"
+
+#: ../src/interface/FileZilla.cpp:170 ../src/interface/FileZilla.cpp:185
+#: ../src/interface/FileZilla.cpp:188
+msgid "Failed to change language"
+msgstr "Тилди өзгөртүү оңунан чыккан жок"
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid "Failed to copy or move sites"
+msgstr "Сайттарды копиялоо же көчүрүү оңунан чыккан жок"
+
+#: ../src/interface/LocalTreeView.cpp:642
+msgid "Failed to get desktop path"
+msgstr "Иш столуна жолду алуу оңунан чыккан жок"
+
+#: ../src/interface/netconfwizard.cpp:1021
+msgid "Failed to receive data"
+msgstr "Маалымат алуу файлын жазуу оңунан чыккан жок"
+
+#: ../src/interface/netconfwizard.cpp:320
+msgid "Failed to send command."
+msgstr "Команданы жөнөтүү файлын жазуу оңунан чыккан жок."
+
+#: ../src/engine/http/filetransfer.cpp:223
+#, c-format
+msgid "Failed to write to file %s"
+msgstr "%s файлына жазуу оңунан чыккан жок"
+
+#: ../src/interface/xmlfunctions.cpp:282
+msgid "Failed to write xml file"
+msgstr "xml файлына жазуу оңунан чыккан жок"
+
+#: ../src/interface/queueview_failed.cpp:16
+msgid "Failed transfers"
+msgstr "Оңунан чыкпаган берүүлөр"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2543
+msgid "Fil&e:"
+msgstr "Фай&л:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1539
+msgid "Fil&es"
+msgstr "Фай&лдар"
+
+#: ../src/interface/filelistctrl.cpp:272
+msgid "File"
+msgstr "Файл"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1890
+msgid "File has changed"
+msgstr "Файл өзгөртүлдү"
+
+#: ../src/interface/settings/settingsdialog.cpp:111
+msgid "File lists"
+msgstr "Файл тизмелери"
+
+#: ../src/engine/storj/resolve.cpp:111 ../src/engine/storj/resolve.cpp:174
+#: ../src/interface/edithandler.cpp:1638 ../src/interface/FileZilla.cpp:701
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "File not found"
+msgstr "Файл табылган жок"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3383
+#: ../src/interface/search.cpp:741 ../src/interface/toolbar.cpp:53
+msgid "File search"
+msgstr "Файл издөө"
+
+#: ../src/engine/ControlSocket.cpp:111
+msgid "File transfer failed"
+msgstr "Файл берүү оңунан чыккан жок"
+
+#: ../src/interface/FileZilla.cpp:471 ../src/interface/quickconnectbar.cpp:102
+msgid "FileZilla Error"
+msgstr "FileZilla катасы"
+
+#: ../src/interface/menu_bar.cpp:98
+msgid "Filelist status &bars"
+msgstr "Файл тизмесинин абал &панелдери"
+
+#: ../src/interface/edithandler.cpp:1146
+#: ../src/interface/filter_conditions_dialog.cpp:101
+#: ../src/interface/LocalListView.cpp:283
+#: ../src/interface/RemoteListView.cpp:397 ../src/interface/search.cpp:160
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:35
+msgid "Filename"
+msgstr "Файл аты"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Filename invalid"
+msgstr "Файл аты туура эмес"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1907
+#: ../src/interface/resources/xrc/settings.xrc:1991
+msgid "Filename:"
+msgstr "Файл аты:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:105
+#: ../src/interface/LocalListView.cpp:284
+#: ../src/interface/RemoteListView.cpp:398 ../src/interface/search.cpp:162
+msgid "Filesize"
+msgstr "Өлчөм"
+
+#: ../src/interface/settings/settingsdialog.cpp:110
+msgid "Filesize format"
+msgstr "Файл өлчөмүнүн форматы"
+
+#: ../src/interface/LocalListView.cpp:285
+#: ../src/interface/RemoteListView.cpp:399 ../src/interface/search.cpp:163
+msgid "Filetype"
+msgstr "Файл түрү"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:692
+msgid "Force &UTF-8"
+msgstr "&UTF-8 мажбур түрүндө"
+
+#: ../src/interface/menu_bar.cpp:148
+msgid "Force showing &hidden files"
+msgstr "&Жашырылган файлдарды мажбур түрүндө көрсөтүү"
+
+#: ../src/interface/Mainfrm.cpp:716
+msgid "Force showing hidden files"
+msgstr "Жашырылган файлдарды мажбур түрүндө көрсөтүү"
+
+#: ../src/interface/resources/xrc/settings.xrc:494
+msgid "Format specifications:"
+msgstr "Формат спецификациясы:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:134
+msgid "General"
+msgstr "Жалпы"
+
+#: ../src/interface/resources/xrc/settings.xrc:707
+#: ../src/interface/settings/settingsdialog.cpp:102
+msgid "Generic proxy"
+msgstr "Базалык прокси"
+
+#: ../src/interface/welcome_dialog.cpp:91
+msgid "Getting help"
+msgstr "Жардам алуу"
+
+#: ../src/interface/bookmarks_dialog.cpp:258
+msgid "Global bookmarks"
+msgstr "Жалпы чөп каттар"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:898
+msgid "GnuTLS:"
+msgstr "GnuTLS:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:621
+msgid "Group permissions"
+msgstr "Топтук укуктар"
+
+#: ../src/interface/QueueView.cpp:1825
+msgid "H&igh"
+msgstr "Ч&оң"
+
+#: ../src/engine/server.cpp:23
+msgid "HTTPS - HTTP over TLS"
+msgstr "HTTPS - HTTP TLS аркылуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2237
+msgid "Hash:"
+msgstr "Хэш:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:80
+msgid "Hidden"
+msgstr "Жашырылган"
+
+#: ../src/interface/resources/xrc/settings.xrc:964
+#: ../src/interface/queue.cpp:997 ../src/interface/queue.cpp:1059
+msgid "High"
+msgstr "Чоң"
+
+#: ../src/interface/queue.cpp:999 ../src/interface/queue.cpp:1061
+msgid "Highest"
+msgstr "Эң чоң"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:803
+msgid "Homepage:"
+msgstr "Үйбарак:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:179
+#: ../src/interface/resources/xrc/dialogs.xrc:284
+#: ../src/interface/resources/xrc/dialogs.xrc:420
+#: ../src/interface/resources/xrc/dialogs.xrc:1040
+#: ../src/interface/resources/xrc/dialogs.xrc:1161
+#: ../src/interface/verifycertdialog.cpp:740
+msgid "Host:"
+msgstr "Хост:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:568
+msgid "Hours,"
+msgstr "Саат,"
+
+#: ../src/interface/resources/xrc/settings.xrc:1409
+msgid "I&SO 8601 (example: 15:47)"
+msgstr "I&SO 8601 (мисалы: 15:47)"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1825
+msgid "Import settings"
+msgstr "Ырастоолорду импорттоо"
+
+#: ../src/interface/import.cpp:83 ../src/interface/import.cpp:90
+msgid "Import successful"
+msgstr "Импорт ийгиликтүү бүттү"
+
+#: ../src/interface/queue.cpp:349
+msgid "Incorrect password"
+msgstr "Туура эмес сырсөз"
+
+#: ../src/interface/settings/settingsdialog.cpp:106
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: ../src/engine/http/request.cpp:481
+msgid "Invalid HTTP Response"
+msgstr "Туура эмес HTTP жооп"
+
+#: ../src/interface/verifycertdialog.cpp:379
+#: ../src/interface/verifycertdialog.cpp:395
+msgid "Invalid date"
+msgstr "Туура эмес дата"
+
+#: ../src/interface/file_utils.cpp:308 ../src/interface/file_utils.cpp:343
+msgid "Invalid filename"
+msgstr "Туура эмес файл аты"
+
+#: ../src/interface/sitemanager.cpp:651 ../src/interface/sitemanager.cpp:657
+#: ../src/interface/sitemanager.cpp:739 ../src/interface/sitemanager.cpp:745
+msgid "Invalid site path"
+msgstr "Туура эмес сайт жолу"
+
+#: ../src/interface/verifycertdialog.cpp:655
+msgid "Jurisdiction country:"
+msgstr "Юрисдикция өлкөсү:"
+
+#: ../src/interface/verifycertdialog.cpp:657
+msgid "Jurisdiction locality:"
+msgstr "Юрисдикция жери:"
+
+#: ../src/interface/QueueView.cpp:1828
+msgid "L&owest"
+msgstr "Эң &аз"
+
+#: ../src/interface/resources/xrc/settings.xrc:1721
+#: ../src/interface/settings/settingsdialog.cpp:112
+msgid "Language"
+msgstr "Тил"
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "Language changed"
+msgstr "Тил өзгөртүлдү"
+
+#: ../src/interface/LocalListView.cpp:286
+#: ../src/interface/RemoteListView.cpp:400 ../src/interface/search.cpp:164
+msgid "Last modified"
+msgstr "Соңку өзгөртүү"
+
+#: ../src/interface/settings/optionspage_interface.cpp:118
+msgid "Layout"
+msgstr "Жайылматүр"
+
+#: ../src/interface/resources/xrc/settings.xrc:2023
+msgid "Limit:"
+msgstr "Лимит:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:918
+msgid "Linked against"
+msgstr "Байланыштуу болгондор"
+
+#: ../src/interface/resources/xrc/settings.xrc:295
+msgid "Lo&west available port:"
+msgstr "Эң &аз болгон колго жетердик порту:"
+
+#: ../src/interface/edithandler.cpp:1194 ../src/interface/edithandler.cpp:1438
+msgid "Local"
+msgstr "Жердик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2487
+msgid "Local file"
+msgstr "Жердик файл"
+
+#: ../src/interface/viewheader.cpp:337
+msgid "Local site:"
+msgstr "Жердик сайт:"
+
+#: ../src/interface/settings/optionspage_logging.cpp:97
+msgid "Log file"
+msgstr "Журнал файлы"
+
+#: ../src/interface/queue.cpp:992 ../src/interface/queue.cpp:1054
+msgid "Low"
+msgstr "Аз"
+
+#: ../src/interface/queue.cpp:990 ../src/interface/queue.cpp:1052
+msgid "Lowest"
+msgstr "Эң аз"
+
+#: ../src/interface/resources/xrc/certificate.xrc:232
+msgid "MAC:"
+msgstr "MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2829
+#: ../src/interface/manual_transfer.cpp:288
+#: ../src/interface/manual_transfer.cpp:294
+#: ../src/interface/manual_transfer.cpp:300
+#: ../src/interface/manual_transfer.cpp:304
+#: ../src/interface/manual_transfer.cpp:311
+#: ../src/interface/manual_transfer.cpp:317
+#: ../src/interface/manual_transfer.cpp:323
+#: ../src/interface/manual_transfer.cpp:331
+msgid "Manual transfer"
+msgstr "Кол менен берүү"
+
+#: ../src/interface/Mainfrm.cpp:432 ../src/interface/Mainfrm.cpp:1893
+msgid "Message log"
+msgstr "Билдирме журналы"
+
+#: ../src/interface/resources/xrc/settings.xrc:2035
+msgid "MiB"
+msgstr "Мб"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:584
+msgid "Minutes"
+msgstr "Мүнөт"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2402
+msgid "Move &down"
+msgstr "Ө&йдө жылдыруу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2396
+msgid "Move &up"
+msgstr "&Ылдый жылдыруу"
+
+#: ../src/interface/LocalTreeView.cpp:1036
+msgid "My Computer"
+msgstr "Менин компьютерим"
+
+#: ../src/interface/LocalTreeView.cpp:1027
+msgid "My Documents"
+msgstr "Менин документтерим"
+
+#: ../src/interface/sitemanager.cpp:287
+#: ../src/interface/sitemanager_dialog.cpp:664
+#: ../src/interface/sitemanager_dialog.cpp:667
+msgid "My Sites"
+msgstr "Менин сайттарым"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2867
+msgid "Name"
+msgstr "Ат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:276
+#: ../src/interface/resources/xrc/dialogs.xrc:412
+#: ../src/interface/verifycertdialog.cpp:654
+msgid "Name:"
+msgstr "Ат:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:41
+msgid "New &Folder"
+msgstr "Жаңы &каталог"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "New &tab"
+msgstr "Жаңы &салма"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3074
+#: ../src/interface/resources/xrc/sitemanager.xrc:47
+msgid "New Book&mark"
+msgstr "Жаңы &чөп кат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2832
+#: ../src/interface/bookmarks_dialog.cpp:60
+#: ../src/interface/bookmarks_dialog.cpp:73
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:97
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:111
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/bookmarks_dialog.cpp:567
+#: ../src/interface/bookmarks_dialog.cpp:573
+#: ../src/interface/bookmarks_dialog.cpp:579
+#: ../src/interface/bookmarks_dialog.cpp:600
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+#: ../src/interface/sitemanager_dialog.cpp:1744
+msgid "New bookmark"
+msgstr "Жаңы чөп кат"
+
+#: ../src/interface/LocalTreeView.cpp:1228
+#: ../src/interface/RemoteListView.cpp:1407
+#: ../src/interface/RemoteTreeView.cpp:1326
+msgid "New directory"
+msgstr "Жаңы каталог"
+
+#: ../src/interface/filteredit.cpp:137
+msgid "New filter"
+msgstr "Жаңы фильтр"
+
+#: ../src/interface/sitemanager_dialog.cpp:850
+msgid "New folder"
+msgstr "Жаңы каталог"
+
+#: ../src/interface/sitemanager.cpp:550 ../src/interface/sitemanager.cpp:564
+#: ../src/interface/sitemanager_dialog.cpp:1716
+msgid "New site"
+msgstr "Жаңы сайт"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:395
+msgid "No"
+msgstr "Жок"
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "No files are currently being edited."
+msgstr "Бир да файл азыр оңдолуп жаткан жок."
+
+#: ../src/interface/settings/optionspage_themes.cpp:94
+msgid "No images available"
+msgstr "Колго жетердик сүрөттөр жок"
+
+#: ../src/interface/search.cpp:445
+msgid "No search results"
+msgstr "Издөө натыйжалары жок"
+
+#: ../src/interface/loginmanager.cpp:209
+msgid "No username given."
+msgstr "Колдонуучу аты аныкталган жок."
+
+#: ../src/interface/resources/xrc/settings.xrc:1683
+#: ../src/interface/resources/xrc/settings.xrc:1702
+#: ../src/interface/sitemanager.cpp:20
+#: ../src/interface/verifycertdialog.cpp:402
+msgid "None"
+msgstr "Жок"
+
+#: ../src/interface/resources/xrc/settings.xrc:963 ../src/engine/server.cpp:705
+#: ../src/engine/server.cpp:732 ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:176
+#: ../src/interface/manual_transfer.cpp:535 ../src/interface/queue.cpp:995
+#: ../src/interface/queue.cpp:1057
+msgid "Normal"
+msgstr "Нормалдуу"
+
+#: ../src/interface/state.cpp:218 ../src/interface/state.cpp:1414
+msgid "Not connected"
+msgstr "Туташтырылган жок"
+
+#: ../src/interface/RemoteListView.cpp:2227
+msgid "Not connected to any server"
+msgstr "Серверге туташтырылган жок"
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Not connected to any server."
+msgstr "Серверге туташтырылган жок."
+
+#: ../src/interface/filelist_statusbar.cpp:15
+msgid "Not connected."
+msgstr "Туташтырылган жок."
+
+#: ../src/interface/resources/xrc/certificate.xrc:282
+#: ../src/interface/resources/xrc/dialogs.xrc:233
+#: ../src/interface/resources/xrc/dialogs.xrc:559
+#: ../src/interface/resources/xrc/dialogs.xrc:751
+#: ../src/interface/resources/xrc/dialogs.xrc:994
+#: ../src/interface/resources/xrc/dialogs.xrc:1100
+#: ../src/interface/resources/xrc/dialogs.xrc:1221
+#: ../src/interface/resources/xrc/dialogs.xrc:1380
+#: ../src/interface/resources/xrc/dialogs.xrc:1569
+#: ../src/interface/resources/xrc/dialogs.xrc:1676
+#: ../src/interface/resources/xrc/dialogs.xrc:1747
+#: ../src/interface/resources/xrc/dialogs.xrc:1805
+#: ../src/interface/resources/xrc/dialogs.xrc:1870
+#: ../src/interface/resources/xrc/dialogs.xrc:2044
+#: ../src/interface/resources/xrc/dialogs.xrc:2181
+#: ../src/interface/resources/xrc/dialogs.xrc:2353
+#: ../src/interface/resources/xrc/dialogs.xrc:2428
+#: ../src/interface/resources/xrc/dialogs.xrc:2811
+#: ../src/interface/resources/xrc/dialogs.xrc:2966
+#: ../src/interface/resources/xrc/dialogs.xrc:3224
+#: ../src/interface/resources/xrc/dialogs.xrc:3464
+#: ../src/interface/resources/xrc/dialogs.xrc:3559
+#: ../src/interface/resources/xrc/dialogs.xrc:3628
+#: ../src/interface/resources/xrc/dialogs.xrc:3803
+#: ../src/interface/resources/xrc/dialogs.xrc:3905
+#: ../src/interface/resources/xrc/dialogs.xrc:4039
+#: ../src/interface/resources/xrc/inputdialog.xrc:34
+#: ../src/interface/resources/xrc/settings.xrc:28
+#: ../src/interface/resources/xrc/storj.xrc:37
+#: ../src/interface/welcome_dialog.cpp:114
+msgid "OK"
+msgstr "OK"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:405
+msgid "Once"
+msgstr "Бир жолу"
+
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "Open directory in system's file manager"
+msgstr "Каталогду системалык файл менеджеринен ачуу"
+
+#: ../src/interface/toolbar.cpp:31 ../src/interface/toolbar.cpp:33
+msgid "Open the Site Manager"
+msgstr "Сайт менеджерин ачуу"
+
+#: ../src/interface/LocalListView.cpp:793
+msgid "Open the file."
+msgstr "Файлды ачуу."
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "Open the settings dialog of FileZilla"
+msgstr "FileZilla'нын ырастоо терезесин ачуу"
+
+#: ../src/interface/edithandler.cpp:1706 ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1874
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1524
+#: ../src/interface/search.cpp:1537
+msgid "Opening failed"
+msgstr "Ачуу оңунан чыккан жок"
+
+#: ../src/interface/menu_bar.cpp:53
+msgid "Opens a new tab"
+msgstr "Жаңы салманы ачуу"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "Opens the Site Manager"
+msgstr "Сайт менеджерин ачат"
+
+#: ../src/interface/verifycertdialog.cpp:642
+msgid "Organization:"
+msgstr "Уюм:"
+
+#: ../src/interface/verifycertdialog.cpp:670
+msgid "Other:"
+msgstr "Башка:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1616
+#: ../src/interface/resources/xrc/dialogs.xrc:1639
+#: ../src/interface/resources/xrc/settings.xrc:1188
+#: ../src/interface/resources/xrc/settings.xrc:1209
+msgid "Overwrite file"
+msgstr "Файлды кайтадан жаздыруу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:587
+msgid "Owner permissions"
+msgstr "Ээсинин укуктары"
+
+#: ../src/interface/RemoteListView.cpp:402 ../src/interface/search.cpp:166
+msgid "Owner/Group"
+msgstr "Ээ/Топ"
+
+#: ../src/interface/resources/xrc/settings.xrc:556
+#: ../src/interface/resources/xrc/settings.xrc:743
+msgid "P&roxy host:"
+msgstr "П&рокси хосту:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2719
+#: ../src/interface/resources/xrc/sitemanager.xrc:286
+#: ../src/interface/quickconnectbar.cpp:50
+#: ../src/interface/sitemanager_site.cpp:274
+msgid "Pass&word:"
+msgstr "Сыр&сөз:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:73
+msgid "Passive (recommended)"
+msgstr "Пассивдүү (сунушталат)"
+
+#: ../src/interface/resources/xrc/settings.xrc:410
+#: ../src/interface/settings/settingsdialog.cpp:99
+msgid "Passive mode"
+msgstr "Пассивдүү режим"
+
+#: ../src/interface/fzputtygen_interface.cpp:96
+msgid "Password required"
+msgstr "Сырсөз керек болот"
+
+#: ../src/interface/filter_conditions_dialog.cpp:117
+#: ../src/interface/search.cpp:161
+msgid "Path"
+msgstr "Жол"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2896
+msgid "Paths"
+msgstr "Жолдор"
+
+#: ../src/interface/filter_conditions_dialog.cpp:113
+msgid "Permission"
+msgstr "Укук"
+
+#: ../src/interface/RemoteListView.cpp:401 ../src/interface/search.cpp:165
+msgid "Permissions"
+msgstr "Укуктар"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:947
+msgid "Platform:"
+msgstr "Платформа:"
+
+#: ../src/interface/verifycertdialog.cpp:649
+msgid "Postal code:"
+msgstr "Почталык индекс:"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "Алгачкылык"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:142
+msgid "Pro&tocol:"
+msgstr "Про&токол:"
+
+#: ../src/interface/resources/xrc/settings.xrc:579
+#: ../src/interface/resources/xrc/settings.xrc:776
+msgid "Pro&xy password:"
+msgstr "Про&кси сырсөзү:"
+
+#: ../src/interface/menu_bar.cpp:111 ../src/interface/QueueView.cpp:1815
+msgid "Process &Queue"
+msgstr "&Кезекти иштетүү"
+
+#: ../src/interface/resources/xrc/settings.xrc:753
+msgid "Proxy &port:"
+msgstr "Прокси &порту:"
+
+#: ../src/interface/resources/xrc/settings.xrc:569
+#: ../src/interface/resources/xrc/settings.xrc:766
+msgid "Proxy &user:"
+msgstr "Прокси &колдонуучусу:"
+
+#: ../src/engine/proxy.cpp:294
+#, c-format
+msgid "Proxy reply: %s"
+msgstr "Прокси жообу: %s"
+
+#: ../src/interface/resources/xrc/certificate.xrc:73
+msgid "Public key algorithm:"
+msgstr "Коомдук ачкычтын алгоритми:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:655
+msgid "Public permissions"
+msgstr "Коомдук укуктар"
+
+#: ../src/interface/statusbar.cpp:446
+#, c-format
+msgid "Queue: %s MiB"
+msgstr "Кезек: %s Мб"
+
+#: ../src/interface/statusbar.cpp:381
+#, c-format
+msgid "Queue: %s%s"
+msgstr "Кезек: %s%s"
+
+#: ../src/interface/statusbar.cpp:377 ../src/interface/statusbar.cpp:437
+msgid "Queue: empty"
+msgstr "Кезек: бош"
+
+#: ../src/interface/QueueView.cpp:207
+msgid "Queued files"
+msgstr "Кезекте турган файлдар"
+
+#: ../src/interface/menu_bar.cpp:104
+msgid "R&emote directory tree"
+msgstr "А&лыскы каталог багы"
+
+#: ../src/interface/Mainfrm.cpp:641
+msgid "Raw FTP command"
+msgstr "Raw FTP командасы"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:628
+msgid "Re&ad"
+msgstr "&Окуу"
+
+#: ../src/interface/LocalListView.cpp:799
+#: ../src/interface/RemoteListView.cpp:1135
+msgid "Re&fresh"
+msgstr "&Жаңыртуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:166
+msgid "Re&name"
+msgstr "&Атын өзгөртүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:662
+msgid "Rea&d"
+msgstr "О&куу"
+
+#: ../src/interface/filter_conditions_dialog.cpp:81
+msgid "Read-only"
+msgstr "Окуу гана"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Reason"
+msgstr "Себеп"
+
+#: ../src/interface/QueueView.cpp:2813
+msgid "Reboot now"
+msgstr "Азыр кайтадан жүктөө"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3925
+msgid "Remember passwords?"
+msgstr "Сырсөздөрдү эске сактатасызбы?"
+
+#: ../src/interface/edithandler.cpp:1157
+msgid "Remote"
+msgstr "Алыскы"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2522
+#: ../src/interface/queue.cpp:1275
+msgid "Remote file"
+msgstr "Сервердеги файл"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1316
+msgid "Remote filters:"
+msgstr "Алыскы фильтрлер:"
+
+#: ../src/interface/edithandler.cpp:1148
+msgid "Remote path"
+msgstr "Алыскы жол"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1937
+msgid "Remote path:"
+msgstr "Алыскы жол:"
+
+#: ../src/interface/viewheader.cpp:529
+msgid "Remote site:"
+msgstr "Алыскы сайт:"
+
+#: ../src/interface/queueview_failed.cpp:30
+#: ../src/interface/queueview_successful.cpp:23
+msgid "Remove &all"
+msgstr "&Баарын өчүрүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1621
+#: ../src/interface/resources/xrc/dialogs.xrc:1644
+#: ../src/interface/resources/xrc/settings.xrc:1193
+#: ../src/interface/resources/xrc/settings.xrc:1214
+#: ../src/interface/asyncrequestqueue.cpp:350
+msgid "Rename file"
+msgstr "Файлдын атын өзгөртүү"
+
+#: ../src/engine/logging.cpp:132 ../src/interface/netconfwizard.cpp:419
+#: ../src/interface/StatusView.cpp:297 ../src/interface/StatusView.cpp:367
+msgid "Response:"
+msgstr "Жооп:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3369
+msgid "Results:"
+msgstr "Натыйжалар:"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:319
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:452
+#: ../src/engine/storj/storjcontrolsocket.cpp:64
+msgid "Retrieving directory listing..."
+msgstr "Каталог тизмесин алуу..."
+
+#: ../src/interface/menu_bar.cpp:61
+msgid "S&how files currently being edited..."
+msgstr "Оңдолуп жаткан файлдарды &көрсөтүү..."
+
+#: ../src/interface/menu_bar.cpp:97
+msgid "S&ynchronized browsing"
+msgstr "&Синхрондоштурулган көрүү"
+
+#: ../src/interface/settings/settingsdialog.cpp:101
+msgid "SFTP"
+msgstr "SFTP"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:906
+msgid "SQLite:"
+msgstr "SQLite:"
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "Save settings?"
+msgstr "Ырастоолорду сактайсызбы?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3281
+msgid "Search &directory:"
+msgstr "&Каталогду издөө:"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Security information"
+msgstr "Коопсуздук жөнүндө маалымат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2610
+msgid "Sele&ct server"
+msgstr "&Серверди тандаңыз"
+
+#: ../src/interface/resources/xrc/settings.xrc:13
+msgid "Select &page:"
+msgstr "&Баракты тандаңыз:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1271
+msgid "Select Theme"
+msgstr "Теманы тандоо"
+
+#: ../src/interface/edithandler.cpp:1617
+#: ../src/interface/settings/optionspage_edit.cpp:104
+msgid "Select default editor"
+msgstr "Жарыяланбас редакторун тандоо"
+
+#: ../src/interface/manual_transfer.cpp:239
+msgid "Select file to upload"
+msgstr "Жүктөө үчүн файлды тандоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1776
+msgid "Select the categories to export:"
+msgstr "Экспорт үчүн категорияларды тандаңыз:"
+
+#: ../src/interface/filelist_statusbar.cpp:38
+#, c-format
+msgid "Selected %d directory."
+msgid_plural "Selected %d directories."
+msgstr[0] "%d каталог тандалды."
+
+#: ../src/interface/filelist_statusbar.cpp:46
+#, c-format
+msgid "Selected %d file. Total size: %s"
+msgid_plural "Selected %d files. Total size: %s"
+msgstr[0] "%d файл тандалды. Жалпы өлчөмү: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:57
+#, c-format
+msgid "Selected %s and %s. Total size: %s"
+msgstr "%s жана %s тандалды. Жалпы өлчөмү: %s"
+
+#: ../src/interface/resources/xrc/certificate.xrc:65
+#: ../src/interface/verifycertdialog.cpp:652
+msgid "Serial number:"
+msgstr "Сериялык номер:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:461
+msgid "Server &Type:"
+msgstr "Сервер &түрү:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2673
+msgid "Server&type:"
+msgstr "Сервер &түрү:"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Server/Local file"
+msgstr "Сервер/Жердик файл"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1927
+#: ../src/interface/resources/xrc/dialogs.xrc:2596
+msgid "Server:"
+msgstr "Сервер:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:171
+msgid "Session details"
+msgstr "Сессия деталдары"
+
+#: ../src/interface/QueueView.cpp:1823
+msgid "Set &Priority"
+msgstr "&Алгачкылык орнотуу"
+
+#: ../src/interface/resources/xrc/settings.xrc:4
+msgid "Settings"
+msgstr "Ырастоолор"
+
+#: ../src/interface/menu_bar.cpp:167
+msgid "Show &welcome dialog..."
+msgstr "&Учурашуу терезесин көрсөтүү..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:7
+msgid "Site Manager"
+msgstr "Сайт менеджери"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Size"
+msgstr "Өлчөм"
+
+#: ../src/interface/fileexistsdlg.cpp:43
+msgid "Size unknown"
+msgstr "Өлчөм белгисиз"
+
+#: ../src/interface/resources/xrc/settings.xrc:1577
+msgid "Sorting"
+msgstr "Сорттоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:24
+msgid "Source file:"
+msgstr "Баштапкы файл:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3821
+#: ../src/interface/speedlimits_dialog.cpp:64
+#: ../src/interface/speedlimits_dialog.cpp:72
+msgid "Speed Limits"
+msgstr "Ылдамдык лимити"
+
+#: ../src/interface/resources/xrc/settings.xrc:893
+msgid "Speed limits"
+msgstr "Ылдамдык лимити"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2804
+msgid "Start transfer &immediately"
+msgstr "Берүүнү &дароо баштатуу"
+
+#: ../src/interface/cmdline.cpp:7
+msgid "Start with opened Site Manager"
+msgstr "Ачык сайт менеджери менен жүргүзүү"
+
+#: ../src/interface/edithandler.cpp:1149 ../src/interface/queue.cpp:1275
+msgid "Status"
+msgstr "Абал"
+
+#: ../src/engine/logging.cpp:129 ../src/interface/StatusView.cpp:306
+#: ../src/interface/StatusView.cpp:397
+msgid "Status:"
+msgstr "Абал:"
+
+#: ../src/interface/QueueView.cpp:1816
+msgid "Stop and remove &all"
+msgstr "Токтотуу жана &баарын өчүрүү"
+
+#: ../src/interface/verifycertdialog.cpp:650
+msgid "Street:"
+msgstr "Көчө:"
+
+#: ../src/interface/queueview_successful.cpp:12
+msgid "Successful transfers"
+msgstr "Ийгиликтүү берүүлөр"
+
+#: ../src/interface/quickconnectbar.cpp:120
+#: ../src/interface/quickconnectbar.cpp:164
+msgid "Syntax error"
+msgstr "Синтаксис катасы"
+
+#: ../src/interface/filter_conditions_dialog.cpp:82
+msgid "System"
+msgstr "Система"
+
+#: ../src/interface/menu_bar.cpp:100
+msgid "T&oolbar"
+msgstr "&Аспап панели"
+
+#: ../src/interface/settings/settingsdialog.cpp:108
+msgid "Themes"
+msgstr "Темалар"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Time"
+msgstr "Убакыт"
+
+#: ../src/interface/verifycertdialog.cpp:645
+msgid "Title:"
+msgstr "Ат:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1680
+#: ../src/interface/resources/xrc/settings.xrc:1700
+msgid "Transfer"
+msgstr "Берүү"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2460
+msgid "Transfer &direction"
+msgstr "Берүү &багыты"
+
+#: ../src/interface/menu_bar.cpp:116
+msgid "Transfer &type"
+msgstr "Берүү &түрү"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "Берүү режими"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:594
+msgid "Transfer Settings"
+msgstr "Берүүнүн ырастоолору"
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "Берүү"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "Берүүлөр"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2840
+#: ../src/interface/edithandler.cpp:1147
+msgid "Type"
+msgstr "Түр"
+
+#: ../src/interface/resources/xrc/settings.xrc:454
+msgid "Type of FTP Proxy:"
+msgstr "FTP проксинин түрү:"
+
+#: ../src/interface/resources/xrc/settings.xrc:715
+msgid "Type of generic proxy:"
+msgstr "Базалык проксинин түрү:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2151
+msgid "U&pload"
+msgstr "Жү&ктөө"
+
+#: ../src/interface/resources/xrc/settings.xrc:464
+msgid "USER@&HOST"
+msgstr "КОЛДОНУУЧУ@&ХОСТ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1055
+#: ../src/interface/resources/xrc/dialogs.xrc:1065
+#: ../src/interface/resources/xrc/dialogs.xrc:1176
+#: ../src/interface/resources/xrc/dialogs.xrc:1186
+#: ../src/interface/resources/xrc/dialogs.xrc:2268
+#: ../src/interface/resources/xrc/dialogs.xrc:2278
+#: ../src/engine/sizeformatting_base.cpp:61
+#: ../src/interface/edithandler.cpp:1179 ../src/interface/edithandler.cpp:1207
+msgid "Unknown"
+msgstr "Белгисиз"
+
+#: ../src/interface/resources/xrc/certificate.xrc:4
+msgid "Unknown certificate"
+msgstr "Белгисиз сертификат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1007
+msgid "Unknown host key"
+msgstr "Белгисиз хост ачкычы"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2474
+msgid "Upload"
+msgstr "Жүктөө"
+
+#: ../src/interface/edithandler.cpp:1170
+msgid "Upload failed"
+msgstr "Жүктөө оңунан чыккан жок"
+
+#: ../src/interface/statusbar.cpp:617
+#, c-format
+msgid "Upload limit: %s/s"
+msgstr "Жүктөө лимити: %s/s"
+
+#: ../src/interface/statusbar.cpp:620
+msgid "Upload limit: none"
+msgstr "Жүктөө лимити: жок"
+
+#: ../src/interface/edithandler.cpp:1164 ../src/interface/edithandler.cpp:1198
+#: ../src/interface/edithandler.cpp:1357
+msgid "Uploading"
+msgstr "Жүктөө"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2946
+#: ../src/interface/resources/xrc/dialogs.xrc:3027
+msgid "Use &synchronized browsing"
+msgstr "&Синхрондоштурулган көрүүнү колдонуу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "Колдонуучу:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1682
+msgid "View/Edit"
+msgstr "Көрүү/Оңдоо"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:634
+msgid "W&rite"
+msgstr "Ж&азуу"
+
+#: ../src/engine/engineprivate.cpp:254
+msgid "Waiting to retry..."
+msgstr "Кайталоону күтүүдө..."
+
+#: ../src/interface/welcome_dialog.cpp:50
+msgid "Welcome to FileZilla"
+msgstr "FileZilla'га кош келиңиз"
+
+#: ../src/interface/welcome_dialog.cpp:83
+msgid "What's new"
+msgstr "Эмне жаңылык бар"
+
+#: ../src/interface/resources/xrc/update.xrc:23
+msgid "What's new:"
+msgstr "Эмне жаңылык бар:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:668
+msgid "Wr&ite"
+msgstr "Жа&зуу"
+
+#: ../src/engine/http/request.cpp:639
+msgid "Wrong line endings"
+msgstr "Туура эмес сап аяктары"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:402
+msgid "Yes"
+msgstr "Ооба"
+
+#: ../src/interface/welcome_dialog.cpp:108
+msgid "You can always open this dialog again through the help menu."
+msgstr "Сиз дайыма бул терезени жардам менюсунан кайта ачсаңыз болот."
+
+#: ../src/interface/settings/optionspage_ftpproxy.cpp:82
+#: ../src/interface/settings/optionspage_proxy.cpp:79
+msgid "You need to enter a proxy host."
+msgstr "Прокси хостун киргизишиңиз керек."
+
+#: ../src/interface/manual_transfer.cpp:294
+msgid "You need to specify a local file."
+msgstr "Жердик файлды көрсөтүүгө зарыл."
+
+#: ../src/interface/manual_transfer.cpp:311
+msgid "You need to specify a remote file."
+msgstr "Алыскы файлды көрсөтүүгө зарыл."
+
+#: ../src/interface/manual_transfer.cpp:317
+msgid "You need to specify a remote path."
+msgstr "Алыскы жолду көрсөтүүгө зарыл."
+
+#: ../src/interface/manual_transfer.cpp:288
+msgid "You need to specify a server."
+msgstr "Серверди көрсөтүүгө зарыл."
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "файл"
+
+#: ../src/engine/proxy.cpp:51 ../src/interface/sftp_crypt_info_dlg.cpp:43
+msgid "unknown"
+msgstr "белгисиз"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:890
+msgid "wxWidgets:"
+msgstr "wxWidgets:"

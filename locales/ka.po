@@ -1,0 +1,1756 @@
+# Copyright (C) 2006, FileZilla
+# This file is distributed under the same license as the FileZilla package.
+# Georgian Internet Alliance <www.gia.ge>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FileZilla3\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: 2006-12-15 09:59+0400\n"
+"Last-Translator: Giasher <giasher@gmail.com>\n"
+"Language-Team: Georgian <www.gia.ge>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Georgian\n"
+"X-Poedit-Country: GEORGIA\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:59
+#: ../src/interface/statuslinectrl.cpp:220
+msgid "%H:%M:%S elapsed"
+msgstr "გავიდა: %H:%M:%S"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:64
+#: ../src/interface/statuslinectrl.cpp:226
+msgid "%H:%M:%S left"
+msgstr "დარჩა: %H:%M:%S"
+
+#: ../src/interface/verifycertdialog.cpp:384
+#, c-format
+msgid "%s - Certificate expired!"
+msgstr "%s - სერთიფიკატი ვადაგასულია!"
+
+#: ../src/interface/verifycertdialog.cpp:368
+#, c-format
+msgid "%s - Not yet valid!"
+msgstr "%s - ჯერ არაა ძალაში!"
+
+#: ../src/interface/verifycertdialog.cpp:405
+#, c-format
+msgid "%s with %d bits"
+msgstr "%s, %d ბიტით"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "&ინფორმაცია..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&ანგარიში:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&აქტიურია"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "ფაილების რიგში &დამატება"
+
+#: ../src/interface/resources/xrc/certificate.xrc:256
+msgid "&Always trust certificate in future sessions."
+msgstr "სერთიფიკატის &ყოველთვის ნდობა შემდეგ სეანსებზე."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1087
+msgid "&Always trust this host, add this key to the cache"
+msgstr "ამ სერვერის &ყოველთვის ნდობა, ამ გასარების ბუფერში დამატება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:184
+msgid "&Always use this action"
+msgstr "&ყოველთვის ამ ქმედების გამოყენება"
+
+#: ../src/interface/resources/xrc/settings.xrc:1055
+#: ../src/interface/menu_bar.cpp:118 ../src/interface/statusbar.cpp:563
+msgid "&Auto"
+msgstr "&ავტომატური"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:679
+msgid "&Autodetect"
+msgstr "&თვითამოცნობა"
+
+#: ../src/interface/resources/xrc/settings.xrc:1070
+#: ../src/interface/menu_bar.cpp:120 ../src/interface/statusbar.cpp:565
+msgid "&Binary"
+msgstr "&ორობითი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2507
+#: ../src/interface/resources/xrc/dialogs.xrc:2918
+#: ../src/interface/resources/xrc/dialogs.xrc:3005
+#: ../src/interface/resources/xrc/dialogs.xrc:3200
+#: ../src/interface/resources/xrc/dialogs.xrc:3413
+#: ../src/interface/resources/xrc/settings.xrc:1788
+#: ../src/interface/resources/xrc/settings.xrc:2003
+#: ../src/interface/resources/xrc/sitemanager.xrc:506
+msgid "&Browse..."
+msgstr "&ნუსხა..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:386
+#: ../src/interface/resources/xrc/dialogs.xrc:494
+#: ../src/interface/resources/xrc/dialogs.xrc:1227
+#: ../src/interface/resources/xrc/dialogs.xrc:3809
+#: ../src/interface/resources/xrc/dialogs.xrc:3911
+#: ../src/interface/resources/xrc/inputdialog.xrc:40
+#: ../src/interface/resources/xrc/settings.xrc:35
+#: ../src/interface/verifycertdialog.cpp:757
+msgid "&Cancel"
+msgstr "&გაუქმება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&დაკავშირება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "&ბუფერში კოპირება"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "&Create directory"
+msgstr "&დასტის შექმნა"
+
+#: ../src/interface/menu_bar.cpp:181
+msgid "&Debug"
+msgstr "&გამართვა"
+
+#: ../src/interface/resources/xrc/settings.xrc:2092
+msgid "&Debug information in message log:"
+msgstr "&გამართვის მონაცემები შეტყობინებების დავთარში:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1271
+#: ../src/interface/resources/xrc/dialogs.xrc:1440
+#: ../src/interface/resources/xrc/dialogs.xrc:3085
+#: ../src/interface/resources/xrc/sitemanager.xrc:59
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/LocalTreeView.cpp:1109
+msgid "&Delete"
+msgstr "&წაშლა"
+
+#: ../src/interface/RemoteListView.cpp:1122
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "&Download"
+msgstr "&ჩამოტვირთვა"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&რედაქტირება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:704
+msgid "&Encoding:"
+msgstr "&კოდირება:"
+
+#: ../src/interface/StatusView.cpp:431
+msgid "&Enter custom command..."
+msgstr "&ვრძანების მითითება..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:606
+msgid "&Execute"
+msgstr "&შესრულება"
+
+#: ../src/interface/resources/xrc/settings.xrc:427
+msgid "&Fall back to active mode"
+msgstr "&დაბრუნება აქტიურ რეჟიმში"
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&ფაილი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1248
+msgid "&Filter sets:"
+msgstr "&ფილტრების ნაკრებები:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1418
+msgid "&Filters:"
+msgstr "&ფილტრები:"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&დახმარება"
+
+#: ../src/interface/QueueView.cpp:1824
+msgid "&Highest"
+msgstr "უმა&ღლესი"
+
+#: ../src/interface/resources/xrc/settings.xrc:306
+msgid "&Highest available port:"
+msgstr "უმა&ღლესი შესაძლო პორტი:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&ჰოსტი:"
+
+#: ../src/interface/resources/xrc/settings.xrc:269
+msgid "&Limit local ports used by FileZilla"
+msgstr "&ლოკალური პორტების შეზღუდვა FileZilla-სთვის"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:633
+msgid "&Limit number of simultaneous connections"
+msgstr "&ერთდროული კავშირების რაოდენობის შეზღუდვა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2697
+msgid "&Logontype:"
+msgstr "&შესვლის ტიპი:"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&დაბალი"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:643
+msgid "&Maximum number of connections:"
+msgstr "კავშირების &მაქსიმალური რაოდენობა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1434
+msgid "&New"
+msgstr "&ახალი"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:35
+msgid "&New Site"
+msgstr "&ახალი საიტი"
+
+#: ../src/interface/Mainfrm.cpp:1798
+msgid "&New version available!"
+msgstr "&ახალი ვერსია მისაწვდომია!"
+
+#: ../src/interface/QueueView.cpp:1826
+msgid "&Normal"
+msgstr "&ჩვეულებრივი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:692
+msgid "&Numeric value:"
+msgstr "&რიცხვითი მნიშვნელობა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:378
+#: ../src/interface/resources/xrc/dialogs.xrc:486
+#: ../src/interface/resources/xrc/dialogs.xrc:3134
+#: ../src/interface/resources/xrc/sitemanager.xrc:114
+#: ../src/interface/verifycertdialog.cpp:750
+msgid "&OK"
+msgstr "&დიახ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:128
+msgid "&Overwrite"
+msgstr "&ჩანაცვლება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:624
+msgid "&Passive"
+msgstr "&პასიური"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&პაროლი:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&პორტი:"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&სწრაფი კავშირი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:594
+msgid "&Read"
+msgstr "&წაკითხვა"
+
+#: ../src/interface/resources/xrc/settings.xrc:1118
+msgid "&Remove"
+msgstr "&ამოღება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:4025
+#: ../src/interface/QueueView.cpp:1819
+msgid "&Remove selected"
+msgstr "&მონიშნულის ამოღება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1446
+#: ../src/interface/resources/xrc/dialogs.xrc:3079
+#: ../src/interface/resources/xrc/sitemanager.xrc:53
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteListView.cpp:1139
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "&Rename"
+msgstr "&გადარქმევა"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:428
+msgid "&Restart Wizard"
+msgstr "ოსტატის &ხელახლა გახსნა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:158
+msgid "&Resume"
+msgstr "&დასრულება"
+
+#: ../src/interface/resources/xrc/settings.xrc:77
+msgid "&Run configuration wizard now..."
+msgstr "კონფიგურაციის ოსტატის ახლავე &შესრულება..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1942
+msgid "&Run update check now..."
+msgstr "განახლების შემოწმების ახლავე &შესრულება..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1260
+msgid "&Save as..."
+msgstr "შენახვა &როგორც..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1725
+msgid "&Select language:"
+msgstr "&ენის არჩევა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&სერვერი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&პარამეტრები"
+
+#: ../src/interface/resources/xrc/settings.xrc:2081
+msgid "&Show debug menu"
+msgstr "გამრთვის მენიუს &ჩვენება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&გამოტოვება"
+
+#: ../src/interface/netconfwizard.cpp:237
+msgid "&Test"
+msgstr "&ტესტი"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&თემა:"
+
+#: ../src/interface/menu_bar.cpp:108
+msgid "&Transfer"
+msgstr "&გადაგზავნა"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&გადაგზავნის რეჟიმი:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1208
+msgid "&Update cached key for this host"
+msgstr "ამ ჰოსტის ქეშირებული კოდის &განახლება"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&ატვირთვა"
+
+#: ../src/interface/resources/xrc/settings.xrc:421
+msgid "&Use the server's external IP address instead"
+msgstr "სანაცვლოდ გარე სერვერის IP-ს &გამოყენება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:323
+#: ../src/interface/resources/xrc/dialogs.xrc:2709
+#: ../src/interface/resources/xrc/sitemanager.xrc:260
+#: ../src/interface/sitemanager_site.cpp:273
+#: ../src/interface/sitemanager_site.cpp:356
+msgid "&User:"
+msgstr "&მომხმარებელი:"
+
+#: ../src/interface/quickconnectbar.cpp:46
+msgid "&Username:"
+msgstr "&მომხმარებლის სახელი:"
+
+#: ../src/interface/Mainfrm.cpp:1792
+#, c-format
+msgid "&Version %s"
+msgstr "&ვერსია %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:600
+msgid "&Write"
+msgstr "&ჩაწერა"
+
+#: ../src/engine/local_path.cpp:459 ../src/engine/local_path.cpp:511
+#, c-format
+msgid "'%s' does not exist or cannot be accessed."
+msgstr "'%s' არ არსებობს ან მიუწვდომელია."
+
+#: ../src/interface/manual_transfer.cpp:419
+#: ../src/interface/sitemanager_site.cpp:504
+msgid "'Account' logontype not supported by selected protocol"
+msgstr "'ანგარიშის' შესვლის ტიპი შერჩეული ოქმისთვის მიუღებელია"
+
+#: ../src/interface/resources/xrc/settings.xrc:859
+#: ../src/interface/resources/xrc/settings.xrc:880
+msgid "(0 for no limit)"
+msgstr "(0 - შეუზღუდავად)"
+
+#: ../src/interface/resources/xrc/settings.xrc:150
+msgid "(0-99)"
+msgstr "(0-99)"
+
+#: ../src/interface/resources/xrc/settings.xrc:168
+msgid "(0-999 seconds)"
+msgstr "(0-999 წამი)"
+
+#: ../src/interface/resources/xrc/settings.xrc:838
+msgid "(1-10)"
+msgstr "(1-10)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:295
+msgid "-"
+msgstr "-"
+
+#: ../src/interface/statuslinectrl.cpp:229
+msgid "--:--:-- left"
+msgstr "დარჩა --:--:--"
+
+#: ../src/interface/resources/xrc/settings.xrc:2102
+msgid "0 - None"
+msgstr "0 - არა"
+
+#: ../src/interface/resources/xrc/settings.xrc:2103
+msgid "1 - Warning"
+msgstr "1 - გაფრთხილება"
+
+#: ../src/interface/resources/xrc/settings.xrc:2104
+msgid "2 - Info"
+msgstr "2 - ინფორმაცია"
+
+#: ../src/interface/resources/xrc/settings.xrc:2105
+msgid "3 - Verbose"
+msgstr "3 - დაწვრილებით"
+
+#: ../src/interface/resources/xrc/settings.xrc:2106
+msgid "4 - Debug"
+msgstr "4 - გამართვა"
+
+#: ../src/interface/resources/xrc/settings.xrc:1111
+msgid "A&dd"
+msgstr "&დამატება"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to downloads"
+msgstr "გამოყენება მხოლოდ &ჩამოტვირთვებისთვის"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to uploads"
+msgstr "გამოყენება მხოლოდ &ატვირთვებისთვის"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:726
+msgid "A&pply to all files and directories"
+msgstr "&გამოყენება ყველა ფაილისა და დასტისთვის"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "FileZilla-ს შესახებ"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "ანგარიში"
+
+#: ../src/interface/settings/settingsdialog.cpp:98
+msgid "Active mode"
+msgstr "აქტიური რეჟიმი"
+
+#: ../src/interface/resources/xrc/settings.xrc:399
+msgid "Active mode IP"
+msgstr "აქტიური რეჟიმის IP"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "Add selected files and folders to the transfer queue"
+msgstr "შერჩეული ფაილებისა და დასტების გადაცემის რიგში ჩაყენება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:452
+msgid "Advanced"
+msgstr "დეტალები"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:308
+msgid "All ports in the given range have to be between 1024 and 65535."
+msgstr "მოცამული რანგის ყველა პორტის მნიშვენლობებია 1024 - 65535."
+
+#: ../src/engine/server.cpp:742 ../src/interface/manual_transfer.cpp:147
+#: ../src/interface/manual_transfer.cpp:188
+#: ../src/interface/manual_transfer.cpp:203
+#: ../src/interface/manual_transfer.cpp:534
+msgid "Anonymous"
+msgstr "ანონიმური"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:740
+msgid "App&ly to directories only"
+msgstr "გამოყენება მხოლოდ &დასტებისთვის"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1393
+msgid "Apply"
+msgstr "გამოყენება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:207
+msgid "Apply to &current queue only"
+msgstr "გამოყენება მხოლოდ &მიმდინარე რიგისთვის"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:733
+msgid "Apply to &files only"
+msgstr "გამოყენება მხოლოდ &ფაილებისთვის"
+
+#: ../src/interface/filter_conditions_dialog.cpp:77
+msgid "Archive"
+msgstr "არქივი"
+
+#: ../src/engine/server.cpp:708 ../src/engine/server.cpp:734
+#: ../src/interface/manual_transfer.cpp:179
+msgid "Ask for password"
+msgstr "პაროლის მოთხოვნა"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:271
+msgid "Ask operating system for a port."
+msgstr "საოპერაციო სისტემასთვის პორტის მოთხოვნა."
+
+#: ../src/interface/resources/xrc/settings.xrc:1287
+msgid "Author:"
+msgstr "ავტორი:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1081
+msgid "Automatic file type classification"
+msgstr "ფაილის ტიპების თვითკლასიფიკაცია"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:851
+msgid "Build date:"
+msgstr "აგების თარიღი:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:828
+msgid "Build information"
+msgstr "აგების ინფორმაცია"
+
+#: ../src/interface/StatusView.cpp:436
+msgid "C&lear all"
+msgstr "ყველას &გასუფთავება"
+
+#: ../src/engine/ftp/transfersocket.cpp:643
+msgid "Can't read from file"
+msgstr "ვერ ხერხდება ფაილიდან წაკითხვა"
+
+#: ../src/engine/ftp/transfersocket.cpp:620
+#: ../src/engine/ftp/transfersocket.cpp:691
+msgid "Can't write data to file."
+msgstr "ვერ ხერხდება ფაილში ჩაწერა."
+
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
+#: ../src/interface/resources/xrc/certificate.xrc:288
+#: ../src/interface/resources/xrc/dialogs.xrc:239
+#: ../src/interface/resources/xrc/dialogs.xrc:565
+#: ../src/interface/resources/xrc/dialogs.xrc:757
+#: ../src/interface/resources/xrc/dialogs.xrc:1106
+#: ../src/interface/resources/xrc/dialogs.xrc:1387
+#: ../src/interface/resources/xrc/dialogs.xrc:1575
+#: ../src/interface/resources/xrc/dialogs.xrc:1682
+#: ../src/interface/resources/xrc/dialogs.xrc:1753
+#: ../src/interface/resources/xrc/dialogs.xrc:1811
+#: ../src/interface/resources/xrc/dialogs.xrc:1876
+#: ../src/interface/resources/xrc/dialogs.xrc:2050
+#: ../src/interface/resources/xrc/dialogs.xrc:2435
+#: ../src/interface/resources/xrc/dialogs.xrc:2817
+#: ../src/interface/resources/xrc/dialogs.xrc:2972
+#: ../src/interface/resources/xrc/dialogs.xrc:3140
+#: ../src/interface/resources/xrc/dialogs.xrc:3230
+#: ../src/interface/resources/xrc/dialogs.xrc:3470
+#: ../src/interface/resources/xrc/dialogs.xrc:3565
+#: ../src/interface/resources/xrc/dialogs.xrc:3635
+#: ../src/interface/resources/xrc/dialogs.xrc:3710
+#: ../src/interface/resources/xrc/dialogs.xrc:3973
+#: ../src/interface/resources/xrc/dialogs.xrc:4045
+#: ../src/interface/resources/xrc/sitemanager.xrc:121
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancel current operation"
+msgstr "მიმდინარე ოპერაციის გაუქმება"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancels the current operation"
+msgstr "აუქმებს მიმდინარე ოპერაციას"
+
+#: ../src/interface/Mainfrm.cpp:1094
+msgid "Cannot load toolbar from resource file"
+msgstr "ვერ ხერხდება პულტის ჩატვირთვა რესურსების ფაილიდან"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Cannot rename file"
+msgstr "ფაილის გადარქმევა ვერ ხერხდება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:575
+msgid "Change file attributes"
+msgstr "ფაილის ატრიბუტების შეცვლა"
+
+#: ../src/interface/RemoteListView.cpp:1142
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "Change the file permissions."
+msgstr "ფაილის უფლებების შეცვლა."
+
+#: ../src/interface/FileZilla.cpp:597
+msgid "Character encoding issue"
+msgstr "კოდირების პრობლემა"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:666
+msgid "Charset"
+msgstr "სიმბოლოთა ნაკრები"
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for &updates..."
+msgstr "შემოწმება &განახლებაზე..."
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for newer versions of FileZilla"
+msgstr "FileZilla-ს ახალი ვერსიების შემოწმება"
+
+#: ../src/interface/netconfwizard.cpp:776
+msgid "Checking for correct external IP address"
+msgstr "გარე IP მისმართის მართებულობის შემოწმება"
+
+#: ../src/interface/sitemanager_site.cpp:1040
+msgid "Choose the default local directory"
+msgstr "ნაგულისხმები ადგილობრივი დასტის არჩევა"
+
+#: ../src/interface/menu_bar.cpp:178
+msgid "Clear &layout cache"
+msgstr "&არგის ბუფერის გასუფთავება"
+
+#: ../src/interface/quickconnectbar.cpp:198
+msgid "Clear history"
+msgstr "ისტორიის გასუფთავება"
+
+#: ../src/interface/quickconnectbar.cpp:197
+msgid "Clear quickconnect bar"
+msgstr "სწრაფი კავშირის ზოლის გასუფთავება"
+
+#: ../src/interface/netconfwizard.cpp:591
+msgid "Click on Finish to save your configuration."
+msgstr "კონფიგურაციის შესანახად დაწკაპეთ – დასრულება."
+
+#: ../src/interface/Mainfrm.cpp:1250 ../src/interface/Mainfrm.cpp:1272
+#: ../src/interface/menu_bar.cpp:64
+msgid "Close FileZilla"
+msgstr "FileZilla-ს დახურვა"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:433
+msgid "Co&mments:"
+msgstr "&შენიშვნები:"
+
+#: ../src/engine/engineprivate.cpp:236 ../src/engine/engineprivate.cpp:682
+msgid "Command not supported by this protocol"
+msgstr "ბრძანება ამ ოქმისთვის მიუღებელია"
+
+#: ../src/engine/logging.cpp:131 ../src/interface/StatusView.cpp:294
+#: ../src/interface/StatusView.cpp:358
+msgid "Command:"
+msgstr "ბრძანება:"
+
+#: ../src/interface/verifycertdialog.cpp:641
+msgid "Common name:"
+msgstr "საზოგადო სახელი:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:859
+msgid "Compiled with:"
+msgstr "კომპილაცია პროგრამით:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:867
+msgid "Compiler flags:"
+msgstr "კომპილაციის ალმები:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:341
+msgid "Configuration test"
+msgstr "კონფიგურაციის შემოწმება"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "დაკავშირება"
+
+#: ../src/interface/netconfwizard.cpp:219
+#: ../src/interface/statuslinectrl.cpp:268
+#, c-format
+msgid "Connecting to %s"
+msgstr "დაკავშირება - %s"
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "კავშირი"
+
+#: ../src/engine/ControlSocket.cpp:169 ../src/engine/engineprivate.cpp:727
+msgid "Connection attempt interrupted by user"
+msgstr "დაკავშირების მცდელობა შეწყდა მომხმარებლის მიერ"
+
+#: ../src/interface/netconfwizard.cpp:560
+msgid "Connection closed"
+msgstr "კავშირი დაიხურა"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:176
+#: ../src/engine/http/httpcontrolsocket.cpp:197
+msgid "Connection established, initializing TLS..."
+msgstr "კავშირი შედგა, TLS ინიციალიზება..."
+
+#: ../src/engine/http/httpcontrolsocket.cpp:212
+msgid "Connection established, sending HTTP request"
+msgstr "კავშირი შედგა, HTTP მოთხოვნის გაგზავნა"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:197
+msgid "Connection established, waiting for welcome message..."
+msgstr "კავშირი შედგა, მოსალმების გზავნილი ცდა..."
+
+#: ../src/interface/netconfwizard.cpp:358
+msgid "Connection lost"
+msgstr "კავშირი დაიკარგა"
+
+#: ../src/interface/netconfwizard.cpp:580
+msgid "Connection with server got closed prematurely."
+msgstr "კავშირი სერვერთან ნაადრევად დაიხურა."
+
+#: ../src/interface/netconfwizard.cpp:571
+msgid "Connection with the test server failed."
+msgstr "კავშირი ტესტურ სერვერთან არ შედგა."
+
+#: ../src/interface/bookmarks_dialog.cpp:676
+#: ../src/interface/sitemanager_dialog.cpp:1384
+#, c-format
+msgid "Copy (%d) of %s"
+msgstr "ასლი (%d) სულ %s-დან"
+
+#: ../src/interface/bookmarks_dialog.cpp:655
+#: ../src/interface/sitemanager_dialog.cpp:1363
+#, c-format
+msgid "Copy of %s"
+msgstr "%s ასლი"
+
+#: ../src/engine/ControlSocket.cpp:172
+msgid "Could not connect to server"
+msgstr "სერვერთან დაკავშირება ვერ ხერხდება"
+
+#: ../src/engine/ftp/rawtransfer.cpp:232
+msgid "Could not establish connection to server"
+msgstr "კავშირის დამყარება სერვერთან ვერ ხერხდება"
+
+#: ../src/interface/verifycertdialog.cpp:646
+msgid "Country:"
+msgstr "ქვეყანა:"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Create directory"
+msgstr "დასტის შექმნა"
+
+#: ../src/interface/queue.cpp:361
+msgid "Creating directory"
+msgstr "დასტის შექმნა"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:591
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:559
+#: ../src/engine/storj/storjcontrolsocket.cpp:105
+#, c-format
+msgid "Creating directory '%s'..."
+msgstr "დასტის შექმნა '%s'..."
+
+#: ../src/engine/ControlSocket.cpp:164
+msgid "Critical error"
+msgstr "კრიტიკული შეცდომა"
+
+#: ../src/interface/filter.cpp:135
+msgid "Custom filter set"
+msgstr "ფილტრების საკუთარი ნაკრები"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:610
+msgid "D&efault"
+msgstr "&ნაგულისხმები"
+
+#: ../src/interface/RemoteListView.cpp:1138
+#: ../src/interface/RemoteTreeView.cpp:916 ../src/interface/search.cpp:830
+#: ../src/interface/search.cpp:837
+msgid "D&elete"
+msgstr "&წაშლა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1302
+msgid "D&isable all"
+msgstr "ყველას &ამორთვა"
+
+#: ../src/interface/fileexistsdlg.cpp:49
+msgid "Date/time unknown"
+msgstr "თარიღი/დრო უცნობია"
+
+#: ../src/interface/settings/settingsdialog.cpp:121
+msgid "Debug"
+msgstr "გამართვა"
+
+#: ../src/interface/resources/xrc/settings.xrc:2074
+msgid "Debugging settings"
+msgstr "გამართვის პარამეტრები"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:490
+msgid "Default &local directory:"
+msgstr "ნაგულისხმები &ადგილობრივი დასტა:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1051
+msgid "Default transfer type:"
+msgstr "გადატანის ნაგულისხმები ტიპი:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:42
+#: ../src/interface/resources/xrc/dialogs.xrc:1033
+msgid "Details"
+msgstr "დეტალები"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1154
+msgid "Details for new key:"
+msgstr "ახალი კლავიშის დეტალები:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1544
+msgid "Dire&ctories"
+msgstr "&დასტები"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Direction"
+msgstr "მიმართულება"
+
+#: ../src/engine/ControlSocket.cpp:177
+msgid "Directory listing aborted by user"
+msgstr "დასტების სიის ჩვენება მომხმარებელმა შეწყვიტა"
+
+#: ../src/interface/RemoteListView.cpp:2230
+msgid "Directory listing failed"
+msgstr "დასტების სია ვერ შედგა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1237
+msgid "Directory listing filters"
+msgstr "დასტების სიის ფილტრები"
+
+#: ../src/engine/ControlSocket.cpp:184
+msgid "Directory listing successful"
+msgstr "დასტების სია შედგა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1337
+msgid "Disa&ble all"
+msgstr "ყველას &ამორთვა"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnect from server"
+msgstr "სერვერთან კავშირის გაწყვეტა"
+
+#: ../src/engine/ControlSocket.cpp:48 ../src/engine/ControlSocket.cpp:709
+#: ../src/engine/ControlSocket.cpp:808
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:57 ../src/engine/http/request.cpp:237
+#: ../src/interface/queue.cpp:352
+msgid "Disconnected from server"
+msgstr "სერვერთან კავშირის გარეშე"
+
+#: ../src/interface/queue.cpp:351 ../src/interface/statuslinectrl.cpp:262
+msgid "Disconnecting from previous server"
+msgstr "კავშირის გაწყვეტა წინა სერვერთან"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnects from the currently visible server"
+msgstr "კავშირის გაწყვეტა წინა მიმდინარე ხილულ სერვერთან"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "Display about dialog"
+msgstr "პროგრამის მონაცემთა ჩვენება"
+
+#: ../src/engine/http/httpcontrolsocket.cpp:224
+#, c-format
+msgid "Downloading %s"
+msgstr "ჩამოტვირთვა - %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1295
+msgid "E&nable all"
+msgstr "ყველას &ჩართვა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:640
+msgid "E&xecute"
+msgstr "&შესრულება"
+
+#: ../src/interface/menu_bar.cpp:64
+msgid "E&xit"
+msgstr "&გასვლა"
+
+#: ../src/interface/verifycertdialog.cpp:651
+msgid "E-Mail:"
+msgstr "ელფოსტა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1583
+msgid "Edit filters"
+msgstr "ფილტრების რედაქტირება..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1298
+msgid "Email:"
+msgstr "ელფოსტა:"
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty name"
+msgstr "ცარიელი სახელი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1330
+msgid "En&able all"
+msgstr "ყველას &ჩართვა"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Enter &custom command..."
+msgstr "&საკუთარი ბრძანების მითითება..."
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid "Enter custom command"
+msgstr "საკუთარი ბრძანების მითითება"
+
+#: ../src/interface/filteredit.cpp:143 ../src/interface/filteredit.cpp:200
+#: ../src/interface/filteredit.cpp:249
+msgid "Enter filter name"
+msgstr "ფილტრის სახელის მითითება"
+
+#: ../src/interface/filter.cpp:262
+msgid "Enter name for filterset"
+msgstr "ფილტრების ნაკრების სახელის მითითება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:247
+msgid "Enter password"
+msgstr "პაროლის მითითება"
+
+#: ../src/interface/bookmarks_dialog.cpp:174
+#: ../src/interface/bookmarks_dialog.cpp:296
+#: ../src/interface/bookmarks_dialog.cpp:752
+#: ../src/interface/bookmarks_dialog.cpp:792
+#: ../src/interface/bookmarks_dialog.cpp:845 ../src/interface/filter.cpp:875
+#: ../src/interface/filter.cpp:966 ../src/interface/Options.cpp:253
+#: ../src/interface/osx_sandbox_userdirs.cpp:65
+#: ../src/interface/osx_sandbox_userdirs.cpp:136
+#: ../src/interface/QueueView.cpp:1581 ../src/interface/search.cpp:1351
+#: ../src/interface/search.cpp:1371 ../src/interface/sitemanager.cpp:39
+#: ../src/interface/sitemanager.cpp:470 ../src/interface/sitemanager.cpp:530
+#: ../src/interface/sitemanager.cpp:639 ../src/interface/sitemanager.cpp:727
+#: ../src/interface/sitemanager.cpp:833 ../src/interface/sitemanager.cpp:924
+#: ../src/interface/sitemanager_dialog.cpp:678
+#: ../src/interface/sitemanager_dialog.cpp:743
+#: ../src/interface/wrapengine.cpp:943
+msgid "Error loading xml file"
+msgstr "XML ფაილის ჩატვირთვის შეცდომა"
+
+#: ../src/interface/bookmarks_dialog.cpp:332
+#: ../src/interface/bookmarks_dialog.cpp:887
+#: ../src/interface/QueueView.cpp:1601 ../src/interface/sitemanager.cpp:579
+#: ../src/interface/sitemanager.cpp:704 ../src/interface/sitemanager.cpp:761
+#: ../src/interface/sitemanager_dialog.cpp:766
+#: ../src/interface/sitemanager_dialog.cpp:1803
+#: ../src/interface/xmlfunctions.cpp:153
+msgid "Error writing xml file"
+msgstr "XML ფაილის ჩაწერის შეცდომა"
+
+#: ../src/engine/logging.cpp:130 ../src/interface/StatusView.cpp:292
+#: ../src/interface/StatusView.cpp:354
+msgid "Error:"
+msgstr "შეცდომა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:674
+msgid "Exe&cute"
+msgstr "&შესრულება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1471
+msgid "F&ilter name:"
+msgstr "ფი&ლტრის სახელი:"
+
+#: ../src/interface/settings/settingsdialog.cpp:97
+msgid "FTP"
+msgstr "FTP"
+
+#: ../src/interface/LocalListView.cpp:542
+#: ../src/interface/LocalListView.cpp:615
+#: ../src/interface/LocalListView.cpp:955
+#: ../src/interface/LocalListView.cpp:1962
+#: ../src/interface/LocalTreeView.cpp:895
+#: ../src/interface/LocalTreeView.cpp:1197 ../src/interface/viewheader.cpp:499
+msgid "Failed to change directory"
+msgstr "დასტის შეცვლა ვერ მოხერხდა"
+
+#: ../src/interface/FileZilla.cpp:170 ../src/interface/FileZilla.cpp:185
+#: ../src/interface/FileZilla.cpp:188
+msgid "Failed to change language"
+msgstr "ენის შეცვლა ვერ მოხერხდა"
+
+#: ../src/interface/xmlfunctions.cpp:239
+msgid "Failed to create backup copy of xml file"
+msgstr "XML ფაილის სამარქფო ასლის შექმნა ვერ მოხერხდა."
+
+#: ../src/interface/context_control.cpp:114
+msgid "Failed to initialize FTP engine"
+msgstr "FTP ძრავის ინიციალიზება ვერ მოხერხდა."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:159
+msgid "Fall back to active mode"
+msgstr "დაბრუნება აქტიურ რეჟიმში"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1539
+msgid "Fil&es"
+msgstr "ფაი&ლები"
+
+#: ../src/interface/filelistctrl.cpp:272
+msgid "File"
+msgstr "ფაილი"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "File exists"
+msgstr "ფაილი არსებობს"
+
+#: ../src/engine/storj/resolve.cpp:111 ../src/engine/storj/resolve.cpp:174
+#: ../src/interface/edithandler.cpp:1638 ../src/interface/FileZilla.cpp:701
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "File not found"
+msgstr "ფაილი ვერ მოიძებნა"
+
+#: ../src/engine/ControlSocket.cpp:101
+msgid "File transfer successful"
+msgstr "ფაილი წარმატებით გადაიგზავნა"
+
+#: ../src/interface/FileZilla.cpp:471 ../src/interface/quickconnectbar.cpp:102
+msgid "FileZilla Error"
+msgstr "FileZilla-ს შეცდომა"
+
+#: ../src/interface/edithandler.cpp:1146
+#: ../src/interface/filter_conditions_dialog.cpp:101
+#: ../src/interface/LocalListView.cpp:283
+#: ../src/interface/RemoteListView.cpp:397 ../src/interface/search.cpp:160
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:35
+msgid "Filename"
+msgstr "ფაილის სახელი"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Filename invalid"
+msgstr "ფაილის სახელი მცდარია"
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "Filename unchanged"
+msgstr "ფაილის სახელი უცვლელია"
+
+#: ../src/interface/filter_conditions_dialog.cpp:105
+#: ../src/interface/LocalListView.cpp:284
+#: ../src/interface/RemoteListView.cpp:398 ../src/interface/search.cpp:162
+msgid "Filesize"
+msgstr "ფაილის ზომა"
+
+#: ../src/interface/LocalListView.cpp:285
+#: ../src/interface/RemoteListView.cpp:399 ../src/interface/search.cpp:163
+msgid "Filetype"
+msgstr "ფაილის ტიპი"
+
+#: ../src/interface/filteredit.cpp:346 ../src/interface/filteredit.cpp:354
+#: ../src/interface/filteredit.cpp:362
+msgid "Filter validation failed"
+msgstr "ფილტრი ვერ შემოწმდა"
+
+#: ../src/interface/resources/xrc/certificate.xrc:97
+msgid "Fingerprint (SHA-1):"
+msgstr "ანაბეჭდი (SHA-1):"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:134
+msgid "General"
+msgstr "ზოგადი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:621
+msgid "Group permissions"
+msgstr "ჯგუფის უფლებები"
+
+#: ../src/interface/QueueView.cpp:1825
+msgid "H&igh"
+msgstr "მა&ღალი"
+
+#: ../src/interface/resources/xrc/settings.xrc:964
+#: ../src/interface/queue.cpp:997 ../src/interface/queue.cpp:1059
+msgid "High"
+msgstr "მაღალი"
+
+#: ../src/interface/queue.cpp:999 ../src/interface/queue.cpp:1061
+msgid "Highest"
+msgstr "უმაღლესი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:803
+msgid "Homepage:"
+msgstr "სათაო გვერდი:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:179
+#: ../src/interface/resources/xrc/dialogs.xrc:284
+#: ../src/interface/resources/xrc/dialogs.xrc:420
+#: ../src/interface/resources/xrc/dialogs.xrc:1040
+#: ../src/interface/resources/xrc/dialogs.xrc:1161
+#: ../src/interface/verifycertdialog.cpp:740
+msgid "Host:"
+msgstr "ჰოსტი:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:568
+msgid "Hours,"
+msgstr "საათი,"
+
+#: ../src/engine/ftp/logon.cpp:261
+msgid "Initializing TLS..."
+msgstr "TLS ინიციალიზება..."
+
+#: ../src/engine/server.cpp:714 ../src/engine/server.cpp:738
+#: ../src/interface/manual_transfer.cpp:182
+msgid "Interactive"
+msgstr "ინტერაქტიული"
+
+#: ../src/engine/ControlSocket.cpp:207 ../src/interface/queue.cpp:355
+msgid "Interrupted by user"
+msgstr "შეწყდა მომხმარებლის მიერ"
+
+#: ../src/interface/verifycertdialog.cpp:379
+#: ../src/interface/verifycertdialog.cpp:395
+msgid "Invalid date"
+msgstr "მცდარი თარიღი"
+
+#: ../src/interface/file_utils.cpp:308 ../src/interface/file_utils.cpp:343
+msgid "Invalid filename"
+msgstr "ფაილის მცდარი სახელი"
+
+#: ../src/interface/QueueView.cpp:1828
+msgid "L&owest"
+msgstr "&უდაბლესი"
+
+#: ../src/interface/resources/xrc/settings.xrc:1721
+#: ../src/interface/settings/settingsdialog.cpp:112
+msgid "Language"
+msgstr "ენა"
+
+#: ../src/interface/LocalListView.cpp:286
+#: ../src/interface/RemoteListView.cpp:400 ../src/interface/search.cpp:164
+msgid "Last modified"
+msgstr "ბოლო ცვლილება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1281
+msgid "Local filters:"
+msgstr "ლოკალური ფილტრები:"
+
+#: ../src/interface/viewheader.cpp:337
+msgid "Local site:"
+msgstr "ლოკალური საიტი:"
+
+#: ../src/interface/queue.cpp:992 ../src/interface/queue.cpp:1054
+msgid "Low"
+msgstr "დაბალი"
+
+#: ../src/interface/queue.cpp:990 ../src/interface/queue.cpp:1052
+msgid "Lowest"
+msgstr "უდაბლესი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3306
+msgid "Match all of the following"
+msgstr "ემთხვევა ყველა ჩამოთვლილს"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:584
+msgid "Minutes"
+msgstr "წუთი"
+
+#: ../src/interface/sitemanager.cpp:287
+#: ../src/interface/sitemanager_dialog.cpp:664
+#: ../src/interface/sitemanager_dialog.cpp:667
+msgid "My Sites"
+msgstr "ჩემი საიტები"
+
+#: ../src/interface/settings/optionspage_themes.cpp:197
+#: ../src/interface/settings/optionspage_themes.cpp:200
+msgid "N/a"
+msgstr "N/a"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:276
+#: ../src/interface/resources/xrc/dialogs.xrc:412
+#: ../src/interface/verifycertdialog.cpp:654
+msgid "Name:"
+msgstr "სახელი:"
+
+#: ../src/interface/filteredit.cpp:354
+msgid "Need to enter filter name"
+msgstr "აუცილებელია ფილტრის სახელი"
+
+#: ../src/interface/sitemanager_site.cpp:555
+msgid "Need to specify a character encoding"
+msgstr "აუცილებელია კოდირების მითითება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:41
+msgid "New &Folder"
+msgstr "ახალი &დასტა"
+
+#: ../src/interface/filteredit.cpp:137
+msgid "New filter"
+msgstr "ახალი ფილტრი"
+
+#: ../src/interface/sitemanager_dialog.cpp:850
+msgid "New folder"
+msgstr "ახალი დასტა"
+
+#: ../src/interface/sitemanager.cpp:550 ../src/interface/sitemanager.cpp:564
+#: ../src/interface/sitemanager_dialog.cpp:1716
+msgid "New site"
+msgstr "ახალი საიტი"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:395
+msgid "No"
+msgstr "არა"
+
+#: ../src/interface/settings/optionspage_themes.cpp:94
+msgid "No images available"
+msgstr "გამოსახულება ვერ მოიძებნა"
+
+#: ../src/interface/resources/xrc/settings.xrc:1683
+#: ../src/interface/resources/xrc/settings.xrc:1702
+#: ../src/interface/sitemanager.cpp:20
+#: ../src/interface/verifycertdialog.cpp:402
+msgid "None"
+msgstr "არა"
+
+#: ../src/interface/resources/xrc/settings.xrc:963 ../src/engine/server.cpp:705
+#: ../src/engine/server.cpp:732 ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:176
+#: ../src/interface/manual_transfer.cpp:535 ../src/interface/queue.cpp:995
+#: ../src/interface/queue.cpp:1057
+msgid "Normal"
+msgstr "ჩვეულებრივი"
+
+#: ../src/interface/resources/xrc/certificate.xrc:282
+#: ../src/interface/resources/xrc/dialogs.xrc:233
+#: ../src/interface/resources/xrc/dialogs.xrc:559
+#: ../src/interface/resources/xrc/dialogs.xrc:751
+#: ../src/interface/resources/xrc/dialogs.xrc:994
+#: ../src/interface/resources/xrc/dialogs.xrc:1100
+#: ../src/interface/resources/xrc/dialogs.xrc:1221
+#: ../src/interface/resources/xrc/dialogs.xrc:1380
+#: ../src/interface/resources/xrc/dialogs.xrc:1569
+#: ../src/interface/resources/xrc/dialogs.xrc:1676
+#: ../src/interface/resources/xrc/dialogs.xrc:1747
+#: ../src/interface/resources/xrc/dialogs.xrc:1805
+#: ../src/interface/resources/xrc/dialogs.xrc:1870
+#: ../src/interface/resources/xrc/dialogs.xrc:2044
+#: ../src/interface/resources/xrc/dialogs.xrc:2181
+#: ../src/interface/resources/xrc/dialogs.xrc:2353
+#: ../src/interface/resources/xrc/dialogs.xrc:2428
+#: ../src/interface/resources/xrc/dialogs.xrc:2811
+#: ../src/interface/resources/xrc/dialogs.xrc:2966
+#: ../src/interface/resources/xrc/dialogs.xrc:3224
+#: ../src/interface/resources/xrc/dialogs.xrc:3464
+#: ../src/interface/resources/xrc/dialogs.xrc:3559
+#: ../src/interface/resources/xrc/dialogs.xrc:3628
+#: ../src/interface/resources/xrc/dialogs.xrc:3803
+#: ../src/interface/resources/xrc/dialogs.xrc:3905
+#: ../src/interface/resources/xrc/dialogs.xrc:4039
+#: ../src/interface/resources/xrc/inputdialog.xrc:34
+#: ../src/interface/resources/xrc/settings.xrc:28
+#: ../src/interface/resources/xrc/storj.xrc:37
+#: ../src/interface/welcome_dialog.cpp:114
+msgid "OK"
+msgstr "დიახ"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:405
+msgid "Once"
+msgstr "ერთხელ"
+
+#: ../src/interface/toolbar.cpp:31 ../src/interface/toolbar.cpp:33
+msgid "Open the Site Manager"
+msgstr "საიტების მმართველის გახსნა"
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "Open the settings dialog of FileZilla"
+msgstr "FileZilla-ს პარამეტრების დიალოგის გახსნა"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "Opens the Site Manager"
+msgstr "საიტის მმართველის გახსნა"
+
+#: ../src/interface/verifycertdialog.cpp:642
+msgid "Organization:"
+msgstr "ორგანიზაცია:"
+
+#: ../src/interface/verifycertdialog.cpp:670
+msgid "Other:"
+msgstr "სხვა:"
+
+#: ../src/interface/resources/xrc/settings.xrc:64
+msgid "Overview"
+msgstr "მიმოხილვა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:587
+msgid "Owner permissions"
+msgstr "მფლობელის უფლებები"
+
+#: ../src/interface/resources/xrc/settings.xrc:203
+msgid "Pa&ssive (recommended)"
+msgstr "პა&სიური (რეკომენდებულია)"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2719
+#: ../src/interface/resources/xrc/sitemanager.xrc:286
+#: ../src/interface/quickconnectbar.cpp:50
+#: ../src/interface/sitemanager_site.cpp:274
+msgid "Pass&word:"
+msgstr "&პაროლი:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:73
+msgid "Passive (recommended)"
+msgstr "პასიური (რეკომენდებულია)"
+
+#: ../src/interface/resources/xrc/settings.xrc:410
+#: ../src/interface/settings/settingsdialog.cpp:99
+msgid "Passive mode"
+msgstr "პასიური რეჟიმი"
+
+#: ../src/interface/RemoteListView.cpp:401 ../src/interface/search.cpp:165
+msgid "Permissions"
+msgstr "უფლებები"
+
+#: ../src/interface/filteredit.cpp:143
+msgid "Please enter a name for the new filter."
+msgstr "გთხოვთ მიუთითოთ ახალი ფილტრის სახელი."
+
+#: ../src/interface/filteredit.cpp:200
+msgid "Please enter a new name for the filter."
+msgstr "გთხოვთ მიუთითოთ ახალი ფილტრის სახელი."
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "პრიორიტეტი"
+
+#: ../src/interface/menu_bar.cpp:111 ../src/interface/QueueView.cpp:1815
+msgid "Process &Queue"
+msgstr "პროცესების &რიგი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:655
+msgid "Public permissions"
+msgstr "საზოგადო უფლებები"
+
+#: ../src/interface/statusbar.cpp:377 ../src/interface/statusbar.cpp:437
+msgid "Queue: empty"
+msgstr "რიგი: ცარიელია"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:628
+msgid "Re&ad"
+msgstr "&წაკითხვა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:166
+msgid "Re&name"
+msgstr "&გადარქმევა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:662
+msgid "Rea&d"
+msgstr "წა&კითხვა"
+
+#: ../src/interface/Mainfrm.cpp:1134
+msgid "Really cancel current operation?"
+msgstr "ნამდვილად გსურთ მიმდინარე ოპერაციის გაუქმება?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:716
+msgid "Rec&urse into subdirectories"
+msgstr "რე&კურსია ქვედასტებში"
+
+#: ../src/interface/resources/xrc/settings.xrc:185
+msgid "Reconnection settings"
+msgstr "ხელახალი დაკავშირების პარამეტრები"
+
+#: ../src/interface/toolbar.cpp:47
+msgid "Reconnects to the last used server"
+msgstr "ხელახალი დაკავშირება ბოლო გამოყენებულ სერვერთან"
+
+#: ../src/interface/toolbar.cpp:43
+msgid "Refresh the file and folder lists"
+msgstr "ფაილებისა და დასტების სიის განახლება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2522
+#: ../src/interface/queue.cpp:1275
+msgid "Remote file"
+msgstr "დაშორებული ფაილი"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1316
+msgid "Remote filters:"
+msgstr "დაშორებული ფილტრები:"
+
+#: ../src/interface/viewheader.cpp:529
+msgid "Remote site:"
+msgstr "დაშორებული საიტი:"
+
+#: ../src/interface/queueview_failed.cpp:34
+#: ../src/interface/queueview_successful.cpp:27
+msgid "Remove &selected"
+msgstr "&მონიშნულის ამოშლა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1621
+#: ../src/interface/resources/xrc/dialogs.xrc:1644
+#: ../src/interface/resources/xrc/settings.xrc:1193
+#: ../src/interface/resources/xrc/settings.xrc:1214
+#: ../src/interface/asyncrequestqueue.cpp:350
+msgid "Rename file"
+msgstr "ფაილის გადარქმევა"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:602
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:603
+#, c-format
+msgid "Renaming '%s' to '%s'"
+msgstr "გადარქმევა '%s' - '%s'"
+
+#: ../src/engine/logging.cpp:132 ../src/interface/netconfwizard.cpp:419
+#: ../src/interface/StatusView.cpp:297 ../src/interface/StatusView.cpp:367
+msgid "Response:"
+msgstr "პასუხი:"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:319
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:452
+#: ../src/engine/storj/storjcontrolsocket.cpp:64
+msgid "Retrieving directory listing..."
+msgstr "დასტათა სიის წაკითხვა..."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:650
+#: ../src/interface/netconfwizard.cpp:721
+#, c-format
+msgid "Retrieving external IP address from %s"
+msgstr "IP გარე მისამართის წაკითხვა - %s"
+
+#: ../src/interface/settings/settingsdialog.cpp:101
+msgid "SFTP"
+msgstr "SFTP"
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "Save settings?"
+msgstr "შევინახო პარამეტრები?"
+
+#: ../src/interface/resources/xrc/settings.xrc:13
+msgid "Select &page:"
+msgstr "&გვერდის არჩევა:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1271
+msgid "Select Theme"
+msgstr "თემის არჩევა"
+
+#: ../src/interface/resources/xrc/certificate.xrc:65
+#: ../src/interface/verifycertdialog.cpp:652
+msgid "Serial number:"
+msgstr "სერიული ნომერი:"
+
+#: ../src/engine/ftp/filetransfer.cpp:268
+#, c-format
+msgid "Server does not support resume of files > %d GB."
+msgstr "სერვერი ფაილების დასრულებას ვერ უზრუნველყოფს > %d გბ."
+
+#: ../src/engine/ftp/filetransfer.cpp:523
+msgid "Server does not support resume of files > 2GB."
+msgstr "სერვერი ფაილების დასრულებას ვერ უზრუნველყოფს > 2 გბ."
+
+#: ../src/engine/ftp/filetransfer.cpp:519
+msgid "Server does not support resume of files > 4GB."
+msgstr "სერვერი ფაილების დასრულებას ვერ უზრუნველყოფს > 4 გბ."
+
+#: ../src/engine/ftp/rawtransfer.cpp:338
+msgid ""
+"Server sent passive reply with unroutable address. Using server address "
+"instead."
+msgstr ""
+"სერვერის პასუხი პასიურია გაურკვეველი მისამართით. მის ნაცვლად სერვერის "
+"მისამართი გამოიყენება."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2673
+msgid "Server&type:"
+msgstr "სერვერის &ტიპი:"
+
+#: ../src/interface/QueueView.cpp:1823
+msgid "Set &Priority"
+msgstr "&პრიორიტეტის მითითება"
+
+#: ../src/interface/resources/xrc/settings.xrc:4
+msgid "Settings"
+msgstr "პარამეტრები"
+
+#: ../src/interface/resources/xrc/settings.xrc:2131
+msgid "Show &raw directory listing"
+msgstr "დასტების სიის ჩვენება"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:7
+msgid "Site Manager"
+msgstr "საიტების მმართველი"
+
+#: ../src/interface/sitemanager_dialog.cpp:281
+msgid "Site Manager already open"
+msgstr "საიტების მმართველი უკვე გახსნილია"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Size"
+msgstr "ზომა"
+
+#: ../src/interface/fileexistsdlg.cpp:43
+msgid "Size unknown"
+msgstr "ზომა უცნობია"
+
+#: ../src/engine/ControlSocket.cpp:934 ../src/engine/ControlSocket.cpp:951
+#: ../src/engine/ControlSocket.cpp:977 ../src/engine/ControlSocket.cpp:1055
+#, c-format
+msgid "Skipping download of %s"
+msgstr "ჩამოტვირთვის გამოტოვება - %s"
+
+#: ../src/engine/ControlSocket.cpp:937 ../src/engine/ControlSocket.cpp:954
+#: ../src/engine/ControlSocket.cpp:980 ../src/engine/ControlSocket.cpp:1058
+#, c-format
+msgid "Skipping upload of %s"
+msgstr "ატვირთვის გამოტოვება - %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:34 ../src/engine/sftp/filetransfer.cpp:33
+#: ../src/engine/storj/file_transfer.cpp:39
+#, c-format
+msgid "Starting download of %s"
+msgstr "ჩამოტვირთვის დაწყება - %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:37 ../src/engine/sftp/filetransfer.cpp:36
+#: ../src/engine/storj/file_transfer.cpp:42
+#, c-format
+msgid "Starting upload of %s"
+msgstr "ატვირთვის დაწყება - %s"
+
+#: ../src/interface/edithandler.cpp:1149 ../src/interface/queue.cpp:1275
+msgid "Status"
+msgstr "სტატუსი"
+
+#: ../src/engine/logging.cpp:129 ../src/interface/StatusView.cpp:306
+#: ../src/interface/StatusView.cpp:397
+msgid "Status:"
+msgstr "სტატუსი:"
+
+#: ../src/interface/QueueView.cpp:1816
+msgid "Stop and remove &all"
+msgstr "შეჩერება და &ყველას ამოღება"
+
+#: ../src/interface/resources/xrc/certificate.xrc:116
+msgid "Subject of certificate"
+msgstr "სერთიფიკატის თემა"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:393
+msgid "Summary of test results:"
+msgstr "ტესტის შედეგების შეჯამება:"
+
+#: ../src/interface/quickconnectbar.cpp:120
+#: ../src/interface/quickconnectbar.cpp:164
+msgid "Syntax error"
+msgstr "სინტაქსური შეცდომა"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:6
+msgid "Target file already exists"
+msgstr "სამიზნე ფაილი უკვე არსებობს"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "Target filename already exists, really continue?"
+msgstr "სამიზნე ფაილი უკვე არსებობს, გნებავთ გაგრძელება?"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:370
+msgid "Test results"
+msgstr "ტესტის შედეგები"
+
+#: ../src/interface/asyncrequestqueue.cpp:339
+#: ../src/interface/asyncrequestqueue.cpp:347
+#, c-format
+msgid ""
+"The file %s already exists.\n"
+"Please enter a new name:"
+msgstr ""
+"ფაილი %s უკვე არსებობს.\n"
+"გთხოვთ მიუთითოთ ახალი სახელი:"
+
+#: ../src/interface/settings/settingsdialog.cpp:108
+msgid "Themes"
+msgstr "თემები"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:183
+msgid ""
+"This only works if you are not behind a router, else your system would just "
+"return your internal address."
+msgstr ""
+"მუშაობს მხოლოდ მაშინ თუ როუტერის უკან ხართ, სხვა შემთხვევაში სისტემა შიდა "
+"მისამართს დააბრუნებს."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:8
+msgid ""
+"This wizard will help you to properly configure any routers and firewalls "
+"you have and tests your configuration."
+msgstr ""
+"ოსტატი დაგეხმარებათ მართებულად გამართოთ როუტერები და ფარები და შეამოწმებს "
+"თქვენს კონფიგურაციას."
+
+#: ../src/interface/resources/xrc/settings.xrc:97
+msgid "Time&out in seconds:"
+msgstr "&ვადა წამებში"
+
+#: ../src/interface/resources/xrc/settings.xrc:126
+#: ../src/interface/queue.cpp:350
+msgid "Timeout"
+msgstr "ვადა"
+
+#: ../src/interface/verifycertdialog.cpp:645
+msgid "Title:"
+msgstr "სათაური:"
+
+#: ../src/engine/http/request.cpp:463
+msgid "Too long header line"
+msgstr "მეტისმეტად გრძელი თავსართი"
+
+#: ../src/engine/http/filetransfer.cpp:144
+msgid "Too many redirects"
+msgstr "მეტისმეტი გადამისამართება"
+
+#: ../src/engine/logging.cpp:133 ../src/interface/StatusView.cpp:300
+#: ../src/interface/StatusView.cpp:379
+msgid "Trace:"
+msgstr "კვალი:"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "გადაგზავნის რეჟიმი:"
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "გადაგზავნა"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "გადაგზავნები"
+
+#: ../src/interface/verifycertdialog.cpp:644
+msgid "Unit:"
+msgstr "ერთეული:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:4
+msgid "Unknown certificate"
+msgstr "უცნობი სერთიფიკატი"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:697
+msgid "Use &custom charset"
+msgstr "&საკუთარი კოდირების გამოყენება"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:194
+msgid "Use the following IP address:"
+msgstr "შემდეგი IP მისამართის გამოყენება:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:283
+msgid "Use the following port range:"
+msgstr "პორტების შემდეგი რანგის გამოყენება:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:152
+msgid "Use the server's external IP address instead"
+msgstr "სანაცვლოდ სერვერის გარე IP-ის &გამოყენება"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "მომხმარებელი:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:49
+msgid "Valid from:"
+msgstr "ძალაშია:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:57
+msgid "Valid to:"
+msgstr "ვადა:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:634
+msgid "W&rite"
+msgstr "&ჩაწერა"
+
+#: ../src/engine/engineprivate.cpp:254
+msgid "Waiting to retry..."
+msgstr "ხელახალი ცდის მოლოდინი..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1135
+msgid "Warning: Potential security breach!"
+msgstr "გაფრთხილება: უსაფრთხოების შესაძლო დარღვევა!"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:668
+msgid "Wr&ite"
+msgstr "&ჩაწერა"
+
+#: ../src/interface/netconfwizard.cpp:453
+#: ../src/interface/netconfwizard.cpp:459
+msgid "Wrong external IP address"
+msgstr "მცდარი გარე IP მისამართი"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:402
+msgid "Yes"
+msgstr "დიახ"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:709
+msgid ""
+"You can use an x at any position to keep the permission the original files "
+"have."
+msgstr ""
+"პირველწყარო ფილის უფლებების შესანარჩუნებლად შეგიძლიათ გამოიყენოთ \"x\" "
+"ნებისმიერ ადგილას."
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "You did not enter a new name for the file. Overwrite the file instead?"
+msgstr "ფაილის ახალი სახელი არ მიგითითებიათ. გნებავთ ფაილის ჩანაცვლება?"
+
+#: ../src/interface/manual_transfer.cpp:407
+#: ../src/interface/sitemanager_site.cpp:491
+msgid "You have to enter a hostname."
+msgstr "უნდა მიუთითოთ ჰოსტის სახელი."
+
+#: ../src/interface/manual_transfer.cpp:476
+#: ../src/interface/sitemanager_site.cpp:568
+msgid "You have to specify a user name"
+msgstr "უნდა მიუთითოთ მონაწილის სახელი"
+
+#: ../src/interface/filter_conditions_dialog.cpp:64
+msgid "begins with"
+msgstr "იწყება"
+
+#: ../src/interface/filter_conditions_dialog.cpp:62
+msgid "contains"
+msgstr "შეიცავს"
+
+#: ../src/interface/filter_conditions_dialog.cpp:65
+msgid "ends with"
+msgstr "მთავრდება"
+
+#: ../src/interface/filter_conditions_dialog.cpp:70
+#: ../src/interface/filter_conditions_dialog.cpp:95
+msgid "equals"
+msgstr "ტოლია"
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "ფაილი"
+
+#: ../src/engine/sftp/connect.cpp:140
+msgid "fzsftp could not be started"
+msgstr "fzsftp ვერ იწყება"
+
+#: ../src/interface/filter_conditions_dialog.cpp:69
+msgid "greater than"
+msgstr "მეტია ვიდრე"
+
+#: ../src/interface/filter_conditions_dialog.cpp:63
+msgid "is equal to"
+msgstr "ემთხვევა"
+
+#: ../src/interface/filter_conditions_dialog.cpp:72
+msgid "less than"
+msgstr "ნაკლებია ვიდრე"
+
+#: ../src/interface/filter_conditions_dialog.cpp:66
+msgid "matches regex"
+msgstr "ემთხვევა გამოსახულებას"

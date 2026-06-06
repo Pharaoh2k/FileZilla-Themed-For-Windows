@@ -1,0 +1,4572 @@
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Dimce Grozdanoski <dimce.grozdanoski@ridarec.com>, September, 2008.
+# Dimce Grozdanoski <dimce.grozdanoski@ridarec.com>, February, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: filezilla\n"
+"Report-Msgid-Bugs-To: https://trac.filezilla-project.org/\n"
+"POT-Creation-Date: 2019-06-18 09:54+0200\n"
+"PO-Revision-Date: 2005-11-12 22:18+0100\n"
+"Last-Translator: Dimce Grozdanoski <dimce.grozdanoski@ridarec.com>\n"
+"Language-Team: Macedonian\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"X-Poedit-Country: MACEDONIA\n"
+"X-Poedit-Language: Macedonian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:59
+#: ../src/interface/statuslinectrl.cpp:220
+msgid "%H:%M:%S elapsed"
+msgstr "%H:%M:%S поминато"
+
+#. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
+#: ../src/interface/statuslinectrl.cpp:64
+#: ../src/interface/statuslinectrl.cpp:226
+msgid "%H:%M:%S left"
+msgstr "%H:%M:%S преостанато"
+
+#: ../src/interface/resources/xrc/settings.xrc:525
+#, c-format
+msgid ""
+"%a - Account (Lines containing this will be omitted if not using Account "
+"logontype)"
+msgstr ""
+"%a - Корисничка сметка (Редиците кои го содржат ова ќе бидат изоставени ако "
+"не се користи најавување со корисничка сметка)"
+
+#: ../src/interface/filelist_statusbar.cpp:51
+#: ../src/interface/filelist_statusbar.cpp:63
+#: ../src/interface/filelist_statusbar.cpp:76
+#, c-format
+msgid "%d directory"
+msgid_plural "%d directories"
+msgstr[0] "%d именик"
+msgstr[1] "%d именици"
+
+#: ../src/interface/filelist_statusbar.cpp:50
+#: ../src/interface/filelist_statusbar.cpp:75
+#: ../src/interface/RemoteListView.cpp:1491 ../src/interface/search.cpp:875
+#: ../src/interface/search.cpp:1263
+#, c-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d податотека"
+msgstr[1] "%d податотеки"
+
+#: ../src/interface/filelist_statusbar.cpp:71
+#, c-format
+msgid "%d file. Total size: %s"
+msgid_plural "%d files. Total size: %s"
+msgstr[0] "%d податотека. Вкупна големина: %s"
+msgstr[1] "%d податотеки. Вкупна големина: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:68
+#, c-format
+msgid "%d file. Total size: At least %s"
+msgid_plural "%d files. Total size: At least %s"
+msgstr[0] "%d податотека. Вкупна големина: Најмалку %s"
+msgstr[1] "%d податотеки. Вкупна големина: Најмалку %s"
+
+#: ../src/interface/resources/xrc/settings.xrc:502
+msgid "%h - Host"
+msgstr "%h - Host"
+
+#: ../src/interface/resources/xrc/settings.xrc:518
+#, c-format
+msgid "%p - Password"
+msgstr "%p - Лозинка:"
+
+#: ../src/interface/verifycertdialog.cpp:384
+#, c-format
+msgid "%s - Certificate expired!"
+msgstr "%s - Неважечки сертификат (истечен рок)!"
+
+#: ../src/interface/verifycertdialog.cpp:368
+#, c-format
+msgid "%s - Not yet valid!"
+msgstr "%s - Сеуште не е валиден!"
+
+#: ../src/interface/resources/xrc/settings.xrc:533
+#, c-format
+msgid "%s - Proxy user"
+msgstr "%s - Прокси корисник"
+
+#: ../src/interface/filelist_statusbar.cpp:82
+#, c-format
+msgid "%s and %s. Total size: %s"
+msgstr "%s и %s. Вкупна големина: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:79
+#, c-format
+msgid "%s and %s. Total size: At least %s"
+msgstr "%s и %s. Вкупна големина: Најмалку %s"
+
+#: ../src/engine/sizeformatting_base.cpp:71
+#, c-format
+msgid "%s byte"
+msgid_plural "%s bytes"
+msgstr[0] "%s бајт"
+msgstr[1] "%s бајти"
+
+#: ../src/interface/verifycertdialog.cpp:405
+#, c-format
+msgid "%s with %d bits"
+msgstr "%s со %d бита"
+
+#: ../src/interface/resources/xrc/settings.xrc:510
+#, c-format
+msgid "%u - Username"
+msgstr "%u - Корисничко име:"
+
+#: ../src/interface/resources/xrc/settings.xrc:541
+msgid "%w - Proxy password"
+msgstr "%w - Прокси лозинка"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "&About..."
+msgstr "&Информации за FileZilla..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2734
+#: ../src/interface/resources/xrc/sitemanager.xrc:303
+msgid "&Account:"
+msgstr "&Корисничка сметка"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:80
+#: ../src/interface/resources/xrc/settings.xrc:209
+#: ../src/interface/resources/xrc/sitemanager.xrc:617
+msgid "&Active"
+msgstr "&Активен"
+
+#: ../src/interface/menu_bar.cpp:154
+msgid "&Add bookmark..."
+msgstr "&Додади прибелешка..."
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "&Add files to queue"
+msgstr "&Додади податотеки во редица"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "&Add to queue"
+msgstr "&Додади во редица"
+
+#: ../src/interface/resources/xrc/certificate.xrc:256
+msgid "&Always trust certificate in future sessions."
+msgstr "&Имај доверба во сертификатот во идните сесии"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1087
+msgid "&Always trust this host, add this key to the cache"
+msgstr "&Секогаш верувај на овој хост, додади го овој клуч во кешот"
+
+#: ../src/interface/resources/xrc/settings.xrc:1816
+msgid "&Always use default editor"
+msgstr "&Секогаш користи основен уредувач"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:184
+msgid "&Always use this action"
+msgstr "&Секогаш користи го ова дејство"
+
+#: ../src/interface/resources/xrc/settings.xrc:342
+msgid "&Ask your operating system for the external IP address"
+msgstr "&Прашај оперативен систем за надворешната IP адреса:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1055
+#: ../src/interface/menu_bar.cpp:118 ../src/interface/statusbar.cpp:563
+msgid "&Auto"
+msgstr "&Автоматски"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:679
+msgid "&Autodetect"
+msgstr "&Автоматско детектирање"
+
+#: ../src/interface/resources/xrc/settings.xrc:1070
+#: ../src/interface/menu_bar.cpp:120 ../src/interface/statusbar.cpp:565
+msgid "&Binary"
+msgstr "&Бинарен"
+
+#: ../src/interface/resources/xrc/settings.xrc:1479
+msgid "&Binary prefixes using SI symbols. (e.g. 1 KB = 1024 bytes)"
+msgstr "Бинарни префикси кои користат SI симболи (т.е. 1 KB = 1024 бајти)"
+
+#: ../src/interface/menu_bar.cpp:151
+msgid "&Bookmarks"
+msgstr "&Прибелешки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2507
+#: ../src/interface/resources/xrc/dialogs.xrc:2918
+#: ../src/interface/resources/xrc/dialogs.xrc:3005
+#: ../src/interface/resources/xrc/dialogs.xrc:3200
+#: ../src/interface/resources/xrc/dialogs.xrc:3413
+#: ../src/interface/resources/xrc/settings.xrc:1788
+#: ../src/interface/resources/xrc/settings.xrc:2003
+#: ../src/interface/resources/xrc/sitemanager.xrc:506
+msgid "&Browse..."
+msgstr "&Прелистај..."
+
+#: ../src/interface/resources/xrc/settings.xrc:956
+msgid "&Burst tolerance:"
+msgstr "&Burst толеранција:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:386
+#: ../src/interface/resources/xrc/dialogs.xrc:494
+#: ../src/interface/resources/xrc/dialogs.xrc:1227
+#: ../src/interface/resources/xrc/dialogs.xrc:3809
+#: ../src/interface/resources/xrc/dialogs.xrc:3911
+#: ../src/interface/resources/xrc/inputdialog.xrc:40
+#: ../src/interface/resources/xrc/settings.xrc:35
+#: ../src/interface/verifycertdialog.cpp:757
+msgid "&Cancel"
+msgstr "&Откажи"
+
+#: ../src/interface/menu_bar.cpp:70
+msgid "&Clear private data..."
+msgstr "&Бришење на приватни податоци..."
+
+#: ../src/interface/QueueView.cpp:1835
+msgid "&Close FileZilla"
+msgstr "&Затвори ја FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:106
+msgid "&Connect"
+msgstr "&Конектирање"
+
+#: ../src/interface/menu_bar.cpp:50
+msgid "&Copy current connection to Site Manager..."
+msgstr "&Копирај тековна конекција во Менаџерот на локации "
+
+#: ../src/interface/resources/xrc/dialogs.xrc:985
+#: ../src/interface/StatusView.cpp:435
+msgid "&Copy to clipboard"
+msgstr "&Копирај на привремена табла"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "&Create directory"
+msgstr "&Креирај именик"
+
+#: ../src/interface/menu_bar.cpp:181
+msgid "&Debug"
+msgstr "&Дебагирање"
+
+#: ../src/interface/resources/xrc/settings.xrc:2092
+msgid "&Debug information in message log:"
+msgstr "&Дебагирање на информациите во дневникот на пораки:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1758
+msgid "&Default editor:"
+msgstr "Основен уредувач:"
+
+#: ../src/interface/menu_bar.cpp:113 ../src/interface/QueueView.cpp:1820
+msgid "&Default file exists action..."
+msgstr "&Основна акција доколу постои податотека ..."
+
+#: ../src/interface/resources/xrc/settings.xrc:156
+msgid "&Delay between failed login attempts:"
+msgstr "&Чекање помеѓу обидите за најавување:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1271
+#: ../src/interface/resources/xrc/dialogs.xrc:1440
+#: ../src/interface/resources/xrc/dialogs.xrc:3085
+#: ../src/interface/resources/xrc/sitemanager.xrc:59
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/LocalTreeView.cpp:1109
+msgid "&Delete"
+msgstr "&Избриши"
+
+#: ../src/interface/menu_bar.cpp:86
+msgid "&Directory comparison"
+msgstr "&Споредба на именици"
+
+#: ../src/interface/menu_bar.cpp:143
+msgid "&Disconnect"
+msgstr "&Прекин на конекција"
+
+#: ../src/interface/resources/xrc/settings.xrc:1466
+msgid "&Display size in bytes"
+msgstr "&Прикажи големина во бајти"
+
+#: ../src/interface/conditionaldialog.cpp:28
+msgid "&Don't show this dialog again."
+msgstr "&Не ја прикажувај оваа порака повторно"
+
+#: ../src/interface/resources/xrc/settings.xrc:390
+msgid "&Don't use external IP address on local connections."
+msgstr "Не користи надворешна IP адреса на локални конекции"
+
+#: ../src/interface/resources/xrc/settings.xrc:1673
+msgid "&Double-click action on files:"
+msgstr "&Акција при двоен клик врз податотеки:"
+
+#: ../src/interface/RemoteListView.cpp:1122
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "&Download"
+msgstr "&Спушти"
+
+#: ../src/interface/LocalListView.cpp:794 ../src/interface/menu_bar.cpp:68
+msgid "&Edit"
+msgstr "&Нагодувања"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1367
+msgid "&Edit filter rules..."
+msgstr "У&реди правила за филтри..."
+
+#: ../src/interface/Mainfrm.cpp:2408 ../src/interface/menu_bar.cpp:89
+#: ../src/interface/menu_bar.cpp:128 ../src/interface/statusbar.cpp:553
+msgid "&Enable"
+msgstr "Овоз&можи"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:704
+msgid "&Encoding:"
+msgstr "&Енкодирање:"
+
+#: ../src/interface/StatusView.cpp:431
+msgid "&Enter custom command..."
+msgstr "&Внеси сопствена команда..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:606
+msgid "&Execute"
+msgstr "&Изврши"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1781
+msgid "&Export Site Manager entries"
+msgstr "Податоци од &Менаџерот на конекции"
+
+#: ../src/interface/menu_bar.cpp:57
+#: ../src/interface/sitemanager_dialog.cpp:1772
+msgid "&Export..."
+msgstr "&Извоз..."
+
+#: ../src/interface/resources/xrc/settings.xrc:427
+msgid "&Fall back to active mode"
+msgstr "&Врати се во активен режим"
+
+#: ../src/interface/menu_bar.cpp:44
+msgid "&File"
+msgstr "&Конекции"
+
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "&File Attributes..."
+msgstr "&Атрибути на податотека..."
+
+#: ../src/interface/RemoteListView.cpp:1142
+msgid "&File permissions..."
+msgstr "Пермисии на податотека..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2495
+msgid "&File:"
+msgstr "&Податотека:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1248
+msgid "&Filter sets:"
+msgstr "&Нагодувања на филтер:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1418
+msgid "&Filters:"
+msgstr "&Филтри:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1969
+msgid "&Finish editing and delete local file"
+msgstr "Заврши со уредување и бриши локална податотека"
+
+#: ../src/interface/resources/xrc/settings.xrc:368
+msgid "&Get external IP address from the following URL:"
+msgstr "&Земи надворешна IP адреса од следниот URL:"
+
+#: ../src/interface/menu_bar.cpp:168
+msgid "&Getting help..."
+msgstr "&Побарај помош (on-line)..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2847
+msgid "&Global bookmark"
+msgstr "&Глобална прибелешка"
+
+#: ../src/interface/resources/xrc/settings.xrc:725
+msgid "&HTTP/1.1 using CONNECT method"
+msgstr "&HTTP/1.1 со користење на CONNECT начин"
+
+#: ../src/interface/menu_bar.cpp:159
+msgid "&Help"
+msgstr "&Помош"
+
+#: ../src/interface/QueueView.cpp:1824
+msgid "&Highest"
+msgstr "&Највисока"
+
+#: ../src/interface/resources/xrc/settings.xrc:306
+msgid "&Highest available port:"
+msgstr "&Највисока достапна порта:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2642
+#: ../src/interface/resources/xrc/sitemanager.xrc:156
+#: ../src/interface/quickconnectbar.cpp:41
+#: ../src/interface/sitemanager_site.cpp:270
+msgid "&Host:"
+msgstr "&Хост:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1474
+msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
+msgstr "&IEC бинарни префикси (т.е. 1 KiB = 1024 бајти)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1360
+msgid "&ISO 8601 (example: 2007-09-15)"
+msgstr "&ISO 8601 (пример: 2007-09-15)"
+
+#: ../src/interface/menu_bar.cpp:58
+msgid "&Import..."
+msgstr "&Увоз..."
+
+#: ../src/interface/settings/optionspage_interface.cpp:126
+msgid "&Layout of file and directory panes:"
+msgstr "&Изглед на панелите за податотеки и именици"
+
+#: ../src/interface/resources/xrc/settings.xrc:269
+msgid "&Limit local ports used by FileZilla"
+msgstr "&Ограничување на локални порти користени од FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:633
+msgid "&Limit number of simultaneous connections"
+msgstr "&Ограничување на бројот на симултани конекции"
+
+#: ../src/interface/menu_bar.cpp:103
+msgid "&Local directory tree"
+msgstr "&Локално дрво на именици"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2903
+#: ../src/interface/resources/xrc/dialogs.xrc:2993
+msgid "&Local directory:"
+msgstr "&Локален именик:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1980
+msgid "&Log to file"
+msgstr "&Запиши во податотека:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2697
+msgid "&Logontype:"
+msgstr "&Тип на најавување:"
+
+#: ../src/interface/QueueView.cpp:1827
+msgid "&Low"
+msgstr "&Ниска"
+
+#: ../src/interface/menu_bar.cpp:156
+msgid "&Manage bookmarks..."
+msgstr "&Ажурирање на прибелешки..."
+
+#: ../src/interface/menu_bar.cpp:133
+msgid "&Manual transfer..."
+msgstr "&Мануелен трансфер..."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:643
+msgid "&Maximum number of connections:"
+msgstr "&Максимален број на конекции:"
+
+#: ../src/interface/resources/xrc/settings.xrc:138
+msgid "&Maximum number of retries:"
+msgstr "&Максимален број на обиди:"
+
+#: ../src/interface/menu_bar.cpp:102
+msgid "&Message log"
+msgstr "Прозорец за пораки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2874
+msgid "&Name:"
+msgstr "&Име:"
+
+#: ../src/interface/menu_bar.cpp:69
+msgid "&Network configuration wizard..."
+msgstr "&Волшебник за мрежно конфигурирање ..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1434
+msgid "&New"
+msgstr "&Нов"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:35
+msgid "&New Site"
+msgstr "&Нова локација"
+
+#: ../src/interface/Mainfrm.cpp:1798
+msgid "&New version available!"
+msgstr "&Постои нова верзија!"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1982
+#: ../src/interface/resources/xrc/dialogs.xrc:2105
+msgid "&No"
+msgstr "&Не"
+
+#: ../src/interface/resources/xrc/settings.xrc:459
+#: ../src/interface/resources/xrc/settings.xrc:720
+#: ../src/interface/QueueView.cpp:1832
+msgid "&None"
+msgstr "&Нема"
+
+#: ../src/interface/QueueView.cpp:1826
+msgid "&Normal"
+msgstr "&Нормално"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:692
+msgid "&Numeric value:"
+msgstr "&Бројна вредност:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:378
+#: ../src/interface/resources/xrc/dialogs.xrc:486
+#: ../src/interface/resources/xrc/dialogs.xrc:3134
+#: ../src/interface/resources/xrc/sitemanager.xrc:114
+#: ../src/interface/verifycertdialog.cpp:750
+msgid "&OK"
+msgstr "&ОК"
+
+#: ../src/interface/resources/xrc/settings.xrc:474
+msgid "&OPEN"
+msgstr "&OPEN"
+
+#: ../src/interface/LocalListView.cpp:793
+#: ../src/interface/LocalTreeView.cpp:1102
+msgid "&Open"
+msgstr "&Отвори"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:128
+msgid "&Overwrite"
+msgstr "&Пребриши"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:624
+msgid "&Passive"
+msgstr "&Пасивен"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:334
+msgid "&Password:"
+msgstr "&Лозинка:"
+
+#: ../src/interface/QueueView.cpp:1837
+msgid "&Play sound"
+msgstr "&Вклучен звук"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2655
+#: ../src/interface/resources/xrc/sitemanager.xrc:169
+#: ../src/interface/quickconnectbar.cpp:54
+msgid "&Port:"
+msgstr "&Порта:"
+
+#: ../src/interface/menu_bar.cpp:123
+msgid "&Preserve timestamps of transferred files"
+msgstr "&Зачувај оригинално време на пренесени податотеки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1850
+msgid "&Queue"
+msgstr "&Редица"
+
+#: ../src/interface/quickconnectbar.cpp:62
+msgid "&Quickconnect"
+msgstr "&Брзо конектирање"
+
+#: ../src/interface/menu_bar.cpp:101
+msgid "&Quickconnect bar"
+msgstr "&Лента за брзо конектирање"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:594
+msgid "&Read"
+msgstr "&Читај"
+
+#: ../src/interface/menu_bar.cpp:141
+msgid "&Reconnect"
+msgstr "&Повторно конектирање"
+
+#: ../src/interface/context_control.cpp:475 ../src/interface/menu_bar.cpp:80
+msgid "&Refresh"
+msgstr "&Обнови"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2930
+#: ../src/interface/resources/xrc/dialogs.xrc:3017
+msgid "&Remote directory:"
+msgstr "&Мрежен именик:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2531
+msgid "&Remote path:"
+msgstr "&Мрежен пат:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1118
+msgid "&Remove"
+msgstr "&Отстрани"
+
+#: ../src/interface/resources/xrc/settings.xrc:651
+msgid "&Remove key"
+msgstr "&Избриши клуч"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:4025
+#: ../src/interface/QueueView.cpp:1819
+msgid "&Remove selected"
+msgstr "Избриши селектирани"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1446
+#: ../src/interface/resources/xrc/dialogs.xrc:3079
+#: ../src/interface/resources/xrc/sitemanager.xrc:53
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteListView.cpp:1139
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "&Rename"
+msgstr "&Преименувај"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1266
+msgid "&Rename..."
+msgstr "&Преименувај..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2023
+msgid "&Reopen local file"
+msgstr "&Отвори повторно локална податотека"
+
+#: ../src/interface/menu_bar.cpp:169
+msgid "&Report a bug..."
+msgstr "&Пријави грешка..."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:428
+msgid "&Restart Wizard"
+msgstr "&Стартувај повторно волшебник"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:158
+msgid "&Resume"
+msgstr "&Продолжи"
+
+#: ../src/interface/QueueView.cpp:1836
+msgid "&Run command..."
+msgstr "&Изврши команда..."
+
+#: ../src/interface/resources/xrc/settings.xrc:77
+msgid "&Run configuration wizard now..."
+msgstr "Волшебник..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1942
+msgid "&Run update check now..."
+msgstr "Започни проверка за нова верзија...."
+
+#: ../src/interface/resources/xrc/settings.xrc:469
+msgid "&SITE"
+msgstr "&SITE"
+
+#: ../src/interface/resources/xrc/settings.xrc:735
+msgid "&SOCKS 5"
+msgstr "&SOCKS 5"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1260
+msgid "&Save as..."
+msgstr "Зачувај &како..."
+
+#: ../src/interface/resources/xrc/settings.xrc:1725
+msgid "&Select language:"
+msgstr "&Избери јазик:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2383
+msgid "&Select the columns that should be displayed:"
+msgstr "Избор на колони за прикажување:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2570
+#: ../src/interface/menu_bar.cpp:136
+msgid "&Server"
+msgstr "&Сервер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1844
+msgid "&Settings"
+msgstr "&Нагодувања"
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "&Settings..."
+msgstr "&Нагодувања..."
+
+#: ../src/interface/resources/xrc/settings.xrc:2081
+msgid "&Show debug menu"
+msgstr "Прикажувај мени за дебагирање"
+
+#: ../src/interface/resources/xrc/settings.xrc:1975
+msgid "&Show timestamps in message log"
+msgstr "Прикажувај време во дневникот на пораки"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "&Site Manager..."
+msgstr "&Менаџер на конекции..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2855
+msgid "&Site-specific bookmark"
+msgstr "Прибелешки кои се однесуваат на мрежната локација"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:174
+msgid "&Skip"
+msgstr "&Прескокни"
+
+#: ../src/interface/settings/optionspage_interface.cpp:139
+msgid "&Swap local and remote panes"
+msgstr "Замени локален со мрежен панел"
+
+#: ../src/interface/netconfwizard.cpp:237
+msgid "&Test"
+msgstr "&Тест"
+
+#: ../src/interface/resources/xrc/settings.xrc:1278
+msgid "&Theme:"
+msgstr "&Тема:"
+
+#: ../src/interface/menu_bar.cpp:108
+msgid "&Transfer"
+msgstr "&Трансфер"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:600
+msgid "&Transfer mode:"
+msgstr "&Начин на трансфер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1733
+#: ../src/interface/menu_bar.cpp:105
+msgid "&Transfer queue"
+msgstr "&Редица за трансфер"
+
+#: ../src/interface/resources/xrc/settings.xrc:1142
+msgid "&Treat dotfiles as ASCII files"
+msgstr "&Претпостави дека овие податотеки се ASCII податотеки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2145
+msgid "&Unedit"
+msgstr "&Врати претходно уредување"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1208
+msgid "&Update cached key for this host"
+msgstr "&Ажирирај го кешираниот клуч за овој хост"
+
+#: ../src/interface/LocalListView.cpp:784
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "&Upload"
+msgstr "&Подигни"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3188
+msgid "&Use custom program"
+msgstr "Користи &сопствена програма"
+
+#: ../src/interface/resources/xrc/settings.xrc:1769
+msgid "&Use system's default editor for text files"
+msgstr "Користи основен системски уредувач за текстуални податотеки"
+
+#: ../src/interface/resources/xrc/settings.xrc:348
+msgid "&Use the following IP address:"
+msgstr "&Користи ја следната IP адреса:"
+
+#: ../src/interface/resources/xrc/settings.xrc:421
+msgid "&Use the server's external IP address instead"
+msgstr "Користи ја екстерната IP адреса на серверот"
+
+#: ../src/interface/resources/xrc/settings.xrc:1489
+msgid "&Use thousands separator"
+msgstr "Користи сепаратор за илјади"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:323
+#: ../src/interface/resources/xrc/dialogs.xrc:2709
+#: ../src/interface/resources/xrc/sitemanager.xrc:260
+#: ../src/interface/sitemanager_site.cpp:273
+#: ../src/interface/sitemanager_site.cpp:356
+msgid "&User:"
+msgstr "&Корисник:"
+
+#: ../src/interface/quickconnectbar.cpp:46
+msgid "&Username:"
+msgstr "&Корисничко име:"
+
+#: ../src/interface/Mainfrm.cpp:1792
+#, c-format
+msgid "&Version %s"
+msgstr "&Верзија %s"
+
+#: ../src/interface/menu_bar.cpp:78
+msgid "&View"
+msgstr "&Изглед"
+
+#: ../src/interface/RemoteListView.cpp:1129 ../src/interface/search.cpp:836
+msgid "&View/Edit"
+msgstr "&Види/Уреди"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:600
+msgid "&Write"
+msgstr "&Запиши"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1976
+#: ../src/interface/resources/xrc/dialogs.xrc:2099
+msgid "&Yes"
+msgstr "&Да"
+
+#: ../src/engine/local_path.cpp:459 ../src/engine/local_path.cpp:511
+#, c-format
+msgid "'%s' does not exist or cannot be accessed."
+msgstr "'%s' не постои или не може до него да се пристапи."
+
+#: ../src/interface/manual_transfer.cpp:419
+#: ../src/interface/sitemanager_site.cpp:504
+msgid "'Account' logontype not supported by selected protocol"
+msgstr "Начинот на најавување не е поддржан од избраниот потокол"
+
+#: ../src/interface/filelist_statusbar.cpp:87
+#: ../src/interface/filelist_statusbar.cpp:94
+#, c-format
+msgid "(%d object filtered)"
+msgid_plural "(%d objects filtered)"
+msgstr[0] "(%d филтриран објект)"
+msgstr[1] "(%d филтрирани објекти)"
+
+#: ../src/interface/resources/xrc/settings.xrc:859
+#: ../src/interface/resources/xrc/settings.xrc:880
+msgid "(0 for no limit)"
+msgstr "(0 - нема ограничување)"
+
+#: ../src/interface/resources/xrc/settings.xrc:150
+msgid "(0-99)"
+msgstr "(0-99)"
+
+#: ../src/interface/resources/xrc/settings.xrc:168
+msgid "(0-999 seconds)"
+msgstr "(0-999 секунди)"
+
+#: ../src/interface/resources/xrc/settings.xrc:838
+msgid "(1-10)"
+msgstr "(1-10)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1427
+msgid "(example: %H:%M)"
+msgstr "(пример: %H:%M)"
+
+#: ../src/interface/resources/xrc/settings.xrc:1378
+msgid "(example: %Y-%m-%d)"
+msgstr "(пример: %Y-%m-%d)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:295
+msgid "-"
+msgstr "-"
+
+#: ../src/interface/statuslinectrl.cpp:229
+msgid "--:--:-- left"
+msgstr " --:--:-- преостанато"
+
+#: ../src/interface/resources/xrc/settings.xrc:2102
+msgid "0 - None"
+msgstr "0 - Нема"
+
+#: ../src/interface/resources/xrc/settings.xrc:2103
+msgid "1 - Warning"
+msgstr "1 - Предупредување"
+
+#: ../src/interface/resources/xrc/settings.xrc:2104
+msgid "2 - Info"
+msgstr "2 - Инфо"
+
+#: ../src/interface/resources/xrc/settings.xrc:2105
+msgid "3 - Verbose"
+msgstr "3 - Verbose"
+
+#: ../src/interface/resources/xrc/settings.xrc:2106
+msgid "4 - Debug"
+msgstr "4 - Дебагирање"
+
+#: ../src/interface/bookmarks_dialog.cpp:111
+msgid ""
+"A bookmark with the entered name already exists. Please enter an unused name."
+msgstr "Прибелешка со внесеното име веќе постои. Внесете ново име."
+
+#: ../src/interface/settings/optionspage_edit.cpp:95
+msgid "A default editor needs to be set."
+msgstr "Потребно е да се наведе основен уредувач."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1895
+msgid "A file previously opened has been changed."
+msgstr "Петходно отворената податотека била променета."
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "A file with that name is already being transferred."
+msgstr "Податотека со тоа име била пренесена."
+
+#: ../src/interface/edithandler.cpp:1740
+msgid ""
+"A file with that name is still being edited. Please close it and try again."
+msgstr ""
+"Податотека со тоа име сеуште се уредува. Затворете ја и обидете се повторно."
+
+#: ../src/interface/FileZilla.cpp:597
+msgid ""
+"A local filename could not be decoded.\n"
+"Please make sure the LC_CTYPE (or LC_ALL) environment variable is set "
+"correctly.\n"
+"Unless you fix this problem, files might be missing in the file listings.\n"
+"No further warning will be displayed this session."
+msgstr ""
+"Локалната податотека не може да биде декодирана.\n"
+"Проверете дали променливата LC_CTYPE (или LC_ALL) е наведена правилно.\n"
+"Доколку не го решите овој проблем, некои податотеки можно е да недостасуваат "
+"во листите.\n"
+"Понатаму, нема да ви бидат прикажувани предупредувања за овој проблем во "
+"оваа сесија."
+
+#: ../src/interface/resources/xrc/settings.xrc:246
+msgid ""
+"A proper server does not require this. Contact the server administrator if "
+"you need this."
+msgstr ""
+"Вообичаено ова не е потребно. Контактирај те го администраторот на серверот "
+"доколку има потреба од ова."
+
+#: ../src/interface/resources/xrc/settings.xrc:1063
+#: ../src/interface/menu_bar.cpp:119 ../src/interface/statusbar.cpp:564
+msgid "A&SCII"
+msgstr "A&SCII"
+
+#: ../src/interface/resources/xrc/settings.xrc:1111
+msgid "A&dd"
+msgstr "Д&одади"
+
+#: ../src/interface/resources/xrc/settings.xrc:1248
+msgid "A&llow resume of ASCII files"
+msgstr "Овозможи продолжување на трансфер на ASCII податотеки"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to downloads"
+msgstr "П&римени само на симнувања"
+
+#: ../src/interface/fileexistsdlg.cpp:73
+msgid "A&pply only to uploads"
+msgstr "П&римени само на подигнувања"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:726
+msgid "A&pply to all files and directories"
+msgstr "Примени на сите податотеки и именици"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2786
+msgid "ASCII"
+msgstr "ASCII"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:767
+msgid "About FileZilla"
+msgstr "Информации за FileZilla"
+
+#: ../src/interface/settings/optionspage_interface.cpp:135
+msgid "Above the file lists"
+msgstr "Над листите на податотеки"
+
+#: ../src/engine/server.cpp:717 ../src/engine/server.cpp:740
+#: ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:149
+#: ../src/interface/manual_transfer.cpp:185
+#: ../src/interface/manual_transfer.cpp:535
+#: ../src/interface/manual_transfer.cpp:536
+msgid "Account"
+msgstr "Корисничка сметка"
+
+#: ../src/interface/QueueView.cpp:1831
+msgid "Action after queue &completion"
+msgstr "Акција после процесирање на редица"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2138
+msgid "Action on selected file:"
+msgstr "Акција врз селектирана податотека:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2018
+msgid "Action to perform:"
+msgstr "Акција за извршување:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:123
+msgid "Action:"
+msgstr "Акција"
+
+#: ../src/interface/settings/settingsdialog.cpp:98
+msgid "Active mode"
+msgstr "Активен мод"
+
+#: ../src/interface/resources/xrc/settings.xrc:399
+msgid "Active mode IP"
+msgstr "IP за активен режим"
+
+#: ../src/interface/LocalTreeView.cpp:1097
+#: ../src/interface/RemoteTreeView.cpp:907
+msgid "Add selected directory to the transfer queue"
+msgstr "Доди избраните именици во редицата за пренос"
+
+#: ../src/interface/LocalListView.cpp:787
+#: ../src/interface/RemoteListView.cpp:1125
+msgid "Add selected files and folders to the transfer queue"
+msgstr "Доди избрани податотеки и папки во редицата за пренос"
+
+#: ../src/interface/resources/xrc/settings.xrc:1681
+#: ../src/interface/resources/xrc/settings.xrc:1701
+msgid "Add to queue"
+msgstr "Додади во редица"
+
+#: ../src/engine/proxy.cpp:458
+msgid "Address type not supported"
+msgstr "Типот на адресирање не е подржан"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:452
+msgid "Advanced"
+msgstr "Напредно"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2217
+#: ../src/interface/resources/xrc/dialogs.xrc:2263
+msgid "Algorithm:"
+msgstr "Алгоритам:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:308
+msgid "All ports in the given range have to be between 1024 and 65535."
+msgstr "Сите порти во дадениот ранг треба да бидат помеѓу 1024 и 65535."
+
+#: ../src/interface/resources/xrc/settings.xrc:214
+msgid "Allow &fall back to other transfer mode on failure"
+msgstr "Дозволи префрлање на друг начини на трансфер ако има грешка"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:88
+msgid "Allow fallback to other transfer mode on failure"
+msgstr "Дозволи префрлање на друг начини на трансфер ако има грешка"
+
+#: ../src/engine/server.cpp:742 ../src/interface/manual_transfer.cpp:147
+#: ../src/interface/manual_transfer.cpp:188
+#: ../src/interface/manual_transfer.cpp:203
+#: ../src/interface/manual_transfer.cpp:534
+msgid "Anonymous"
+msgstr "Анонимно"
+
+#: ../src/interface/sitemanager_dialog.cpp:742
+msgid "Any changes made in the Site Manager could not be saved."
+msgstr "Сите направени измени во Менаџерот на локации не може да се зачуваат."
+
+#: ../src/interface/filter.cpp:965
+msgid "Any changes made to the filters could not be saved."
+msgstr "Сите направени измени во филтрите не може да се зачуваат."
+
+#: ../src/interface/filter.cpp:874
+msgid "Any changes made to the filters will not be saved."
+msgstr "Сите направени измени во филтрите нема да се зачуваат."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:740
+msgid "App&ly to directories only"
+msgstr "Примени &само на именици"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1393
+msgid "Apply"
+msgstr "Примени"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:207
+msgid "Apply to &current queue only"
+msgstr "Примени &само на тековниот ред на чекање"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:733
+msgid "Apply to &files only"
+msgstr "Примени &само на податотеки"
+
+#: ../src/interface/filter_conditions_dialog.cpp:77
+msgid "Archive"
+msgstr "Архива"
+
+#: ../src/interface/settings/optionspage_interface.cpp:137
+msgid "As tab in the transfer queue pane"
+msgstr "Како посебен таб во панелот на редицата за трансфер"
+
+#: ../src/engine/server.cpp:708 ../src/engine/server.cpp:734
+#: ../src/interface/manual_transfer.cpp:179
+msgid "Ask for password"
+msgstr "Прашај за лозинка"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:271
+msgid "Ask operating system for a port."
+msgstr "Прашај оперативен систем за порта"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:173
+msgid "Ask your operating system for the external IP address"
+msgstr "Прашај оперативен систем за надворешна IP адреса:"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:63
+msgid "Associated program not found:"
+msgstr "Придружениот програм не е пронајден:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:473
+msgid "At least one filter condition is incomplete"
+msgstr "Барем еден од условите за филтрирање не е целосен"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:346
+msgid "At this point, all required information has been gathered."
+msgstr "Во овој момент, сите барани информации се прибрани"
+
+#: ../src/interface/filter_conditions_dialog.cpp:109
+msgid "Attribute"
+msgstr "Атрибути"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:210
+msgid "Authentication failed."
+msgstr "Неуспешна автентикација."
+
+#: ../src/interface/resources/xrc/settings.xrc:1287
+msgid "Author:"
+msgstr "Автор:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2764
+msgid "Auto"
+msgstr "Автоматски"
+
+#: ../src/interface/resources/xrc/settings.xrc:1081
+msgid "Automatic file type classification"
+msgstr "Автоматска класификација на типови на податотеки"
+
+#: ../src/engine/sizeformatting_base.cpp:165
+#: ../src/engine/sizeformatting_base.cpp:232
+msgid "B <Unit symbol for bytes. Only translate first letter>"
+msgstr "B <Симбол за бајти. Само преведи ја првата буква>"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:478
+msgid "B&ypass proxy"
+msgstr "Заобиколи прокси"
+
+#: ../src/interface/edithandler.cpp:1176 ../src/interface/edithandler.cpp:1204
+msgid "Being edited"
+msgstr "Биле уредувани"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2791
+msgid "Binary"
+msgstr "Бинарен"
+
+#: ../src/interface/bookmarks_dialog.cpp:271 ../src/interface/menu_bar.cpp:434
+#: ../src/interface/sitemanager_dialog.cpp:335
+msgid "Bookmark"
+msgstr "Прибелешка"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3056
+msgid "Bookmark:"
+msgstr "Прибелешка:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3045
+msgid "Bookmarks"
+msgstr "Прибелешки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:851
+msgid "Build date:"
+msgstr "Датум на креирање:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:828
+msgid "Build information"
+msgstr "Информации за оваа верзија"
+
+#: ../src/interface/menu_bar.cpp:138
+msgid "C&ancel current operation"
+msgstr "Откажи тековна операција"
+
+#: ../src/interface/StatusView.cpp:436
+msgid "C&lear all"
+msgstr "И&счисти се"
+
+#: ../src/interface/resources/xrc/settings.xrc:1365
+msgid "C&ustom"
+msgstr "&Сопствен формат"
+
+#: ../src/interface/resources/xrc/settings.xrc:1854
+msgid "C&ustom filetype associations:"
+msgstr "Кориснички типови на податотеки"
+
+#: ../src/engine/ftp/transfersocket.cpp:643
+msgid "Can't read from file"
+msgstr "Не можам да читам од податотека"
+
+#: ../src/engine/ftp/transfersocket.cpp:620
+#: ../src/engine/ftp/transfersocket.cpp:691
+msgid "Can't write data to file."
+msgstr "Не можам да запишам податоци во податотека."
+
+#: ../src/engine/ftp/transfersocket.cpp:623
+#: ../src/engine/ftp/transfersocket.cpp:694
+#, c-format
+msgid "Can't write data to file: %s"
+msgstr "Не можам да запишам податоци во податотеката: %s."
+
+#: ../src/interface/resources/xrc/certificate.xrc:288
+#: ../src/interface/resources/xrc/dialogs.xrc:239
+#: ../src/interface/resources/xrc/dialogs.xrc:565
+#: ../src/interface/resources/xrc/dialogs.xrc:757
+#: ../src/interface/resources/xrc/dialogs.xrc:1106
+#: ../src/interface/resources/xrc/dialogs.xrc:1387
+#: ../src/interface/resources/xrc/dialogs.xrc:1575
+#: ../src/interface/resources/xrc/dialogs.xrc:1682
+#: ../src/interface/resources/xrc/dialogs.xrc:1753
+#: ../src/interface/resources/xrc/dialogs.xrc:1811
+#: ../src/interface/resources/xrc/dialogs.xrc:1876
+#: ../src/interface/resources/xrc/dialogs.xrc:2050
+#: ../src/interface/resources/xrc/dialogs.xrc:2435
+#: ../src/interface/resources/xrc/dialogs.xrc:2817
+#: ../src/interface/resources/xrc/dialogs.xrc:2972
+#: ../src/interface/resources/xrc/dialogs.xrc:3140
+#: ../src/interface/resources/xrc/dialogs.xrc:3230
+#: ../src/interface/resources/xrc/dialogs.xrc:3470
+#: ../src/interface/resources/xrc/dialogs.xrc:3565
+#: ../src/interface/resources/xrc/dialogs.xrc:3635
+#: ../src/interface/resources/xrc/dialogs.xrc:3710
+#: ../src/interface/resources/xrc/dialogs.xrc:3973
+#: ../src/interface/resources/xrc/dialogs.xrc:4045
+#: ../src/interface/resources/xrc/sitemanager.xrc:121
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancel current operation"
+msgstr "Откажи тековна операција"
+
+#: ../src/interface/toolbar.cpp:45
+msgid "Cancels the current operation"
+msgstr "Откажување на тековната операција"
+
+#: ../src/engine/local_path.cpp:471
+#, c-format
+msgid "Cannot access '%s', no media inserted or drive not ready."
+msgstr ""
+"Не е можно да се пристапи до '%s', нема вметнато медиум во уредот или уредот "
+"не е спремен."
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Cannot add server to Site Manager"
+msgstr "Не може да се додаде серверот во Менаџерот на локации"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid ""
+"Cannot compare directories, different filters for local and remote "
+"directories are enabled"
+msgstr ""
+"Не може да се направи споредба на именици, поставени се различни филтри за "
+"локалните и мрежните именици"
+
+#: ../src/interface/filteredit.cpp:150
+msgid "Cannot create new filter"
+msgstr "Не може да се креира нов филтер"
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/edithandler.cpp:1712
+#: ../src/interface/LocalListView.cpp:1879 ../src/interface/search.cpp:1210
+#: ../src/interface/search.cpp:1529
+msgid "Cannot edit file"
+msgstr "Не може да се уредува податотека"
+
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Cannot edit file, remote path unknown."
+msgstr "Не може да се уредува податотека, мрежниот пат не е познат."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:131
+msgid ""
+"Cannot establish FTP connection to an SFTP server. Please select proper "
+"protocol."
+msgstr ""
+"Не може да се воспостави FTP конекција до SFTP сервер. Изберете соодветен "
+"протокол."
+
+#: ../src/interface/Mainfrm.cpp:1094
+msgid "Cannot load toolbar from resource file"
+msgstr "Не може да се вчита алатникот од ресурсната податотека"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Cannot rename entry"
+msgstr "Не може да се преименува ставката"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Cannot rename file"
+msgstr "Не може да се преименува податотека"
+
+#: ../src/interface/filter.cpp:269 ../src/interface/filter.cpp:339
+msgid "Cannot save filterset"
+msgstr "Не може да се зачуваат филтрите"
+
+#: ../src/interface/filter.cpp:230
+msgid "Cannot select filter"
+msgstr "Не може да се избере филтер"
+
+#: ../src/interface/edithandler.cpp:1552 ../src/interface/edithandler.cpp:1556
+#: ../src/interface/edithandler.cpp:1597
+msgid "Cannot set file association"
+msgstr "Не може да се постави асоцијација на податотека"
+
+#: ../src/interface/edithandler.cpp:1135
+msgid "Cannot show dialog"
+msgstr "Не може да се прикаже дијалог прозорец"
+
+#: ../src/interface/edithandler.cpp:1736
+msgid "Cannot view/edit selected file"
+msgstr "Не може да се прегледа/уреди избраната податотека"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Certificate and session data are not available yet."
+msgstr "Сертификатот и сесиските податоци сеуште не се на располагање."
+
+#: ../src/interface/resources/xrc/certificate.xrc:144
+msgid "Certificate issuer"
+msgstr "Издавач на сертификат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:306
+msgid "Challenge:"
+msgstr "Обид:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:575
+msgid "Change file attributes"
+msgstr "Промена на атрибути на податотека"
+
+#: ../src/interface/RemoteListView.cpp:1142
+#: ../src/interface/RemoteTreeView.cpp:925
+msgid "Change the file permissions."
+msgstr "Промена на пермисии на податотеката"
+
+#: ../src/interface/resources/xrc/settings.xrc:2053
+msgid "Changing logfile settings requires restart of FileZilla."
+msgstr ""
+"Промената на податотеката за дневникот на порака бара повторно старување на "
+"FileZilla"
+
+#: ../src/interface/FileZilla.cpp:597
+msgid "Character encoding issue"
+msgstr "Проблем со кодната табела"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:666
+msgid "Charset"
+msgstr "Кодна табела"
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for &updates..."
+msgstr "Проверка на нови верзии..."
+
+#: ../src/interface/menu_bar.cpp:163
+msgid "Check for newer versions of FileZilla"
+msgstr "Провери дали има нова верзија на FileZilla"
+
+#: ../src/interface/update_dialog.cpp:60
+msgid "Check for updates failed"
+msgstr "Неуспешна проверка на нови верзии"
+
+#: ../src/interface/netconfwizard.cpp:776
+msgid "Checking for correct external IP address"
+msgstr "Проверка на коректност на надворешна IP адреса:"
+
+#: ../src/interface/sitemanager_site.cpp:1040
+msgid "Choose the default local directory"
+msgstr "Изберете го стандардниот локален именик"
+
+#: ../src/interface/bookmarks_dialog.cpp:134
+#: ../src/interface/bookmarks_dialog.cpp:386
+#: ../src/interface/sitemanager_dialog.cpp:1824
+msgid "Choose the local directory"
+msgstr "Изберете локален именик"
+
+#: ../src/interface/resources/xrc/certificate.xrc:220
+msgid "Cipher:"
+msgstr "Шифра:"
+
+#: ../src/interface/settings/optionspage_interface.cpp:128
+msgid "Classic"
+msgstr "Класичен"
+
+#: ../src/interface/menu_bar.cpp:178
+msgid "Clear &layout cache"
+msgstr "Бришење на кешот за изгледот"
+
+#: ../src/interface/quickconnectbar.cpp:198
+msgid "Clear history"
+msgstr "Избриши историја"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1695
+#: ../src/interface/clearprivatedata.cpp:38
+#: ../src/interface/clearprivatedata.cpp:44
+#: ../src/interface/clearprivatedata.cpp:50
+#: ../src/interface/clearprivatedata.cpp:74
+#: ../src/interface/clearprivatedata.cpp:100
+msgid "Clear private data"
+msgstr "Бришење на приватни податоци"
+
+#: ../src/interface/quickconnectbar.cpp:197
+msgid "Clear quickconnect bar"
+msgstr "Бриши лента за брзо конектирање"
+
+#: ../src/interface/netconfwizard.cpp:591
+msgid "Click on Finish to save your configuration."
+msgstr "Кликни на Finish за зачувување на конфигурацијата"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2309
+msgid "Client to server MAC:"
+msgstr "Клиент - сервер MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2299
+msgid "Client to server cipher:"
+msgstr "Клиент - сервер cipher:"
+
+#: ../src/interface/Mainfrm.cpp:1250 ../src/interface/Mainfrm.cpp:1272
+#: ../src/interface/menu_bar.cpp:64
+msgid "Close FileZilla"
+msgstr "Затвори ја FileZilla"
+
+#: ../src/interface/cmdline.cpp:15
+msgid "Close all running instances of FileZilla"
+msgstr "Затвори сите активни инстанци на FileZilla"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:433
+msgid "Co&mments:"
+msgstr "Ко&ментари:"
+
+#: ../src/interface/listctrlex.cpp:762
+msgid "Column properties"
+msgstr "Својства на колона"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2368
+msgid "Column setup"
+msgstr "Нагодување на колона"
+
+#: ../src/interface/resources/xrc/settings.xrc:1798
+msgid "Command and its arguments should be properly quoted."
+msgstr ""
+"Командата и нејзините аргументи треба да се стават во соодветни загради."
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+#: ../src/interface/fzputtygen_interface.cpp:233
+#: ../src/interface/storj_key_interface.cpp:95
+#: ../src/interface/storj_key_interface.cpp:117
+msgid "Command failed"
+msgstr "Неуспешно извршување на комада"
+
+#: ../src/engine/proxy.cpp:455
+msgid "Command not supported"
+msgstr "Командата не е подржана"
+
+#: ../src/engine/engineprivate.cpp:236 ../src/engine/engineprivate.cpp:682
+msgid "Command not supported by this protocol"
+msgstr "Командата не е подржана од овој протокол"
+
+#: ../src/engine/logging.cpp:131 ../src/interface/StatusView.cpp:294
+#: ../src/interface/StatusView.cpp:358
+msgid "Command:"
+msgstr "Команда:"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:36
+msgid "Comment"
+msgstr "Коментар"
+
+#: ../src/interface/verifycertdialog.cpp:641
+msgid "Common name:"
+msgstr "Вообичаено име:"
+
+#: ../src/interface/netconfwizard.cpp:447
+#: ../src/interface/netconfwizard.cpp:460
+msgid "Communication tainted by router or firewall"
+msgstr "Комуникацијата е забавена од рутерот или огнениот зид"
+
+#: ../src/interface/Mainfrm.cpp:2412 ../src/interface/menu_bar.cpp:92
+msgid "Compare &modification time"
+msgstr "Спореди време на модификација"
+
+#: ../src/interface/Mainfrm.cpp:2411 ../src/interface/menu_bar.cpp:91
+msgid "Compare file&size"
+msgstr "Спореди големина на податотека"
+
+#: ../src/interface/resources/xrc/settings.xrc:1642
+msgid "Comparison &threshold (in minutes):"
+msgstr "Споредбен праг (во минути):"
+
+#: ../src/interface/settings/optionspage_filelists.cpp:40
+msgid "Comparison threshold needs to be between 0 and 1440 minutes."
+msgstr "Споредбениот праг треба да биде помеѓу 0 и 1440 минути."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:835
+msgid "Compiled for:"
+msgstr "Компајлирано за:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:843
+msgid "Compiled on:"
+msgstr "Компајлирано на:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:859
+msgid "Compiled with:"
+msgstr "Компајлирано со:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:867
+msgid "Compiler flags:"
+msgstr "Знаменца на компајлерот:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:78
+msgid "Compressed"
+msgstr "Компресирано"
+
+#: ../src/interface/resources/xrc/settings.xrc:814
+msgid "Concurrent transfers"
+msgstr "Истовремени трансфери"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1525
+#: ../src/interface/resources/xrc/dialogs.xrc:3340
+msgid "Conditions are c&ase sensitive"
+msgstr "Чувствително на големи и мали букви"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:341
+msgid "Configuration test"
+msgstr "Тестирање на конфигурација"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:115
+msgid "Configure passive mode"
+msgstr "Конфигурирај пасивен мод"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:261
+msgid "Configure port range"
+msgstr "Конфигурирај дијапазон на порти"
+
+#: ../src/interface/edithandler.cpp:1675 ../src/interface/file_utils.h:47
+#: ../src/interface/LocalListView.cpp:1841
+#: ../src/interface/RemoteListView.cpp:1496
+#: ../src/interface/RemoteTreeView.cpp:1117 ../src/interface/search.cpp:1222
+#: ../src/interface/search.cpp:1489
+msgid "Confirmation needed"
+msgstr "Потребна е потврда"
+
+#: ../src/interface/netconfwizard.cpp:587
+msgid "Congratulations, your configuration seems to be working."
+msgstr "Честитки, вашите нагодувања изгледа се функционални."
+
+#: ../src/interface/quickconnectbar.cpp:195
+msgid "Connect bypassing proxy settings"
+msgstr "Конектирање со заобиколување на прокси нагодувањата"
+
+#: ../src/interface/cmdline.cpp:8
+msgid "Connect to specified Site Manager site"
+msgstr "Конектирање на наведената локација"
+
+#: ../src/interface/queue.cpp:353
+msgid "Connecting"
+msgstr "Конектирање"
+
+#: ../src/interface/netconfwizard.cpp:219
+#: ../src/interface/statuslinectrl.cpp:268
+#, c-format
+msgid "Connecting to %s"
+msgstr "Конектирање на %s"
+
+#: ../src/engine/ControlSocket.cpp:788
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:43
+#: ../src/engine/storj/storjcontrolsocket.cpp:42
+#, c-format
+msgid "Connecting to %s..."
+msgstr "Конектирање на %s..."
+
+#: ../src/interface/settings/settingsdialog.cpp:96
+msgid "Connection"
+msgstr "Конекција"
+
+#: ../src/interface/queue.cpp:354
+msgid "Connection attempt failed"
+msgstr "Обидот за конектирање не успеа"
+
+#: ../src/engine/ControlSocket.cpp:747
+#, c-format
+msgid "Connection attempt failed with \"%s\", trying next address."
+msgstr "Обидот за конектирање е прекинат од \"%s\", обид со следна адреса."
+
+#: ../src/engine/ControlSocket.cpp:753
+#, c-format
+msgid "Connection attempt failed with \"%s\"."
+msgstr "Обидот за конектирање е прекинат од \"%s\"."
+
+#: ../src/engine/ControlSocket.cpp:169 ../src/engine/engineprivate.cpp:727
+msgid "Connection attempt interrupted by user"
+msgstr "Обидот за конектирање е прекинат од корисникот"
+
+#: ../src/interface/netconfwizard.cpp:560
+msgid "Connection closed"
+msgstr "Конекцијата е затворена"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:66 ../src/engine/http/request.cpp:298
+#: ../src/engine/http/request.cpp:311 ../src/engine/http/request.cpp:322
+#: ../src/engine/http/request.cpp:333
+msgid "Connection closed by server"
+msgstr "Конекцијата е затворена од страна на серверот"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:176
+#: ../src/engine/http/httpcontrolsocket.cpp:197
+msgid "Connection established, initializing TLS..."
+msgstr "Воспоставена конекција, иницијализација на TLS..."
+
+#: ../src/engine/http/httpcontrolsocket.cpp:212
+msgid "Connection established, sending HTTP request"
+msgstr "Воспоставена конекција, праќање на HTTP барање"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:197
+msgid "Connection established, waiting for welcome message..."
+msgstr "Воспоставена конекција, чекање на порака за добредојде..."
+
+#: ../src/interface/netconfwizard.cpp:358
+msgid "Connection lost"
+msgstr "Конекцијата е изгубена"
+
+#: ../src/engine/proxy.cpp:440
+msgid "Connection not allowed by ruleset"
+msgstr "Конектирањето не е дозволено, несогласување со правилата"
+
+#: ../src/engine/proxy.cpp:449
+msgid "Connection refused"
+msgstr "Конектирањето не е прифатено"
+
+#: ../src/interface/netconfwizard.cpp:1070
+msgid "Connection timed out."
+msgstr "Предолго време на чекање за конектирање."
+
+#: ../src/engine/proxy.cpp:216
+msgid "Connection with proxy established, performing handshake..."
+msgstr "Воспоставена конекција со проксито, размена на податоци..."
+
+#: ../src/interface/netconfwizard.cpp:580
+msgid "Connection with server got closed prematurely."
+msgstr "Прерано затворена конекција со серверот."
+
+#: ../src/interface/netconfwizard.cpp:571
+msgid "Connection with the test server failed."
+msgstr "Неуспешна конекција со тест серверот"
+
+#: ../src/interface/bookmarks_dialog.cpp:676
+#: ../src/interface/sitemanager_dialog.cpp:1384
+#, c-format
+msgid "Copy (%d) of %s"
+msgstr "Копирано (%d) од %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:655
+#: ../src/interface/sitemanager_dialog.cpp:1363
+#, c-format
+msgid "Copy of %s"
+msgstr "Копирано од %s"
+
+#: ../src/engine/ftp/transfersocket.cpp:158
+#, c-format
+msgid "Could not accept connection: %s"
+msgstr "Неуспешно прифаќање на конекција: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:573
+msgid "Could not add connection to Site Manager"
+msgstr "Не може да се додаде конекција во Менаџерот на конекции"
+
+#: ../src/engine/ControlSocket.cpp:172
+msgid "Could not connect to server"
+msgstr "Неуспешно конектирање на сервер"
+
+#: ../src/engine/ControlSocket.cpp:878
+#, c-format
+msgid "Could not connect to server: %s"
+msgstr "Неуспешно конектирање на сервер: %s"
+
+#: ../src/engine/sftp/filetransfer.cpp:74
+#: ../src/engine/sftp/filetransfer.cpp:95
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:343
+#: ../src/engine/storj/storjcontrolsocket.cpp:260
+msgid "Could not convert command to server encoding"
+msgstr "Не е конвертирана командата до серверот за енкодирање"
+
+#: ../src/interface/fzputtygen_interface.cpp:128
+#: ../src/interface/fzputtygen_interface.cpp:138
+msgid "Could not convert private key"
+msgstr "Не е конвертиран приватниот клуч"
+
+#: ../src/engine/ftp/rawtransfer.cpp:232
+msgid "Could not establish connection to server"
+msgstr "Не успеав да воспоставам врска со серверот"
+
+#: ../src/interface/state.cpp:1118
+msgid "Could not get full remote path."
+msgstr "Не може да се земе целосен мреќен пат."
+
+#: ../src/interface/fzputtygen_interface.cpp:233
+#: ../src/interface/storj_key_interface.cpp:117
+msgid "Could not get reply from fzputtygen."
+msgstr "Не може да се добие одговор од fzputtygen."
+
+#: ../src/interface/edithandler.cpp:1663 ../src/interface/search.cpp:1210
+msgid "Could not get temporary directory to download file into."
+msgstr "Не може да се пристапи до привремен именик за симнување на податоетка"
+
+#: ../src/interface/fzputtygen_interface.cpp:112
+msgid "Could not load private key"
+msgstr "Не може да се вчита приватниот клу."
+
+#: ../src/engine/logging.cpp:125 ../src/engine/logging.cpp:211
+#: ../src/engine/logging.cpp:255 ../src/engine/logging.cpp:293
+#: ../src/engine/logging.cpp:319
+#, c-format
+msgid "Could not open log file: %s"
+msgstr "Не може да се отвори податотеката на дневникот на пораки: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:73
+msgid "Could not parse remote path."
+msgstr "Не може да се парсира мрежниот пат."
+
+#: ../src/interface/quickconnectbar.cpp:117
+msgid "Could not parse server address:"
+msgstr "Не може да се парсира серверската адреса:"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:55 ../src/engine/http/request.cpp:370
+#, c-format
+msgid "Could not read from socket: %s"
+msgstr "Не може да се чита од лежиштето: %s"
+
+#: ../src/interface/sitemanager.cpp:501
+msgid "Could not read server item."
+msgstr "Не може да се прочита серверската адреса."
+
+#: ../src/engine/ftp/filetransfer.cpp:88
+#: ../src/engine/http/filetransfer.cpp:110
+msgid "Could not seek to the end of the file"
+msgstr "Не може да се бара до крајот на податотеката"
+
+#: ../src/interface/fzputtygen_interface.cpp:211
+msgid "Could not send command to fzputtygen."
+msgstr "Не може да се прати команда до fzputtygen."
+
+#: ../src/interface/queue.cpp:359
+msgid "Could not start transfer"
+msgstr "Не може да започне трансферот"
+
+#: ../src/interface/sitemanager.cpp:578
+#: ../src/interface/sitemanager_dialog.cpp:765
+#, c-format
+msgid ""
+"Could not write \"%s\", any changes to the Site Manager could not be saved: "
+"%s"
+msgstr ""
+"Не можам да запишам во \"%s\", сите направени измени во Менаџерот на мрежни "
+"локации не може да се зачуваат: %s"
+
+#: ../src/interface/sitemanager.cpp:703 ../src/interface/sitemanager.cpp:760
+#: ../src/interface/sitemanager_dialog.cpp:1802
+#, c-format
+msgid "Could not write \"%s\", the selected sites could not be exported: %s"
+msgstr "Не може да се запише \"%s\", избраниот сајт не може да се извезе: %s"
+
+#: ../src/interface/queue.cpp:358
+msgid "Could not write to local file"
+msgstr "Не може да се запишува во локалната податотека"
+
+#: ../src/engine/logging.cpp:268 ../src/engine/logging.cpp:336
+#, c-format
+msgid "Could not write to log file: %s"
+msgstr "Не може да се запише во податотеката на дневникот на пораки: %s"
+
+#: ../src/engine/ControlSocket.cpp:708 ../src/engine/ControlSocket.cpp:806
+#: ../src/engine/http/request.cpp:236
+#, c-format
+msgid "Could not write to socket: %s"
+msgstr "Не може да се запише лежиштето: %s"
+
+#: ../src/interface/verifycertdialog.cpp:646
+msgid "Country:"
+msgstr "Земја:"
+
+#: ../src/interface/LocalListView.cpp:797
+#: ../src/interface/LocalTreeView.cpp:1105
+#: ../src/interface/RemoteListView.cpp:1132
+#: ../src/interface/RemoteTreeView.cpp:912
+msgid "Create a new subdirectory in the current directory"
+msgstr "Креирај нов подименик во тековниот именик"
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Create directory"
+msgstr "Креирај именик"
+
+#: ../src/interface/queue.cpp:361
+msgid "Creating directory"
+msgstr "Креирање именик"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:591
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:559
+#: ../src/engine/storj/storjcontrolsocket.cpp:105
+#, c-format
+msgid "Creating directory '%s'..."
+msgstr "Креирање на именик '%s'..."
+
+#: ../src/engine/ControlSocket.cpp:164
+msgid "Critical error"
+msgstr "Критична грешка"
+
+#: ../src/interface/statusbar.cpp:409
+msgid "Current transfer type is set to ASCII."
+msgstr "Актуелен тип на трансфер - ASCII."
+
+#: ../src/interface/statusbar.cpp:417
+msgid "Current transfer type is set to automatic detection."
+msgstr "Актуелен тип на трансвер - автоматска детекција."
+
+#: ../src/interface/statusbar.cpp:413
+msgid "Current transfer type is set to binary."
+msgstr "Актуелен тип на трансфер - бинарен."
+
+#: ../src/interface/resources/xrc/settings.xrc:479
+#: ../src/interface/resources/xrc/settings.xrc:1414
+msgid "Cus&tom"
+msgstr "Сопствено"
+
+#: ../src/interface/filter.cpp:135
+msgid "Custom filter set"
+msgstr "Сопствена група на филтри"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2621
+#: ../src/interface/resources/xrc/dialogs.xrc:2635
+msgid "Custom server"
+msgstr "Сопствено нагодување на сервер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2755
+msgid "D&ata type"
+msgstr "&Тип на трансфер на податоци"
+
+#: ../src/interface/resources/xrc/settings.xrc:1484
+msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
+msgstr "Децимални префикси кои користат SI симболи (т.е. 1 KB = 1000 бајти)"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:610
+msgid "D&efault"
+msgstr "Основен"
+
+#: ../src/interface/RemoteListView.cpp:1138
+#: ../src/interface/RemoteTreeView.cpp:916 ../src/interface/search.cpp:830
+#: ../src/interface/search.cpp:837
+msgid "D&elete"
+msgstr "Бриши"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1302
+msgid "D&isable all"
+msgstr "О&невозможи ги сите"
+
+#: ../src/engine/server.cpp:62
+msgid "DOS-like with virtual paths"
+msgstr "DOS-овски со виртуелен пат"
+
+#: ../src/interface/edithandler.cpp:1716
+msgid "Dangerous filetype"
+msgstr "Сомнителен тип на податотека"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:37
+msgid "Data"
+msgstr "Датум"
+
+#: ../src/interface/netconfwizard.cpp:989
+#: ../src/interface/netconfwizard.cpp:1053
+msgid "Data socket closed too early."
+msgstr "Изворот на податоци прерано затвроен."
+
+#: ../src/interface/resources/xrc/settings.xrc:1348
+msgid "Date formatting"
+msgstr "Форматирање на датум"
+
+#: ../src/interface/settings/settingsdialog.cpp:109
+msgid "Date/time format"
+msgstr "Формат на датум/време"
+
+#: ../src/interface/fileexistsdlg.cpp:49
+msgid "Date/time unknown"
+msgstr "Непознат датум/време"
+
+#: ../src/interface/settings/settingsdialog.cpp:121
+msgid "Debug"
+msgstr "Дебагирање"
+
+#: ../src/interface/resources/xrc/settings.xrc:2074
+msgid "Debugging settings"
+msgstr "Нагодувања за дебагирање"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:490
+msgid "Default &local directory:"
+msgstr "Основен &локален именик:"
+
+#: ../src/engine/server.cpp:54
+msgid "Default (Autodetect)"
+msgstr "Основно (Автоматско детектирање)"
+
+#: ../src/interface/settings/optionspage_edit.cpp:81
+msgid "Default editor not properly quoted."
+msgstr "Основниот уредувач не е добро наведен."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1587
+#: ../src/interface/resources/xrc/dialogs.xrc:1657
+#: ../src/interface/resources/xrc/settings.xrc:1227
+msgid "Default file exists action"
+msgstr "Основна акција за постоечки податотеки"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:515
+msgid "Default r&emote directory:"
+msgstr "Основен мрежен именик:"
+
+#: ../src/interface/settings/optionspage_language.cpp:53
+msgid "Default system language"
+msgstr "Основен системски јазик"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:68
+msgid "Default transfer mode:"
+msgstr "Основен режим на трансфер:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1051
+msgid "Default transfer type:"
+msgstr "Основен тип на трансфер:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:233
+#: ../src/interface/resources/xrc/settings.xrc:381
+msgid "Default: http://ip.filezilla-project.org/ip.php"
+msgstr "Основно: http://ip.filezilla-project.org/ip.php"
+
+#: ../src/interface/settings/optionspage_connection.cpp:41
+msgid ""
+"Delay between failed connection attempts has to be between 1 and 999 seconds."
+msgstr ""
+"Задржувањето помеѓу неуспешните обиди за конектирањље треба да биде помеѓу 1 "
+"и 999 секунди."
+
+#: ../src/interface/sitemanager_dialog.cpp:1030
+msgid "Delete Site Manager entry"
+msgstr "Бриши податок од менаџерот на конекции"
+
+#: ../src/interface/LocalTreeView.cpp:1109
+#: ../src/interface/RemoteTreeView.cpp:916
+msgid "Delete selected directory"
+msgstr "Бриши селектиран именик"
+
+#: ../src/interface/LocalListView.cpp:802
+#: ../src/interface/RemoteListView.cpp:1138
+msgid "Delete selected files and directories"
+msgstr "Бриши селектирани податотеки и именици"
+
+#: ../src/interface/LocalTreeView.cpp:1019
+msgid "Desktop"
+msgstr "Работна маса"
+
+#: ../src/interface/resources/xrc/certificate.xrc:42
+#: ../src/interface/resources/xrc/dialogs.xrc:1033
+msgid "Details"
+msgstr "Детали"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1154
+msgid "Details for new key:"
+msgstr "Детали за нов клуч:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1544
+msgid "Dire&ctories"
+msgstr "Име&ници"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Direction"
+msgstr "Насока"
+
+#: ../src/interface/filelistctrl.cpp:273
+msgid "Directory"
+msgstr "Именик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3032
+#: ../src/interface/resources/xrc/settings.xrc:1628
+#: ../src/interface/resources/xrc/sitemanager.xrc:534
+#: ../src/interface/filelistctrl.cpp:477 ../src/interface/Mainfrm.cpp:2359
+#: ../src/interface/Mainfrm.cpp:2379 ../src/interface/toolbar.cpp:51
+#: ../src/interface/view.cpp:109
+msgid "Directory comparison"
+msgstr "Споредба на именици"
+
+#: ../src/interface/listingcomparison.cpp:74
+msgid "Directory comparison failed"
+msgstr "Неуспешна споредба на именици"
+
+#: ../src/engine/ControlSocket.cpp:177
+msgid "Directory listing aborted by user"
+msgstr "Листањето на именикот прекинато од корисникот"
+
+#: ../src/interface/RemoteListView.cpp:2230
+msgid "Directory listing failed"
+msgstr "Неуспешно листање на именик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1237
+msgid "Directory listing filters"
+msgstr "Филтри за листање на именици"
+
+#: ../src/engine/ControlSocket.cpp:184
+msgid "Directory listing successful"
+msgstr "Успешно листање на именикот"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1337
+msgid "Disa&ble all"
+msgstr "Он&евозможи ги сите"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnect from server"
+msgstr "Дисконектирање од серверот"
+
+#: ../src/engine/ControlSocket.cpp:48 ../src/engine/ControlSocket.cpp:709
+#: ../src/engine/ControlSocket.cpp:808
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:57 ../src/engine/http/request.cpp:237
+#: ../src/interface/queue.cpp:352
+msgid "Disconnected from server"
+msgstr "Прекината врска со серверот"
+
+#: ../src/engine/ControlSocket.cpp:833
+#: ../src/engine/http/httpcontrolsocket.cpp:295
+#, c-format
+msgid "Disconnected from server: %s"
+msgstr "Дисконектиран од серверот: %s"
+
+#: ../src/interface/queue.cpp:351 ../src/interface/statuslinectrl.cpp:262
+msgid "Disconnecting from previous server"
+msgstr "Дисконектирање од преходниот сервер"
+
+#: ../src/interface/toolbar.cpp:46
+msgid "Disconnects from the currently visible server"
+msgstr "Дисконектирање од актуелно видливиот сервер"
+
+#: ../src/interface/menu_bar.cpp:174
+msgid "Display about dialog"
+msgstr "Прикажи дијалог за програмата"
+
+#: ../src/interface/resources/xrc/settings.xrc:1763
+msgid "Do &not use default editor"
+msgstr "&Не користи основен уредувач"
+
+#: ../src/interface/Mainfrm.cpp:1253 ../src/interface/Mainfrm.cpp:1276
+msgid "Do you really want to close FileZilla?"
+msgstr "Дали навистина сакате да ја затворите FileZilla"
+
+#: ../src/interface/clearprivatedata.cpp:38
+msgid ""
+"Do you really want to delete all Site Manager entries and the transfer queue?"
+msgstr ""
+"Дали навистина сакате да ги избришете сите податоци од Менаџерот на конекции "
+"и редицата за трансфер?"
+
+#: ../src/interface/clearprivatedata.cpp:50
+msgid "Do you really want to delete all Site Manager entries?"
+msgstr ""
+"Дали навистина сакате да ги избришете сите податоци во Менаџерот на конекции?"
+
+#: ../src/interface/sitemanager_dialog.cpp:1032
+msgid "Do you really want to delete selected entry?"
+msgstr "Дали навистина сакате да ги избришете селектираните податоци?"
+
+#: ../src/interface/clearprivatedata.cpp:44
+msgid "Do you really want to delete the transfer queue?"
+msgstr ""
+"Дали навистина сакате да ја исчистите редицата за трансфер на податоци?"
+
+#: ../src/interface/Mainfrm.cpp:644
+#, c-format
+msgid "Do you really want to send '%s' to the server?"
+msgstr "Дали навистина сакате да ја пратите '%s' на серверот?"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:250
+msgid "Don't use external IP address on &local connections."
+msgstr "Не користете надворешна IP адреса на локални конекции."
+
+#: ../src/interface/resources/xrc/settings.xrc:1148
+msgid "Dotfiles are filenames starting with a dot, e.g. .htaccess"
+msgstr ""
+"Податотеки со точка се податотеки чии имиња започнуваат со точка, пример ."
+"htaccess"
+
+#: ../src/interface/resources/xrc/settings.xrc:1666
+msgid "Double-click action"
+msgstr "Акција при двоен клик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2464
+msgid "Download"
+msgstr "Симнување"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3745
+#: ../src/interface/resources/xrc/settings.xrc:906
+msgid "Download &limit:"
+msgstr "Ограничување за симнување:"
+
+#: ../src/interface/RemoteTreeView.cpp:904
+msgid "Download selected directory"
+msgstr "Симнување на избран именик"
+
+#: ../src/interface/RemoteListView.cpp:1122
+msgid "Download selected files and directories"
+msgstr "Симнување на селектирани податотеки и именици"
+
+#: ../src/interface/edithandler.cpp:1161
+msgid "Downloading"
+msgstr "Симнување"
+
+#: ../src/engine/http/httpcontrolsocket.cpp:224
+#, c-format
+msgid "Downloading %s"
+msgstr "Симнување %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1295
+msgid "E&nable all"
+msgstr "Ово&зможи ги сите"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "E&nter directory"
+msgstr "&Внеси именик"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:640
+msgid "E&xecute"
+msgstr "И&зврши"
+
+#: ../src/interface/menu_bar.cpp:64
+msgid "E&xit"
+msgstr "И&злези"
+
+#: ../src/interface/verifycertdialog.cpp:651
+msgid "E-Mail:"
+msgstr "Е-пошта:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:451
+msgid "Each filter needs at least one condition."
+msgstr "Секој филтер треба да има барем еден услов"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1583
+msgid "Edit filters"
+msgstr "Уреди филтри"
+
+#: ../src/interface/LocalListView.cpp:1755
+#: ../src/interface/LocalListView.cpp:1764
+msgid "Editing failed"
+msgstr "Неуспешно уредување"
+
+#: ../src/interface/resources/xrc/settings.xrc:1298
+msgid "Email:"
+msgstr "Е-пошта:"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "Empty command"
+msgstr "Празна команда"
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:59
+msgid "Empty command."
+msgstr "Празна команда."
+
+#: ../src/interface/RemoteListView.cpp:2233
+msgid "Empty directory listing"
+msgstr "Празен листинг на именик"
+
+#: ../src/interface/filelist_statusbar.cpp:14
+msgid "Empty directory."
+msgstr "Празен именик."
+
+#: ../src/interface/settings/optionspage_edit_associations.cpp:52
+msgid "Empty file extension."
+msgstr "Празна наставка на податотека."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty filter names are not allowed."
+msgstr "Празно име на филтер не е допуштено."
+
+#: ../src/interface/filteredit.cpp:211 ../src/interface/filteredit.cpp:256
+msgid "Empty name"
+msgstr "Празно име"
+
+#: ../src/interface/settings/optionspage_edit.cpp:84
+msgid "Empty quoted string."
+msgstr "Празна низа."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1330
+msgid "En&able all"
+msgstr "Овоз&можи ги сите"
+
+#: ../src/interface/filter_conditions_dialog.cpp:79
+msgid "Encrypted"
+msgstr "Енкриптирано"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2292
+msgid "Encryption"
+msgstr "Енкрипција"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2202
+msgid "Encryption details"
+msgstr "Детали на енкрипција"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Enter &custom command..."
+msgstr "Внеси &сопствена команда..."
+
+#: ../src/interface/QueueView.cpp:1919
+msgid "Enter command"
+msgstr "Внеси команда"
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid "Enter custom command"
+msgstr "Внеси сопствена команда"
+
+#: ../src/interface/resources/xrc/settings.xrc:1699
+msgid "Enter directory"
+msgstr "Внеси именик"
+
+#: ../src/interface/filteredit.cpp:143 ../src/interface/filteredit.cpp:200
+#: ../src/interface/filteredit.cpp:249
+msgid "Enter filter name"
+msgstr "Внеси име на филтер"
+
+#: ../src/interface/filter.cpp:262
+msgid "Enter name for filterset"
+msgstr "Внесете име за групата филтри"
+
+#: ../src/interface/filter.cpp:326
+msgid "Enter new name for filterset"
+msgstr "Внеси ново име за група на филтри"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:247
+msgid "Enter password"
+msgstr "Внеси лозинка"
+
+#: ../src/interface/LocalListView.cpp:790
+#: ../src/interface/RemoteListView.cpp:1128
+msgid "Enter selected directory"
+msgstr "Внеси избран именик"
+
+#: ../src/interface/loginmanager.cpp:178
+msgid "Enter username and password"
+msgstr "Внеси корисничко име и лозинка"
+
+#: ../src/interface/export.cpp:30
+msgid "Error exporting settings"
+msgstr "Грешка при пренесувањето на нагодувањата"
+
+#: ../src/interface/import.cpp:31 ../src/interface/import.cpp:95
+msgid "Error importing"
+msgstr "Грешка при увезување"
+
+#: ../src/interface/bookmarks_dialog.cpp:174
+#: ../src/interface/bookmarks_dialog.cpp:296
+#: ../src/interface/bookmarks_dialog.cpp:752
+#: ../src/interface/bookmarks_dialog.cpp:792
+#: ../src/interface/bookmarks_dialog.cpp:845 ../src/interface/filter.cpp:875
+#: ../src/interface/filter.cpp:966 ../src/interface/Options.cpp:253
+#: ../src/interface/osx_sandbox_userdirs.cpp:65
+#: ../src/interface/osx_sandbox_userdirs.cpp:136
+#: ../src/interface/QueueView.cpp:1581 ../src/interface/search.cpp:1351
+#: ../src/interface/search.cpp:1371 ../src/interface/sitemanager.cpp:39
+#: ../src/interface/sitemanager.cpp:470 ../src/interface/sitemanager.cpp:530
+#: ../src/interface/sitemanager.cpp:639 ../src/interface/sitemanager.cpp:727
+#: ../src/interface/sitemanager.cpp:833 ../src/interface/sitemanager.cpp:924
+#: ../src/interface/sitemanager_dialog.cpp:678
+#: ../src/interface/sitemanager_dialog.cpp:743
+#: ../src/interface/wrapengine.cpp:943
+msgid "Error loading xml file"
+msgstr "Грешка при вчитување на xml податотека"
+
+#: ../src/interface/fzputtygen_interface.cpp:178
+#: ../src/interface/fzputtygen_interface.cpp:193
+#: ../src/interface/storj_key_interface.cpp:62
+#: ../src/interface/storj_key_interface.cpp:77
+msgid "Error starting program"
+msgstr "Грешка при стартување на програма"
+
+#: ../src/interface/bookmarks_dialog.cpp:332
+#: ../src/interface/bookmarks_dialog.cpp:887
+#: ../src/interface/QueueView.cpp:1601 ../src/interface/sitemanager.cpp:579
+#: ../src/interface/sitemanager.cpp:704 ../src/interface/sitemanager.cpp:761
+#: ../src/interface/sitemanager_dialog.cpp:766
+#: ../src/interface/sitemanager_dialog.cpp:1803
+#: ../src/interface/xmlfunctions.cpp:153
+msgid "Error writing xml file"
+msgstr "Грешка при запишување на xml податотека"
+
+#: ../src/engine/logging.cpp:130 ../src/interface/StatusView.cpp:292
+#: ../src/interface/StatusView.cpp:354
+msgid "Error:"
+msgstr "Грешка:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1871
+msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
+msgstr "Пример: png \"c:\\program files\\viewer\\viewer.exe\" -open"
+
+#: ../src/interface/resources/xrc/settings.xrc:1521
+msgid "Examples"
+msgstr "Примери"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:674
+msgid "Exe&cute"
+msgstr "Из&врши"
+
+#: ../src/interface/settings/optionspage_interface.cpp:129
+msgid "Explorer"
+msgstr "Explorer"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1792
+msgid "Export &Queue"
+msgstr "Редица за трансфер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1787
+msgid "Export &Settings"
+msgstr "Нагодувања за извоз"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1768
+msgid "Export settings"
+msgstr "Нагодувања за извоз"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1471
+msgid "F&ilter name:"
+msgstr "И&ме на филтер:"
+
+#: ../src/interface/settings/settingsdialog.cpp:97
+msgid "FTP"
+msgstr "FTP"
+
+#: ../src/interface/quickconnectbar.cpp:102
+msgid "FTP Engine not initialized, can't connect"
+msgstr "FTP не е иницијализирано, не може да се конектира"
+
+#: ../src/interface/resources/xrc/settings.xrc:233
+msgid "FTP Keep-alive"
+msgstr "FTP Keep-alive"
+
+#: ../src/interface/resources/xrc/settings.xrc:446
+#: ../src/interface/settings/settingsdialog.cpp:100
+msgid "FTP Proxy"
+msgstr "FTP Прокси"
+
+#: ../src/interface/cmdline.cpp:21
+msgid "FTP URL"
+msgstr "FTP URL"
+
+#: ../src/interface/LocalListView.cpp:542
+#: ../src/interface/LocalListView.cpp:615
+#: ../src/interface/LocalListView.cpp:955
+#: ../src/interface/LocalListView.cpp:1962
+#: ../src/interface/LocalTreeView.cpp:895
+#: ../src/interface/LocalTreeView.cpp:1197 ../src/interface/viewheader.cpp:499
+msgid "Failed to change directory"
+msgstr "Неуспешен обид за промена на именик"
+
+#: ../src/interface/FileZilla.cpp:170 ../src/interface/FileZilla.cpp:185
+#: ../src/interface/FileZilla.cpp:188
+msgid "Failed to change language"
+msgstr "Неуспешен обид за промена на јазик"
+
+#: ../src/interface/sitemanager_dialog.cpp:1583
+msgid "Failed to copy or move sites"
+msgstr "Неуспешен обид за копирање или преместување на локација"
+
+#: ../src/interface/xmlfunctions.cpp:239
+msgid "Failed to create backup copy of xml file"
+msgstr "Неуспешен обид за креирање на заштитна копија на xml податотека"
+
+#: ../src/engine/ftp/rawtransfer.cpp:213 ../src/engine/ftp/rawtransfer.cpp:216
+msgid "Failed to create listening socket for active mode transfer"
+msgstr ""
+"Неуспешен обид за креирање на Listening socket за активен режим на трансфер"
+
+#: ../src/interface/LocalTreeView.cpp:655
+msgid "Failed to get 'My Documents' path"
+msgstr "Неуспешен обид за читање на патот до 'Мои документи'"
+
+#: ../src/interface/LocalTreeView.cpp:642
+msgid "Failed to get desktop path"
+msgstr "Неуспешен обид за читање на патеката до desktop-от"
+
+#: ../src/interface/context_control.cpp:114
+msgid "Failed to initialize FTP engine"
+msgstr "Неуспешен обид за иницијализација на FTP"
+
+#: ../src/interface/settings/settingsdialog.cpp:153
+msgid "Failed to load panels, invalid resource files?"
+msgstr "Неуспешно вчитување на панели, грешка во ресурсната податотека"
+
+#: ../src/interface/fzputtygen_interface.cpp:111
+#, c-format
+msgid "Failed to load private key: %s"
+msgstr "Неуспешно вчитување на приватен клуч: %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:79
+#, c-format
+msgid "Failed to open \"%s\" for appending/writing"
+msgstr "Неуспешнп отворање на \"%s\" заради додавање/запишување"
+
+#: ../src/engine/ftp/filetransfer.cpp:139
+#, c-format
+msgid "Failed to open \"%s\" for reading"
+msgstr "Неуспешно отворање на \"%s\" заради читање"
+
+#: ../src/engine/ftp/filetransfer.cpp:105
+#: ../src/engine/http/filetransfer.cpp:103
+#, c-format
+msgid "Failed to open \"%s\" for writing"
+msgstr "Неуспешно отворање на \"%s\" заради запишување"
+
+#: ../src/interface/netconfwizard.cpp:1021
+msgid "Failed to receive data"
+msgstr "Неуспешно примање на податоци"
+
+#: ../src/engine/ControlSocket.cpp:180
+msgid "Failed to retrieve directory listing"
+msgstr "Неуспешно прелистување на именикот"
+
+#: ../src/interface/netconfwizard.cpp:636
+msgid "Failed to retrieve the external IP address."
+msgstr "Неуспешно барање на надворешната IP адреса"
+
+#: ../src/interface/netconfwizard.cpp:320
+msgid "Failed to send command."
+msgstr "Неуспешно праќање на команда."
+
+#: ../src/interface/FileZilla.cpp:185
+#, c-format
+msgid "Failed to set language to %s (%s), using default system language"
+msgstr ""
+"Неуспешно поставување на %s (%s) јазик, се користи основниот системски јазик"
+
+#: ../src/interface/FileZilla.cpp:188
+#, c-format
+msgid "Failed to set language to %s, using default system language"
+msgstr ""
+"Неуспеав да го поставам јазикот %s, го користам сандардниот системски јазик"
+
+#: ../src/interface/settings/optionspage.cpp:221
+msgid "Failed to validate settings"
+msgstr "Неуспешна валидација на нагодувања"
+
+#: ../src/engine/http/filetransfer.cpp:223
+#, c-format
+msgid "Failed to write to file %s"
+msgstr "Неуспешен обид за запис во податотека %s"
+
+#: ../src/interface/xmlfunctions.cpp:282
+msgid "Failed to write xml file"
+msgstr "Неуспешен обид за запис во xml податотека"
+
+#: ../src/interface/queueview_failed.cpp:16
+msgid "Failed transfers"
+msgstr "Неуспешни трансфери"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:159
+msgid "Fall back to active mode"
+msgstr "Враќање во активен режим"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2543
+msgid "Fil&e:"
+msgstr "Пода&тотека:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1539
+msgid "Fil&es"
+msgstr "Пода&тотеки"
+
+#: ../src/interface/filelistctrl.cpp:272
+msgid "File"
+msgstr "Податотека"
+
+#: ../src/interface/import.cpp:95
+msgid "File does not contain any importable data."
+msgstr "Податотеката не содржи никаков податок кој би можел да се увезе."
+
+#: ../src/interface/settings/settingsdialog.cpp:113
+msgid "File editing"
+msgstr "Уредување на податотека"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "File exists"
+msgstr "Податотеката постои"
+
+#: ../src/interface/settings/settingsdialog.cpp:105
+msgid "File exists action"
+msgstr "Акција ако податотеката постои"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1890
+msgid "File has changed"
+msgstr "Податотеката е променета"
+
+#: ../src/interface/settings/settingsdialog.cpp:111
+msgid "File lists"
+msgstr "Листи на податотеки"
+
+#: ../src/engine/storj/resolve.cpp:111 ../src/engine/storj/resolve.cpp:174
+#: ../src/interface/edithandler.cpp:1638 ../src/interface/FileZilla.cpp:701
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "File not found"
+msgstr "Податотеката не постои"
+
+#: ../src/engine/ControlSocket.cpp:101
+msgid "File transfer successful"
+msgstr "Трансферот на податотеката успешно заврши"
+
+#: ../src/interface/Mainfrm.cpp:1252
+msgid "File transfers still in progress."
+msgstr "Трансферот на податотеката сеуште е во тек"
+
+#: ../src/interface/FileZilla.cpp:471 ../src/interface/quickconnectbar.cpp:102
+msgid "FileZilla Error"
+msgstr "FileZilla Грешка"
+
+#: ../src/interface/menu_bar.cpp:98
+msgid "Filelist status &bars"
+msgstr "Статусна линија за листи на податотеки"
+
+#: ../src/interface/edithandler.cpp:1146
+#: ../src/interface/filter_conditions_dialog.cpp:101
+#: ../src/interface/LocalListView.cpp:283
+#: ../src/interface/RemoteListView.cpp:397 ../src/interface/search.cpp:160
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:35
+msgid "Filename"
+msgstr "Име"
+
+#: ../src/interface/RemoteListView.cpp:1731
+msgid "Filename invalid"
+msgstr "Погрешно име на податотека"
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "Filename unchanged"
+msgstr "Непроменето име на податотека"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1907
+#: ../src/interface/resources/xrc/settings.xrc:1991
+msgid "Filename:"
+msgstr "Име на податотека:"
+
+#: ../src/interface/file_utils.cpp:343
+msgid "Filenames may not contain any of the following characters: / * ? < > |"
+msgstr ""
+"Имињата на податотеките не можат да содржат било кој од следните знаци: / "
+"* ? < > |"
+
+#: ../src/interface/file_utils.cpp:308
+msgid ""
+"Filenames may not contain any of the following characters: / \\ : * ? \" < > "
+"|"
+msgstr ""
+"Имињата на податотеките не можат да содржат било кој од следните знаци: / "
+"\\ : * ? \" < > |"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2198
+msgid "Files currently being edited"
+msgstr "Податотеки кои се уредувани во моментов"
+
+#: ../src/interface/filter_conditions_dialog.cpp:105
+#: ../src/interface/LocalListView.cpp:284
+#: ../src/interface/RemoteListView.cpp:398 ../src/interface/search.cpp:162
+msgid "Filesize"
+msgstr "Големина"
+
+#: ../src/interface/settings/settingsdialog.cpp:110
+msgid "Filesize format"
+msgstr "Формат на големина на податотека"
+
+#: ../src/interface/LocalListView.cpp:285
+#: ../src/interface/RemoteListView.cpp:399 ../src/interface/search.cpp:163
+msgid "Filetype"
+msgstr "Тип"
+
+#: ../src/interface/resources/xrc/settings.xrc:1883
+#: ../src/interface/settings/settingsdialog.cpp:114
+msgid "Filetype associations"
+msgstr "Асоцијации на типовина податотеки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1532
+msgid "Filter applies to:"
+msgstr "Филтерот се однесува на:"
+
+#: ../src/interface/filteredit.cpp:155 ../src/interface/filteredit.cpp:220
+#: ../src/interface/filteredit.cpp:261 ../src/interface/filteredit.cpp:362
+msgid "Filter name already exists"
+msgstr "Името на филтерот веќе постои"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Filter set already exists"
+msgstr "Групата на филтерот веќе постои"
+
+#: ../src/interface/toolbar.cpp:50
+msgid "Filter the directory listings"
+msgstr "Филтрирај ја листата со именици"
+
+#: ../src/interface/resources/xrc/certificate.xrc:97
+msgid "Fingerprint (SHA-1):"
+msgstr "Отисок (SHA-1):"
+
+#: ../src/interface/netconfwizard.cpp:55
+msgid "Firewall and router configuration wizard"
+msgstr "Виолшебник за конфигурација на огнен ѕид и рутер"
+
+#: ../src/interface/resources/xrc/settings.xrc:71
+msgid ""
+"For more detailed information about what these options do, please run the "
+"network configuration wizard."
+msgstr ""
+"За подетални информации во врска со оваа опција, работете со волшебникот за "
+"мрежна конфигурација"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:313
+msgid "For reliability you should specify a range of at least 10 ports."
+msgstr "За сигурност треба да специфицирате ранг на најмалку 10 порти."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:692
+msgid "Force &UTF-8"
+msgstr "Форсирај &UTF-8"
+
+#: ../src/interface/menu_bar.cpp:148
+msgid "Force showing &hidden files"
+msgstr "Прикажи скриени податотеки"
+
+#: ../src/interface/Mainfrm.cpp:716
+msgid "Force showing hidden files"
+msgstr "Прикажи скриени податотеки"
+
+#: ../src/interface/resources/xrc/settings.xrc:494
+msgid "Format specifications:"
+msgstr "Формат спецификации:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1866
+msgid "Format: Extension followed by properly quoted command and arguments."
+msgstr ""
+"Формат: Екстензија проследена со соодветна команда и аргументи ставени во "
+"наводници."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:134
+msgid "General"
+msgstr "Општо"
+
+#: ../src/engine/proxy.cpp:437
+msgid "General SOCKS server failure"
+msgstr "General SOCKS server failure"
+
+#: ../src/interface/resources/xrc/settings.xrc:707
+#: ../src/interface/settings/settingsdialog.cpp:102
+msgid "Generic proxy"
+msgstr "Генерички прокси"
+
+#: ../src/interface/filter.cpp:285 ../src/interface/filter.cpp:345
+msgid "Given filterset name already exists, overwrite filter set?"
+msgstr "Целната податотека веќе постои, дали навистина сакате да продолжите?"
+
+#: ../src/interface/bookmarks_dialog.cpp:258
+msgid "Global bookmarks"
+msgstr "Глобални прибелешки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:621
+msgid "Group permissions"
+msgstr "Пермисии на група"
+
+#: ../src/interface/QueueView.cpp:1825
+msgid "H&igh"
+msgstr "В&исока"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2237
+msgid "Hash:"
+msgstr "Хеш:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:80
+msgid "Hidden"
+msgstr "Скриен"
+
+#: ../src/interface/resources/xrc/settings.xrc:964
+#: ../src/interface/queue.cpp:997 ../src/interface/queue.cpp:1059
+msgid "High"
+msgstr "Високо"
+
+#: ../src/interface/queue.cpp:999 ../src/interface/queue.cpp:1061
+msgid "Highest"
+msgstr "Највисока"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:75
+msgid "Highest available port has to be a number between 1024 and 65535."
+msgstr "Највисоката достапна порта треба да биде број помеѓу 1024 и 65535."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:803
+msgid "Homepage:"
+msgstr "Веб место:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1116
+msgid "Host key mismatch"
+msgstr "Клучот на хостот не се совпаѓа"
+
+#: ../src/engine/proxy.cpp:446
+msgid "Host unreachable"
+msgstr "Хостот не е достапен"
+
+#: ../src/interface/resources/xrc/certificate.xrc:179
+#: ../src/interface/resources/xrc/dialogs.xrc:284
+#: ../src/interface/resources/xrc/dialogs.xrc:420
+#: ../src/interface/resources/xrc/dialogs.xrc:1040
+#: ../src/interface/resources/xrc/dialogs.xrc:1161
+#: ../src/interface/verifycertdialog.cpp:740
+msgid "Host:"
+msgstr "Хост:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:568
+msgid "Hours,"
+msgstr "Часови,"
+
+#: ../src/interface/resources/xrc/settings.xrc:1409
+msgid "I&SO 8601 (example: 15:47)"
+msgstr "I&SO 8601 (пример: 15:47)"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:358
+msgid ""
+"If you click on test, FileZilla will connect to probe.filezilla-project.org "
+"and will perform some simple tests."
+msgstr ""
+"Ако притиснете на тест, FileZilla ќе се конектира на probe.filezilla-project."
+"org и ќе направи некои едноставни тестирања."
+
+#: ../src/interface/Mainfrm.cpp:1275
+msgid "If you close FileZilla, your changes will be lost."
+msgstr "Ако ја затворите FileZilla, вашите промени нема да бидат зачувани."
+
+#: ../src/interface/resources/xrc/settings.xrc:1128
+msgid ""
+"If you enter the wrong filetypes, those files may get corrupted when "
+"transferred."
+msgstr ""
+"Ако внесете погрешни типови на податотеки, при трансферот може да дојде до "
+"нивно оштетување."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:365
+msgid "If you get any errors, your configuration is not correct."
+msgstr "Ако добиете било каква грешка тогаш вашите нагодувања не се во ред."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1825
+msgid "Import settings"
+msgstr "Нагодувања за увоз"
+
+#: ../src/interface/import.cpp:83 ../src/interface/import.cpp:90
+msgid "Import successful"
+msgstr "Успешно увезување"
+
+#: ../src/interface/queue.cpp:349
+msgid "Incorrect password"
+msgstr "Погрешна лозинка"
+
+#: ../src/engine/ftp/logon.cpp:261
+msgid "Initializing TLS..."
+msgstr "Иницијализација на TLS..."
+
+#: ../src/engine/server.cpp:714 ../src/engine/server.cpp:738
+#: ../src/interface/manual_transfer.cpp:182
+msgid "Interactive"
+msgstr "Интерактивно"
+
+#: ../src/interface/settings/settingsdialog.cpp:106
+msgid "Interface"
+msgstr "Изглед"
+
+#: ../src/engine/ControlSocket.cpp:207 ../src/interface/queue.cpp:355
+msgid "Interrupted by user"
+msgstr "Прекинато од корисникот"
+
+#: ../src/engine/http/request.cpp:481
+msgid "Invalid HTTP Response"
+msgstr "Погрешен HTTP одговор"
+
+#: ../src/interface/netconfwizard.cpp:371
+#: ../src/interface/netconfwizard.cpp:380
+#: ../src/interface/netconfwizard.cpp:388
+#: ../src/interface/netconfwizard.cpp:405
+msgid "Invalid data received"
+msgstr "Примени невалидни податоци"
+
+#: ../src/interface/verifycertdialog.cpp:379
+#: ../src/interface/verifycertdialog.cpp:395
+msgid "Invalid date"
+msgstr "Погрешен датум"
+
+#: ../src/interface/file_utils.cpp:308 ../src/interface/file_utils.cpp:343
+msgid "Invalid filename"
+msgstr "Погрешно име на податотека"
+
+#: ../src/interface/asksavepassworddialog.cpp:41
+#: ../src/interface/asksavepassworddialog.cpp:46
+#: ../src/interface/loginmanager.cpp:111 ../src/interface/loginmanager.cpp:116
+#: ../src/interface/loginmanager.cpp:209 ../src/interface/loginmanager.cpp:311
+msgid "Invalid input"
+msgstr "Погрешен влез"
+
+#: ../src/interface/serverdata.cpp:138 ../src/interface/serverdata.cpp:256
+msgid "Invalid port given. The port has to be a value from 1 to 65535."
+msgstr "Внесен е невалиден порт. Портот треба да биде вредност од 1 до 65535."
+
+#: ../src/engine/http/request.cpp:490
+msgid "Invalid response code"
+msgstr "Погрешен код на одговор"
+
+#: ../src/interface/sitemanager.cpp:651 ../src/interface/sitemanager.cpp:657
+#: ../src/interface/sitemanager.cpp:739 ../src/interface/sitemanager.cpp:745
+msgid "Invalid site path"
+msgstr "Погрешен пат до локација"
+
+#: ../src/interface/filter_conditions_dialog.cpp:507
+msgid "Invalid size in condition"
+msgstr "Невавалидна големина во условот."
+
+#: ../src/interface/serverdata.cpp:204
+msgid "Invalid username given."
+msgstr "Внесено е невавалидно корисничко име."
+
+#: ../src/interface/resources/xrc/settings.xrc:1592
+msgid "Keep directories on top"
+msgstr "Стави ги имениците на почеток"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2210
+msgid "Key exchange"
+msgstr "Размена на клучеви"
+
+#: ../src/interface/QueueView.cpp:1828
+msgid "L&owest"
+msgstr "Нај&ниска"
+
+#: ../src/interface/resources/xrc/settings.xrc:1721
+#: ../src/interface/settings/settingsdialog.cpp:112
+msgid "Language"
+msgstr "Јазик"
+
+#: ../src/interface/Mainfrm.cpp:1568
+msgid "Language changed"
+msgstr "Јазик е променет"
+
+#: ../src/interface/LocalListView.cpp:286
+#: ../src/interface/RemoteListView.cpp:400 ../src/interface/search.cpp:164
+msgid "Last modified"
+msgstr "Последна измена"
+
+#: ../src/interface/settings/optionspage_interface.cpp:118
+msgid "Layout"
+msgstr "Изглед"
+
+#: ../src/interface/resources/xrc/settings.xrc:844
+msgid "Limit for concurrent &downloads:"
+msgstr "Ограничување за истовремени симнувања:"
+
+#: ../src/interface/resources/xrc/settings.xrc:865
+msgid "Limit for concurrent &uploads:"
+msgstr "Ограничување за истовремени подигнувања:"
+
+#: ../src/interface/resources/xrc/settings.xrc:265
+msgid "Limit local ports"
+msgstr "Ограничување на локалните порти"
+
+#: ../src/engine/http/request.cpp:652
+msgid "Line length exceeded"
+msgstr "Надмината должина на ред"
+
+#: ../src/engine/logging.cpp:137 ../src/interface/StatusView.cpp:303
+#: ../src/interface/StatusView.cpp:388
+msgid "Listing:"
+msgstr "Листање:"
+
+#: ../src/interface/resources/xrc/settings.xrc:295
+msgid "Lo&west available port:"
+msgstr "Најн&иска достапна порта:"
+
+#: ../src/interface/edithandler.cpp:1194 ../src/interface/edithandler.cpp:1438
+msgid "Local"
+msgstr "Локално"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2487
+msgid "Local file"
+msgstr "Локалална податотека"
+
+#: ../src/interface/manual_transfer.cpp:304
+msgid "Local file does not exist."
+msgstr "Не постои локалана податотека."
+
+#: ../src/interface/manual_transfer.cpp:300
+msgid "Local file is a directory instead of a regular file."
+msgstr "Локалната податотека е именик наместо регуларна податотека."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1281
+msgid "Local filters:"
+msgstr "Локални филтри:"
+
+#: ../src/interface/viewheader.cpp:337
+msgid "Local site:"
+msgstr "Локален именик:"
+
+#: ../src/interface/verifycertdialog.cpp:648
+msgid "Locality:"
+msgstr "Локално:"
+
+#: ../src/interface/settings/optionspage_logging.cpp:97
+msgid "Log file"
+msgstr "Податотека на дневник на пораки"
+
+#: ../src/interface/resources/xrc/settings.xrc:1969
+#: ../src/interface/settings/settingsdialog.cpp:120
+msgid "Logging"
+msgstr "Најавување"
+
+#: ../src/interface/queue.cpp:992 ../src/interface/queue.cpp:1054
+msgid "Low"
+msgstr "Ниска"
+
+#: ../src/interface/queue.cpp:990 ../src/interface/queue.cpp:1052
+msgid "Lowest"
+msgstr "Најниска"
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:69
+msgid "Lowest available port has to be a number between 1024 and 65535."
+msgstr "Најниската достапна порта треба да биде број помеѓу 1 и 65535."
+
+#: ../src/interface/resources/xrc/certificate.xrc:232
+msgid "MAC:"
+msgstr "MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2829
+#: ../src/interface/manual_transfer.cpp:288
+#: ../src/interface/manual_transfer.cpp:294
+#: ../src/interface/manual_transfer.cpp:300
+#: ../src/interface/manual_transfer.cpp:304
+#: ../src/interface/manual_transfer.cpp:311
+#: ../src/interface/manual_transfer.cpp:317
+#: ../src/interface/manual_transfer.cpp:323
+#: ../src/interface/manual_transfer.cpp:331
+msgid "Manual transfer"
+msgstr "Мануелен трансфер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3306
+msgid "Match all of the following"
+msgstr "Совпаѓање на сите од следните"
+
+#: ../src/interface/resources/xrc/settings.xrc:823
+msgid "Maximum simultaneous &transfers:"
+msgstr "Максимален број на истовремени трансфери:"
+
+#: ../src/interface/Mainfrm.cpp:432 ../src/interface/Mainfrm.cpp:1893
+msgid "Message log"
+msgstr "Прозорец за пораки"
+
+#: ../src/interface/resources/xrc/settings.xrc:2035
+msgid "MiB"
+msgstr "MiB"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:584
+msgid "Minutes"
+msgstr "Минути"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2402
+msgid "Move &down"
+msgstr "Преместо подолу"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2396
+msgid "Move &up"
+msgstr "Премести погоре"
+
+#: ../src/interface/LocalTreeView.cpp:1036
+msgid "My Computer"
+msgstr "Мој компјутер"
+
+#: ../src/interface/LocalTreeView.cpp:1027
+msgid "My Documents"
+msgstr "Мои документи"
+
+#: ../src/interface/sitemanager.cpp:287
+#: ../src/interface/sitemanager_dialog.cpp:664
+#: ../src/interface/sitemanager_dialog.cpp:667
+msgid "My Sites"
+msgstr "Мои локации"
+
+#: ../src/interface/settings/optionspage_themes.cpp:197
+#: ../src/interface/settings/optionspage_themes.cpp:200
+msgid "N/a"
+msgstr "не е наведено"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2867
+msgid "Name"
+msgstr "Име"
+
+#: ../src/interface/bookmarks_dialog.cpp:733
+#: ../src/interface/sitemanager_dialog.cpp:990
+msgid "Name already exists"
+msgstr "Името веќе постои"
+
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+msgid "Name of bookmark already exists."
+msgstr "Името веќе постои."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:276
+#: ../src/interface/resources/xrc/dialogs.xrc:412
+#: ../src/interface/verifycertdialog.cpp:654
+msgid "Name:"
+msgstr "Име:"
+
+#: ../src/interface/filteredit.cpp:354
+msgid "Need to enter filter name"
+msgstr "Треба да внесете име на филтер"
+
+#: ../src/interface/sitemanager_site.cpp:555
+msgid "Need to specify a character encoding"
+msgstr "Треба да ја одредите кодната табела"
+
+#: ../src/engine/proxy.cpp:443 ../src/engine/socket_errors.cpp:52
+msgid "Network unreachable"
+msgstr "Не е достапна мрежата"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:41
+msgid "New &Folder"
+msgstr "Нова &папка"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3074
+#: ../src/interface/resources/xrc/sitemanager.xrc:47
+msgid "New Book&mark"
+msgstr "Нова &прибелешка"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2832
+#: ../src/interface/bookmarks_dialog.cpp:60
+#: ../src/interface/bookmarks_dialog.cpp:73
+#: ../src/interface/bookmarks_dialog.cpp:79
+#: ../src/interface/bookmarks_dialog.cpp:85
+#: ../src/interface/bookmarks_dialog.cpp:97
+#: ../src/interface/bookmarks_dialog.cpp:103
+#: ../src/interface/bookmarks_dialog.cpp:111
+#: ../src/interface/bookmarks_dialog.cpp:466
+#: ../src/interface/bookmarks_dialog.cpp:567
+#: ../src/interface/bookmarks_dialog.cpp:573
+#: ../src/interface/bookmarks_dialog.cpp:579
+#: ../src/interface/bookmarks_dialog.cpp:600
+#: ../src/interface/bookmarks_dialog.cpp:857
+#: ../src/interface/sitemanager.cpp:670
+#: ../src/interface/sitemanager_dialog.cpp:1744
+msgid "New bookmark"
+msgstr "Нова прибелешка"
+
+#: ../src/interface/LocalTreeView.cpp:1228
+#: ../src/interface/RemoteListView.cpp:1407
+#: ../src/interface/RemoteTreeView.cpp:1326
+msgid "New directory"
+msgstr "Нов именик"
+
+#: ../src/interface/filteredit.cpp:137
+msgid "New filter"
+msgstr "Нов филтер"
+
+#: ../src/interface/sitemanager_dialog.cpp:850
+msgid "New folder"
+msgstr "Нова папка"
+
+#: ../src/interface/sitemanager.cpp:550 ../src/interface/sitemanager.cpp:564
+#: ../src/interface/sitemanager_dialog.cpp:1716
+msgid "New site"
+msgstr "Нова локација"
+
+#: ../src/interface/settings/optionspage_interface.cpp:136
+msgid "Next to the transfer queue"
+msgstr "После редицата за трансфер"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:395
+msgid "No"
+msgstr "Не"
+
+#: ../src/interface/export.cpp:30
+msgid "No category to export selected"
+msgstr "Не се избрани категории за извоз"
+
+#: ../src/interface/QueueView.cpp:1925
+msgid "No command given, aborting."
+msgstr "Не е зададена команда, прекинување."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:635
+msgid "No external IP address set, trying default."
+msgstr "Не е наведена надворешна IP адреса, обид со основната."
+
+#: ../src/interface/filteredit.cpp:150
+msgid "No filter name given"
+msgstr "Не е дадено име на филтер"
+
+#: ../src/interface/serverdata.cpp:152 ../src/interface/serverdata.cpp:242
+#: ../src/interface/serverdata.cpp:263
+msgid "No host given, please enter a host."
+msgstr "Нема внесено хост, внесете хост."
+
+#: ../src/interface/settings/optionspage_themes.cpp:94
+msgid "No images available"
+msgstr "Нема достапни слики"
+
+#: ../src/interface/sitemanager.cpp:297
+msgid "No sites available"
+msgstr "Нема достапни локации"
+
+#: ../src/interface/loginmanager.cpp:209
+msgid "No username given."
+msgstr "Нема дадено корисничко име."
+
+#: ../src/interface/resources/xrc/settings.xrc:1683
+#: ../src/interface/resources/xrc/settings.xrc:1702
+#: ../src/interface/sitemanager.cpp:20
+#: ../src/interface/verifycertdialog.cpp:402
+msgid "None"
+msgstr "Нема"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2603
+msgid "None selected yet"
+msgstr "Сеуште не е избран ниту еден"
+
+#: ../src/interface/resources/xrc/settings.xrc:963 ../src/engine/server.cpp:705
+#: ../src/engine/server.cpp:732 ../src/interface/manual_transfer.cpp:148
+#: ../src/interface/manual_transfer.cpp:176
+#: ../src/interface/manual_transfer.cpp:535 ../src/interface/queue.cpp:995
+#: ../src/interface/queue.cpp:1057
+msgid "Normal"
+msgstr "Нормално"
+
+#: ../src/interface/RemoteListView.cpp:2227
+msgid "Not connected to any server"
+msgstr "Нема конекција до ниту еден сервер"
+
+#: ../src/interface/Mainfrm.cpp:614
+msgid "Not connected to any server."
+msgstr "Нема конекција до ниту еден сервер."
+
+#: ../src/interface/Mainfrm.cpp:718
+msgid "Note that this feature is only supported using the FTP protocol."
+msgstr "Забелешка: ова својство е подржано само ако се користи FTP протокол."
+
+#: ../src/interface/resources/xrc/settings.xrc:596
+msgid "Note: This only works with plain, unencrypted FTP connections."
+msgstr "Забелешка: ова работи само со едноставни, некриптирани FTP конекции."
+
+#: ../src/interface/resources/xrc/settings.xrc:795
+msgid "Note: Using a generic proxy forces passive mode on FTP connections."
+msgstr ""
+"Забелешка: користењето на генерички прокси го форсира пасивниот начин на FTP "
+"конекции"
+
+#: ../src/interface/resources/xrc/settings.xrc:1496
+msgid "Number of decimal places:"
+msgstr "Број на децимални места:"
+
+#: ../src/interface/settings/optionspage_connection.cpp:35
+msgid "Number of retries has to be between 0 and 99."
+msgstr "Бројот на обидите треба да биде помеѓу 0 и 99."
+
+#: ../src/interface/resources/xrc/certificate.xrc:282
+#: ../src/interface/resources/xrc/dialogs.xrc:233
+#: ../src/interface/resources/xrc/dialogs.xrc:559
+#: ../src/interface/resources/xrc/dialogs.xrc:751
+#: ../src/interface/resources/xrc/dialogs.xrc:994
+#: ../src/interface/resources/xrc/dialogs.xrc:1100
+#: ../src/interface/resources/xrc/dialogs.xrc:1221
+#: ../src/interface/resources/xrc/dialogs.xrc:1380
+#: ../src/interface/resources/xrc/dialogs.xrc:1569
+#: ../src/interface/resources/xrc/dialogs.xrc:1676
+#: ../src/interface/resources/xrc/dialogs.xrc:1747
+#: ../src/interface/resources/xrc/dialogs.xrc:1805
+#: ../src/interface/resources/xrc/dialogs.xrc:1870
+#: ../src/interface/resources/xrc/dialogs.xrc:2044
+#: ../src/interface/resources/xrc/dialogs.xrc:2181
+#: ../src/interface/resources/xrc/dialogs.xrc:2353
+#: ../src/interface/resources/xrc/dialogs.xrc:2428
+#: ../src/interface/resources/xrc/dialogs.xrc:2811
+#: ../src/interface/resources/xrc/dialogs.xrc:2966
+#: ../src/interface/resources/xrc/dialogs.xrc:3224
+#: ../src/interface/resources/xrc/dialogs.xrc:3464
+#: ../src/interface/resources/xrc/dialogs.xrc:3559
+#: ../src/interface/resources/xrc/dialogs.xrc:3628
+#: ../src/interface/resources/xrc/dialogs.xrc:3803
+#: ../src/interface/resources/xrc/dialogs.xrc:3905
+#: ../src/interface/resources/xrc/dialogs.xrc:4039
+#: ../src/interface/resources/xrc/inputdialog.xrc:34
+#: ../src/interface/resources/xrc/settings.xrc:28
+#: ../src/interface/resources/xrc/storj.xrc:37
+#: ../src/interface/welcome_dialog.cpp:114
+msgid "OK"
+msgstr "ОК"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:405
+msgid "Once"
+msgstr "Еднаш"
+
+#: ../src/interface/toolbar.cpp:31 ../src/interface/toolbar.cpp:33
+msgid "Open the Site Manager"
+msgstr "Отвора Менаџер на конекции"
+
+#: ../src/interface/LocalListView.cpp:793
+msgid "Open the file."
+msgstr "Отвора податотека."
+
+#: ../src/interface/menu_bar.cpp:72
+msgid "Open the settings dialog of FileZilla"
+msgstr "Отвора дијалог прозорец за нагодување на FileZilla"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1917
+msgid "Opened as:"
+msgstr "Отворено како:"
+
+#: ../src/interface/edithandler.cpp:1706 ../src/interface/edithandler.cpp:1825
+#: ../src/interface/LocalListView.cpp:1874
+#: ../src/interface/LocalListView.cpp:1887 ../src/interface/search.cpp:1524
+#: ../src/interface/search.cpp:1537
+msgid "Opening failed"
+msgstr "Неуспешно отворање"
+
+#: ../src/interface/menu_bar.cpp:49
+msgid "Opens the Site Manager"
+msgstr "Го отвора менаџерот на мрежни локлации"
+
+#: ../src/interface/verifycertdialog.cpp:642
+msgid "Organization:"
+msgstr "Организација:"
+
+#: ../src/interface/verifycertdialog.cpp:670
+msgid "Other:"
+msgstr "Друго:"
+
+#: ../src/interface/resources/xrc/settings.xrc:64
+msgid "Overview"
+msgstr "Преглед"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:136
+msgid "Overwrite &if source newer"
+msgstr "Пребриши ако изворната е понова"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:587
+msgid "Owner permissions"
+msgstr "Пермисии на сопственикот"
+
+#: ../src/interface/RemoteListView.cpp:402 ../src/interface/search.cpp:166
+msgid "Owner/Group"
+msgstr "Сопственик/Група"
+
+#: ../src/interface/resources/xrc/settings.xrc:556
+#: ../src/interface/resources/xrc/settings.xrc:743
+msgid "P&roxy host:"
+msgstr "П&рокси хост:"
+
+#: ../src/interface/netconfwizard.cpp:505
+msgid "PORT command tainted by router or firewall."
+msgstr "PORT командата е забранета од рутеро= или огнен ѕид."
+
+#: ../src/interface/resources/xrc/settings.xrc:203
+msgid "Pa&ssive (recommended)"
+msgstr "Пасивен (препорачливо)"
+
+#: ../src/interface/Mainfrm.cpp:2547
+msgid "Parameter not a valid URL"
+msgstr "Параметарот не е валиден URL"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2719
+#: ../src/interface/resources/xrc/sitemanager.xrc:286
+#: ../src/interface/quickconnectbar.cpp:50
+#: ../src/interface/sitemanager_site.cpp:274
+msgid "Pass&word:"
+msgstr "Ло&зинка:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:73
+msgid "Passive (recommended)"
+msgstr "Пасивен (препорачливо)"
+
+#: ../src/interface/resources/xrc/settings.xrc:410
+#: ../src/interface/settings/settingsdialog.cpp:99
+msgid "Passive mode"
+msgstr "Пасивен режим"
+
+#: ../src/interface/netconfwizard.cpp:608
+#: ../src/interface/netconfwizard.cpp:621
+#: ../src/interface/netconfwizard.cpp:632
+msgid "Passive mode has been set as default transfer mode."
+msgstr "Пасивен режим ќе биде поставен како основен режим на трасфер."
+
+#: ../src/interface/fzputtygen_interface.cpp:96
+msgid "Password required"
+msgstr "Потребна е лозинка"
+
+#: ../src/interface/filter_conditions_dialog.cpp:117
+#: ../src/interface/search.cpp:161
+msgid "Path"
+msgstr "Пат"
+
+#: ../src/engine/ftp/rmd.cpp:26 ../src/engine/ftp/rmd.cpp:42
+#: ../src/engine/sftp/rmd.cpp:14
+#, c-format
+msgid "Path cannot be constructed for directory %s and subdir %s"
+msgstr "Патот не може да се креира за именик %s и подименик %s"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2896
+msgid "Paths"
+msgstr "Патеки"
+
+#: ../src/interface/edithandler.cpp:1173 ../src/interface/edithandler.cpp:1310
+#: ../src/interface/edithandler.cpp:1407 ../src/interface/edithandler.cpp:1417
+msgid "Pending removal"
+msgstr "Чека за бришење"
+
+#: ../src/interface/filter_conditions_dialog.cpp:113
+msgid "Permission"
+msgstr "Пермисија"
+
+#: ../src/interface/RemoteListView.cpp:401 ../src/interface/search.cpp:165
+msgid "Permissions"
+msgstr "Пермисии"
+
+#: ../src/interface/settings/optionspage_dateformatting.cpp:82
+msgid "Please enter a custom time format."
+msgstr "Внесете ваш формат на време"
+
+#: ../src/interface/filteredit.cpp:143
+msgid "Please enter a name for the new filter."
+msgstr "Внесете име за новиот филтер"
+
+#: ../src/interface/filteredit.cpp:249
+msgid "Please enter a new name for the copied filter."
+msgstr "Внесете ново име за копираниот филтер"
+
+#: ../src/interface/filteredit.cpp:200
+msgid "Please enter a new name for the filter."
+msgstr "Внесете ново име за филтерот"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:252
+msgid "Please enter a password for this server:"
+msgstr "Ве молам внесете лозинка за овој сервер:"
+
+#: ../src/interface/filter.cpp:262
+msgid "Please enter a unique name for this filter set"
+msgstr "Внесете единствено име за оваа група на филтри"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:259
+msgid "Please enter a username for this server:"
+msgstr "Внесете корисничко име за овој сервер:"
+
+#: ../src/interface/netconfwizard.cpp:190
+msgid "Please enter a valid portrange."
+msgstr "Внесете валиден ранг на порти."
+
+#: ../src/interface/Mainfrm.cpp:626
+msgid ""
+"Please enter raw FTP command.\n"
+"Using raw ftp commands will clear the directory cache."
+msgstr ""
+"Внесете FTP команда.\n"
+"Користењето на ftp команди ќе го испразни кешот со именици."
+
+#: ../src/interface/LocalListView.cpp:968
+#: ../src/interface/LocalTreeView.cpp:1224
+#: ../src/interface/RemoteListView.cpp:1394
+#: ../src/interface/RemoteTreeView.cpp:1313
+msgid "Please enter the name of the directory which should be created:"
+msgstr "Внесете име на именикот што треба да се креира:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:266
+msgid "Please enter username and password for this server:"
+msgstr "Внесете корисничко име и лозинка за овој сервер:"
+
+#: ../src/interface/netconfwizard.cpp:155
+msgid "Please enter your external IP address"
+msgstr "Внесете ја вашата надворешна IP адреса"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1863
+msgid "Please select the categories you would like to import."
+msgstr "Избор на категории за увезување."
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:34
+msgid "Please select the default transfer mode you would like to use."
+msgstr ""
+"Изберете го основниот начин на трансфер на податоци кој сакате да го "
+"користите."
+
+#: ../src/interface/chmoddialog.cpp:174
+#, c-format
+msgid "Please select the new attributes for the directory \"%s\"."
+msgstr "Изберете ги новите атрибути за именикот \"%s\"."
+
+#: ../src/interface/chmoddialog.cpp:165
+#, c-format
+msgid "Please select the new attributes for the file \"%s\"."
+msgstr "Изберете ги новите атрибути за податотеката \"%s\"."
+
+#: ../src/interface/chmoddialog.cpp:177
+msgid "Please select the new attributes for the selected directories."
+msgstr "Изберете ги новите атрибути за селектираните именици."
+
+#: ../src/interface/chmoddialog.cpp:181
+msgid ""
+"Please select the new attributes for the selected files and directories."
+msgstr "Изберете ги новите атрибути за избраните податотеки и именици."
+
+#: ../src/interface/chmoddialog.cpp:168
+msgid "Please select the new attributes for the selected files."
+msgstr "Изберете ги новите атрибути за избраните податотеки."
+
+#: ../src/interface/sitemanager.cpp:286
+#: ../src/interface/sitemanager_dialog.cpp:1442
+msgid "Predefined Sites"
+msgstr "Предефинирани конекции"
+
+#: ../src/interface/Mainfrm.cpp:758
+msgid "Preserving file timestamps"
+msgstr "Зачувавање на временски податоци на податотека"
+
+#: ../src/interface/resources/xrc/settings.xrc:1591
+msgid "Prioritize directories (default)"
+msgstr "Имениците на почеток (основно)"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Priority"
+msgstr "Приоритет"
+
+#: ../src/interface/resources/xrc/settings.xrc:630
+msgid "Private &keys:"
+msgstr "Приватни &клучеви"
+
+#: ../src/interface/resources/xrc/settings.xrc:579
+#: ../src/interface/resources/xrc/settings.xrc:776
+msgid "Pro&xy password:"
+msgstr "Прокси ло&зинка:"
+
+#: ../src/interface/menu_bar.cpp:111 ../src/interface/QueueView.cpp:1815
+msgid "Process &Queue"
+msgstr "Процесирај &редица за трансфер"
+
+#: ../src/interface/resources/xrc/settings.xrc:753
+msgid "Proxy &port:"
+msgstr "Прокси порта:"
+
+#: ../src/interface/resources/xrc/settings.xrc:569
+#: ../src/interface/resources/xrc/settings.xrc:766
+msgid "Proxy &user:"
+msgstr "Прокси корисник:"
+
+#: ../src/engine/proxy.cpp:418
+msgid "Proxy authentication failed"
+msgstr "Автентикацијата на проксито не успеа"
+
+#: ../src/engine/ftp/transfersocket.cpp:109
+#, c-format
+msgid "Proxy handshake failed: %s"
+msgstr "Преговарањето со проксито не успеа: %s"
+
+#: ../src/engine/proxy.cpp:294
+#, c-format
+msgid "Proxy reply: %s"
+msgstr "Прокси одговор: %s"
+
+#: ../src/interface/resources/xrc/settings.xrc:617
+msgid "Public Key Authentication"
+msgstr "Автентикација на јавен клуч"
+
+#: ../src/interface/resources/xrc/certificate.xrc:73
+msgid "Public key algorithm:"
+msgstr "Алгоритам на јавен клуч:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:655
+msgid "Public permissions"
+msgstr "Јавни пермисии"
+
+#: ../src/interface/QueueView.cpp:2820
+msgid "Queue has been fully processed"
+msgstr "Редицата ќе биде целосно порцесирана"
+
+#: ../src/interface/statusbar.cpp:377 ../src/interface/statusbar.cpp:437
+msgid "Queue: empty"
+msgstr "Редица: празна"
+
+#: ../src/interface/QueueView.cpp:207
+msgid "Queued files"
+msgstr "Податотеки во редица"
+
+#: ../src/interface/menu_bar.cpp:104
+msgid "R&emote directory tree"
+msgstr "Мрежен именик"
+
+#: ../src/interface/Mainfrm.cpp:641
+msgid "Raw FTP command"
+msgstr "Директна FTP команда"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:628
+msgid "Re&ad"
+msgstr "Re&ad"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:166
+msgid "Re&name"
+msgstr "Пр&еименувај"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:662
+msgid "Rea&d"
+msgstr "Rea&d"
+
+#: ../src/interface/filter_conditions_dialog.cpp:81
+msgid "Read-only"
+msgstr "Read-only"
+
+#: ../src/interface/Mainfrm.cpp:1134
+msgid "Really cancel current operation?"
+msgstr "Дали навистина сакате да ја откажете тековната операција?"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Reason"
+msgstr "Причина"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:716
+msgid "Rec&urse into subdirectories"
+msgstr "При&мени и за подименици"
+
+#: ../src/interface/resources/xrc/settings.xrc:185
+msgid "Reconnection settings"
+msgstr "Нагодувања за реконектирање"
+
+#: ../src/interface/toolbar.cpp:47
+msgid "Reconnects to the last used server"
+msgstr "Реконектирање на последно користениот сервер"
+
+#: ../src/interface/toolbar.cpp:43
+msgid "Refresh the file and folder lists"
+msgstr "Освежување на листите на податотеки папки"
+
+#: ../src/interface/edithandler.cpp:1157
+msgid "Remote"
+msgstr "Мрежно"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2522
+#: ../src/interface/queue.cpp:1275
+msgid "Remote file"
+msgstr "Мрежна податотека"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1316
+msgid "Remote filters:"
+msgstr "Мрежни филтри:"
+
+#: ../src/interface/edithandler.cpp:1148
+msgid "Remote path"
+msgstr "Мрежен пат"
+
+#: ../src/interface/manual_transfer.cpp:323
+msgid "Remote path could not be parsed."
+msgstr "Не може да се парсира мрежниот пат."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1937
+msgid "Remote path:"
+msgstr "Мрежен пат:"
+
+#: ../src/interface/viewheader.cpp:529
+msgid "Remote site:"
+msgstr "Мрежен именик:"
+
+#: ../src/interface/queueview_failed.cpp:30
+#: ../src/interface/queueview_successful.cpp:23
+msgid "Remove &all"
+msgstr "Отстрани ги сите"
+
+#: ../src/interface/queueview_failed.cpp:34
+#: ../src/interface/queueview_successful.cpp:27
+msgid "Remove &selected"
+msgstr "Отстрани ги &избраните"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1621
+#: ../src/interface/resources/xrc/dialogs.xrc:1644
+#: ../src/interface/resources/xrc/settings.xrc:1193
+#: ../src/interface/resources/xrc/settings.xrc:1214
+#: ../src/interface/asyncrequestqueue.cpp:350
+msgid "Rename file"
+msgstr "Преименувај податека"
+
+#: ../src/interface/LocalTreeView.cpp:1110
+#: ../src/interface/RemoteTreeView.cpp:917
+msgid "Rename selected directory"
+msgstr "Преименувај ги избраните податотеки и именици"
+
+#: ../src/interface/LocalListView.cpp:803
+#: ../src/interface/RemoteListView.cpp:1139
+msgid "Rename selected files and directories"
+msgstr "Преименувај ги избраните податотеки и именици"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:602
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:603
+#, c-format
+msgid "Renaming '%s' to '%s'"
+msgstr "Преименување на '%s' во '%s'"
+
+#: ../src/engine/ControlSocket.cpp:864 ../src/engine/ControlSocket.cpp:869
+#, c-format
+msgid "Resolving address of %s"
+msgstr "Разрешување на адресата на %s"
+
+#: ../src/engine/logging.cpp:132 ../src/interface/netconfwizard.cpp:419
+#: ../src/interface/StatusView.cpp:297 ../src/interface/StatusView.cpp:367
+msgid "Response:"
+msgstr "Одговор:"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:319
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:452
+#: ../src/engine/storj/storjcontrolsocket.cpp:64
+msgid "Retrieving directory listing..."
+msgstr "Примање на листа со именици..."
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:650
+#: ../src/interface/netconfwizard.cpp:721
+#, c-format
+msgid "Retrieving external IP address from %s"
+msgstr "Примање на надворешна IP адреса од %s"
+
+#: ../src/interface/menu_bar.cpp:61
+msgid "S&how files currently being edited..."
+msgstr "Приказ на тековно уредувани податотеки..."
+
+#: ../src/interface/settings/settingsdialog.cpp:101
+msgid "SFTP"
+msgstr "SFTP"
+
+#: ../src/interface/netconfwizard.cpp:863
+msgid "Save settings?"
+msgstr "Зачувај нагодувања?"
+
+#: ../src/interface/statusbar.cpp:526
+msgid "Security information"
+msgstr "Безбедносни информации"
+
+#: ../src/interface/netconfwizard.cpp:583
+#: ../src/interface/netconfwizard.cpp:597
+msgid "See also: https://wiki.filezilla-project.org/Network_Configuration"
+msgstr ""
+"Види исто така: https://wiki.filezilla-project.org/Network_Configuration"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2610
+msgid "Sele&ct server"
+msgstr "Избор на сервер"
+
+#: ../src/interface/resources/xrc/settings.xrc:13
+msgid "Select &page:"
+msgstr "Избор на с&траница:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1271
+msgid "Select Theme"
+msgstr "Избор на тема"
+
+#: ../src/interface/resources/xrc/settings.xrc:1168
+msgid ""
+"Select default action to perform if target file of a transfer already exists."
+msgstr "Избери основна акција ако целната податотека постои."
+
+#: ../src/interface/edithandler.cpp:1617
+#: ../src/interface/settings/optionspage_edit.cpp:104
+msgid "Select default editor"
+msgstr "Избор на основен уредувач"
+
+#: ../src/interface/defaultfileexistsdlg.cpp:16
+msgid ""
+"Select default file exists action if the target file already exists. This "
+"selection is valid only for the current session."
+msgstr ""
+"Основна акција ако целната податотека постои. Овој избор ќе важи само за "
+"тековната сесија."
+
+#: ../src/interface/defaultfileexistsdlg.cpp:13
+msgid ""
+"Select default file exists action only for the currently selected files in "
+"the queue."
+msgstr ""
+"Основна акција ако целната податотека постои само за избраните податотеки во "
+"редицата за трансфер."
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:81
+msgid "Select file containing private key"
+msgstr "Избор на податотека која го содржи приватниот клуч"
+
+#: ../src/interface/export.cpp:48
+msgid "Select file for exported data"
+msgstr "Избор на податотека за извоз на податоци"
+
+#: ../src/interface/export.cpp:39 ../src/interface/queue.cpp:1561
+msgid "Select file for exported queue"
+msgstr "Избор на податотека за извоз на редица за трансфер"
+
+#: ../src/interface/export.cpp:42
+msgid "Select file for exported settings"
+msgstr "Избор на податотека за извоз на нагодувања"
+
+#: ../src/interface/export.cpp:36 ../src/interface/sitemanager_dialog.cpp:1786
+msgid "Select file for exported sites"
+msgstr "Избор на податотека за извоз на локации"
+
+#: ../src/interface/import.cpp:18
+msgid "Select file to import settings from"
+msgstr "Податотека од која се увезуваат нагодувања"
+
+#: ../src/interface/manual_transfer.cpp:239
+msgid "Select file to upload"
+msgstr "Избор на податотека за подигнување"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3163
+msgid "Select how these files should be opened."
+msgstr "Избор како овие податотеки ќе бидат отворани."
+
+#: ../src/interface/manual_transfer.cpp:235
+msgid "Select target filename"
+msgstr "Целно име на податотека"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1776
+msgid "Select the categories to export:"
+msgstr "Изберете категории за извоз:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1702
+msgid "Select the private data you would like to delete."
+msgstr "Избор на приватни податоци за бришење."
+
+#: ../src/interface/filelist_statusbar.cpp:38
+#, c-format
+msgid "Selected %d directory."
+msgid_plural "Selected %d directories."
+msgstr[0] "Избран %d именик."
+msgstr[1] "Избрани %d именици."
+
+#: ../src/interface/filelist_statusbar.cpp:46
+#, c-format
+msgid "Selected %d file. Total size: %s"
+msgid_plural "Selected %d files. Total size: %s"
+msgstr[0] "Избрано %d податотека. Вкупна големина %s"
+msgstr[1] "Избрано %d податотеки. Вкупна големина: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:43
+#, c-format
+msgid "Selected %d file. Total size: At least %s"
+msgid_plural "Selected %d files. Total size: At least %s"
+msgstr[0] "Избрана %d податотека. Вкупна големина: Најмалку %s"
+msgstr[1] "Избрани %d податотеки. Вкупна големина: Најмалку %s"
+
+#: ../src/interface/filelist_statusbar.cpp:57
+#, c-format
+msgid "Selected %s and %s. Total size: %s"
+msgstr "Избрано %s и %s. Вкупна големина: %s"
+
+#: ../src/interface/filelist_statusbar.cpp:54
+#, c-format
+msgid "Selected %s and %s. Total size: At least %s"
+msgstr "Избрано %s и %s. Вкупна големина : Најмалку %s"
+
+#: ../src/interface/edithandler.cpp:1556 ../src/interface/edithandler.cpp:1638
+#: ../src/interface/settings/optionspage_edit.cpp:124
+msgid "Selected editor does not exist."
+msgstr "Избраниот уредувач не постои."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1996
+#: ../src/interface/resources/xrc/dialogs.xrc:2063
+msgid "Selected file already being edited"
+msgstr "Избраната податотека веќе се уредува"
+
+#: ../src/interface/settings/optionspage_connection_sftp.cpp:126
+msgid "Selected file is already loaded"
+msgstr "Избраната податотека веќе е подигната"
+
+#: ../src/interface/filter.cpp:230
+msgid "Selected filter only works for local files."
+msgstr "Избраниот филтер работи само за локални податотеки."
+
+#: ../src/engine/engineprivate.cpp:319
+msgid "Selected port usually in use by a different protocol."
+msgstr "Избраната порта вообичаено се користи со различен протокол."
+
+#: ../src/interface/resources/xrc/settings.xrc:241
+msgid "Send FTP &keep-alive commands"
+msgstr "Праќање на FTP &keep-alive команди"
+
+#: ../src/interface/menu_bar.cpp:147
+msgid "Send custom command to the server otherwise not available"
+msgstr "Испрати сопствена команда на серверот која не е достапна поинаку"
+
+#: ../src/engine/ftp/ftpcontrolsocket.cpp:772
+msgid "Sending keep-alive command"
+msgstr "Праќање на keep-alive команда"
+
+#: ../src/interface/resources/xrc/certificate.xrc:65
+#: ../src/interface/verifycertdialog.cpp:652
+msgid "Serial number:"
+msgstr "Сериски број:"
+
+#: ../src/engine/ftp/filetransfer.cpp:268
+#, c-format
+msgid "Server does not support resume of files > %d GB."
+msgstr ""
+"Серверот не подржува продолжување прекинати операции на податотеки > %d GB."
+
+#: ../src/interface/netconfwizard.cpp:426
+#: ../src/interface/netconfwizard.cpp:432
+#: ../src/interface/netconfwizard.cpp:467
+#: ../src/interface/netconfwizard.cpp:476
+#: ../src/interface/netconfwizard.cpp:488
+#: ../src/interface/netconfwizard.cpp:511
+#: ../src/interface/netconfwizard.cpp:518
+#: ../src/interface/netconfwizard.cpp:527
+#: ../src/interface/netconfwizard.cpp:538
+msgid "Server sent unexpected reply."
+msgstr "Серверот испрати непознат одговор."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2329
+msgid "Server to client MAC:"
+msgstr "Сервер - клиент MAC:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2319
+msgid "Server to client cipher:"
+msgstr "Сервер - клиент cipher:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2673
+msgid "Server&type:"
+msgstr "Тип на &сервер:"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Server/Local file"
+msgstr "Локална податотека"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1927
+#: ../src/interface/resources/xrc/dialogs.xrc:2596
+msgid "Server:"
+msgstr "Сервер:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:171
+msgid "Session details"
+msgstr "Сесиски детали"
+
+#: ../src/interface/QueueView.cpp:1823
+msgid "Set &Priority"
+msgstr "Пос&тави приоритети"
+
+#: ../src/interface/resources/xrc/settings.xrc:4
+msgid "Settings"
+msgstr "Нагодувања"
+
+#: ../src/interface/resources/xrc/settings.xrc:2131
+msgid "Show &raw directory listing"
+msgstr "Прикажи едноставна листа на именици"
+
+#: ../src/interface/cmdline.cpp:6
+msgid "Shows this help dialog"
+msgstr "Прикажи го овој помошен дијалог прозорец"
+
+#: ../src/interface/QueueView.cpp:2809
+msgid "Shutdown now"
+msgstr "Изгаси го сега"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1838
+msgid "Site &Manager entries"
+msgstr "Податоци во менаџерот на конекции"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:7
+msgid "Site Manager"
+msgstr "Менаџер на конекции"
+
+#: ../src/interface/sitemanager_dialog.cpp:281
+msgid "Site Manager already open"
+msgstr "Менаџерот на конекции е веќе отворен"
+
+#: ../src/interface/queue.cpp:1275
+msgid "Size"
+msgstr "Големина"
+
+#: ../src/interface/resources/xrc/settings.xrc:1460
+msgid "Size formatting"
+msgstr "Форматирање на големина"
+
+#: ../src/interface/fileexistsdlg.cpp:43
+msgid "Size unknown"
+msgstr "Непозната големина"
+
+#: ../src/engine/ControlSocket.cpp:934 ../src/engine/ControlSocket.cpp:951
+#: ../src/engine/ControlSocket.cpp:977 ../src/engine/ControlSocket.cpp:1055
+#, c-format
+msgid "Skipping download of %s"
+msgstr "Прескокнување на симнувањето на %s"
+
+#: ../src/engine/ControlSocket.cpp:937 ../src/engine/ControlSocket.cpp:954
+#: ../src/engine/ControlSocket.cpp:980 ../src/engine/ControlSocket.cpp:1058
+#, c-format
+msgid "Skipping upload of %s"
+msgstr "Прескокнување на подигнувањето на %s"
+
+#: ../src/interface/Mainfrm.cpp:1274
+msgid "Some files are still being edited or need to be uploaded."
+msgstr "Некои податотеки сеуште се уредуваат или има потреба да се подигнат."
+
+#: ../src/interface/resources/xrc/settings.xrc:1593
+msgid "Sort directories inline"
+msgstr "Подредување на именици"
+
+#: ../src/interface/filelistctrl.cpp:478
+msgid "Sort order cannot be changed if comparing directories."
+msgstr "Подредувањето не може да се примени ако се споредуваат имениците."
+
+#: ../src/interface/resources/xrc/settings.xrc:1577
+msgid "Sorting"
+msgstr "Подредување"
+
+#: ../src/interface/resources/xrc/settings.xrc:1584
+msgid "Sorting &mode:"
+msgstr "Начин на подредување:"
+
+#: ../src/interface/RemoteTreeView.cpp:109
+msgid "Source and path of the drop operation are identical"
+msgstr "Изворниот и патот на drop операцијата се идентични"
+
+#: ../src/interface/fzputtygen_interface.cpp:128
+msgid "Source and target file may not be the same"
+msgstr "Изворната и целната податотека не може да бидат исти"
+
+#: ../src/interface/RemoteListView.cpp:154
+msgid "Source and target of the drop operation are identical"
+msgstr "Изворот и целта на drop операцијата се идентични"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:24
+msgid "Source file:"
+msgstr "Изворна податотека:"
+
+#: ../src/interface/resources/xrc/settings.xrc:893
+msgid "Speed limits"
+msgstr "Ограничувања на брзина"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2804
+msgid "Start transfer &immediately"
+msgstr "Започни веднаш со трансфер"
+
+#: ../src/interface/cmdline.cpp:7
+msgid "Start with opened Site Manager"
+msgstr "Започни со отворен менаџер на конекции"
+
+#: ../src/engine/ftp/filetransfer.cpp:34 ../src/engine/sftp/filetransfer.cpp:33
+#: ../src/engine/storj/file_transfer.cpp:39
+#, c-format
+msgid "Starting download of %s"
+msgstr "Започнување со симнување на %s"
+
+#: ../src/engine/ftp/filetransfer.cpp:37 ../src/engine/sftp/filetransfer.cpp:36
+#: ../src/engine/storj/file_transfer.cpp:42
+#, c-format
+msgid "Starting upload of %s"
+msgstr "Започнување со подигнување на %s"
+
+#: ../src/interface/edithandler.cpp:1149 ../src/interface/queue.cpp:1275
+msgid "Status"
+msgstr "Статус"
+
+#: ../src/engine/logging.cpp:129 ../src/interface/StatusView.cpp:306
+#: ../src/interface/StatusView.cpp:397
+msgid "Status:"
+msgstr "Статус:"
+
+#: ../src/interface/QueueView.cpp:1816
+msgid "Stop and remove &all"
+msgstr "Запри и избриши се"
+
+#: ../src/interface/verifycertdialog.cpp:650
+msgid "Street:"
+msgstr "Улица"
+
+#: ../src/interface/resources/xrc/certificate.xrc:116
+msgid "Subject of certificate"
+msgstr "Предмет на сертификатот"
+
+#: ../src/interface/queueview_successful.cpp:12
+msgid "Successful transfers"
+msgstr "Успешни трасфери"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:393
+msgid "Summary of test results:"
+msgstr "Преглед на резултатите од тестирањето:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3928
+#: ../src/interface/state.cpp:270 ../src/interface/state.cpp:285
+#: ../src/interface/state.cpp:292 ../src/interface/state.cpp:303
+#: ../src/interface/state.cpp:402 ../src/interface/state.cpp:410
+#: ../src/interface/state.cpp:418 ../src/interface/state.cpp:1119
+#: ../src/interface/state.cpp:1127 ../src/interface/state.cpp:1134
+#: ../src/interface/state.cpp:1143 ../src/interface/state.cpp:1170
+#: ../src/interface/toolbar.cpp:52
+msgid "Synchronized browsing"
+msgstr "Синхронизирано прелистување"
+
+#: ../src/interface/state.cpp:417
+msgid "Synchronized browsing has been disabled."
+msgstr "Синхронизираното прелистување е оневозможено."
+
+#: ../src/interface/quickconnectbar.cpp:120
+#: ../src/interface/quickconnectbar.cpp:164
+msgid "Syntax error"
+msgstr "Синтаксна грешка"
+
+#: ../src/interface/cmdline.cpp:83 ../src/interface/cmdline.cpp:88
+#: ../src/interface/cmdline.cpp:93 ../src/interface/cmdline.cpp:100
+#: ../src/interface/cmdline.cpp:105 ../src/interface/Mainfrm.cpp:2507
+#: ../src/interface/Mainfrm.cpp:2549
+msgid "Syntax error in command line"
+msgstr "Синтаксна грешка во командната линија"
+
+#: ../src/interface/filter_conditions_dialog.cpp:82
+msgid "System"
+msgstr "Систем"
+
+#: ../src/engine/proxy.cpp:452
+msgid "TTL expired"
+msgstr "TTL заврши"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:6
+msgid "Target file already exists"
+msgstr "Целната податотека веќе постои"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:65
+msgid "Target file:"
+msgstr "Целна податотека:"
+
+#: ../src/interface/RemoteListView.cpp:1743
+msgid "Target filename already exists, really continue?"
+msgstr "Целната податотека веќе постои, дали навистина сакате да продолжите?"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:370
+msgid "Test results"
+msgstr "Резултати од тестирањето"
+
+#: ../src/interface/sitemanager_dialog.cpp:280
+msgid ""
+"The Site Manager is opened in another instance of FileZilla 3.\n"
+"Do you want to continue? Any changes made in the Site Manager won't be saved "
+"then."
+msgstr ""
+"Менаџерот на локации е отворен во друга стартувана програма на FileZilla 3.\n"
+"Дали сакате да продолжите? Во таков случај сите направени изнени на "
+"менаџерот на .режни локации нема да бидат зачувани."
+
+#: ../src/interface/netconfwizard.cpp:638
+#, c-format
+msgid "The address you entered was: %s"
+msgstr "Адресата која ја внесовте беше: %s"
+
+#: ../src/interface/bookmarks_dialog.cpp:844
+#: ../src/interface/sitemanager.cpp:638
+msgid "The bookmark could not be added."
+msgstr "Прибелешката не може да се додаде."
+
+#: ../src/interface/sitemanager.cpp:726
+msgid "The bookmarks could not be cleared."
+msgstr "Прибелешките не може да се избришат."
+
+#: ../src/interface/settings/optionspage_filetype.cpp:153
+#, c-format
+msgid "The extension '%s' does already exist in the list"
+msgstr "Наставката '%s' веќе постои во листата"
+
+#: ../src/interface/asyncrequestqueue.cpp:339
+#: ../src/interface/asyncrequestqueue.cpp:347
+#, c-format
+msgid ""
+"The file %s already exists.\n"
+"Please enter a new name:"
+msgstr ""
+"Податотеката %s веќе постои.\n"
+"Внесете ново име:"
+
+#: ../src/interface/listctrlex.cpp:812
+msgid "The filename column cannot be hidden."
+msgstr "Оваа колона не може да се сокрие."
+
+#: ../src/interface/settings/optionspage_connection_active.cpp:78
+msgid ""
+"The lowest available port has to be less or equal than the highest available "
+"port."
+msgstr ""
+"Најниската достапна порта треба да биде помала или еднаква на највисоката "
+"достапна порта."
+
+#: ../src/interface/import.cpp:90
+msgid "The selected categories have been imported."
+msgstr "Селектираните именици ќе бидат увезени."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1833
+msgid ""
+"The selected file contains importable data for the following categories:"
+msgstr ""
+"Селетираната податотека содржи податоци кои не може да се увезат за следниве "
+"категории:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2003
+#: ../src/interface/resources/xrc/dialogs.xrc:2070
+msgid "The selected file is already being edited:"
+msgstr "Селектираната податотека веќе била уредувана"
+
+#: ../src/interface/edithandler.cpp:1812
+msgid ""
+"The selected file is still opened in some other program, please close it."
+msgstr ""
+"Селектираната податотека сеуште е отворена од некој друг програм, затворете "
+"ја."
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:674
+msgid "The server uses following charset encoding for filenames:"
+msgstr "Серверот ја користи следнава кодна табела за имињата на податотеките:"
+
+#: ../src/interface/settings/settingsdialog.cpp:108
+msgid "Themes"
+msgstr "Теми"
+
+#: ../src/interface/filter.cpp:382
+msgid "This filter set cannot be removed."
+msgstr "Овој филтер не може да биде избришан"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:8
+msgid ""
+"This wizard will help you to properly configure any routers and firewalls "
+"you have and tests your configuration."
+msgstr ""
+"Волшебникот ќе ви помогне да нагодите било кој рутер или огнен ѕид со "
+"тестирање на конфигурацијата."
+
+#: ../src/interface/resources/xrc/settings.xrc:1397
+msgid "Time formatting"
+msgstr "Форматирање на време"
+
+#: ../src/interface/resources/xrc/settings.xrc:97
+msgid "Time&out in seconds:"
+msgstr "Временско ограничување во секунди."
+
+#: ../src/interface/resources/xrc/settings.xrc:126
+#: ../src/interface/queue.cpp:350
+msgid "Timeout"
+msgstr "Временски ограничувања"
+
+#: ../src/interface/verifycertdialog.cpp:645
+msgid "Title:"
+msgstr "Наслов:"
+
+#: ../src/interface/Mainfrm.cpp:2380
+msgid "To compare directories, both file lists have to be aligned."
+msgstr ""
+"За споредба на именици, двете листи на податотеки треба да бидат порамнети."
+
+#: ../src/interface/Mainfrm.cpp:2381
+msgid "To do this, the directory trees need to be both shown or both hidden."
+msgstr ""
+"За да го направите ова, дрвото на имениците треба да биде или скриено или "
+"прикажано истовремено и на локално и на мрежно ниво."
+
+#: ../src/interface/resources/xrc/settings.xrc:624
+msgid ""
+"To support public key authentication, FileZilla needs to know the private "
+"keys to use."
+msgstr ""
+"За подршка на автентикација со јавен клуч, FileZilla треба да го знае "
+"приватниот клуч кој се користи."
+
+#: ../src/interface/toolbar.cpp:44
+msgid "Toggles processing of the transfer queue"
+msgstr "Процесирање (да/не) на редицата за трансфер"
+
+#: ../src/interface/toolbar.cpp:38
+msgid "Toggles the display of the local directory tree"
+msgstr "Приказ на локален именик (да/не)"
+
+#: ../src/interface/toolbar.cpp:37
+msgid "Toggles the display of the message log"
+msgstr "Приказ на прозорецот за пораки (да/не)"
+
+#: ../src/interface/toolbar.cpp:39
+msgid "Toggles the display of the remote directory tree"
+msgstr "Приказ на мрежен именик (да/не)"
+
+#: ../src/interface/toolbar.cpp:40
+msgid "Toggles the display of the transfer queue"
+msgstr "Приказ на редица за трансфер (да/не)"
+
+#: ../src/engine/http/request.cpp:463
+msgid "Too long header line"
+msgstr "Предолго заглавие"
+
+#: ../src/engine/http/filetransfer.cpp:144
+msgid "Too many redirects"
+msgstr "Премногу пренасочувања"
+
+#: ../src/engine/logging.cpp:133 ../src/interface/StatusView.cpp:300
+#: ../src/interface/StatusView.cpp:379
+msgid "Trace:"
+msgstr "Следи:"
+
+#: ../src/interface/resources/xrc/settings.xrc:1680
+#: ../src/interface/resources/xrc/settings.xrc:1700
+msgid "Transfer"
+msgstr "Трансфер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2460
+msgid "Transfer &direction"
+msgstr "&Насока на трансфер"
+
+#: ../src/interface/menu_bar.cpp:116
+msgid "Transfer &type"
+msgstr "&Тип на трансфер"
+
+#: ../src/interface/resources/xrc/settings.xrc:197
+msgid "Transfer Mode"
+msgstr "Режим на трансфер"
+
+#: ../src/engine/ftp/transfersocket.cpp:419
+#, c-format
+msgid "Transfer connection interrupted: %s"
+msgstr "Трансферот прекинат: %s"
+
+#: ../src/interface/netconfwizard.cpp:641
+msgid "Transferred data got tainted."
+msgstr "Пренесуваните податоци се пренесени."
+
+#: ../src/interface/queue.cpp:360 ../src/interface/statuslinectrl.cpp:271
+msgid "Transferring"
+msgstr "Пренесување"
+
+#: ../src/interface/settings/settingsdialog.cpp:103
+msgid "Transfers"
+msgstr "Трасфери"
+
+#: ../src/interface/resources/xrc/settings.xrc:1136
+msgid "Treat files &without extension as ASCII file"
+msgstr "Третирај податотеки без наставка како ASCII податотеки"
+
+#: ../src/interface/resources/xrc/settings.xrc:1088
+msgid "Treat the &following filetypes as ASCII files:"
+msgstr "Третирај ги следниве типови на податотеки како ASCII податотеки"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1201
+msgid "Trust the new key and carry on connecting?"
+msgstr "Верувај на новиот клуч и продолжи со поврзувањето?"
+
+#: ../src/interface/resources/xrc/certificate.xrc:251
+msgid "Trust this certificate and carry on connecting?"
+msgstr "Верувај на овој сертификат и продолжи со конектирање?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1080
+msgid "Trust this host and carry on connecting?"
+msgstr "Верувај на овој хост и продолжи со конектирање?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2840
+#: ../src/interface/edithandler.cpp:1147
+msgid "Type"
+msgstr "Тип"
+
+#: ../src/interface/resources/xrc/settings.xrc:454
+msgid "Type of FTP Proxy:"
+msgstr "Тип на FTP прокси:"
+
+#: ../src/interface/resources/xrc/settings.xrc:715
+msgid "Type of generic proxy:"
+msgstr "Тип на генерички прокси:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2151
+msgid "U&pload"
+msgstr "&Подигни"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3762
+#: ../src/interface/resources/xrc/settings.xrc:931
+msgid "U&pload limit:"
+msgstr "Ограничување за подигнување:"
+
+#: ../src/interface/resources/xrc/settings.xrc:464
+msgid "USER@&HOST"
+msgstr "USER@&HOST"
+
+#: ../src/engine/proxy.cpp:332 ../src/engine/proxy.cpp:461
+#, c-format
+msgid "Unassigned error code %d"
+msgstr "Непридружен код на грешка %d"
+
+#: ../src/interface/verifycertdialog.cpp:644
+msgid "Unit:"
+msgstr "Единица:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1055
+#: ../src/interface/resources/xrc/dialogs.xrc:1065
+#: ../src/interface/resources/xrc/dialogs.xrc:1176
+#: ../src/interface/resources/xrc/dialogs.xrc:1186
+#: ../src/interface/resources/xrc/dialogs.xrc:2268
+#: ../src/interface/resources/xrc/dialogs.xrc:2278
+#: ../src/engine/sizeformatting_base.cpp:61
+#: ../src/interface/edithandler.cpp:1179 ../src/interface/edithandler.cpp:1207
+msgid "Unknown"
+msgstr "Непознатo"
+
+#: ../src/engine/ftp/logon.cpp:758
+msgid "Unknown FTP proxy type, cannot generate login sequence."
+msgstr ""
+"Непознат FTP прокси тип, не може да се генерира секвенца за најавување."
+
+#: ../src/engine/proxy.cpp:367
+#, c-format
+msgid "Unknown SOCKS protocol version: %d"
+msgstr "Непознат SOCKS протокол верзија: %d"
+
+#: ../src/interface/resources/xrc/certificate.xrc:4
+msgid "Unknown certificate"
+msgstr "Непознат сертификат"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1007
+msgid "Unknown host key"
+msgstr "Непознат клуч на хостот"
+
+#: ../src/engine/proxy.cpp:377
+#, c-format
+msgid ""
+"Unknown protocol version of SOCKS Username/Password Authentication "
+"subnegotiation: %d"
+msgstr ""
+"Непозната верзија на протокол на SOCKS Корисничко име/Лозинка автентикација "
+"subnegotiation: %d"
+
+#: ../src/interface/netconfwizard.cpp:616
+#: ../src/interface/netconfwizard.cpp:627
+msgid ""
+"Unless these problems get fixed, active mode FTP will not work and passive "
+"mode has to be used."
+msgstr ""
+"Додека овој проблем не се среди, активниот FTP начин нема да се користи, ќе "
+"се користи пасивниот начин."
+
+#: ../src/interface/netconfwizard.cpp:603
+msgid ""
+"Unless this problem gets fixed, active mode FTP will not work and passive "
+"mode has to be used."
+msgstr ""
+"Додека овој проблем не се среди, активниот FTP начин нема да се користи, ќе "
+"се користи пасивниот начин."
+
+#: ../src/engine/http/filetransfer.cpp:149
+msgid "Unsupported redirect"
+msgstr "Неподржано пренасочување"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2157
+msgid "Up&load and unedit"
+msgstr "Подигни и врати уредување"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2474
+msgid "Upload"
+msgstr "Подигнување"
+
+#: ../src/interface/edithandler.cpp:1170
+msgid "Upload failed"
+msgstr "Неуспешно подигнување"
+
+#: ../src/interface/LocalTreeView.cpp:1094
+msgid "Upload selected directory"
+msgstr "Подигни селектиран именик"
+
+#: ../src/interface/LocalListView.cpp:784
+msgid "Upload selected files and directories"
+msgstr "Подигни селектирани податотеки и именици"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1962
+msgid "Upload this file back to the server?"
+msgstr "Подигнување на оваа податотека назад на серверот?"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1957
+msgid "Upload this file to the server?"
+msgstr "Подигнување на оваа податотека на серверот?"
+
+#: ../src/interface/edithandler.cpp:1164 ../src/interface/edithandler.cpp:1198
+#: ../src/interface/edithandler.cpp:1357
+msgid "Uploading"
+msgstr "Подигнување"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:697
+msgid "Use &custom charset"
+msgstr "Користи &сопствена кодна табела"
+
+#: ../src/interface/resources/xrc/settings.xrc:1774
+msgid "Use &custom editor:"
+msgstr "Користи &сопствен уредувач:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:3168
+msgid "Use &default editor for text files"
+msgstr "Користи основен уредувач за текстуални податотеки"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:685
+msgid "Use UTF-8 if the server supports it, else use local charset."
+msgstr ""
+"Користи UTF-8 доколку серверот подржува, во спротивно користи локална кодна "
+"табела."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2579
+msgid "Use server currently connected to"
+msgstr "Користи моментално конектиран сервер"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2585
+msgid "Use server from site manager"
+msgstr "Користи сервер од Менаџерот на конекции"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:194
+msgid "Use the following IP address:"
+msgstr "Користи ја следнава IP адреса:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:283
+msgid "Use the following port range:"
+msgstr "Користи го следниов дијапазон на порти:"
+
+#: ../src/interface/resources/xrc/netconfwizard.xrc:152
+msgid "Use the server's external IP address instead"
+msgstr "Користи ја надворешната IP адреса на серверот наместо:"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:292
+#: ../src/interface/resources/xrc/dialogs.xrc:428
+msgid "User:"
+msgstr "Корисник:"
+
+#: ../src/interface/resources/xrc/sitemanager.xrc:725
+msgid ""
+"Using the wrong charset can result in filenames not displaying properly."
+msgstr ""
+"Користење на погрешна кодна табела може да предизвика погрешно прикажување "
+"на имињата на податотеките."
+
+#: ../src/interface/resources/xrc/certificate.xrc:49
+msgid "Valid from:"
+msgstr "Валидно од:"
+
+#: ../src/interface/resources/xrc/certificate.xrc:57
+msgid "Valid to:"
+msgstr "Валидно до:"
+
+#: ../src/interface/resources/xrc/settings.xrc:965
+msgid "Very high"
+msgstr "Многу високо"
+
+#: ../src/interface/resources/xrc/settings.xrc:1682
+msgid "View/Edit"
+msgstr "&Види/Уреди"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:2376
+msgid "Visible columns"
+msgstr "Видливи колони"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:634
+msgid "W&rite"
+msgstr "Зап&иши"
+
+#: ../src/interface/queue.cpp:357
+msgid "Waiting for password"
+msgstr "Чекање на лозинка"
+
+#: ../src/interface/statuslinectrl.cpp:265
+msgid "Waiting for transfer to be cancelled"
+msgstr "Чекање трансферот да биде прекинат"
+
+#: ../src/engine/engineprivate.cpp:254
+msgid "Waiting to retry..."
+msgstr "Чекање пред повторен обид..."
+
+#: ../src/interface/resources/xrc/dialogs.xrc:1135
+msgid "Warning: Potential security breach!"
+msgstr "Предупредување: Можен безбедносен пробив!"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:668
+msgid "Wr&ite"
+msgstr "За&пиши"
+
+#: ../src/interface/netconfwizard.cpp:453
+#: ../src/interface/netconfwizard.cpp:459
+msgid "Wrong external IP address"
+msgstr "Погрешна надворешна IP адреса:"
+
+#: ../src/engine/http/request.cpp:639
+msgid "Wrong line endings"
+msgstr "Погрешен крај на ред"
+
+#: ../src/engine/sftp/sftpcontrolsocket.cpp:402
+msgid "Yes"
+msgstr "Да"
+
+#: ../src/interface/resources/xrc/dialogs.xrc:709
+msgid ""
+"You can use an x at any position to keep the permission the original files "
+"have."
+msgstr ""
+"Можете да користите x на било која позиција за да ги зачувате оригиналните "
+"пермисии на податотеките."
+
+#: ../src/interface/asyncrequestqueue.cpp:360
+msgid "You did not enter a new name for the file. Overwrite the file instead?"
+msgstr "Не внесовте ново име за податотеката. Дали сакате да ја пребришете?"
+
+#: ../src/interface/manual_transfer.cpp:407
+#: ../src/interface/sitemanager_site.cpp:491
+msgid "You have to enter a hostname."
+msgstr "Немате внесено име на хост."
+
+#: ../src/interface/manual_transfer.cpp:502
+#: ../src/interface/sitemanager_site.cpp:593
+msgid "You have to enter an account name"
+msgstr "Треба да внесете име на корисничка сметка"
+
+#: ../src/interface/manual_transfer.cpp:476
+#: ../src/interface/sitemanager_site.cpp:568
+msgid "You have to specify a user name"
+msgstr "Треба да специфицирате корисничко име"
+
+#: ../src/interface/netconfwizard.cpp:642
+msgid ""
+"You likely have a router or firewall which erroneously modified the "
+"transferred data."
+msgstr ""
+"Најверојатно имате рутер или огнен ѕид кој врши погрешна модификација на "
+"трансферираните податоци"
+
+#: ../src/interface/bookmarks_dialog.cpp:60
+msgid "You need to enter a name for the bookmark."
+msgstr "Треба да внесете име за прибелешката."
+
+#: ../src/interface/settings/optionspage_logging.cpp:67
+msgid "You need to enter a name for the log file."
+msgstr "Трена да внесете име за дневникот на пораки."
+
+#: ../src/interface/edithandler.cpp:1552
+msgid "You need to enter a properly quoted command."
+msgstr "Треба да внесете команда со правилно напишани наводници."
+
+#: ../src/interface/settings/optionspage_ftpproxy.cpp:82
+#: ../src/interface/settings/optionspage_proxy.cpp:79
+msgid "You need to enter a proxy host."
+msgstr "Треба да внесете прокси host"
+
+#: ../src/interface/settings/optionspage_proxy.cpp:88
+msgid "You need to enter a proxy port in the range from 1 to 65535"
+msgstr "Треба да внесете прокси порта во ранг од 1 до 65535"
+
+#: ../src/interface/manual_transfer.cpp:294
+msgid "You need to specify a local file."
+msgstr "Треба да наведете локална податотека."
+
+#: ../src/interface/manual_transfer.cpp:311
+msgid "You need to specify a remote file."
+msgstr "Треба да наведете мрежна податотека."
+
+#: ../src/interface/manual_transfer.cpp:317
+msgid "You need to specify a remote path."
+msgstr "Треба да наведете мрежен пат."
+
+#: ../src/interface/manual_transfer.cpp:288
+msgid "You need to specify a server."
+msgstr "Треба да наведете сервер."
+
+#: ../src/interface/filter_conditions_dialog.cpp:64
+msgid "begins with"
+msgstr "започнува со"
+
+#: ../src/interface/filter_conditions_dialog.cpp:62
+msgid "contains"
+msgstr "содржи"
+
+#: ../src/interface/filter_conditions_dialog.cpp:65
+msgid "ends with"
+msgstr "завршува со:"
+
+#: ../src/interface/filter_conditions_dialog.cpp:70
+#: ../src/interface/filter_conditions_dialog.cpp:95
+msgid "equals"
+msgstr "е еднакво на"
+
+#: ../src/interface/filelistctrl.cpp:557 ../src/interface/filelistctrl.cpp:575
+#: ../src/interface/filelistctrl.cpp:605 ../src/interface/filelistctrl.cpp:620
+msgid "file"
+msgstr "податотека"
+
+#: ../src/engine/sftp/connect.cpp:140
+msgid "fzsftp could not be started"
+msgstr "fzsftp не може да се стартува"
+
+#: ../src/interface/filter_conditions_dialog.cpp:69
+msgid "greater than"
+msgstr "поголемо од"
+
+#: ../src/interface/filter_conditions_dialog.cpp:63
+msgid "is equal to"
+msgstr "е еднакво на"
+
+#: ../src/interface/filter_conditions_dialog.cpp:74
+msgid "is set"
+msgstr "е подесено"
+
+#: ../src/interface/filter_conditions_dialog.cpp:75
+msgid "is unset"
+msgstr "не е подесено"
+
+#: ../src/interface/filter_conditions_dialog.cpp:72
+msgid "less than"
+msgstr "помало од"
+
+#: ../src/interface/filter_conditions_dialog.cpp:66
+msgid "matches regex"
+msgstr "се совпаѓа со регуларен израз"
+
+#: ../src/engine/proxy.cpp:51 ../src/interface/sftp_crypt_info_dlg.cpp:43
+msgid "unknown"
+msgstr "непознато"

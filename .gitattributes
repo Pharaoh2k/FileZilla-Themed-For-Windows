@@ -1,0 +1,4 @@
+# Keep LF line endings on checkout everywhere. The autotools scripts
+# (configure, config/*.sh, etc.) are run via sh and MUST stay LF on
+# Windows or the build breaks. This matches the upstream tarball.
+* text=auto eol=lf
