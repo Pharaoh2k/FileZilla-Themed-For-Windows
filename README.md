@@ -8,6 +8,14 @@ two additions:
 2. **A port to wxWidgets 3.3** - upstream 3.70.6 targets wxWidgets 3.2.x; dark
    mode needs `wxApp::MSWEnableDarkMode()`, which exists only in wxWidgets >= 3.3.
 
+
+
+<img width="1186" height="943" alt="FileZilla-Win64-Themed" src="https://github.com/user-attachments/assets/625590c2-6234-4c36-b7ec-ce6f93fc8719" />
+
+
+
+   
+
 It is the FileZilla source tree only. The build dependencies (wxWidgets,
 libfilezilla, fzssh, etc.) are **not** vendored here - they are external build
 requirements, listed below.
