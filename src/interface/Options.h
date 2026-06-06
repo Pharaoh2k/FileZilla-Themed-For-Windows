@@ -86,6 +86,7 @@ enum interfaceOptions : unsigned int
 	OPTION_TAB_DATA,
 	OPTION_SHOWN_OVERLAY,
 	OPTION_RESOLVE_LOCAL_SYMLINKS,
+	OPTION_APPEARANCE_MODE,
 
 	// Has to be last element
 	OPTIONS_NUM

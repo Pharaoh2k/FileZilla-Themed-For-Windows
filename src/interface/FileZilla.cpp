@@ -138,6 +138,28 @@ std::wstring translator_pf(char const* const singular, char const* const plural,
 }
 }
 
+#ifdef __WXMSW__
+void CFileZillaApp::ApplyAppearanceMode()
+{
+	// OPTION_APPEARANCE_MODE: 0 = follow system, 1 = dark, 2 = light
+	int const mode = options_ ? options_->get_int(OPTION_APPEARANCE_MODE) : 0;
+	switch (mode) {
+	case 1:
+		// Force dark mode regardless of the Windows system setting.
+		MSWEnableDarkMode(wxApp::DarkMode_Always);
+		break;
+	case 2:
+		// Light: do not enable dark mode, keep the classic light theme.
+		break;
+	case 0:
+	default:
+		// Follow the Windows system setting (dark if the system is dark).
+		MSWEnableDarkMode();
+		break;
+	}
+}
+#endif
+
 bool CFileZillaApp::OnInit()
 {
 	AddStartupProfileRecord("CFileZillaApp::OnInit()"sv);
@@ -189,6 +211,11 @@ bool CFileZillaApp::OnInit()
 
 	AddStartupProfileRecord("CFileZillaApp::OnInit(): Loading options"sv);
 	options_ = std::make_unique<COptions>();
+
+#ifdef __WXMSW__
+	// Enable native dark mode (if requested) before any windows are created.
+	ApplyAppearanceMode();
+#endif
 
 	InitLocale();
 

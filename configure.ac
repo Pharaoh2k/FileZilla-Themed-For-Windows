@@ -226,7 +226,8 @@ if test "$buildmain" = "yes"; then
         equivalent variable and wxWidgets version is $MIN_WX_VERSION or above.
       ])
     fi
-    if test "${WX_VERSION_MAJOR}.${WX_VERSION_MINOR}" = "3.3"; then
+    dnl Patched: allow wxWidgets 3.3.x (stable release with native dark mode support).
+    if test "${WX_VERSION_MAJOR}.${WX_VERSION_MINOR}" = "disabled-3.3-gate"; then
       AC_MSG_ERROR([You must use wxWidgets 3.2.x, development versions of wxWidgets are not supported.])
     fi
 

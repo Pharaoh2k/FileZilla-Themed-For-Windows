@@ -2,6 +2,7 @@
 #include "../Options.h"
 #include "settingsdialog.h"
 #include "optionspage_interface.h"
+#include "../filezillaapp.h"
 #include "../Mainfrm.h"
 #include "../power_management.h"
 #include <libfilezilla/util.hpp>
@@ -10,6 +11,8 @@
 
 struct COptionsPageInterface::impl
 {
+	wxChoice* appearance_mode_{};
+
 	wxChoice* filepane_layout_{};
 	wxChoice* messagelog_pos_{};
 	wxCheckBox* swap_{};
@@ -45,6 +48,19 @@ bool COptionsPageInterface::CreateControls(wxWindow* parent)
 	auto main = lay.createFlex(1);
 	main->AddGrowableCol(0);
 	SetSizer(main);
+
+	{
+		auto [box, inner] = lay.createStatBox(main, _("Appearance"), 1);
+
+		auto rows = lay.createFlex(2);
+		inner->Add(rows);
+		rows->Add(new wxStaticText(box, nullID, _("&Color theme:")), lay.valign);
+		impl_->appearance_mode_ = new wxChoice(box, nullID);
+		impl_->appearance_mode_->Append(_("Follow system setting"));
+		impl_->appearance_mode_->Append(_("Dark"));
+		impl_->appearance_mode_->Append(_("Light"));
+		rows->Add(impl_->appearance_mode_, lay.valign);
+	}
 
 	{
 		auto [box, inner] = lay.createStatBox(main, _("Layout"), 1);
@@ -117,6 +133,8 @@ bool COptionsPageInterface::CreateControls(wxWindow* parent)
 
 bool COptionsPageInterface::LoadPage()
 {
+	impl_->appearance_mode_->SetSelection(m_pOptions->get_int(OPTION_APPEARANCE_MODE));
+
 	impl_->filepane_layout_->SetSelection(m_pOptions->get_int(OPTION_FILEPANE_LAYOUT));
 	impl_->messagelog_pos_->SetSelection(m_pOptions->get_int(OPTION_MESSAGELOG_POSITION));
 	impl_->swap_->SetValue(m_pOptions->get_bool(OPTION_FILEPANE_SWAP));
@@ -163,6 +181,15 @@ bool COptionsPageInterface::LoadPage()
 
 bool COptionsPageInterface::SavePage()
 {
+	int const oldAppearance = m_pOptions->get_int(OPTION_APPEARANCE_MODE);
+	int const newAppearance = impl_->appearance_mode_->GetSelection();
+	m_pOptions->set(OPTION_APPEARANCE_MODE, newAppearance);
+	if (newAppearance != oldAppearance) {
+		// The color theme is applied once at startup; it can't be switched
+		// cleanly at run-time, so ask the user to restart for it to take effect.
+		wxMessageBoxEx(_("The color theme will be applied the next time FileZilla is started."), _("Color theme"), wxICON_INFORMATION, this);
+	}
+
 	m_pOptions->set(OPTION_FILEPANE_LAYOUT, impl_->filepane_layout_->GetSelection());
 	m_pOptions->set(OPTION_MESSAGELOG_POSITION, impl_->messagelog_pos_->GetSelection());
 	m_pOptions->set(OPTION_FILEPANE_SWAP, impl_->swap_->GetValue());

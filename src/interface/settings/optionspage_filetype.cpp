@@ -126,7 +126,7 @@ bool COptionsPageFiletype::LoadPage()
 			ext.clear();
 		}
 		else {
-			ext += extensions.substr(0, pos - 1) + '|';
+			ext += extensions.substr(0, pos - 1) + L'|';
 		}
 		extensions = extensions.substr(pos + 1);
 		pos = extensions.find('|');

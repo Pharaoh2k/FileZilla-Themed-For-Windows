@@ -35,6 +35,13 @@ public:
 	int GetCurrentLanguage() const;
 	wxString GetCurrentLanguageCode() const;
 
+#ifdef __WXMSW__
+	// Applies the configured appearance (OPTION_APPEARANCE_MODE:
+	// 0 = follow system, 1 = dark, 2 = light) by enabling wxWidgets'
+	// native dark mode support. Windows-only (needs wxWidgets >= 3.3).
+	void ApplyAppearanceMode();
+#endif
+
 	void DisplayEncodingWarning();
 
 	CWrapEngine* GetWrapEngine();

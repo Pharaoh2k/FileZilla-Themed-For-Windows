@@ -117,7 +117,9 @@ static unsigned int register_interface_options()
 		{ "Disable update footer", false, option_flags::normal },
 		{ "Tab data", L"", option_flags::normal | option_flags::sensitive_data, option_type::xml },
 		{ "Highest shown overlay id", 0, option_flags::normal },
-		{ "Resolve local symlinks", DEFAULT_LOCAL_SYMLINK_RESOLVE, option_flags::platform }
+		{ "Resolve local symlinks", DEFAULT_LOCAL_SYMLINK_RESOLVE, option_flags::platform },
+		// Appearance/dark mode: 0 = follow system, 1 = dark, 2 = light
+		{ "Appearance mode", 0, option_flags::numeric_clamp, 0, 2 }
 	});
 	return value;
 }

@@ -1510,7 +1510,7 @@ bool CLocalTreeView::CheckSubdirStatus(wxTreeItemId& item, std::wstring const& p
 				type = fz::local_filesys::get_file_info(fz::to_native(path + pData->m_known_subdir), was_link, 0, &date, &attributes);
 			}
 			else {
-				type = fz::local_filesys::get_file_info(fz::to_native(path + fz::local_filesys::path_separator + pData->m_known_subdir), was_link, 0, &date, &attributes);
+				type = fz::local_filesys::get_file_info(fz::to_native(path + static_cast<wchar_t>(fz::local_filesys::path_separator) + pData->m_known_subdir), was_link, 0, &date, &attributes);
 			}
 			if (type == fz::local_filesys::dir) {
 				CFilterManager filter;

@@ -184,8 +184,7 @@ void CFileExistsDlg::LoadIcon(int id, std::wstring const& file)
 		dc->DrawRectangle(0, 0, size.x, size.y);
 
 		wxIcon icon;
-		icon.SetHandle(fileinfo.hIcon);
-		icon.SetSize(size.x, size.y);
+		icon.InitFromHICON((WXHICON)fileinfo.hIcon, size.x, size.y);
 
 		dc->DrawIcon(icon, 0, 0);
 		delete dc;

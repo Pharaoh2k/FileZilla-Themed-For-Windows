@@ -1677,10 +1677,10 @@ void S3SiteControls::SetSite(Site const& site, bool predefined)
 		if (sse_algorithm.empty()) {
 			xrc_call(parent_, "ID_S3_NOENCRYPTION", &wxRadioButton::SetValue, true);
 		}
-		else if (sse_algorithm == "AES256") {
+		else if (sse_algorithm == L"AES256") {
 			xrc_call(parent_, "ID_S3_AES256", &wxRadioButton::SetValue, true);
 		}
-		else if (sse_algorithm == "aws:kms") {
+		else if (sse_algorithm == L"aws:kms") {
 			xrc_call(parent_, "ID_S3_AWSKMS", &wxRadioButton::SetValue, true);
 			auto sse_kms_key = site.server.GetExtraParameter("ssekmskey");
 			if (!sse_kms_key.empty()) {
@@ -1691,7 +1691,7 @@ void S3SiteControls::SetSite(Site const& site, bool predefined)
 				xrc_call(parent_, "ID_S3_KMSKEY", &wxChoice::SetSelection, static_cast<int>(s3_sse::KmsKey::DEFAULT));
 			}
 		}
-		else if (sse_algorithm == "customer") {
+		else if (sse_algorithm == L"customer") {
 			xrc_call(parent_, "ID_S3_CUSTOMER_ENCRYPTION", &wxRadioButton::SetValue, true);
 			auto customer_key = server.GetExtraParameter("ssecustomerkey");
 			xrc_call(parent_, "ID_S3_CUSTOMER_KEY", &wxTextCtrl::ChangeValue, customer_key);
