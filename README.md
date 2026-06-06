@@ -10,7 +10,8 @@ two additions:
 
 
 
-<img width="1186" height="943" alt="FileZilla-Win64-Themed" src="https://github.com/user-attachments/assets/625590c2-6234-4c36-b7ec-ce6f93fc8719" />
+<img width="1186" height="943" alt="FileZilla-Win64-Themed" src="https://github.com/user-attachments/assets/be659053-52bc-4fad-8d01-c36dfe334e38" />
+
 
 
 
