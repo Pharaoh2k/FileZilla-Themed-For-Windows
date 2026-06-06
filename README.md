@@ -21,6 +21,8 @@ It is the FileZilla source tree only. The build dependencies (wxWidgets,
 libfilezilla, fzssh, etc.) are **not** vendored here - they are external build
 requirements, listed below.
 
+Mirror: https://git.slowb.ro/Pharaoh2k/FileZilla-Themed-For-Windows
+
 ## License
 
 FileZilla is licensed under the **GNU GPL, version 3 or (at your option) any
