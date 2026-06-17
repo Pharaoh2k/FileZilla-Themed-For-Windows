@@ -6,16 +6,16 @@ stating that they were changed, and the date).
 
 - **Base version:** FileZilla 3.70.6 (upstream source distribution)
 - **Modified by:** Pharaoh2k (https://github.com/Pharaoh2k)
-- **Date of changes:** 2026-06-06
+- **Date of changes:** 2026-06-06; dark-mode rendering fixes 2026-06-07
 - **License:** unchanged - GNU GPL v3 or (at your option) any later version
 
 ## Summary
 
 Added native Windows dark mode and ported the source to wxWidgets 3.3 (upstream
-3.70.6 targets wxWidgets 3.2.x). See [README.fork.md](README.fork.md) for
-details and build instructions.
+3.70.6 targets wxWidgets 3.2.x), plus fixes for wxWidgets 3.3 dark-mode
+rendering bugs. See [README.md](README.md) for details and build instructions.
 
-## Files changed (12)
+## Files changed (13)
 
 Dark mode feature:
 
@@ -39,6 +39,23 @@ wxWidgets 3.3 port fixes:
 | `src/interface/sitemanager_controls.cpp` | Wide string literals (`L"..."`) for comparisons |
 | `src/interface/settings/optionspage_filetype.cpp` | Wide char literal (`L'|'`) |
 
-The complete diff is the second commit in this repository
-(*"Fork: add Windows dark mode + port to wxWidgets 3.3"*); the first commit is
-the unmodified upstream 3.70.6 source.
+Dark-mode rendering fix:
+
+| File | Change |
+| --- | --- |
+| `src/interface/filelistctrl.cpp` | Don't force `wxBG_STYLE_SYSTEM` in dark mode (fixes file-list hover flicker) |
+
+The dark mode + wxWidgets 3.3 port diff is the commit *"Fork: add Windows dark
+mode + port to wxWidgets 3.3"*; the first commit is the unmodified upstream
+3.70.6 source.
+
+## wxWidgets patches (not part of this source tree)
+
+The owner-drawn checkbox/radio dark-mode bugs are fixed in **wxWidgets itself**,
+not in FileZilla. The patches live in [patches/](patches/) and must be applied
+to the wxWidgets 3.3.1 source before building (see [BUILD.md](BUILD.md)). They
+are listed here for completeness:
+
+- `patches/wx331-darkmode-ownerdrawn-fixes.patch`
+  - `src/msw/window.cpp`: route `WM_DRAWITEM` by control HWND, not id
+  - `src/msw/control.cpp`: draw enabled owner-drawn labels in the foreground colour

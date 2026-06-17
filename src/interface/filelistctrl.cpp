@@ -280,8 +280,17 @@ template<class CFileData> CFileListCtrl<CFileData>::CFileListCtrl(wxWindow* pPar
 	m_genericTypes[genericTypes::file] = _("File").ToStdWstring();
 	m_genericTypes[genericTypes::directory] = _("Directory").ToStdWstring();
 
+#ifdef __WXMSW__
+	// In dark mode wxWidgets custom-draws the list with double buffering and
+	// uses wxBG_STYLE_PAINT to avoid flicker. Forcing wxBG_STYLE_SYSTEM here
+	// re-enables background erasing, which makes the rows flicker when the hot
+	// item changes on mouse-over. So keep the system background style only in
+	// light mode (GetAppearance().IsDark() is true exactly when wx renders the
+	// list in dark mode).
+	if (!wxSystemSettings::GetAppearance().IsDark())
+		SetBackgroundStyle(wxBG_STYLE_SYSTEM);
+#else
 	SetBackgroundStyle(wxBG_STYLE_SYSTEM);
-#ifndef __WXMSW__
 	GetMainWindow()->SetBackgroundStyle(wxBG_STYLE_SYSTEM);
 #endif
 

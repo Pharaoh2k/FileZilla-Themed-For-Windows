@@ -7,6 +7,9 @@ two additions:
    *Settings > Interface > Appearance* (Follow system setting / Dark / Light).
 2. **A port to wxWidgets 3.3** - upstream 3.70.6 targets wxWidgets 3.2.x; dark
    mode needs `wxApp::MSWEnableDarkMode()`, which exists only in wxWidgets >= 3.3.
+3. **Dark-mode rendering fixes** - fixes for wxWidgets 3.3 dark-mode bugs that
+   affected this build: owner-drawn checkbox/radio labels rendering blank or
+   mislabeled in dialogs, and file-list rows flickering on mouse hover.
 
 
 
@@ -26,9 +29,8 @@ Mirror: https://git.slowb.ro/Pharaoh2k/FileZilla-Themed-For-Windows
 ## License
 
 FileZilla is licensed under the **GNU GPL, version 3 or (at your option) any
-later version**. This fork keeps that license unchanged. See [COPYING](COPYING)
-(the full GPLv3 text) and [GPL.html](GPL.html). The changes in this fork are
-likewise GPLv3-or-later.
+later version**. This fork keeps that license unchanged. See [LICENSE](LICENSE)
+for the full GPLv3 text. The changes in this fork are likewise GPLv3-or-later.
 
 GPLv3+ code cannot be relicensed to GPLv2-only, so this fork is **not** GPLv2.
 
@@ -50,7 +52,7 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
   any windows are created.
 - The theme is applied **at startup only**. Changing the dropdown shows
   *"The color theme will be applied the next time FileZilla is started."*
-  (live switching was tried and intentionally dropped - see Known issues).
+  (live switching was tried and intentionally dropped).
 
 ### wxWidgets 3.3 port fixes
 
@@ -61,19 +63,35 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
   `settings/optionspage_filetype.cpp`: explicit wide-char/string literals
   (wxWidgets 3.3 removed `wxString`'s implicit narrow conversions).
 
+### Dark-mode rendering fixes
+
+- `src/interface/filelistctrl.cpp`: don't force `wxBG_STYLE_SYSTEM` in dark
+  mode (it overrode the double-buffered `wxBG_STYLE_PAINT` wxWidgets uses),
+  which fixes file-list rows flickering on mouse hover.
+- Two **wxWidgets 3.3.1 patches** (applied to the wxWidgets source - not
+  vendored here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fix
+  owner-drawn checkboxes/radio buttons rendering blank or mislabeled in dark
+  dialogs (e.g. *File > Export settings*, the Settings dialog):
+  - `src/msw/window.cpp`: route `WM_DRAWITEM` to the control by its HWND
+    instead of by id (FileZilla creates many controls with the same id, so the
+    id lookup painted the wrong control - or none).
+  - `src/msw/control.cpp`: draw the enabled owner-drawn label in the control's
+    foreground colour instead of the device-context default (black), so it is
+    readable on a dark background.
+
 ## Known issues
 
-- **Dark Settings dialog mislabels owner-drawn buttons** (stock wxWidgets 3.3
-  bug, not from this fork): in dark mode the Settings dialog's owner-drawn
-  radio buttons / checkboxes can render with the wrong label text. The main
-  window's dark mode is correct. Reproduces on an unmodified wxWidgets 3.3.1
-  build.
+None currently. The earlier dark-mode rendering bugs (invisible/mislabeled
+owner-drawn checkboxes and file-list hover flicker) have been fixed - see
+*Dark-mode rendering fixes* above.
 
 ## Build requirements
 
 Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 
-- **wxWidgets 3.3.1** (built from source; >= 3.3 is required for dark mode)
+- **wxWidgets 3.3.1** (built from source; >= 3.3 is required for dark mode;
+  apply the dark-mode patches in [patches/](patches/) before building - see
+  [BUILD.md](BUILD.md))
 - **libfilezilla 0.56.1** (>= 0.56.1)
 - **fzssh 1.3.0** / libfzssh-client (>= 1.3.0)
 - Boost (Boost.Regex >= 1.76), nettle, gnutls, gmp, argon2, sqlite3, gettext,

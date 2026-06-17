@@ -111,6 +111,21 @@ with any system wx 3.2.x (keeps it reversible).
 
 Source: `wxWidgets-3.3.1.tar.bz2` from the wxWidgets GitHub releases.
 
+> **Apply the dark-mode patches first.** Stock wxWidgets 3.3.1 has two bugs that
+> make owner-drawn checkboxes/radio buttons render blank or mislabeled in dark
+> dialogs. Apply [`patches/wx331-darkmode-ownerdrawn-fixes.patch`](patches/wx331-darkmode-ownerdrawn-fixes.patch)
+> (from this repo) to the extracted wxWidgets source before building:
+>
+> ```sh
+> cd wxWidgets-3.3.1
+> patch -p1 < /path/to/this/repo/patches/wx331-darkmode-ownerdrawn-fixes.patch
+> ```
+>
+> It patches `src/msw/window.cpp` (route `WM_DRAWITEM` by HWND, not control id)
+> and `src/msw/control.cpp` (draw enabled owner-drawn labels in the foreground
+> colour). If you rebuild wxWidgets after editing these, run `mingw32-make` in
+> `build-msw` and redeploy `wxmsw331u_core_gcc_custom.dll`.
+
 ```sh
 mkdir build-msw && cd build-msw
 ../configure \
