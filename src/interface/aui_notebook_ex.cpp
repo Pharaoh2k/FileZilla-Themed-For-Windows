@@ -219,7 +219,12 @@ END_EVENT_TABLE()
 
 void wxAuiNotebookEx::OnTabDragMotion(wxAuiNotebookEvent& evt)
 {
-	wxAuiNotebook::OnTabDragMotion(evt);
+	// wxWidgets 3.3.2 changed wxAuiNotebook::OnTabDragMotion to an internal
+	// handler (wxAuiTabCtrl*, int) that runs the default drag behaviour before
+	// this event is posted, so we no longer call the base here; we just keep
+	// tracking the active page. (In 3.3.1 the base was the event handler and we
+	// had to chain to it.)
+	evt.Skip();
 
 	int active = m_tabs.GetActivePage();
 	if (active != wxNOT_FOUND) {

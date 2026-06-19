@@ -57,7 +57,10 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 ### wxWidgets 3.3 port fixes
 
 - `configure` / `configure.ac`: relax the hard "must use wxWidgets 3.2.x" gate.
-- `aui_notebook_ex.cpp`: `GetTabSize` override `wxDC&` -> `wxReadOnlyDC&`.
+- `aui_notebook_ex.cpp`: `GetTabSize` override `wxDC&` -> `wxReadOnlyDC&`; and
+  for wxWidgets 3.3.2, drop the base `wxAuiNotebook::OnTabDragMotion(evt)` call
+  (3.3.2 made tab-drag handling internal and runs the default before posting the
+  event, so chaining to the old base handler no longer compiles).
 - `fileexistsdlg.cpp`: `wxIcon` `SetHandle`/`SetSize` -> `InitFromHICON`.
 - `LocalTreeView.cpp`, `sitemanager_controls.cpp`,
   `settings/optionspage_filetype.cpp`: explicit wide-char/string literals
@@ -68,7 +71,7 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 - `src/interface/filelistctrl.cpp`: don't force `wxBG_STYLE_SYSTEM` in dark
   mode (it overrode the double-buffered `wxBG_STYLE_PAINT` wxWidgets uses),
   which fixes file-list rows flickering on mouse hover.
-- A **wxWidgets 3.3.1 patch** (applied to the wxWidgets source - not vendored
+- A **wxWidgets 3.3.2 patch** (applied to the wxWidgets source - not vendored
   here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fixes owner-drawn
   checkboxes/radio buttons rendering blank in dark dialogs (e.g. *File > Export
   settings*, the Settings dialog):
@@ -92,7 +95,7 @@ owner-drawn checkboxes and file-list hover flicker) have been fixed - see
 
 Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 
-- **wxWidgets 3.3.1** (built from source; >= 3.3 is required for dark mode;
+- **wxWidgets 3.3.2** (built from source; >= 3.3 is required for dark mode;
   apply the dark-mode patches in [patches/](patches/) before building - see
   [BUILD.md](BUILD.md))
 - **libfilezilla 0.56.1** (>= 0.56.1)
@@ -105,7 +108,7 @@ Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 ## Building (Windows / MSYS2)
 
 **See [BUILD.md](BUILD.md) for the complete, verified from-scratch recipe** -
-dependency build order (libfilezilla, fzssh, wxWidgets 3.3.1), the wx-config
+dependency build order (libfilezilla, fzssh, wxWidgets 3.3.2), the wx-config
 wrapper, the Explorer shell extension, translation catalogs, and the
 environment workarounds, plus the why behind each one.
 

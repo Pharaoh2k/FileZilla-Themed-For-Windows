@@ -1,6 +1,8 @@
---- _wxp/wxWidgets-3.3.1/src/msw/window.cpp	2025-07-21 05:13:00.000000000 +0700
-+++ wxWidgets-3.3.1/src/msw/window.cpp	2026-06-19 11:09:46.955642500 +0700
-@@ -4782,18 +4782,29 @@
+diff --git a/src/msw/window.cpp b/src/msw/window.cpp
+index 0522e6e..db47ced 100644
+--- a/src/msw/window.cpp
++++ b/src/msw/window.cpp
+@@ -4772,18 +4772,29 @@ wxWindowMSW::MSWOnDrawItem(int WXUNUSED_UNLESS_ODRAWN(id),
  
  #if wxUSE_CONTROLS && !defined(__WXUNIVERSAL__)
  

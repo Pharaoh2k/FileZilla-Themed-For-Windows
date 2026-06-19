@@ -33,7 +33,7 @@ wxWidgets 3.3 port fixes:
 | --- | --- |
 | `configure` | Relax the "must use wxWidgets 3.2.x" version gate |
 | `configure.ac` | Relax the "must use wxWidgets 3.2.x" version gate |
-| `src/interface/aui_notebook_ex.cpp` | `GetTabSize`: `wxDC&` -> `wxReadOnlyDC&` |
+| `src/interface/aui_notebook_ex.cpp` | `GetTabSize`: `wxDC&` -> `wxReadOnlyDC&`; drop base `OnTabDragMotion(evt)` call (removed in wx 3.3.2) |
 | `src/interface/fileexistsdlg.cpp` | `wxIcon` `SetHandle`/`SetSize` -> `InitFromHICON` |
 | `src/interface/LocalTreeView.cpp` | Explicit `wchar_t` cast (no implicit wxString narrow conversion) |
 | `src/interface/sitemanager_controls.cpp` | Wide string literals (`L"..."`) for comparisons |
@@ -53,9 +53,9 @@ mode + port to wxWidgets 3.3"*; the first commit is the unmodified upstream
 
 The owner-drawn checkbox/radio dark-mode bug is fixed in **wxWidgets itself**,
 not in FileZilla. The patch lives in [patches/](patches/) and must be applied
-to the wxWidgets 3.3.1 source before building (see [BUILD.md](BUILD.md)):
+to the wxWidgets 3.3.2 source before building (see [BUILD.md](BUILD.md)):
 
-- `patches/wx331-darkmode-ownerdrawn-fixes.patch`
+- `patches/wx332-darkmode-ownerdrawn-fixes.patch`
   - `src/msw/window.cpp`: route `WM_DRAWITEM` to the owner-drawn control by its
     HWND instead of by id, so it still works when several controls share one id
     (FileZilla uses `nullID = wxID_HIGHEST` for everything). Without it the draw
