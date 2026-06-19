@@ -51,11 +51,12 @@ mode + port to wxWidgets 3.3"*; the first commit is the unmodified upstream
 
 ## wxWidgets patches (not part of this source tree)
 
-The owner-drawn checkbox/radio dark-mode bugs are fixed in **wxWidgets itself**,
-not in FileZilla. The patches live in [patches/](patches/) and must be applied
-to the wxWidgets 3.3.1 source before building (see [BUILD.md](BUILD.md)). They
-are listed here for completeness:
+The owner-drawn checkbox/radio dark-mode bug is fixed in **wxWidgets itself**,
+not in FileZilla. The patch lives in [patches/](patches/) and must be applied
+to the wxWidgets 3.3.1 source before building (see [BUILD.md](BUILD.md)):
 
 - `patches/wx331-darkmode-ownerdrawn-fixes.patch`
-  - `src/msw/window.cpp`: route `WM_DRAWITEM` by control HWND, not id
-  - `src/msw/control.cpp`: draw enabled owner-drawn labels in the foreground colour
+  - `src/msw/window.cpp`: route `WM_DRAWITEM` to the owner-drawn control by its
+    HWND instead of by id, so it still works when several controls share one id
+    (FileZilla uses `nullID = wxID_HIGHEST` for everything). Without it the draw
+    is dispatched to the wrong control and the checkbox renders blank.

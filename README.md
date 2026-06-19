@@ -68,16 +68,19 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 - `src/interface/filelistctrl.cpp`: don't force `wxBG_STYLE_SYSTEM` in dark
   mode (it overrode the double-buffered `wxBG_STYLE_PAINT` wxWidgets uses),
   which fixes file-list rows flickering on mouse hover.
-- Two **wxWidgets 3.3.1 patches** (applied to the wxWidgets source - not
-  vendored here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fix
-  owner-drawn checkboxes/radio buttons rendering blank or mislabeled in dark
-  dialogs (e.g. *File > Export settings*, the Settings dialog):
-  - `src/msw/window.cpp`: route `WM_DRAWITEM` to the control by its HWND
-    instead of by id (FileZilla creates many controls with the same id, so the
-    id lookup painted the wrong control - or none).
-  - `src/msw/control.cpp`: draw the enabled owner-drawn label in the control's
-    foreground colour instead of the device-context default (black), so it is
-    readable on a dark background.
+- A **wxWidgets 3.3.1 patch** (applied to the wxWidgets source - not vendored
+  here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fixes owner-drawn
+  checkboxes/radio buttons rendering blank in dark dialogs (e.g. *File > Export
+  settings*, the Settings dialog):
+  - `src/msw/window.cpp`: route `WM_DRAWITEM` to the control by its HWND instead
+    of by id. FileZilla creates many controls with the same id (`nullID =
+    wxID_HIGHEST`), so the id-based lookup returned the wrong control (often a
+    non-owner-drawn static text), leaving the real checkbox unpainted.
+
+  This is really a consequence of reusing one id across controls, which
+  wxWidgets does not expect; the HWND lookup just makes it robust against that.
+  An equally valid fix would be to give those controls unique ids on the
+  FileZilla side.
 
 ## Known issues
 

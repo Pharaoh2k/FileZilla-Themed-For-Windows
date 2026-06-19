@@ -1,23 +1,5 @@
---- _wxpristine/wxWidgets-3.3.1/src/msw/control.cpp	2025-07-21 05:13:00.000000000 +0700
-+++ wxWidgets-3.3.1/src/msw/control.cpp	2026-06-17 09:18:53.292636300 +0700
-@@ -624,6 +624,15 @@
-     {
-         ::SetTextColor(hdc, ::GetSysColor(COLOR_GRAYTEXT));
-     }
-+    else
-+    {
-+        // Owner-drawn buttons receive WM_DRAWITEM, not WM_CTLCOLORxxx, so the
-+        // text colour set by DoMSWControlColor() does not apply here and we must
-+        // set it ourselves. Without this the DC default (black) is used, which
-+        // makes the label invisible in dark mode. Use the control's foreground
-+        // colour, exactly as DoMSWControlColor() does for the native path.
-+        ::SetTextColor(hdc, wxColourToRGB(m_win->GetForegroundColour()));
-+    }
- 
-     if ( !::DrawText(hdc, label.t_str(), label.length(), &rectLabel, fmt) )
-     {
---- _wxpristine/wxWidgets-3.3.1/src/msw/window.cpp	2025-07-21 05:13:00.000000000 +0700
-+++ wxWidgets-3.3.1/src/msw/window.cpp	2026-06-17 09:18:53.292284500 +0700
+--- _wxp/wxWidgets-3.3.1/src/msw/window.cpp	2025-07-21 05:13:00.000000000 +0700
++++ wxWidgets-3.3.1/src/msw/window.cpp	2026-06-19 11:09:46.955642500 +0700
 @@ -4782,18 +4782,29 @@
  
  #if wxUSE_CONTROLS && !defined(__WXUNIVERSAL__)
