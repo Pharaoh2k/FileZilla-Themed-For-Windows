@@ -331,8 +331,19 @@ int CallSHFileOperation(wxWindow* parent, SHFILEOPSTRUCT & op)
 	wxWindow * focused = wxWindow::FindFocus();
 
 	{
-		// SHFileOperation shows non-modal dialogs. Force them to be modal by using a new modal event loop
-		wxWindow dummy(parent, -1, parent ? parent->GetPosition() : wxDefaultPosition, parent ? parent->GetSize() : wxDefaultSize, wxTRANSPARENT_WINDOW);
+		// SHFileOperation shows non-modal dialogs. Force them to be modal by using a new modal event loop.
+		//
+		// The dummy window only hosts the nested event loop and the deferred call, it must never be
+		// visible. It used to be created as a child covering the whole parent and relied on
+		// wxTRANSPARENT_WINDOW to stay invisible. That style is a no-op since wxWidgets 3.3 (it is
+		// defined as 0), which turned the dummy into an opaque child window painted with the window
+		// background colour, blanking the file list or tree behind the shell's confirmation dialog.
+		// Create it hidden and without a size instead, that works with every wxWidgets version.
+		wxWindow dummy;
+		dummy.Hide();
+		if (parent) {
+			dummy.Create(parent, wxID_ANY, wxPoint(0, 0), wxSize(0, 0), wxBORDER_NONE);
+		}
 		wxModalEventLoop loop(&dummy);
 		dummy.CallAfter([&]() {
 			res = SHFileOperation(&op);
