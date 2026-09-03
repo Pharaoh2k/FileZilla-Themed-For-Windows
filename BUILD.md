@@ -103,29 +103,30 @@ meson compile -C build
 meson install -C build   # meson install works fine here
 ```
 
-## 5. wxWidgets 3.3.2 (from source - REQUIRED for dark mode)
+## 5. wxWidgets 3.3.3 (from source - REQUIRED for dark mode)
 
 Dark mode needs `wxApp::MSWEnableDarkMode()`, which exists only in
-wxWidgets >= 3.3. Build 3.3.2 into a **separate prefix** so it does not collide
+wxWidgets >= 3.3 (>= 3.3.2 for this tree, see `aui_notebook_ex.cpp`). Build
+3.3.3 into a **separate prefix** so it does not collide
 with any system wx 3.2.x (keeps it reversible).
 
-Source: `wxWidgets-3.3.2.tar.bz2` from the wxWidgets GitHub releases.
+Source: `wxWidgets-3.3.3.tar.bz2` from the wxWidgets GitHub releases.
 
-> **Apply the dark-mode patch first.** With stock wxWidgets 3.3.2, owner-drawn
+> **Apply the dark-mode patch first.** With stock wxWidgets 3.3.x, owner-drawn
 > checkboxes/radio buttons render blank in dark dialogs *in FileZilla*, because
 > FileZilla gives many controls the same id (`nullID = wxID_HIGHEST`) and
 > wxWidgets dispatches `WM_DRAWITEM` by id. Apply
-> [`patches/wx332-darkmode-ownerdrawn-fixes.patch`](patches/wx332-darkmode-ownerdrawn-fixes.patch)
+> [`patches/wx333-darkmode-ownerdrawn-fixes.patch`](patches/wx333-darkmode-ownerdrawn-fixes.patch)
 > (from this repo) to the extracted wxWidgets source before building:
 >
 > ```sh
-> cd wxWidgets-3.3.2
-> patch -p1 < /path/to/this/repo/patches/wx332-darkmode-ownerdrawn-fixes.patch
+> cd wxWidgets-3.3.3
+> patch -p1 < /path/to/this/repo/patches/wx333-darkmode-ownerdrawn-fixes.patch
 > ```
 >
 > It patches `src/msw/window.cpp` to route `WM_DRAWITEM` by control HWND instead
 > of id. If you rebuild wxWidgets after editing this, run `mingw32-make` in
-> `build-msw` and redeploy `wxmsw332u_core_gcc_custom.dll`.
+> `build-msw` and redeploy `wxmsw333u_core_gcc_custom.dll`.
 
 ```sh
 mkdir build-msw && cd build-msw
@@ -147,14 +148,16 @@ cp -r <wx-src>/include/wx  C:/Users/Pharaoh/Downloads/fzbuild/wx33-prefix/includ
 cp build-msw/lib/*.dll     C:/Users/Pharaoh/Downloads/fzbuild/wx33-prefix/lib/
 ```
 
-(`wx-config`, `setup.h`, and the import libraries do install correctly.)
+(`wx-config`, `setup.h`, and the import libraries do install correctly. When
+upgrading wxWidgets in an existing prefix, delete the old `include/wx-3.3/wx`
+tree before copying the new headers, then do a clean FileZilla rebuild.)
 
 Copy the wx 3.3 runtime DLLs next to where filezilla.exe will live so the app
 self-resolves them:
 
 ```sh
-cp build-msw/lib/wxmsw332u_*_gcc_custom.dll C:/msys64/mingw64/bin/
-cp build-msw/lib/wxbase332u_*_gcc_custom.dll C:/msys64/mingw64/bin/
+cp build-msw/lib/wxmsw333u_*_gcc_custom.dll C:/msys64/mingw64/bin/
+cp build-msw/lib/wxbase333u*_gcc_custom.dll C:/msys64/mingw64/bin/   # no underscore after 333u: also matches wxbase333u_gcc_custom.dll
 ```
 
 ### The wx-config wrapper

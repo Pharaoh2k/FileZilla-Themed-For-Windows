@@ -6,7 +6,8 @@ stating that they were changed, and the date).
 
 - **Base version:** FileZilla 3.70.6 (upstream source distribution)
 - **Modified by:** Pharaoh2k (https://github.com/Pharaoh2k)
-- **Date of changes:** 2026-06-06; dark-mode rendering fixes 2026-06-07
+- **Date of changes:** 2026-06-06; dark-mode rendering fixes 2026-06-07;
+  wxWidgets 3.3.3 upgrade, delete-dialog and static box fixes 2026-09-03
 - **License:** unchanged - GNU GPL v3 or (at your option) any later version
 
 ## Summary
@@ -15,7 +16,7 @@ Added native Windows dark mode and ported the source to wxWidgets 3.3 (upstream
 3.70.6 targets wxWidgets 3.2.x), plus fixes for wxWidgets 3.3 dark-mode
 rendering bugs. See [README.md](README.md) for details and build instructions.
 
-## Files changed (13)
+## Files changed (14)
 
 Dark mode feature:
 
@@ -24,7 +25,7 @@ Dark mode feature:
 | `src/interface/Options.h` | Add `OPTION_APPEARANCE_MODE` to the option enum |
 | `src/interface/Options.cpp` | Register the `Appearance mode` option (clamp 0-2) |
 | `src/interface/filezillaapp.h` | Declare `CFileZillaApp::ApplyAppearanceMode()` |
-| `src/interface/FileZilla.cpp` | Define `ApplyAppearanceMode()`; call it in `OnInit()` |
+| `src/interface/FileZilla.cpp` | Define `ApplyAppearanceMode()`; call it in `OnInit()`; in dark mode re-enable wx's static box painting (group box labels were black with wxWidgets 3.3.3) |
 | `src/interface/settings/optionspage_interface.cpp` | "Color theme" dropdown + restart-required message on change |
 
 wxWidgets 3.3 port fixes:
@@ -38,6 +39,7 @@ wxWidgets 3.3 port fixes:
 | `src/interface/LocalTreeView.cpp` | Explicit `wchar_t` cast (no implicit wxString narrow conversion) |
 | `src/interface/sitemanager_controls.cpp` | Wide string literals (`L"..."`) for comparisons |
 | `src/interface/settings/optionspage_filetype.cpp` | Wide char literal (`L'|'`) |
+| `src/interface/file_utils.cpp` | `CallSHFileOperation`: create the modal-loop helper window hidden and size-less instead of relying on `wxTRANSPARENT_WINDOW` (a no-op since wx 3.3); fixes the local file list or tree going blank behind the shell's delete/rename dialog |
 
 Dark-mode rendering fix:
 
@@ -53,9 +55,9 @@ mode + port to wxWidgets 3.3"*; the first commit is the unmodified upstream
 
 The owner-drawn checkbox/radio dark-mode bug is fixed in **wxWidgets itself**,
 not in FileZilla. The patch lives in [patches/](patches/) and must be applied
-to the wxWidgets 3.3.2 source before building (see [BUILD.md](BUILD.md)):
+to the wxWidgets 3.3.3 source before building (see [BUILD.md](BUILD.md)):
 
-- `patches/wx332-darkmode-ownerdrawn-fixes.patch`
+- `patches/wx333-darkmode-ownerdrawn-fixes.patch`
   - `src/msw/window.cpp`: route `WM_DRAWITEM` to the owner-drawn control by its
     HWND instead of by id, so it still works when several controls share one id
     (FileZilla uses `nullID = wxID_HIGHEST` for everything). Without it the draw

@@ -157,6 +157,18 @@ void CFileZillaApp::ApplyAppearanceMode()
 		MSWEnableDarkMode();
 		break;
 	}
+
+	// OnInit() disables wxWidgets' own painting of wxStaticBox (see the
+	// "msw.staticbox.optimized-paint" option there), leaving it to the native
+	// group box control. That control has no dark theme and paints its label
+	// black. Up to wxWidgets 3.3.2 dark mode gave static boxes an explicit
+	// foreground colour, which switched them back to custom painting anyway;
+	// 3.3.3 no longer does that, so the labels became unreadable. Re-enable
+	// the option whenever dark mode is active so wxWidgets paints the labels in
+	// the dark-mode text colour.
+	if (wxSystemSettings::GetAppearance().IsDark()) {
+		wxSystemOptions::SetOption(_T("msw.staticbox.optimized-paint"), 1);
+	}
 }
 #endif
 
@@ -186,6 +198,8 @@ bool CFileZillaApp::OnInit()
 	wxSystemOptions::SetOption(_T("msw.window.no-clip-children"), 0);
 	wxSystemOptions::SetOption(_T("msw.font.no-proof-quality"), 0);
 	wxSystemOptions::SetOption(_T("msw.remap"), 0);
+	// Note: 0 disables wxWidgets' own static box painting; ApplyAppearanceMode()
+	// re-enables it in dark mode, where the native painting is unreadable.
 	wxSystemOptions::SetOption(_T("msw.staticbox.optimized-paint"), 0);
 #endif
 #ifdef __WXMAC__

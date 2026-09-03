@@ -1,8 +1,17 @@
-diff --git a/src/msw/window.cpp b/src/msw/window.cpp
-index 0522e6e..db47ced 100644
+wxWidgets 3.3.3 dark-mode fix for FileZilla: route WM_DRAWITEM to the control
+by its HWND instead of by id.
+
+FileZilla creates many controls with the same id (nullID = wxID_HIGHEST). With
+native dark mode, checkboxes and radio buttons are owner-drawn, and wxWidgets'
+id-based FindItem() lookup could return the wrong control (often a static
+text), leaving the real checkbox unpainted or mislabeled in dark dialogs.
+
+Apply to the extracted wxWidgets 3.3.3 source before building:
+    cd wxWidgets-3.3.3 && patch -p1 < /path/to/wx333-darkmode-ownerdrawn-fixes.patch
+
 --- a/src/msw/window.cpp
 +++ b/src/msw/window.cpp
-@@ -4772,18 +4772,29 @@ wxWindowMSW::MSWOnDrawItem(int WXUNUSED_UNLESS_ODRAWN(id),
+@@ -4802,18 +4802,29 @@
  
  #if wxUSE_CONTROLS && !defined(__WXUNIVERSAL__)
  

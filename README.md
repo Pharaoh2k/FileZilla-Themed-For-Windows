@@ -9,7 +9,9 @@ two additions:
    mode needs `wxApp::MSWEnableDarkMode()`, which exists only in wxWidgets >= 3.3.
 3. **Dark-mode rendering fixes** - fixes for wxWidgets 3.3 dark-mode bugs that
    affected this build: owner-drawn checkbox/radio labels rendering blank or
-   mislabeled in dialogs, and file-list rows flickering on mouse hover.
+   mislabeled in dialogs, file-list rows flickering on mouse hover, group box
+   titles painted black with wxWidgets 3.3.3, and the file list going blank
+   behind the shell's delete dialog.
 
 
 
@@ -65,13 +67,26 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 - `LocalTreeView.cpp`, `sitemanager_controls.cpp`,
   `settings/optionspage_filetype.cpp`: explicit wide-char/string literals
   (wxWidgets 3.3 removed `wxString`'s implicit narrow conversions).
+- `file_utils.cpp`: `CallSHFileOperation` used to hide the helper window it
+  creates over the file list or tree (to run the shell's delete/rename/copy
+  dialog in a modal event loop) with `wxTRANSPARENT_WINDOW`. That style is a
+  no-op since wxWidgets 3.3, so the helper became an opaque child window painted
+  in the window background colour and the list or tree went blank as soon as
+  the confirmation dialog appeared. The helper is now created hidden and
+  size-less, which works with every wxWidgets version.
 
 ### Dark-mode rendering fixes
 
 - `src/interface/filelistctrl.cpp`: don't force `wxBG_STYLE_SYSTEM` in dark
   mode (it overrode the double-buffered `wxBG_STYLE_PAINT` wxWidgets uses),
   which fixes file-list rows flickering on mouse hover.
-- A **wxWidgets 3.3.2 patch** (applied to the wxWidgets source - not vendored
+- `src/interface/FileZilla.cpp`: re-enable wxWidgets' own static box painting
+  (`msw.staticbox.optimized-paint`) while dark mode is active. FileZilla turns
+  it off at startup; up to wxWidgets 3.3.2 dark mode forced custom painting
+  anyway by giving static boxes a foreground colour, 3.3.3 stopped doing that
+  and the group box titles in dialogs such as Settings were painted black by
+  the native control.
+- A **wxWidgets patch** (applied to the wxWidgets 3.3.3 source - not vendored
   here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fixes owner-drawn
   checkboxes/radio buttons rendering blank in dark dialogs (e.g. *File > Export
   settings*, the Settings dialog):
@@ -89,15 +104,17 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 
 None currently. The earlier dark-mode rendering bugs (invisible/mislabeled
 owner-drawn checkboxes and file-list hover flicker) have been fixed - see
-*Dark-mode rendering fixes* above.
+*Dark-mode rendering fixes* above. The colour theme is still applied at
+startup only; wxWidgets 3.3.3 added run-time light/dark switching, which this
+fork does not use yet.
 
 ## Build requirements
 
 Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 
-- **wxWidgets 3.3.2** (built from source; >= 3.3 is required for dark mode;
-  apply the dark-mode patches in [patches/](patches/) before building - see
-  [BUILD.md](BUILD.md))
+- **wxWidgets 3.3.3** (built from source; >= 3.3 is required for dark mode,
+  >= 3.3.2 for `aui_notebook_ex.cpp`; apply the dark-mode patch in
+  [patches/](patches/) before building - see [BUILD.md](BUILD.md))
 - **libfilezilla 0.56.1** (>= 0.56.1)
 - **fzssh 1.3.0** / libfzssh-client (>= 1.3.0)
 - Boost (Boost.Regex >= 1.76), nettle, gnutls, gmp, argon2, sqlite3, gettext,
@@ -108,7 +125,7 @@ Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 ## Building (Windows / MSYS2)
 
 **See [BUILD.md](BUILD.md) for the complete, verified from-scratch recipe** -
-dependency build order (libfilezilla, fzssh, wxWidgets 3.3.2), the wx-config
+dependency build order (libfilezilla, fzssh, wxWidgets 3.3.3), the wx-config
 wrapper, the Explorer shell extension, translation catalogs, and the
 environment workarounds, plus the why behind each one.
 
