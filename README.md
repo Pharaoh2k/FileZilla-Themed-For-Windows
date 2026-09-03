@@ -1,3 +1,4 @@
+
 # FileZilla 3.70.6 - dark-mode fork
 
 This repository is a fork of the **FileZilla 3.70.6** source distribution with
@@ -15,8 +16,7 @@ two additions:
 
 
 
-<img width="1186" height="943" alt="FileZilla-Win64-Themed" src="https://github.com/user-attachments/assets/be659053-52bc-4fad-8d01-c36dfe334e38" />
-
+<img width="1048" height="829" alt="FileZilla-Win64-Themed" src="https://github.com/user-attachments/assets/d1110176-5ede-45b0-bc4e-240a4a983cf3" />
 
 
 
