@@ -7,7 +7,8 @@ stating that they were changed, and the date).
 - **Base version:** FileZilla 3.70.6 (upstream source distribution)
 - **Modified by:** Pharaoh2k (https://github.com/Pharaoh2k)
 - **Date of changes:** 2026-06-06; dark-mode rendering fixes 2026-06-07;
-  wxWidgets 3.3.3 upgrade, delete-dialog and static box fixes 2026-09-03
+  wxWidgets 3.3.3 upgrade, delete-dialog and static box fixes 2026-09-03;
+  message-log-as-tab startup assert fix 2026-09-04
 - **License:** unchanged - GNU GPL v3 or (at your option) any later version
 
 ## Summary
@@ -16,7 +17,7 @@ Added native Windows dark mode and ported the source to wxWidgets 3.3 (upstream
 3.70.6 targets wxWidgets 3.2.x), plus fixes for wxWidgets 3.3 dark-mode
 rendering bugs. See [README.md](README.md) for details and build instructions.
 
-## Files changed (14)
+## Files changed (15)
 
 Dark mode feature:
 
@@ -40,6 +41,7 @@ wxWidgets 3.3 port fixes:
 | `src/interface/sitemanager_controls.cpp` | Wide string literals (`L"..."`) for comparisons |
 | `src/interface/settings/optionspage_filetype.cpp` | Wide char literal (`L'|'`) |
 | `src/interface/file_utils.cpp` | `CallSHFileOperation`: create the modal-loop helper window hidden and size-less instead of relying on `wxTRANSPARENT_WINDOW` (a no-op since wx 3.3); fixes the local file list or tree going blank behind the shell's delete/rename dialog |
+| `src/interface/Mainfrm.cpp` | Message log position "as tab in the queue pane": create the status view as a child of the queue notebook, and `Reparent` it there before `AddPage` when the position is changed at run time. wxWidgets 3.3.3 no longer reparents pages in `wxAuiNotebook::InsertPage` and asserts "page must be a child of the notebook" instead, which showed a debug alert at startup and left the Message log tab missing |
 
 Dark-mode rendering fix:
 

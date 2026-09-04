@@ -11,8 +11,9 @@ two additions:
 3. **Dark-mode rendering fixes** - fixes for wxWidgets 3.3 dark-mode bugs that
    affected this build: owner-drawn checkbox/radio labels rendering blank or
    mislabeled in dialogs, file-list rows flickering on mouse hover, group box
-   titles painted black with wxWidgets 3.3.3, and the file list going blank
-   behind the shell's delete dialog.
+   titles painted black with wxWidgets 3.3.3, the file list going blank
+   behind the shell's delete dialog, and a "wxWidgets Debug Alert" at startup
+   when the message log is shown as a tab in the transfer queue pane.
 
 
 
@@ -74,6 +75,14 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
   in the window background colour and the list or tree went blank as soon as
   the confirmation dialog appeared. The helper is now created hidden and
   size-less, which works with every wxWidgets version.
+- `Mainfrm.cpp`: with the message log positioned *as a tab in the transfer
+  queue pane*, the status view was created as a child of a splitter and then
+  passed to `wxAuiNotebook::AddPage`, relying on wxWidgets to reparent it.
+  wxWidgets 3.3.3 stopped doing that and asserts *"page must be a child of the
+  notebook"* instead, which showed a "wxWidgets Debug Alert" at startup and
+  left the Message log tab missing. The status view is now created as a child
+  of the queue notebook (and reparented to it when the position is changed at
+  run time).
 
 ### Dark-mode rendering fixes
 

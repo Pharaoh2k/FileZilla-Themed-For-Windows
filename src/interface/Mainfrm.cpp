@@ -417,6 +417,13 @@ CMainFrame::CMainFrame(COptions& options)
 	if (message_log_position == 1) {
 		m_pStatusView = new CStatusView(m_pQueueLogSplitter, options_);
 	}
+	else if (message_log_position == 2) {
+		// The message log becomes a page of the queue notebook below, so it
+		// must be created as a child of it. wxWidgets 3.3.3 no longer
+		// reparents pages silently in wxAuiNotebook::InsertPage and asserts
+		// ("page must be a child of the notebook") instead.
+		m_pStatusView = new CStatusView(m_pQueuePane, options_);
+	}
 	else {
 		m_pStatusView = new CStatusView(m_pTopSplitter, options_);
 	}
@@ -1943,6 +1950,9 @@ void CMainFrame::UpdateLayout()
 				}
 				break;
 			case 2:
+				// Same as the other cases: give the log its new parent before
+				// adding it, wxWidgets 3.3.3 no longer does this for us.
+				m_pStatusView->Reparent(m_pQueuePane);
 				m_pQueuePane->AddPage(m_pStatusView, _("Message log"));
 				break;
 			}
