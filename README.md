@@ -31,11 +31,8 @@ Mirror: https://git.slowb.ro/Pharaoh2k/FileZilla-Themed-For-Windows
 
 ## License
 
-FileZilla is licensed under the **GNU GPL, version 3 or (at your option) any
-later version**. This fork keeps that license unchanged. See [LICENSE](LICENSE)
+FileZilla is licensed under the **GNU GPL, version 3 or later version**. See [LICENSE](LICENSE)
 for the full GPLv3 text. The changes in this fork are likewise GPLv3-or-later.
-
-GPLv3+ code cannot be relicensed to GPLv2-only, so this fork is **not** GPLv2.
 
 ## What changed (the fork)
 
