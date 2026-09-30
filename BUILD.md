@@ -105,14 +105,14 @@ meson install -C build   # meson install works fine here
 
 ## 5. wxWidgets 3.3.3 (from source - REQUIRED for dark mode)
 
-Dark mode needs `wxApp::MSWEnableDarkMode()`, which exists only in
-wxWidgets >= 3.3 (>= 3.3.2 for this tree, see `aui_notebook_ex.cpp`). Build
+This tree uses the Windows appearance support in wxWidgets 3.3. Live manual
+theme changes require the bundled patch for **3.3.3** described below. Build
 3.3.3 into a **separate prefix** so it does not collide
 with any system wx 3.2.x (keeps it reversible).
 
 Source: `wxWidgets-3.3.3.tar.bz2` from the wxWidgets GitHub releases.
 
-> **Apply the dark-mode patch first.** With stock wxWidgets 3.3.x, owner-drawn
+> **Apply both wxWidgets patches first.** With stock wxWidgets 3.3.x, owner-drawn
 > checkboxes/radio buttons render blank in dark dialogs *in FileZilla*, because
 > FileZilla gives many controls the same id (`nullID = wxID_HIGHEST`) and
 > wxWidgets dispatches `WM_DRAWITEM` by id. Apply
@@ -122,10 +122,15 @@ Source: `wxWidgets-3.3.3.tar.bz2` from the wxWidgets GitHub releases.
 > ```sh
 > cd wxWidgets-3.3.3
 > patch -p1 < /path/to/this/repo/patches/wx333-darkmode-ownerdrawn-fixes.patch
+> patch -p1 < /path/to/this/repo/patches/wx333-runtime-appearance.patch
 > ```
 >
 > It patches `src/msw/window.cpp` to route `WM_DRAWITEM` by control HWND instead
-> of id. If you rebuild wxWidgets after editing this, run `mingw32-make` in
+> of id. The second patch extends the 3.3.3 system-theme change path to manual
+> Light/Dark/System changes with existing windows. Stock 3.3.3 still returns
+> `CannotChange` for these calls. See the
+> [upstream discussion](https://github.com/wxWidgets/wxWidgets/pull/26516).
+> If you rebuild wxWidgets after editing either patch, run `mingw32-make` in
 > `build-msw` and redeploy `wxmsw333u_core_gcc_custom.dll`.
 
 ```sh
@@ -209,7 +214,14 @@ Installs 60 `.mo` files to `share/locale/<lang>/LC_MESSAGES/filezilla.mo`.
 Verify by setting `<Setting name="Language Code">de</Setting>` in
 `%APPDATA%\FileZilla\filezilla.xml`.
 
-## 8. Explorer shell extension (optional, both architectures)
+## 8. Explorer shell extension (required for release packaging, both architectures)
+
+Remote drag-and-drop to the desktop and Explorer needs a registered shell
+extension. Both DLLs must be included explicitly: they are loaded through COM
+and are absent from the application's normal DLL import table. The rev6
+release builder checks both DLLs and refuses to package a missing or incorrect
+extension. Build them with static compiler runtimes so Explorer does not need
+MinGW installed.
 
 Build each architecture separately, invoking `configure` via a **relative path**
 (so native make can stat the srcdir).
@@ -221,7 +233,8 @@ PATH=/c/msys64/mingw64/bin:/usr/bin:/bin \
 ../../../../src/fzshellext/configure \
   --prefix=C:/msys64/mingw64 --exec-prefix=C:/msys64/mingw64 \
   --host=x86_64-w64-mingw32 MAKE=mingw32-make
-mingw32-make SHELL='C:/PROGRA~1/Git/usr/bin/sh.exe' CXXFLAGS="-O2 -pipe"
+mingw32-make SHELL='C:/PROGRA~1/Git/usr/bin/sh.exe' \
+  CXXFLAGS="-O2 -pipe" LDFLAGS="-static-libgcc -static-libstdc++"
 ```
 
 32-bit (from `compile/src/fzshellext/32`) - put mingw32 first on PATH so the
@@ -242,7 +255,9 @@ mingw32-make SHELL='C:/PROGRA~1/Git/usr/bin/sh.exe' \
 > passed in MSYS `/c/...` form that native make cannot stat - reconfigure via a
 > relative path.
 
-Deploy and register (HKCU, no admin needed):
+Deploy to the build prefix. The release installer performs registration on the
+target machine. The manual registration commands below are only for testing a
+development build; the DLL tries HKLM first and falls back to HKCU when needed:
 
 ```sh
 cp 64/.libs/libfzshellext-0.dll C:/msys64/mingw64/bin/fzshellext_64.dll
@@ -261,7 +276,58 @@ C:\msys64\mingw64\bin\filezilla.exe
 
 (The wx 3.3 and dependency DLLs sit alongside it, so it self-resolves.) Toggle
 the theme in *Settings > Interface > Appearance > Color theme*; it takes effect
-on the next launch.
+after clicking **OK**, without restarting. The bundled patched wxWidgets core
+DLL must be deployed alongside the rebuilt application.
+
+## 10. Package a themed release
+
+The themed release scripts now live in the repository. Use the PowerShell
+builder instead of the old untracked portable-bundle and installer scripts.
+It requires Windows PowerShell 5.1 or later, Git for Windows, and the MSYS2
+MinGW64 NSIS, objdump, and strip tools.
+
+From PowerShell, using the current checkout and build prefix:
+
+```powershell
+& 'C:\Users\Pharaoh\Downloads\FileZilla-Themed-For-Windows-rev6\packaging\windows\build-release.ps1' `
+  -Prefix 'C:\msys64\mingw64' `
+  -OutputRoot 'C:\Users\Pharaoh\Downloads\fzbuild\release' `
+  -Revision 6
+```
+
+This packages the rebuilt application and runtime DLLs from the build prefix.
+The optional `-ApplicationBundle` instead packages an already staged and
+stripped application's exact bytes. For rev6, that bundle must contain the
+rebuilt FileZilla executable and runtime-patched wxWidgets core DLL. Ensure
+the source tree matches the application build being packaged.
+
+Adjust the checkout location, prefix, output root, and revision for your own
+build. Update the changelog and release notes before packaging. An existing
+revision directory is never overwritten; move it aside before rebuilding.
+
+The builder validates both shell-extension DLLs, resolves application runtime
+dependencies, and creates the installer, installer ZIP, portable ZIP, build
+information, and SHA-256 checksums. Commit the matching source, publish a release
+tag, and upload the three downloads. Include their checksums in the release
+description; GitHub generates source archives from the tag. Build information
+and other local validation records do not need to be uploaded.
+
+The **Shell Extension** component is selected by default. Registration mirrors
+the extension's COM registration in both machine registry views. Upgrades can
+defer replacing a DLL held by Explorer until reboot. Uninstall preserves a
+registration owned by another installation and restores an earlier machine
+registration when its DLL still exists. Current-user registrations are left
+alone. Original FileZilla shares the same extension identifier, so changing
+another installation may require repairing the themed installation.
+
+Complete installer, live-theme, and drag-and-drop testing on Windows before
+publishing. Open menus before switching themes and repeat changes during active
+transfers. The portable ZIP includes the DLLs but does not
+register them when extracted; use the installer for Explorer integration.
+
+References: [NSIS library setup](https://nsis.sourceforge.io/Docs/AppendixB.html)
+for replacement of locked DLLs, and [Windows registry views](https://learn.microsoft.com/en-us/windows/win32/winprog64/shared-registry-keys)
+for the separate COM registrations and shared Directory copy-hook association.
 
 ## Rebuild gotchas
 

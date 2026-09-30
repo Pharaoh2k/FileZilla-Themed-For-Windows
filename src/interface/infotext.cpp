@@ -40,7 +40,8 @@ void CInfoText::OnPaint(wxPaintEvent&)
 	wxPaintDC paintDc(this);
 
 	paintDc.SetFont(GetFont());
-	paintDc.SetTextForeground(GetForegroundColour());
+	// The list's foreground changes when switching themes at runtime.
+	paintDc.SetTextForeground(parent_.GetForegroundColour());
 
 	paintDc.DrawText(m_text, 0, 0);
 }

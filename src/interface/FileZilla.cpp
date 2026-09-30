@@ -139,36 +139,25 @@ std::wstring translator_pf(char const* const singular, char const* const plural,
 }
 
 #ifdef __WXMSW__
-void CFileZillaApp::ApplyAppearanceMode()
+bool CFileZillaApp::ApplyAppearanceMode()
 {
 	// OPTION_APPEARANCE_MODE: 0 = follow system, 1 = dark, 2 = light
 	int const mode = options_ ? options_->get_int(OPTION_APPEARANCE_MODE) : 0;
+	Appearance appearance = Appearance::System;
 	switch (mode) {
 	case 1:
-		// Force dark mode regardless of the Windows system setting.
-		MSWEnableDarkMode(wxApp::DarkMode_Always);
+		appearance = Appearance::Dark;
 		break;
 	case 2:
-		// Light: do not enable dark mode, keep the classic light theme.
+		appearance = Appearance::Light;
 		break;
-	case 0:
 	default:
-		// Follow the Windows system setting (dark if the system is dark).
-		MSWEnableDarkMode();
 		break;
 	}
 
-	// OnInit() disables wxWidgets' own painting of wxStaticBox (see the
-	// "msw.staticbox.optimized-paint" option there), leaving it to the native
-	// group box control. That control has no dark theme and paints its label
-	// black. Up to wxWidgets 3.3.2 dark mode gave static boxes an explicit
-	// foreground colour, which switched them back to custom painting anyway;
-	// 3.3.3 no longer does that, so the labels became unreadable. Re-enable
-	// the option whenever dark mode is active so wxWidgets paints the labels in
-	// the dark-mode text colour.
-	if (wxSystemSettings::GetAppearance().IsDark()) {
-		wxSystemOptions::SetOption(_T("msw.staticbox.optimized-paint"), 1);
-	}
+	// The bundled wxWidgets patch routes runtime changes through its existing
+	// system-colour notifications, preserving the windows and active transfers.
+	return SetAppearance(appearance) == AppearanceResult::Ok;
 }
 #endif
 
@@ -198,9 +187,9 @@ bool CFileZillaApp::OnInit()
 	wxSystemOptions::SetOption(_T("msw.window.no-clip-children"), 0);
 	wxSystemOptions::SetOption(_T("msw.font.no-proof-quality"), 0);
 	wxSystemOptions::SetOption(_T("msw.remap"), 0);
-	// Note: 0 disables wxWidgets' own static box painting; ApplyAppearanceMode()
-	// re-enables it in dark mode, where the native painting is unreadable.
-	wxSystemOptions::SetOption(_T("msw.staticbox.optimized-paint"), 0);
+	// Enable wx's group-box painting from creation, even if starting in light
+	// mode, so an existing box can later switch to readable dark-mode labels.
+	wxSystemOptions::SetOption(_T("msw.staticbox.optimized-paint"), 1);
 #endif
 #ifdef __WXMAC__
 	wxSystemOptions::SetOption(_T("mac.listctrl.always_use_generic"), 1);

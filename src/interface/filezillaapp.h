@@ -37,9 +37,9 @@ public:
 
 #ifdef __WXMSW__
 	// Applies the configured appearance (OPTION_APPEARANCE_MODE:
-	// 0 = follow system, 1 = dark, 2 = light) by enabling wxWidgets'
-	// native dark mode support. Windows-only (needs wxWidgets >= 3.3).
-	void ApplyAppearanceMode();
+	// 0 = follow system, 1 = dark, 2 = light). Runtime switching requires
+	// the bundled wxWidgets 3.3.3 appearance patch. Returns false on failure.
+	bool ApplyAppearanceMode();
 #endif
 
 	void DisplayEncodingWarning();

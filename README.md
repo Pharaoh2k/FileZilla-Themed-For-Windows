@@ -2,12 +2,13 @@
 # FileZilla 3.70.6 - dark-mode fork
 
 This repository is a fork of the **FileZilla 3.70.6** source distribution with
-two additions:
+these additions:
 
 1. **Native Windows dark mode** - a "Color theme" dropdown in
    *Settings > Interface > Appearance* (Follow system setting / Dark / Light).
+   In rev6, clicking **OK** applies the theme to open windows without a restart.
 2. **A port to wxWidgets 3.3** - upstream 3.70.6 targets wxWidgets 3.2.x; dark
-   mode needs `wxApp::MSWEnableDarkMode()`, which exists only in wxWidgets >= 3.3.
+   mode uses the Windows appearance support in wxWidgets 3.3.
 3. **Dark-mode rendering fixes** - fixes for wxWidgets 3.3 dark-mode bugs that
    affected this build: owner-drawn checkbox/radio labels rendering blank or
    mislabeled in dialogs, file-list rows flickering on mouse hover, group box
@@ -27,7 +28,7 @@ It is the FileZilla source tree only. The build dependencies (wxWidgets,
 libfilezilla, fzssh, etc.) are **not** vendored here - they are external build
 requirements, listed below.
 
-Mirror: https://git.slowb.ro/Pharaoh2k/FileZilla-Themed-For-Windows
+Repository: https://github.com/Pharaoh2k/FileZilla-Themed-For-Windows
 
 ## License
 
@@ -48,11 +49,16 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 ### Dark mode
 
 - New option `OPTION_APPEARANCE_MODE` (0 = follow system, 1 = dark, 2 = light).
-- `CFileZillaApp::ApplyAppearanceMode()` applies the theme in `OnInit()` before
-  any windows are created.
-- The theme is applied **at startup only**. Changing the dropdown shows
-  *"The color theme will be applied the next time FileZilla is started."*
-  (live switching was tried and intentionally dropped).
+- `CFileZillaApp::ApplyAppearanceMode()` applies the saved theme at startup and
+  applies changes after **OK** in Settings. Cancel leaves the theme unchanged.
+- Open windows are updated in place. Connections, transfer queues, and pane
+  selections are retained. **Follow system setting** also responds when the
+  Windows app colour preference changes.
+- Stock wxWidgets 3.3.3 handles Windows system-theme changes, but its public
+  `SetAppearance()` still rejects manual changes after windows exist. The
+  bundled `wx333-runtime-appearance.patch` enables the same update mechanism
+  for the Light/Dark/System selector; rebuilding requires both wx patches.
+  See the [upstream discussion](https://github.com/wxWidgets/wxWidgets/pull/26516).
 
 ### wxWidgets 3.3 port fixes
 
@@ -86,12 +92,13 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 - `src/interface/filelistctrl.cpp`: don't force `wxBG_STYLE_SYSTEM` in dark
   mode (it overrode the double-buffered `wxBG_STYLE_PAINT` wxWidgets uses),
   which fixes file-list rows flickering on mouse hover.
-- `src/interface/FileZilla.cpp`: re-enable wxWidgets' own static box painting
-  (`msw.staticbox.optimized-paint`) while dark mode is active. FileZilla turns
-  it off at startup; up to wxWidgets 3.3.2 dark mode forced custom painting
-  anyway by giving static boxes a foreground colour, 3.3.3 stopped doing that
-  and the group box titles in dialogs such as Settings were painted black by
-  the native control.
+- `src/interface/FileZilla.cpp`: enable wxWidgets' own static box painting
+  (`msw.staticbox.optimized-paint`) from startup in both themes. This keeps
+  group-box headings readable when an existing window changes to dark mode.
+- Runtime changes also refresh Windows popup-menu caches and cached transfer
+  progress bitmaps, and preserve the colours of tinted tabs.
+- Colour-change handlers let wxWidgets update native controls before reapplying
+  file-list colours, site tints, and message-log colours.
 - A **wxWidgets patch** (applied to the wxWidgets 3.3.3 source - not vendored
   here - see [patches/](patches/) and [BUILD.md](BUILD.md)) fixes owner-drawn
   checkboxes/radio buttons rendering blank in dark dialogs (e.g. *File > Export
@@ -108,18 +115,25 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
 
 ## Known issues
 
-None currently. The earlier dark-mode rendering bugs (invisible/mislabeled
-owner-drawn checkboxes and file-list hover flicker) have been fixed - see
-*Dark-mode rendering fixes* above. The colour theme is still applied at
-startup only; wxWidgets 3.3.3 added run-time light/dark switching, which this
-fork does not use yet.
+The rev1-rev5 themed packages omitted the Explorer shell extension, preventing
+remote files and folders from being dragged onto the Windows desktop or into
+Explorer on systems without a registered extension. Rev6 restores the DLLs and
+adds a checked **Shell Extension** installer component. Installation and remote
+drag-and-drop were verified on the test machine. Extracting the portable ZIP
+alone does not register the extension.
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
+Rev6 adds live theme switching with a bundled wxWidgets patch. It refreshes
+cached popup-menu and transfer-row colours and open filter/search dialog
+backgrounds. The final build passed maintainer testing after a regression sweep
+covering menus, Settings pages, major dialogs, and FTP/FTPS/SFTP transfers.
 
 ## Build requirements
 
 Built and verified on Windows with an MSYS2 mingw64 toolchain (gcc 16.1).
 
 - **wxWidgets 3.3.3** (built from source; >= 3.3 is required for dark mode,
-  >= 3.3.2 for `aui_notebook_ex.cpp`; apply the dark-mode patch in
+  >= 3.3.2 for `aui_notebook_ex.cpp`; apply both wxWidgets patches in
   [patches/](patches/) before building - see [BUILD.md](BUILD.md))
 - **libfilezilla 0.56.1** (>= 0.56.1)
 - **fzssh 1.3.0** / libfzssh-client (>= 1.3.0)

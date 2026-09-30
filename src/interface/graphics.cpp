@@ -37,9 +37,12 @@ CWindowTinter::~CWindowTinter()
 	m_wnd.Unbind(wxEVT_SYS_COLOUR_CHANGED, &CWindowTinter::OnColorChange, this);
 }
 
-void CWindowTinter::OnColorChange(wxSysColourChangedEvent &)
+void CWindowTinter::OnColorChange(wxSysColourChangedEvent & event)
 {
-	SetBackgroundTint(site_colour_to_wx(tint_));
+	// Let wxWidgets update native themes (including list headers and scrollbars),
+	// then reapply our site tint using the new default colours.
+	event.Skip();
+	m_wnd.CallAfter([this] { SetBackgroundTint(site_colour_to_wx(tint_)); });
 }
 
 void CWindowTinter::SetBackgroundTint(site_colour tint)

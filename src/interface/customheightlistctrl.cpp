@@ -11,6 +11,15 @@ END_EVENT_TABLE()
 wxCustomHeightListCtrl::wxCustomHeightListCtrl(wxWindow* parent, wxWindowID id, const wxPoint& pos, const wxSize& size, long style, const wxString& name)
 	: wxScrolledWindow(parent, id, pos, size, style, name)
 {
+	Bind(wxEVT_SYS_COLOUR_CHANGED, [this](wxSysColourChangedEvent& event) {
+		event.Skip();
+		CallAfter([this] {
+			// Filter and search conditions use an explicit window background.
+			// Refresh it when an already-open dialog follows a system change.
+			SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_WINDOW));
+			Refresh();
+		});
+	});
 }
 
 void wxCustomHeightListCtrl::SetLineHeight(int height)

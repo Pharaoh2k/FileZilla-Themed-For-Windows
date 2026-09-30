@@ -181,14 +181,22 @@ bool COptionsPageInterface::LoadPage()
 
 bool COptionsPageInterface::SavePage()
 {
+#ifdef __WXMSW__
 	int const oldAppearance = m_pOptions->get_int(OPTION_APPEARANCE_MODE);
+#endif
 	int const newAppearance = impl_->appearance_mode_->GetSelection();
 	m_pOptions->set(OPTION_APPEARANCE_MODE, newAppearance);
+#ifdef __WXMSW__
 	if (newAppearance != oldAppearance) {
-		// The color theme is applied once at startup; it can't be switched
-		// cleanly at run-time, so ask the user to restart for it to take effect.
-		wxMessageBoxEx(_("The color theme will be applied the next time FileZilla is started."), _("Color theme"), wxICON_INFORMATION, this);
+		// Run after all Settings pages have saved and the modal dialog closes.
+		// Capture only the app: this page is destroyed as Settings returns.
+		wxGetApp().CallAfter([] {
+			if (!wxGetApp().ApplyAppearanceMode()) {
+				wxMessageBoxEx(_("The color theme could not be changed while FileZilla is running. The saved theme will be used the next time FileZilla is started."), _("Color theme"), wxICON_INFORMATION);
+			}
+		});
 	}
+#endif
 
 	m_pOptions->set(OPTION_FILEPANE_LAYOUT, impl_->filepane_layout_->GetSelection());
 	m_pOptions->set(OPTION_MESSAGELOG_POSITION, impl_->messagelog_pos_->GetSelection());

@@ -152,7 +152,7 @@ public:
 			TabArtBase::DrawTab(dc, wnd, page, rect, close_button_state, out_tab_rect, out_button_rect, x_extent);
 
 			m_baseColour = baseOrig;
-			m_activeColour = baseOrig;
+			m_activeColour = activeOrig;
 #else
 			wxRect tab_rect;
 			if (!out_tab_rect) {

@@ -1,0 +1,131 @@
+--- a/src/msw/darkmode.cpp
++++ b/src/msw/darkmode.cpp
+@@ -38,6 +38,10 @@
+ 
+ #include "wx/dynlib.h"
+ #include "wx/module.h"
++#include "wx/window.h"
++#include "wx/weakref.h"
++
++#include <vector>
+ 
+ #include "wx/msw/darkmode.h"
+ #include "wx/msw/uxtheme.h"
+@@ -187,6 +191,7 @@
+ bool (WINAPI *gs_ShouldAppsUseDarkMode)() = nullptr;
+ bool (WINAPI *gs_AllowDarkModeForWindow)(HWND hwnd, bool allow) = nullptr;
+ PreferredAppMode (WINAPI *gs_SetPreferredAppMode)(PreferredAppMode appMode) = nullptr;
++void (WINAPI *gs_FlushMenuThemes)() = nullptr;
+ 
+ // Wrappers for the undocumented functions, to make sure we never dereference
+ // a null function pointer.
+@@ -209,7 +214,13 @@
+ {
+     if (gs_SetPreferredAppMode == nullptr)
+         return AppMode_Default;
+-    return gs_SetPreferredAppMode(appMode);
++    const auto previous = gs_SetPreferredAppMode(appMode);
++    // Windows caches popup-menu colours separately from control themes. Without
++    // flushing them, a runtime switch mixes the old text/gutter with the new
++    // background (including menus first opened after the switch).
++    if ( gs_FlushMenuThemes )
++        gs_FlushMenuThemes();
++    return previous;
+ }
+ 
+ bool InitDarkMode()
+@@ -231,7 +242,8 @@
+     // name, and have to be resolved using their ordinals.
+     return TryLoadByOrd(gs_ShouldAppsUseDarkMode, dllUxTheme, 132) &&
+            TryLoadByOrd(gs_AllowDarkModeForWindow, dllUxTheme, 133) &&
+-           TryLoadByOrd(gs_SetPreferredAppMode, dllUxTheme, 135);
++           TryLoadByOrd(gs_SetPreferredAppMode, dllUxTheme, 135) &&
++           TryLoadByOrd(gs_FlushMenuThemes, dllUxTheme, 136);
+ }
+ 
+ // This function is only used in this file as it's more clear than using
+@@ -298,32 +310,60 @@
+ 
+ wxApp::AppearanceResult wxApp::SetAppearance(Appearance appearance)
+ {
+-    // We currently can't change the appearance of the existing windows because
+-    // we initialize/create them differently depending on the mode value in a
+-    // lot of places, so don't even try as we risk finishing with a horrible
+-    // mix of light and dark mode elements.
+-    if ( !wxTopLevelWindows.empty() || gs_appMode != AppMode_Default )
+-        return AppearanceResult::CannotChange;
+-
+-    int flags = 0;
++    // FileZilla Themed, 2026-09-30: reuse the 3.3.3 system-theme switching
++    // mechanism for application-requested changes as well.
++    if ( !wxMSWImpl::InitDarkMode() )
++        return appearance == Appearance::Light ? AppearanceResult::Ok
++                                               : AppearanceResult::Failure;
++
++    const bool wasDark = wxMSWDarkMode::IsActive();
++    const bool firstCall = gs_appMode == AppMode_Default;
++    if ( firstCall )
++        wxDarkModeModule::SetSettings(new wxDarkModeSettings());
++
++    PreferredAppMode mode = AppMode_AllowDark;
+     switch ( appearance )
+     {
+-        case Appearance::System:
+-            flags = DarkMode_Auto;
+-            break;
+-
+-        case Appearance::Light:
+-            // Nothing to do, this is the default.
+-            return AppearanceResult::Ok;
+-
+-        case Appearance::Dark:
+-            flags = DarkMode_Always;
+-            break;
+-    }
+-
+-    // Do (try to) change it.
+-    return MSWEnableDarkMode(flags) ? AppearanceResult::Ok
+-                                    : AppearanceResult::Failure;
++        case Appearance::System: mode = AppMode_AllowDark; break;
++        case Appearance::Light:  mode = AppMode_ForceLight; break;
++        case Appearance::Dark:   mode = AppMode_ForceDark; break;
++    }
++
++    wxMSWImpl::SetPreferredAppMode(mode);
++    gs_appMode = mode;
++    const bool isDark = wxMSWDarkMode::IsActive();
++
++    if ( wxTopLevelWindows.empty() )
++    {
++        gs_wasActiveOnStartup = isDark;
++    }
++    else if ( wasDark != isDark )
++    {
++        // Mark the transition even when returning to the startup appearance.
++        // Controls use this flag to update headers and owner-drawn elements.
++        gs_hasChanged = true;
++
++        // Events may destroy windows, so snapshot weak references first.
++        std::vector<wxWeakRef<wxWindow>> windows;
++        for ( auto* window : wxTopLevelWindows )
++            windows.emplace_back(window);
++
++        for ( auto& window : windows )
++        {
++            if ( window && window->GetHandle() )
++            {
++                // wxWindowMSW propagates this native message to its children.
++                ::SendMessage(GetHwndOf(window.get()), WM_SYSCOLORCHANGE, 0, 0);
++                if ( window && window->GetHandle() )
++                {
++                    ::DrawMenuBar(GetHwndOf(window.get()));
++                    window->Refresh();
++                }
++            }
++        }
++    }
++
++    return AppearanceResult::Ok;
+ }
+ 
+ // ----------------------------------------------------------------------------

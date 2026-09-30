@@ -10,6 +10,9 @@
 #include <wx/timer.h>
 
 #include <list>
+#ifdef __WXMSW__
+#include <deque>
+#endif
 
 class CFastTextCtrl;
 class CStatusView final : public wxNavigationEnabled<wxWindow>, public COptionChangeEventHandler
@@ -43,6 +46,10 @@ private:
 
 	std::list<int> m_lineLengths;
 	std::list<int> m_unusedLineLengths;
+#ifdef __WXMSW__
+	void UpdateLogColours();
+	std::deque<unsigned int> m_lineTypes;
+#endif
 
 	struct t_attributeCache
 	{

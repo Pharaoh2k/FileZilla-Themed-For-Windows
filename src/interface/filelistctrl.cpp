@@ -296,6 +296,9 @@ template<class CFileData> CFileListCtrl<CFileData>::CFileListCtrl(wxWindow* pPar
 
 #ifdef __WXMSW__
 	Bind(wxEVT_SYS_COLOUR_CHANGED, [this](wxSysColourChangedEvent& evt) {
+		// Keep double buffering when entering dark mode after a light startup.
+		SetBackgroundStyle(wxSystemSettings::GetAppearance().IsDark()
+			? wxBG_STYLE_PAINT : wxBG_STYLE_SYSTEM);
 		// Delay refresh until parent had time to process change.
 		CallAfter([this](){
 			InitColors();

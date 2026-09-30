@@ -34,6 +34,19 @@ CStatusLineCtrl::CStatusLineCtrl(CQueueView* pParent, COptionsBase& options, t_E
 	SetForegroundColour(pParent->GetForegroundColour());
 	SetBackgroundStyle(wxBG_STYLE_CUSTOM);
 	SetBackgroundColour(pParent->GetBackgroundColour());
+	Bind(wxEVT_SYS_COLOUR_CHANGED, [this](wxSysColourChangedEvent& event) {
+		event.Skip();
+		CallAfter([this] {
+			SetForegroundColour(m_pParent->GetForegroundColour());
+			SetBackgroundColour(m_pParent->GetBackgroundColour());
+			// Progress rows cache painted pixels, including unchanged time/rate
+			// fields. Rebuild the whole bitmap after the queue changes theme.
+			m_mdc.reset();
+			m_data = wxNullBitmap;
+			m_previousStatusText.clear();
+			Refresh();
+		});
+	});
 
 	m_transferStatusTimer.SetOwner(this);
 

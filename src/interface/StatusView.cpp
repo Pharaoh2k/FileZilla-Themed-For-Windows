@@ -115,7 +115,15 @@ CStatusView::CStatusView(wxWindow* parent, COptionsBase & options)
 #endif
 
 	InitDefAttr();
-	Bind(wxEVT_SYS_COLOUR_CHANGED, [this](wxSysColourChangedEvent&) { InitDefAttr(); });
+	Bind(wxEVT_SYS_COLOUR_CHANGED, [this](wxSysColourChangedEvent& event) {
+		event.Skip();
+		CallAfter([this] {
+			InitDefAttr();
+#ifdef __WXMSW__
+			UpdateLogColours();
+#endif
+		});
+	});
 
 	m_shown = IsShown();
 
@@ -186,6 +194,9 @@ void CStatusView::AddToLog(logmsg::type messagetype, std::wstring && message, fz
 		}
 		m_unusedLineLengths.splice(m_unusedLineLengths.end(), m_lineLengths, m_lineLengths.begin(), it);
 		m_pTextCtrl->Remove(0, oldLength);
+#ifdef __WXMSW__
+		m_lineTypes.erase(m_lineTypes.begin(), m_lineTypes.begin() + LINECOUNT_REMOVAL);
+#endif
 	}
 #ifdef __WXMAC__
 	if (m_pTextCtrl->GetInsertionPoint() != m_pTextCtrl->GetLastPosition()) {
@@ -194,6 +205,9 @@ void CStatusView::AddToLog(logmsg::type messagetype, std::wstring && message, fz
 #endif
 
 	uint64_t const cache_index = fz::bitscan(messagetype);
+#ifdef __WXMSW__
+	m_lineTypes.push_back(static_cast<unsigned int>(cache_index));
+#endif
 
 	size_t lineLength = m_attributeCache[cache_index].len + messageLength;
 
@@ -275,6 +289,41 @@ void CStatusView::AddToLog(logmsg::type messagetype, std::wstring && message, fz
 		m_lineLengths.splice(m_lineLengths.end(), m_unusedLineLengths, m_unusedLineLengths.begin());
 	}
 }
+
+#ifdef __WXMSW__
+void CStatusView::UpdateLogColours()
+{
+	// RichEdit deliberately leaves mixed custom colours alone on theme changes.
+	// Recolour the existing log by message type, without replacing its contents.
+	HWND hwnd = (HWND)m_pTextCtrl->GetHandle();
+	CHARRANGE selection{};
+	POINT scroll{};
+	::SendMessage(hwnd, EM_EXGETSEL, 0, (LPARAM)&selection);
+	::SendMessage(hwnd, EM_GETSCROLLPOS, 0, (LPARAM)&scroll);
+	m_pTextCtrl->Freeze();
+	m_pTextCtrl->SetBackgroundColour(wxSystemSettings::GetColour(wxSYS_COLOUR_LISTBOX));
+	CHARRANGE range{};
+	auto type = m_lineTypes.begin();
+	long const end = m_pTextCtrl->GetLastPosition();
+	for (int length : m_lineLengths) {
+		if (type == m_lineTypes.end()) {
+			break;
+		}
+		range.cpMax = std::min(range.cpMin + length + 1, end);
+		::SendMessage(hwnd, EM_EXSETSEL, 0, (LPARAM)&range);
+		CHARFORMAT2 format{};
+		format.cbSize = sizeof(format);
+		format.dwMask = CFM_COLOR | CFM_BACKCOLOR;
+		format.dwEffects = CFE_AUTOBACKCOLOR;
+		format.crTextColor = m_attributeCache[*type++].cf.crTextColor;
+		::SendMessage(hwnd, EM_SETCHARFORMAT, SCF_SELECTION, (LPARAM)&format);
+		range.cpMin = range.cpMax;
+	}
+	::SendMessage(hwnd, EM_EXSETSEL, 0, (LPARAM)&selection);
+	::SendMessage(hwnd, EM_SETSCROLLPOS, 0, (LPARAM)&scroll);
+	m_pTextCtrl->Thaw();
+}
+#endif
 
 void CStatusView::InitDefAttr()
 {
@@ -428,6 +477,9 @@ void CStatusView::InitDefAttr()
 		m_pTextCtrl->SetStyle(m_pTextCtrl->GetInsertionPoint(), m_pTextCtrl->GetInsertionPoint(), entry.attr);
 		entry.cf.cbSize = sizeof(CHARFORMAT2);
 		::SendMessage((HWND)m_pTextCtrl->GetHWND(), EM_GETCHARFORMAT, SCF_SELECTION, (LPARAM)&entry.cf);
+		// Newly appended lines must also follow the current control background.
+		entry.cf.dwMask |= CFM_BACKCOLOR;
+		entry.cf.dwEffects |= CFE_AUTOBACKCOLOR;
 #endif
 	}
 
@@ -476,6 +528,9 @@ void CStatusView::OnClear(wxCommandEvent&)
 	}
 	m_nLineCount = 0;
 	m_lineLengths.clear();
+#ifdef __WXMSW__
+	m_lineTypes.clear();
+#endif
 }
 
 void CStatusView::OnCopy(wxCommandEvent&)
@@ -512,6 +567,9 @@ bool CStatusView::Show(bool show)
 			m_pTextCtrl->Clear();
 			m_nLineCount = 0;
 			m_unusedLineLengths.splice(m_unusedLineLengths.end(), m_lineLengths, m_lineLengths.begin(), m_lineLengths.end());
+#ifdef __WXMSW__
+			m_lineTypes.clear();
+#endif
 		}
 
 		for (auto & line : m_hiddenLines) {
