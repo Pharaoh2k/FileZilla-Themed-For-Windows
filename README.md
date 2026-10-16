@@ -1,4 +1,6 @@
 
+**I don’t take donations, but dropping a ⭐ on the repo means a lot! It keeps me motivated to update and build more cool stuff.**
+
 # FileZilla 3.70.6 - dark-mode fork
 
 This repository is a fork of the **FileZilla 3.70.6** source distribution with
