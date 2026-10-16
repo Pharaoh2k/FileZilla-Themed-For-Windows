@@ -1,5 +1,5 @@
 
-**I don’t take donations, but dropping a ⭐ on the repo means a lot! It's free and only takes a moment and it keeps me motivated to update and build more cool stuff. :) **
+I don’t take donations, but dropping a ⭐ on the repo means a lot! It's free and only takes a moment and it keeps me motivated to update and build more cool stuff.
 
 # FileZilla 3.70.6 - dark-mode fork
 
