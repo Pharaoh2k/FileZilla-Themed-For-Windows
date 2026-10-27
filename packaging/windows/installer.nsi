@@ -10,7 +10,7 @@ SetCompressor /SOLID lzma
 !define APPNAME "FileZilla Themed"
 !define APPVER "3.70.6"
 !ifndef REVISION
-!define REVISION 6
+!define REVISION 7
 !endif
 !ifndef SRCDIR
 !error "SRCDIR must point to the validated release bundle"
@@ -22,6 +22,7 @@ SetCompressor /SOLID lzma
 !define REGUNINST "Software\Microsoft\Windows\CurrentVersion\Uninstall\FileZillaThemed"
 !define REGAPP "Software\FileZilla Themed"
 !include "shell-extension.nsh"
+!include "shortcut-appid.nsh"
 
 Name "${APPNAME} ${APPVER} rev${REVISION}"
 OutFile "${RELEASEDIR}\FileZilla-Themed-${APPVER}-win64-setup-rev${REVISION}.exe"
@@ -68,6 +69,7 @@ Section "FileZilla Client" SecMain
   File /r /x fzshellext.dll /x fzshellext_64.dll /x locales "${SRCDIR}\*.*"
   CreateDirectory "$SMPROGRAMS\${APPNAME}"
   CreateShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\${MAINEXE}"
+  !insertmacro SetShortcutAppID "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk"
   CreateShortCut "$SMPROGRAMS\${APPNAME}\Uninstall ${APPNAME}.lnk" "$INSTDIR\uninstall.exe"
   WriteUninstaller "$INSTDIR\uninstall.exe"
   WriteRegStr HKLM "${REGAPP}" "InstallDir" "$INSTDIR"
@@ -100,6 +102,7 @@ SectionEnd
 
 Section "Desktop Icon" SecDesktop
   CreateShortCut "$DESKTOP\${APPNAME}.lnk" "$INSTDIR\${MAINEXE}"
+  !insertmacro SetShortcutAppID "$DESKTOP\${APPNAME}.lnk"
 SectionEnd
 
 Section -Finish

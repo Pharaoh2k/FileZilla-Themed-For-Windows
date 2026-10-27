@@ -88,6 +88,11 @@ See [CHANGES.fork.md](CHANGES.fork.md) for the per-file list required by the GPL
   left the Message log tab missing. The status view is now created as a child
   of the queue notebook (and reparented to it when the position is changed at
   run time).
+- `Mainfrm.cpp`: since wxWidgets 3.3, `wxICON()` loads only the first (16x16)
+  image of the icon resource. The "Show notification bubble" queue completion
+  action takes its tray icon from the window's system-size icon, found none,
+  and showed a blank tray space. The window now loads every size of the
+  resource, plus one at the exact system size for each display scale.
 
 ### Dark-mode rendering fixes
 
@@ -129,6 +134,11 @@ Rev6 adds live theme switching with a bundled wxWidgets patch. It refreshes
 cached popup-menu and transfer-row colours and open filter/search dialog
 backgrounds. The final build passed maintainer testing after a regression sweep
 covering menus, Settings pages, major dialogs, and FTP/FTPS/SFTP transfers.
+
+Before rev7, the "Transfers finished" notification showed a blank tray icon,
+and the installer created shortcuts without FileZilla's application ID, so
+Windows showed the notification under an anonymous sender. Rev7 fixes both;
+the portable ZIP has no shortcut, so its notifications remain anonymous.
 
 ## Build requirements
 

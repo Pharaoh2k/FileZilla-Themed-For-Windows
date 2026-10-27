@@ -1,5 +1,21 @@
 # FileZilla Themed for Windows changelog
 
+## 3.70.6 rev7 - 2026-10-27
+
+- Fix the blank system tray icon shown by the **Show notification bubble**
+  queue completion action. Since wxWidgets 3.3, only the 16x16 image of the
+  application icon was loaded, so the notification found no icon of the system
+  size. All sizes are now loaded, plus the exact system size at every display
+  scale, which also restores the main window's large icon.
+- Set FileZilla's AppUserModelID (`FileZilla.Client.AppID`) on the Start Menu
+  and desktop shortcuts, as the official installer does. Windows now attributes
+  the notification to FileZilla Themed instead of an anonymous sender and lists
+  it under Settings > System > Notifications.
+
+Only filezilla.exe changed; all DLLs are identical to rev6. A tester confirmed
+the fix on a build with the same filezilla.exe. The portable ZIP creates no
+shortcut, so its notifications still appear under an anonymous sender.
+
 ## 3.70.6 rev6 - 2026-09-30
 
 - Refresh Windows popup-menu theme caches when switching appearance, fixing

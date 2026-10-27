@@ -9,7 +9,8 @@ stating that they were changed, and the date).
 - **Date of changes:** 2026-06-06; dark-mode rendering fixes 2026-06-07;
   wxWidgets 3.3.3 upgrade, delete-dialog and static box fixes 2026-09-03;
   message-log-as-tab startup assert fix 2026-09-04;
-  shell-extension release packaging and live theme switching 2026-09-30
+  shell-extension release packaging and live theme switching 2026-09-30;
+  notification bubble tray icon and shortcut AppID fixes 2026-10-27
 - **License:** unchanged - GNU GPL v3 or (at your option) any later version
 
 ## Summary
@@ -42,7 +43,7 @@ wxWidgets 3.3 port fixes:
 | `src/interface/sitemanager_controls.cpp` | Wide string literals (`L"..."`) for comparisons |
 | `src/interface/settings/optionspage_filetype.cpp` | Wide char literal (`L'|'`) |
 | `src/interface/file_utils.cpp` | `CallSHFileOperation`: create the modal-loop helper window hidden and size-less instead of relying on `wxTRANSPARENT_WINDOW` (a no-op since wx 3.3); fixes the local file list or tree going blank behind the shell's delete/rename dialog |
-| `src/interface/Mainfrm.cpp` | Message log position "as tab in the queue pane": create the status view as a child of the queue notebook, and `Reparent` it there before `AddPage` when the position is changed at run time. wxWidgets 3.3.3 no longer reparents pages in `wxAuiNotebook::InsertPage` and asserts "page must be a child of the notebook" instead, which showed a debug alert at startup and left the Message log tab missing |
+| `src/interface/Mainfrm.cpp` | Message log position "as tab in the queue pane": create the status view as a child of the queue notebook, and `Reparent` it there before `AddPage` when the position is changed at run time. wxWidgets 3.3.3 no longer reparents pages in `wxAuiNotebook::InsertPage` and asserts "page must be a child of the notebook" instead, which showed a debug alert at startup and left the Message log tab missing. Window icon: load every size of the `appicon` resource plus one at the exact system icon size. Since wx 3.3, `wxICON()` loads only the first (16x16) image, so `GetIcon()` found no system-size icon and the "Show notification bubble" tray icon was created without an image |
 
 Dark-mode rendering fix:
 
@@ -73,6 +74,14 @@ description includes checksums; GitHub supplies source archives from its tag.
 Rev6 also rebuilds FileZilla and the wxWidgets core DLL for live theme
 switching. Settings applies the selected mode after saving all pages and
 closing the dialog, without recreating windows.
+
+## Shortcut AppUserModelID (rev7, 2026-10-27)
+
+`packaging/windows/shortcut-appid.nsh` stamps `FileZilla.Client.AppID`, the ID
+filezilla.exe sets at startup, onto the Start Menu and desktop shortcuts, as
+upstream's installer does with its `nsis_appid` plugin. Without it, Windows
+shows the "Show notification bubble" notification under an anonymous sender,
+with no app name or icon and no entry in Settings > Notifications.
 
 ## wxWidgets patches (not part of this source tree)
 

@@ -289,15 +289,15 @@ MinGW64 NSIS, objdump, and strip tools.
 From PowerShell, using the current checkout and build prefix:
 
 ```powershell
-& 'C:\Users\Pharaoh\Downloads\FileZilla-Themed-For-Windows-rev6\packaging\windows\build-release.ps1' `
+& 'C:\Users\Pharaoh\source\repos\FileZilla-Themed-For-Windows\packaging\windows\build-release.ps1' `
   -Prefix 'C:\msys64\mingw64' `
   -OutputRoot 'C:\Users\Pharaoh\Downloads\fzbuild\release' `
-  -Revision 6
+  -Revision 7
 ```
 
 This packages the rebuilt application and runtime DLLs from the build prefix.
 The optional `-ApplicationBundle` instead packages an already staged and
-stripped application's exact bytes. For rev6, that bundle must contain the
+stripped application's exact bytes. Since rev6, that bundle must contain the
 rebuilt FileZilla executable and runtime-patched wxWidgets core DLL. Ensure
 the source tree matches the application build being packaged.
 
@@ -319,6 +319,12 @@ registration owned by another installation and restores an earlier machine
 registration when its DLL still exists. Current-user registrations are left
 alone. Original FileZilla shares the same extension identifier, so changing
 another installation may require repairing the themed installation.
+
+Setup stamps the Start Menu and desktop shortcuts with the AppUserModelID that
+filezilla.exe sets at startup (`FileZilla.Client.AppID`, see
+`shortcut-appid.nsh`). Windows attributes the "Transfers finished"
+notification to the app only through such a shortcut; without one it appears
+under an anonymous sender, as it does for the portable ZIP.
 
 Complete installer, live-theme, and drag-and-drop testing on Windows before
 publishing. Open menus before switching themes and repeat changes during active

@@ -352,7 +352,14 @@ CMainFrame::CMainFrame(COptions& options)
 #endif
 
 #ifdef __WXMSW__
-	SetIcon(wxICON(appicon));
+	// Since wxWidgets 3.3, wxICON() only loads the first (16x16) image. GetIcon()
+	// then finds no icon of the system size, and the notification bubble's tray
+	// icon is created without an image. Load every size, plus the exact system
+	// size, as the resource only matches it at 100% and 150% scaling.
+	wxIconBundle icons(L"appicon", nullptr);
+	int const iconSize = wxSystemSettings::GetMetric(wxSYS_ICON_X, this);
+	icons.AddIcon(wxIcon(L"appicon", wxBITMAP_TYPE_ICO_RESOURCE, iconSize, iconSize));
+	SetIcons(icons);
 #else
 	SetIcons(CThemeProvider::GetIconBundle(_T("ART_FILEZILLA")));
 #endif

@@ -3,7 +3,7 @@
 param(
     [string]$Prefix = 'C:\msys64\mingw64',
     [string]$OutputRoot = 'C:\Users\Pharaoh\Downloads\fzbuild\release',
-    [ValidateRange(1, 65535)][int]$Revision = 6,
+    [ValidateRange(1, 65535)][int]$Revision = 7,
     [string]$ApplicationBundle = '',
     [string]$MakeNsis = '',
     [string]$Git = 'C:\Program Files\Git\cmd\git.exe'
